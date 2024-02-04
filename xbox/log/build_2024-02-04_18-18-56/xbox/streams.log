@@ -1,0 +1,251 @@
+[0.022s] Invoking command in '/home/basten/ros2_ws/src/xbox/build/xbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/basten/ros2_ws/src/xbox -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/xbox/install/xbox
+[0.098s] -- The C compiler identification is GNU 11.4.0
+[0.168s] -- The CXX compiler identification is GNU 11.4.0
+[0.173s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.225s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.228s] -- Detecting CXX compiler ABI info
+[0.291s] -- Detecting CXX compiler ABI info - done
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.294s] -- Detecting CXX compile features
+[0.294s] -- Detecting CXX compile features - done
+[0.296s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.398s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.447s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.472s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.475s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.480s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.606s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.639s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.641s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.688s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.700s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.720s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.726s] -- Looking for pthread.h
+[0.770s] -- Looking for pthread.h - found
+[0.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.822s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.823s] -- Found Threads: TRUE  
+[0.898s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.017s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.261s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.262s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.275s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.275s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.275s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.275s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.284s] -- Found PythonExtra: .so  
+[1.302s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.318s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.318s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_generator_c>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_typesupport_introspection_cpp>;/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_generator_c;/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_generator_py
+[1.318s] -- Configured cppcheck exclude dirs and/or files: 
+[1.319s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.320s] -- Added test 'lint_cmake' to check CMake code style
+[1.320s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.322s] -- Added test 'uncrustify' to check C / C++ code style
+[1.322s] -- Configured uncrustify additional arguments: 
+[1.323s] -- Added test 'xmllint' to check XML markup files
+[1.324s] -- Configuring done
+[1.337s] -- Generating done
+[1.339s] -- Build files have been written to: /home/basten/ros2_ws/src/xbox/build/xbox
+[1.344s] Invoked command in '/home/basten/ros2_ws/src/xbox/build/xbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/basten/ros2_ws/src/xbox -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/xbox/install/xbox
+[1.345s] Invoking command in '/home/basten/ros2_ws/src/xbox/build/xbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/xbox/build/xbox -- -j32 -l32
+[1.364s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.368s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.372s] [  6%] Built target ament_cmake_python_copy_xbox
+[1.470s] running egg_info
+[1.470s] creating xbox.egg-info
+[1.471s] writing xbox.egg-info/PKG-INFO
+[1.471s] writing dependency_links to xbox.egg-info/dependency_links.txt
+[1.471s] writing top-level names to xbox.egg-info/top_level.txt
+[1.471s] writing manifest file 'xbox.egg-info/SOURCES.txt'
+[1.472s] reading manifest file 'xbox.egg-info/SOURCES.txt'
+[1.472s] writing manifest file 'xbox.egg-info/SOURCES.txt'
+[1.473s] [  6%] Built target xbox__cpp
+[1.477s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.477s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.477s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.479s] [ 18%] [32mBuilding C object CMakeFiles/xbox__rosidl_generator_c.dir/rosidl_generator_c/xbox/msg/detail/command__functions.c.o[0m
+[1.485s] [ 18%] Built target ament_cmake_python_build_xbox_egg
+[1.506s] [ 21%] [32m[1mLinking C shared library libxbox__rosidl_generator_c.so[0m
+[1.523s] [ 21%] Built target xbox__rosidl_generator_c
+[1.527s] [ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.527s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.527s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.577s] [ 33%] [32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xbox/msg/command__type_support.cpp.o[0m
+[1.583s] [ 36%] [32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xbox/msg/detail/command__type_support.cpp.o[0m
+[1.585s] [ 39%] [32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xbox/msg/detail/dds_fastrtps/command__type_support.cpp.o[0m
+[1.627s] [ 42%] [32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/xbox/msg/command__type_support.cpp.o[0m
+[1.636s] [ 45%] [32mBuilding C object CMakeFiles/xbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xbox/msg/detail/command__type_support.c.o[0m
+[1.638s] [ 48%] [32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xbox/msg/detail/command__type_support_c.cpp.o[0m
+[1.642s] [ 51%] [32m[1mLinking CXX shared library libxbox__rosidl_typesupport_c.so[0m
+[1.651s] [ 54%] [32m[1mLinking C shared library libxbox__rosidl_typesupport_introspection_c.so[0m
+[1.661s] [ 54%] Built target xbox__rosidl_typesupport_c
+[1.665s] [ 54%] Built target xbox__rosidl_typesupport_introspection_c
+[1.697s] [ 57%] [32m[1mLinking CXX shared library libxbox__rosidl_typesupport_cpp.so[0m
+[1.716s] [ 57%] Built target xbox__rosidl_typesupport_cpp
+[1.725s] [ 60%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[1.745s] [ 63%] [32m[1mLinking CXX shared library libxbox__rosidl_typesupport_introspection_cpp.so[0m
+[1.750s] [ 66%] [32m[1mLinking CXX shared library libxbox__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.764s] [ 66%] Built target xbox__rosidl_typesupport_introspection_cpp
+[1.774s] [ 69%] [32m[1mLinking CXX shared library libxbox__rosidl_typesupport_fastrtps_c.so[0m
+[1.784s] [ 69%] Built target xbox__rosidl_typesupport_fastrtps_cpp
+[1.808s] [ 69%] Built target xbox__rosidl_typesupport_fastrtps_c
+[1.817s] [ 69%] Built target xbox
+[1.827s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.955s] [ 72%] Built target xbox__py
+[1.964s] [ 75%] [32mBuilding C object CMakeFiles/xbox__rosidl_generator_py.dir/rosidl_generator_py/xbox/msg/_command_s.c.o[0m
+[2.017s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/xbox/libxbox__rosidl_generator_py.so[0m
+[2.036s] [ 78%] Built target xbox__rosidl_generator_py
+[2.045s] [ 81%] [32mBuilding C object CMakeFiles/xbox__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xbox/_xbox_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.045s] [ 87%] [32mBuilding C object CMakeFiles/xbox__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xbox/_xbox_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.046s] [ 87%] [32mBuilding C object CMakeFiles/xbox__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xbox/_xbox_s.ep.rosidl_typesupport_c.c.o[0m
+[2.085s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/xbox/xbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.085s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/xbox/xbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.085s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/xbox/xbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.100s] [ 96%] Built target xbox__rosidl_typesupport_c__pyext
+[2.100s] [ 96%] Built target xbox__rosidl_typesupport_introspection_c__pyext
+[2.100s] [ 96%] Built target xbox__rosidl_typesupport_fastrtps_c__pyext
+[5.377s] [100%] [32m[1mLinking CXX executable publisher[0m
+[5.576s] [100%] Built target publisher
+[5.582s] Invoked command in '/home/basten/ros2_ws/src/xbox/build/xbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/xbox/build/xbox -- -j32 -l32
+[5.628s] Invoking command in '/home/basten/ros2_ws/src/xbox/build/xbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/xbox/build/xbox
+[5.635s] -- Install configuration: ""
+[5.635s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/ament_index/resource_index/rosidl_interfaces/xbox
+[5.635s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox
+[5.635s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg
+[5.636s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/rosidl_generator_c__visibility_control.h
+[5.636s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/command.h
+[5.636s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail
+[5.636s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__struct.h
+[5.636s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__functions.c
+[5.636s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__type_support.h
+[5.636s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__functions.h
+[5.636s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/library_path.sh
+[5.636s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/library_path.dsv
+[5.636s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_generator_c.so
+[5.637s] -- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_generator_c.so" to ""
+[5.637s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox
+[5.637s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg
+[5.637s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.637s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail
+[5.637s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__rosidl_typesupport_fastrtps_c.h
+[5.637s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_fastrtps_c.so
+[5.637s] -- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_fastrtps_c.so" to ""
+[5.637s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox
+[5.638s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg
+[5.638s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/command.hpp
+[5.638s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail
+[5.638s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__traits.hpp
+[5.638s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__builder.hpp
+[5.638s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__struct.hpp
+[5.638s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox
+[5.638s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg
+[5.638s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.638s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail
+[5.639s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.639s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/dds_fastrtps
+[5.639s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_fastrtps_cpp.so
+[5.639s] -- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.639s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox
+[5.639s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg
+[5.639s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.639s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail
+[5.639s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__type_support.c
+[5.639s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__rosidl_typesupport_introspection_c.h
+[5.639s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_introspection_c.so
+[5.639s] -- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_introspection_c.so" to ""
+[5.639s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_c.so
+[5.639s] -- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_c.so" to ""
+[5.639s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox
+[5.639s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg
+[5.639s] -- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail
+[5.639s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__type_support.cpp
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_introspection_cpp.so
+[5.640s] -- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_introspection_cpp.so" to ""
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_cpp.so
+[5.640s] -- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_cpp.so" to ""
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/pythonpath.sh
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/pythonpath.dsv
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info/top_level.txt
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info/PKG-INFO
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/_xbox_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/_xbox_s.ep.rosidl_typesupport_introspection_c.c
+[5.640s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/_xbox_s.ep.rosidl_typesupport_c.c
+[5.641s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/__init__.py
+[5.641s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/libxbox__rosidl_generator_py.so
+[5.641s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg
+[5.641s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg/_command.py
+[5.641s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg/__init__.py
+[5.641s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg/_command_s.c
+[5.665s] Listing '/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox'...
+[5.665s] Compiling '/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/__init__.py'...
+[5.665s] Listing '/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg'...
+[5.666s] Compiling '/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg/__init__.py'...
+[5.666s] Compiling '/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg/_command.py'...
+[5.668s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.668s] -- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.668s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.668s] -- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.668s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.668s] -- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.668s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_generator_py.so
+[5.668s] -- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_generator_py.so" to ""
+[5.668s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/msg/Command.idl
+[5.668s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/msg/Command.msg
+[5.668s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/xbox/publisher
+[5.670s] -- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/xbox/publisher" to ""
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/ament_index/resource_index/package_run_dependencies/xbox
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/ament_index/resource_index/parent_prefix_path/xbox
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/ament_prefix_path.sh
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/ament_prefix_path.dsv
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/path.sh
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/path.dsv
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/local_setup.bash
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/local_setup.sh
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/local_setup.zsh
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/local_setup.dsv
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/package.dsv
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/ament_index/resource_index/packages/xbox
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_cExport.cmake
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_cExport-noconfig.cmake
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_typesupport_fastrtps_cExport.cmake
+[5.670s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_cppExport.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_introspection_cExport.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_cExport.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_cExport-noconfig.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_introspection_cppExport.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_cppExport.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_cppExport-noconfig.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_pyExport.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_pyExport-noconfig.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/rosidl_cmake-extras.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/ament_cmake_export_libraries-extras.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/ament_cmake_export_targets-extras.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xboxConfig.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xboxConfig-version.cmake
+[5.671s] -- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/package.xml
+[5.673s] Invoked command in '/home/basten/ros2_ws/src/xbox/build/xbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/xbox/build/xbox

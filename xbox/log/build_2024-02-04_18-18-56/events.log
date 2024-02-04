@@ -1,0 +1,316 @@
+[0.000000] (-) TimerEvent: {}
+[0.000191] (xbox) JobQueued: {'identifier': 'xbox', 'dependencies': OrderedDict()}
+[0.000317] (xbox) JobStarted: {'identifier': 'xbox'}
+[0.021927] (xbox) JobProgress: {'identifier': 'xbox', 'progress': 'cmake'}
+[0.021987] (xbox) Command: {'cmd': ['/usr/bin/cmake', '/home/basten/ros2_ws/src/xbox', '-DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/xbox/install/xbox'], 'cwd': '/home/basten/ros2_ws/src/xbox/build/xbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '4066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/4011,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/4011'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7bdeb4e_8491_43cd_8695_cc0fdaae6770'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/xbox/build/xbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098744] (xbox) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099648] (-) TimerEvent: {}
+[0.168331] (xbox) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.173434] (xbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199813] (-) TimerEvent: {}
+[0.218550] (xbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.225180] (xbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.225376] (xbox) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.225728] (xbox) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.227986] (xbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.290841] (xbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.294402] (xbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.294461] (xbox) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.294730] (xbox) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.296329] (xbox) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299961] (-) TimerEvent: {}
+[0.398416] (xbox) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.400129] (-) TimerEvent: {}
+[0.447430] (xbox) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.472680] (xbox) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.475595] (xbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.480718] (xbox) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.488973] (xbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.499517] (xbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500292] (-) TimerEvent: {}
+[0.600511] (-) TimerEvent: {}
+[0.606597] (xbox) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.639264] (xbox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.640916] (xbox) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.688731] (xbox) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.700370] (xbox) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.700565] (-) TimerEvent: {}
+[0.720305] (xbox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.725804] (xbox) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.770403] (xbox) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.770523] (xbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800760] (-) TimerEvent: {}
+[0.822528] (xbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.823197] (xbox) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.897909] (xbox) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.900917] (-) TimerEvent: {}
+[1.001153] (-) TimerEvent: {}
+[1.017080] (xbox) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.101311] (-) TimerEvent: {}
+[1.183185] (xbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201464] (-) TimerEvent: {}
+[1.247804] (xbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.261488] (xbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.262305] (xbox) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.274882] (xbox) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.274943] (xbox) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.274972] (xbox) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.274995] (xbox) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.284690] (xbox) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.301632] (-) TimerEvent: {}
+[1.302409] (xbox) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.317991] (xbox) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.318278] (xbox) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_generator_c>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_typesupport_introspection_cpp>;/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_generator_c;/home/basten/ros2_ws/src/xbox/build/xbox/rosidl_generator_py\n'}
+[1.318352] (xbox) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.318978] (xbox) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.319853] (xbox) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.320370] (xbox) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.322697] (xbox) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.322756] (xbox) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.323365] (xbox) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.324412] (xbox) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.337620] (xbox) StdoutLine: {'line': b'-- Generating done\n'}
+[1.339005] (xbox) StdoutLine: {'line': b'-- Build files have been written to: /home/basten/ros2_ws/src/xbox/build/xbox\n'}
+[1.344486] (xbox) CommandEnded: {'returncode': 0}
+[1.345689] (xbox) JobProgress: {'identifier': 'xbox', 'progress': 'build'}
+[1.345715] (xbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/basten/ros2_ws/src/xbox/build/xbox', '--', '-j32', '-l32'], 'cwd': '/home/basten/ros2_ws/src/xbox/build/xbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '4066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/4011,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/4011'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7bdeb4e_8491_43cd_8695_cc0fdaae6770'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/xbox/build/xbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.364389] (xbox) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.368484] (xbox) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.372105] (xbox) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_xbox\n'}
+[1.401819] (-) TimerEvent: {}
+[1.470448] (xbox) StdoutLine: {'line': b'running egg_info\n'}
+[1.470757] (xbox) StdoutLine: {'line': b'creating xbox.egg-info\n'}
+[1.470849] (xbox) StdoutLine: {'line': b'writing xbox.egg-info/PKG-INFO\n'}
+[1.471007] (xbox) StdoutLine: {'line': b'writing dependency_links to xbox.egg-info/dependency_links.txt\n'}
+[1.471096] (xbox) StdoutLine: {'line': b'writing top-level names to xbox.egg-info/top_level.txt\n'}
+[1.471152] (xbox) StdoutLine: {'line': b"writing manifest file 'xbox.egg-info/SOURCES.txt'\n"}
+[1.472275] (xbox) StdoutLine: {'line': b"reading manifest file 'xbox.egg-info/SOURCES.txt'\n"}
+[1.472511] (xbox) StdoutLine: {'line': b"writing manifest file 'xbox.egg-info/SOURCES.txt'\n"}
+[1.473096] (xbox) StdoutLine: {'line': b'[  6%] Built target xbox__cpp\n'}
+[1.477398] (xbox) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.477589] (xbox) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.477670] (xbox) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.478987] (xbox) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/xbox__rosidl_generator_c.dir/rosidl_generator_c/xbox/msg/detail/command__functions.c.o\x1b[0m\n'}
+[1.484915] (xbox) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_build_xbox_egg\n'}
+[1.502017] (-) TimerEvent: {}
+[1.506016] (xbox) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libxbox__rosidl_generator_c.so\x1b[0m\n'}
+[1.522828] (xbox) StdoutLine: {'line': b'[ 21%] Built target xbox__rosidl_generator_c\n'}
+[1.527274] (xbox) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.527667] (xbox) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.527774] (xbox) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.577528] (xbox) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xbox/msg/command__type_support.cpp.o\x1b[0m\n'}
+[1.583367] (xbox) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xbox/msg/detail/command__type_support.cpp.o\x1b[0m\n'}
+[1.585667] (xbox) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xbox/msg/detail/dds_fastrtps/command__type_support.cpp.o\x1b[0m\n'}
+[1.602211] (-) TimerEvent: {}
+[1.627406] (xbox) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/xbox/msg/command__type_support.cpp.o\x1b[0m\n'}
+[1.636321] (xbox) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/xbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xbox/msg/detail/command__type_support.c.o\x1b[0m\n'}
+[1.638094] (xbox) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xbox/msg/detail/command__type_support_c.cpp.o\x1b[0m\n'}
+[1.641900] (xbox) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libxbox__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.651585] (xbox) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libxbox__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.661183] (xbox) StdoutLine: {'line': b'[ 54%] Built target xbox__rosidl_typesupport_c\n'}
+[1.665516] (xbox) StdoutLine: {'line': b'[ 54%] Built target xbox__rosidl_typesupport_introspection_c\n'}
+[1.696908] (xbox) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libxbox__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.702427] (-) TimerEvent: {}
+[1.715971] (xbox) StdoutLine: {'line': b'[ 57%] Built target xbox__rosidl_typesupport_cpp\n'}
+[1.725452] (xbox) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[1.744849] (xbox) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libxbox__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.750001] (xbox) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libxbox__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.764189] (xbox) StdoutLine: {'line': b'[ 66%] Built target xbox__rosidl_typesupport_introspection_cpp\n'}
+[1.774354] (xbox) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libxbox__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.784355] (xbox) StdoutLine: {'line': b'[ 69%] Built target xbox__rosidl_typesupport_fastrtps_cpp\n'}
+[1.802570] (-) TimerEvent: {}
+[1.808394] (xbox) StdoutLine: {'line': b'[ 69%] Built target xbox__rosidl_typesupport_fastrtps_c\n'}
+[1.817079] (xbox) StdoutLine: {'line': b'[ 69%] Built target xbox\n'}
+[1.827485] (xbox) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.902742] (-) TimerEvent: {}
+[1.954808] (xbox) StdoutLine: {'line': b'[ 72%] Built target xbox__py\n'}
+[1.963952] (xbox) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/xbox__rosidl_generator_py.dir/rosidl_generator_py/xbox/msg/_command_s.c.o\x1b[0m\n'}
+[2.002856] (-) TimerEvent: {}
+[2.017668] (xbox) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xbox/libxbox__rosidl_generator_py.so\x1b[0m\n'}
+[2.036442] (xbox) StdoutLine: {'line': b'[ 78%] Built target xbox__rosidl_generator_py\n'}
+[2.045529] (xbox) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/xbox__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xbox/_xbox_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.045767] (xbox) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/xbox__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xbox/_xbox_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.045849] (xbox) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/xbox__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xbox/_xbox_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.085585] (xbox) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xbox/xbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.085716] (xbox) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xbox/xbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.085747] (xbox) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xbox/xbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.100331] (xbox) StdoutLine: {'line': b'[ 96%] Built target xbox__rosidl_typesupport_c__pyext\n'}
+[2.100526] (xbox) StdoutLine: {'line': b'[ 96%] Built target xbox__rosidl_typesupport_introspection_c__pyext\n'}
+[2.100584] (xbox) StdoutLine: {'line': b'[ 96%] Built target xbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.102979] (-) TimerEvent: {}
+[2.203315] (-) TimerEvent: {}
+[2.303670] (-) TimerEvent: {}
+[2.404018] (-) TimerEvent: {}
+[2.504365] (-) TimerEvent: {}
+[2.604726] (-) TimerEvent: {}
+[2.705089] (-) TimerEvent: {}
+[2.805442] (-) TimerEvent: {}
+[2.905791] (-) TimerEvent: {}
+[3.006136] (-) TimerEvent: {}
+[3.106491] (-) TimerEvent: {}
+[3.206842] (-) TimerEvent: {}
+[3.307192] (-) TimerEvent: {}
+[3.407543] (-) TimerEvent: {}
+[3.507896] (-) TimerEvent: {}
+[3.608248] (-) TimerEvent: {}
+[3.708595] (-) TimerEvent: {}
+[3.808951] (-) TimerEvent: {}
+[3.909294] (-) TimerEvent: {}
+[4.009808] (-) TimerEvent: {}
+[4.110153] (-) TimerEvent: {}
+[4.210496] (-) TimerEvent: {}
+[4.310833] (-) TimerEvent: {}
+[4.411171] (-) TimerEvent: {}
+[4.511503] (-) TimerEvent: {}
+[4.611846] (-) TimerEvent: {}
+[4.712176] (-) TimerEvent: {}
+[4.812512] (-) TimerEvent: {}
+[4.912846] (-) TimerEvent: {}
+[5.013182] (-) TimerEvent: {}
+[5.113521] (-) TimerEvent: {}
+[5.213867] (-) TimerEvent: {}
+[5.314224] (-) TimerEvent: {}
+[5.377294] (xbox) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[5.414438] (-) TimerEvent: {}
+[5.514681] (-) TimerEvent: {}
+[5.576168] (xbox) StdoutLine: {'line': b'[100%] Built target publisher\n'}
+[5.582198] (xbox) CommandEnded: {'returncode': 0}
+[5.614935] (-) TimerEvent: {}
+[5.620379] (xbox) JobProgress: {'identifier': 'xbox', 'progress': 'install'}
+[5.628279] (xbox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/basten/ros2_ws/src/xbox/build/xbox'], 'cwd': '/home/basten/ros2_ws/src/xbox/build/xbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '4066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/4011,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/4011'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7bdeb4e_8491_43cd_8695_cc0fdaae6770'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/xbox/build/xbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.635005] (xbox) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.635300] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/ament_index/resource_index/rosidl_interfaces/xbox\n'}
+[5.635431] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox\n'}
+[5.635640] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg\n'}
+[5.635787] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.635900] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/command.h\n'}
+[5.635985] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail\n'}
+[5.636071] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__struct.h\n'}
+[5.636208] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__functions.c\n'}
+[5.636311] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__type_support.h\n'}
+[5.636413] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__functions.h\n'}
+[5.636493] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/library_path.sh\n'}
+[5.636608] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/library_path.dsv\n'}
+[5.636745] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_generator_c.so\n'}
+[5.636862] (xbox) StdoutLine: {'line': b'-- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_generator_c.so" to ""\n'}
+[5.636980] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox\n'}
+[5.637104] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg\n'}
+[5.637219] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.637302] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail\n'}
+[5.637383] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__rosidl_typesupport_fastrtps_c.h\n'}
+[5.637462] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_fastrtps_c.so\n'}
+[5.637545] (xbox) StdoutLine: {'line': b'-- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.637664] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox\n'}
+[5.637783] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg\n'}
+[5.637885] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/command.hpp\n'}
+[5.637974] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail\n'}
+[5.638054] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__traits.hpp\n'}
+[5.638169] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__builder.hpp\n'}
+[5.638249] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__struct.hpp\n'}
+[5.638339] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox\n'}
+[5.638640] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg\n'}
+[5.638718] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.638771] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail\n'}
+[5.638821] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.638865] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/dds_fastrtps\n'}
+[5.638950] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.639006] (xbox) StdoutLine: {'line': b'-- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.639091] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox\n'}
+[5.639134] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg\n'}
+[5.639176] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.639220] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail\n'}
+[5.639262] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__type_support.c\n'}
+[5.639346] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__rosidl_typesupport_introspection_c.h\n'}
+[5.639389] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_introspection_c.so\n'}
+[5.639470] (xbox) StdoutLine: {'line': b'-- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.639518] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_c.so\n'}
+[5.639564] (xbox) StdoutLine: {'line': b'-- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_c.so" to ""\n'}
+[5.639611] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox\n'}
+[5.639656] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg\n'}
+[5.639701] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail\n'}
+[5.639747] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.639815] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/include/xbox/xbox/msg/detail/command__type_support.cpp\n'}
+[5.639892] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_introspection_cpp.so\n'}
+[5.639937] (xbox) StdoutLine: {'line': b'-- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.639983] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_cpp.so\n'}
+[5.640030] (xbox) StdoutLine: {'line': b'-- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_typesupport_cpp.so" to ""\n'}
+[5.640078] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/pythonpath.sh\n'}
+[5.640124] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/pythonpath.dsv\n'}
+[5.640171] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info\n'}
+[5.640220] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.640268] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.640317] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.640364] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.640412] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox\n'}
+[5.640457] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.640533] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/_xbox_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.640638] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.640689] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.640735] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/_xbox_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.640780] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/_xbox_s.ep.rosidl_typesupport_c.c\n'}
+[5.640823] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/__init__.py\n'}
+[5.640871] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/libxbox__rosidl_generator_py.so\n'}
+[5.640915] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg\n'}
+[5.640957] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg/_command.py\n'}
+[5.641001] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg/__init__.py\n'}
+[5.641044] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg/_command_s.c\n'}
+[5.665726] (xbox) StdoutLine: {'line': b"Listing '/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox'...\n"}
+[5.665794] (xbox) StdoutLine: {'line': b"Compiling '/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/__init__.py'...\n"}
+[5.665823] (xbox) StdoutLine: {'line': b"Listing '/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg'...\n"}
+[5.665847] (xbox) StdoutLine: {'line': b"Compiling '/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg/__init__.py'...\n"}
+[5.665870] (xbox) StdoutLine: {'line': b"Compiling '/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/msg/_command.py'...\n"}
+[5.667867] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.667936] (xbox) StdoutLine: {'line': b'-- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.667964] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.668109] (xbox) StdoutLine: {'line': b'-- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.668160] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.668299] (xbox) StdoutLine: {'line': b'-- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.668359] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_generator_py.so\n'}
+[5.668386] (xbox) StdoutLine: {'line': b'-- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/libxbox__rosidl_generator_py.so" to ""\n'}
+[5.668408] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/msg/Command.idl\n'}
+[5.668430] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/msg/Command.msg\n'}
+[5.668450] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/lib/xbox/publisher\n'}
+[5.670233] (xbox) StdoutLine: {'line': b'-- Set runtime path of "/home/basten/ros2_ws/src/xbox/install/xbox/lib/xbox/publisher" to ""\n'}
+[5.670319] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/ament_index/resource_index/package_run_dependencies/xbox\n'}
+[5.670347] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/ament_index/resource_index/parent_prefix_path/xbox\n'}
+[5.670375] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/ament_prefix_path.sh\n'}
+[5.670481] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/ament_prefix_path.dsv\n'}
+[5.670511] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/path.sh\n'}
+[5.670536] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/environment/path.dsv\n'}
+[5.670558] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/local_setup.bash\n'}
+[5.670603] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/local_setup.sh\n'}
+[5.670628] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/local_setup.zsh\n'}
+[5.670656] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/local_setup.dsv\n'}
+[5.670678] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/package.dsv\n'}
+[5.670700] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/ament_index/resource_index/packages/xbox\n'}
+[5.670725] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_cExport.cmake\n'}
+[5.670746] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.670791] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.670815] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.670837] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_cppExport.cmake\n'}
+[5.670858] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.670897] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.670928] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.670951] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.670988] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_cExport.cmake\n'}
+[5.671033] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.671065] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.671087] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.671121] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_cppExport.cmake\n'}
+[5.671143] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.671174] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_pyExport.cmake\n'}
+[5.671204] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.671233] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/rosidl_cmake-extras.cmake\n'}
+[5.671267] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.671303] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.671339] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.671376] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.671413] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.671451] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.671487] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xboxConfig.cmake\n'}
+[5.671517] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/cmake/xboxConfig-version.cmake\n'}
+[5.671551] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/xbox/install/xbox/share/xbox/package.xml\n'}
+[5.672786] (xbox) CommandEnded: {'returncode': 0}
+[5.715005] (-) TimerEvent: {}
+[5.779249] (xbox) JobEnded: {'identifier': 'xbox', 'rc': 0}
+[5.779428] (-) EventReactorShutdown: {}

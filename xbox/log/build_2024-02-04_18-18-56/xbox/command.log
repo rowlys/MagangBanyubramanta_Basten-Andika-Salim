@@ -1,0 +1,6 @@
+Invoking command in '/home/basten/ros2_ws/src/xbox/build/xbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/basten/ros2_ws/src/xbox -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/xbox/install/xbox
+Invoked command in '/home/basten/ros2_ws/src/xbox/build/xbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/basten/ros2_ws/src/xbox -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/xbox/install/xbox
+Invoking command in '/home/basten/ros2_ws/src/xbox/build/xbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/xbox/build/xbox -- -j32 -l32
+Invoked command in '/home/basten/ros2_ws/src/xbox/build/xbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/xbox/build/xbox -- -j32 -l32
+Invoking command in '/home/basten/ros2_ws/src/xbox/build/xbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/xbox/build/xbox
+Invoked command in '/home/basten/ros2_ws/src/xbox/build/xbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/xbox/build/xbox
