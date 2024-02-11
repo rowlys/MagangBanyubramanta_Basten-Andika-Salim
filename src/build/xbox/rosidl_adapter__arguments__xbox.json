@@ -1,0 +1,6 @@
+{
+  "package_name": "xbox",
+  "non_idl_tuples": [
+    "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_joy/xbox:msg/Command.msg"
+  ]
+}

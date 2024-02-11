@@ -1,0 +1,77 @@
+[0.021s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.157s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.235s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.237s] -- Detecting CXX compiler ABI info
+[0.299s] -- Detecting CXX compiler ABI info - done
+[0.302s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.303s] -- Detecting CXX compile features
+[0.303s] -- Detecting CXX compile features - done
+[0.305s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.420s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.480s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.512s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.515s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.520s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.577s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.578s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.628s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.641s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.662s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.668s] -- Looking for pthread.h
+[0.703s] -- Looking for pthread.h - found
+[0.703s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.750s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.751s] -- Found Threads: TRUE  
+[0.855s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.949s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.949s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.950s]   tugas_opencv --arguments-file
+[0.950s]   /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv/rosidl_adapter__arguments__tugas_opencv.json
+[0.950s]   --output-dir
+[0.950s]   /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv/rosidl_adapter/tugas_opencv
+[0.950s]   --output-file
+[0.950s]   /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv/rosidl_adapter/tugas_opencv.idls)
+[0.950s]   returned error code 1:
+[0.950s] 
+[0.950s]   Error processing 'int 32 blue' of 'tugas_opencv/color': ''int' is an
+[0.950s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[0.950s] 
+[0.950s]   Traceback (most recent call last):
+[0.950s] 
+[0.950s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.950s]       return _run_code(code, main_globals, None,
+[0.950s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.950s]       exec(code, run_globals)
+[0.950s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.950s]       sys.exit(main())
+[0.950s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.950s]       abs_idl_file = convert_to_idl(
+[0.950s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.950s]       return convert_msg_to_idl(
+[0.950s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.950s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.950s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.950s]       Type(type_string, context_package_name=pkg_name),
+[0.950s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[0.950s]       super(Type, self).__init__(
+[0.950s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.950s]       raise InvalidResourceName(
+[0.950s] 
+[0.950s]   rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message
+[0.950s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.950s] 
+[0.950s] Call Stack (most recent call first):
+[0.950s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.950s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.950s] 
+[0.950s] [0m
+[0.950s] -- Configuring incomplete, errors occurred!
+[0.950s] See also "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv/CMakeFiles/CMakeOutput.log".
+[0.955s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv

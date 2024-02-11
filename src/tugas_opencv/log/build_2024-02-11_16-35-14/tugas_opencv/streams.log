@@ -1,0 +1,37 @@
+[0.019s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv -- -j32 -l32
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_generator_c[0m
+[0.046s] [  3%] Built target tugas_opencv__cpp
+[0.047s] [ 12%] Built target tugas_opencv__rosidl_generator_c
+[0.052s] [ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_cpp[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_cpp[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_c[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_c[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_cpp[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_c[0m
+[0.058s] [ 21%] Built target tugas_opencv__rosidl_typesupport_cpp
+[0.058s] [ 30%] Built target tugas_opencv__rosidl_typesupport_c
+[0.059s] [ 42%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[0.059s] [ 48%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[0.059s] [ 57%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[0.060s] [ 66%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[0.067s] [ 69%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[0.069s] [ 69%] Built target tugas_opencv
+[0.078s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.094s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/opencv.hpp: No such file or directory
+[0.094s]     2 | #include [01;31m[K"opencv2/opencv.hpp"[m[K
+[0.094s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.094s] compilation terminated.
+[0.095s] gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+[0.095s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+[0.095s] gmake[1]: *** Waiting for unfinished jobs....
+[0.150s] running egg_info
+[0.150s] writing tugas_opencv.egg-info/PKG-INFO
+[0.150s] writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+[0.150s] writing top-level names to tugas_opencv.egg-info/top_level.txt
+[0.151s] reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.151s] writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.162s] [ 72%] Built target ament_cmake_python_build_tugas_opencv_egg
+[0.205s] [ 72%] Built target tugas_opencv__py
+[0.206s] gmake: *** [Makefile:146: all] Error 2
+[0.208s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv -- -j32 -l32

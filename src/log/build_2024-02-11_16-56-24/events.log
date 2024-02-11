@@ -1,0 +1,292 @@
+[0.000000] (-) TimerEvent: {}
+[0.000143] (tugas_opencv) JobQueued: {'identifier': 'tugas_opencv', 'dependencies': OrderedDict()}
+[0.000160] (xbox) JobQueued: {'identifier': 'xbox', 'dependencies': OrderedDict()}
+[0.000170] (tugas_opencv) JobStarted: {'identifier': 'tugas_opencv'}
+[0.020931] (xbox) JobStarted: {'identifier': 'xbox'}
+[0.041865] (tugas_opencv) JobProgress: {'identifier': 'tugas_opencv', 'progress': 'cmake'}
+[0.041909] (tugas_opencv) Command: {'cmd': ['/usr/bin/cmake', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv', '-DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_opencv'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1909'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1889,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1889'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82a6916e_3d06_4c6e_b6e5_28cb370d3414'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv:/opt/ros/humble')]), 'shell': False}
+[0.043900] (xbox) JobProgress: {'identifier': 'xbox', 'progress': 'cmake'}
+[0.043916] (xbox) Command: {'cmd': ['/usr/bin/cmake', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_joy/xbox', '-DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/xbox'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/xbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1909'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1889,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1889'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82a6916e_3d06_4c6e_b6e5_28cb370d3414'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/xbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv:/opt/ros/humble')]), 'shell': False}
+[0.068551] (tugas_opencv) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.070020] (xbox) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.098684] (xbox) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099807] (-) TimerEvent: {}
+[0.100062] (tugas_opencv) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.102208] (xbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.103593] (tugas_opencv) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.148304] (xbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.150470] (tugas_opencv) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.154989] (xbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.155225] (xbox) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.155591] (xbox) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.158069] (xbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.158669] (tugas_opencv) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.158786] (tugas_opencv) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.158997] (tugas_opencv) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.161268] (tugas_opencv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199892] (-) TimerEvent: {}
+[0.200903] (xbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.201119] (tugas_opencv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.204703] (tugas_opencv) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.204891] (tugas_opencv) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.205055] (tugas_opencv) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.205210] (xbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.205420] (xbox) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.205564] (xbox) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.205743] (tugas_opencv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.206591] (xbox) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.283704] (tugas_opencv) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.284839] (xbox) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.300054] (-) TimerEvent: {}
+[0.323255] (tugas_opencv) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.331221] (xbox) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.345532] (tugas_opencv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.346428] (xbox) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.347943] (tugas_opencv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.348465] (xbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.351992] (xbox) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.352253] (tugas_opencv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.357795] (xbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.359722] (tugas_opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.366176] (xbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.370052] (tugas_opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400220] (-) TimerEvent: {}
+[0.402000] (tugas_opencv) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.403043] (tugas_opencv) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.446214] (tugas_opencv) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.458548] (tugas_opencv) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.469844] (xbox) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.479814] (tugas_opencv) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.483595] (tugas_opencv) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.496091] (xbox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.497121] (xbox) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500396] (-) TimerEvent: {}
+[0.516274] (tugas_opencv) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.516356] (tugas_opencv) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.543021] (xbox) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.549274] (tugas_opencv) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.549837] (tugas_opencv) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.557721] (xbox) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.579402] (xbox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.583263] (xbox) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600559] (-) TimerEvent: {}
+[0.616759] (xbox) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.616853] (xbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.624894] (tugas_opencv) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.9.0") \n'}
+[0.625431] (tugas_opencv) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.649977] (xbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.650699] (xbox) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700808] (-) TimerEvent: {}
+[0.718661] (xbox) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.739699] (tugas_opencv) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800972] (-) TimerEvent: {}
+[0.832716] (xbox) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.881694] (tugas_opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901126] (-) TimerEvent: {}
+[0.936899] (tugas_opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.947730] (tugas_opencv) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.948457] (tugas_opencv) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.960415] (tugas_opencv) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.960479] (tugas_opencv) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.960506] (tugas_opencv) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.960528] (tugas_opencv) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.968040] (xbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.970179] (tugas_opencv) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.986345] (tugas_opencv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.001280] (-) TimerEvent: {}
+[1.007785] (tugas_opencv) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.007936] (tugas_opencv) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.007994] (tugas_opencv) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.009999] (tugas_opencv) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.013539] (tugas_opencv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.015426] (tugas_opencv) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.021283] (xbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.028880] (tugas_opencv) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.028943] (tugas_opencv) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.030840] (tugas_opencv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.031549] (xbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.032044] (tugas_opencv) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.032102] (xbox) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.044747] (xbox) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.044810] (xbox) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.044840] (xbox) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.044863] (xbox) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.046591] (tugas_opencv) StdoutLine: {'line': b'-- Generating done\n'}
+[1.047940] (tugas_opencv) StdoutLine: {'line': b'-- Build files have been written to: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv\n'}
+[1.053409] (tugas_opencv) CommandEnded: {'returncode': 0}
+[1.054522] (tugas_opencv) JobProgress: {'identifier': 'tugas_opencv', 'progress': 'build'}
+[1.054535] (tugas_opencv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv', '--', '-j32', '-l32'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1909'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1889,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1889'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82a6916e_3d06_4c6e_b6e5_28cb370d3414'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv:/opt/ros/humble')]), 'shell': False}
+[1.054919] (xbox) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.072683] (xbox) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.072776] (tugas_opencv) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.077001] (tugas_opencv) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.080934] (tugas_opencv) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_tugas_opencv\n'}
+[1.101466] (-) TimerEvent: {}
+[1.102585] (xbox) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.102809] (xbox) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.102875] (xbox) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.104419] (xbox) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.106982] (xbox) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.108445] (xbox) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.118168] (xbox) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.118304] (xbox) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.119651] (xbox) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.120636] (xbox) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.134447] (xbox) StdoutLine: {'line': b'-- Generating done\n'}
+[1.135798] (xbox) StdoutLine: {'line': b'-- Build files have been written to: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/xbox\n'}
+[1.141982] (xbox) CommandEnded: {'returncode': 0}
+[1.142297] (xbox) JobProgress: {'identifier': 'xbox', 'progress': 'build'}
+[1.142318] (xbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/xbox', '--', '-j32', '-l32'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/xbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1909'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1889,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1889'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82a6916e_3d06_4c6e_b6e5_28cb370d3414'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/xbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/install/tugas_opencv:/opt/ros/humble')]), 'shell': False}
+[1.160868] (xbox) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.165067] (xbox) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.168809] (xbox) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_xbox\n'}
+[1.181894] (tugas_opencv) StdoutLine: {'line': b'running egg_info\n'}
+[1.182126] (tugas_opencv) StdoutLine: {'line': b'creating tugas_opencv.egg-info\n'}
+[1.182202] (tugas_opencv) StdoutLine: {'line': b'writing tugas_opencv.egg-info/PKG-INFO\n'}
+[1.182378] (tugas_opencv) StdoutLine: {'line': b'writing dependency_links to tugas_opencv.egg-info/dependency_links.txt\n'}
+[1.182453] (tugas_opencv) StdoutLine: {'line': b'writing top-level names to tugas_opencv.egg-info/top_level.txt\n'}
+[1.182509] (tugas_opencv) StdoutLine: {'line': b"writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'\n"}
+[1.182657] (tugas_opencv) StdoutLine: {'line': b'[  6%] Built target tugas_opencv__cpp\n'}
+[1.183422] (tugas_opencv) StdoutLine: {'line': b"reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'\n"}
+[1.183669] (tugas_opencv) StdoutLine: {'line': b"writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'\n"}
+[1.187605] (tugas_opencv) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.187755] (tugas_opencv) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.187814] (tugas_opencv) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.196885] (tugas_opencv) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_build_tugas_opencv_egg\n'}
+[1.201655] (-) TimerEvent: {}
+[1.209764] (tugas_opencv) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_generator_c.dir/rosidl_generator_c/tugas_opencv/msg/detail/color__functions.c.o\x1b[0m\n'}
+[1.231716] (tugas_opencv) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libtugas_opencv__rosidl_generator_c.so\x1b[0m\n'}
+[1.250210] (tugas_opencv) StdoutLine: {'line': b'[ 21%] Built target tugas_opencv__rosidl_generator_c\n'}
+[1.254617] (tugas_opencv) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.255354] (tugas_opencv) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.256767] (tugas_opencv) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.274393] (xbox) StdoutLine: {'line': b'running egg_info\n'}
+[1.274740] (xbox) StdoutLine: {'line': b'creating xbox.egg-info\n'}
+[1.274829] (xbox) StdoutLine: {'line': b'writing xbox.egg-info/PKG-INFO\n'}
+[1.274901] (xbox) StdoutLine: {'line': b'writing dependency_links to xbox.egg-info/dependency_links.txt\n'}
+[1.274980] (xbox) StdoutLine: {'line': b'writing top-level names to xbox.egg-info/top_level.txt\n'}
+[1.275034] (xbox) StdoutLine: {'line': b"writing manifest file 'xbox.egg-info/SOURCES.txt'\n"}
+[1.276012] (xbox) StdoutLine: {'line': b"reading manifest file 'xbox.egg-info/SOURCES.txt'\n"}
+[1.276168] (xbox) StdoutLine: {'line': b"writing manifest file 'xbox.egg-info/SOURCES.txt'\n"}
+[1.280080] (xbox) StdoutLine: {'line': b'[  6%] Built target xbox__cpp\n'}
+[1.285282] (xbox) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/xbox__rosidl_generator_c.dir/rosidl_generator_c/xbox/msg/detail/command__functions.c.o\x1b[0m\n'}
+[1.285450] (xbox) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.287060] (xbox) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.287531] (xbox) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.290247] (xbox) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_build_xbox_egg\n'}
+[1.290613] (tugas_opencv) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tugas_opencv/msg/color__type_support.cpp.o\x1b[0m\n'}
+[1.296024] (tugas_opencv) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tugas_opencv/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[1.300463] (tugas_opencv) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tugas_opencv/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[1.301758] (-) TimerEvent: {}
+[1.310034] (xbox) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libxbox__rosidl_generator_c.so\x1b[0m\n'}
+[1.337405] (xbox) StdoutLine: {'line': b'[ 21%] Built target xbox__rosidl_generator_c\n'}
+[1.343157] (xbox) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.344544] (xbox) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.345068] (xbox) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.370724] (tugas_opencv) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[1.378282] (tugas_opencv) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_c.dir/rosidl_typesupport_c/tugas_opencv/msg/color__type_support.cpp.o\x1b[0m\n'}
+[1.392200] (tugas_opencv) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.394256] (tugas_opencv) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tugas_opencv/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[1.401959] (-) TimerEvent: {}
+[1.403534] (xbox) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xbox/msg/detail/command__type_support.cpp.o\x1b[0m\n'}
+[1.407810] (tugas_opencv) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.410789] (tugas_opencv) StdoutLine: {'line': b'[ 54%] Built target tugas_opencv__rosidl_typesupport_c\n'}
+[1.415478] (tugas_opencv) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library libtugas_opencv__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.427470] (tugas_opencv) StdoutLine: {'line': b'[ 57%] Built target tugas_opencv__rosidl_typesupport_cpp\n'}
+[1.429859] (tugas_opencv) StdoutLine: {'line': b'[ 57%] Built target tugas_opencv__rosidl_typesupport_introspection_c\n'}
+[1.438448] (tugas_opencv) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o\x1b[0m\n'}
+[1.450596] (xbox) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xbox/msg/detail/dds_fastrtps/command__type_support.cpp.o\x1b[0m\n'}
+[1.453374] (xbox) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xbox/msg/command__type_support.cpp.o\x1b[0m\n'}
+[1.458775] (xbox) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/xbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xbox/msg/detail/command__type_support.c.o\x1b[0m\n'}
+[1.460857] (tugas_opencv) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.472461] (tugas_opencv) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.473371] (xbox) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libxbox__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.479886] (tugas_opencv) StdoutLine: {'line': b'[ 66%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp\n'}
+[1.486962] (xbox) StdoutLine: {'line': b'[ 45%] Built target xbox__rosidl_typesupport_introspection_c\n'}
+[1.493696] (xbox) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xbox/msg/detail/command__type_support_c.cpp.o\x1b[0m\n'}
+[1.502171] (-) TimerEvent: {}
+[1.509151] (tugas_opencv) StdoutLine: {'line': b'[ 66%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp\n'}
+[1.514286] (xbox) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/xbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/xbox/msg/command__type_support.cpp.o\x1b[0m\n'}
+[1.516621] (tugas_opencv) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.528775] (xbox) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libxbox__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.550181] (xbox) StdoutLine: {'line': b'[ 54%] Built target xbox__rosidl_typesupport_c\n'}
+[1.553817] (tugas_opencv) StdoutLine: {'line': b'[ 69%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c\n'}
+[1.564121] (tugas_opencv) StdoutLine: {'line': b'[ 69%] Built target tugas_opencv\n'}
+[1.566252] (xbox) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libxbox__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.571330] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktugas_opencv/msg/Color.hpp: No such file or directory\n'}
+[1.571498] (tugas_opencv) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"tugas_opencv/msg/Color.hpp"\x1b[m\x1b[K\n'}
+[1.571558] (tugas_opencv) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.571609] (tugas_opencv) StderrLine: {'line': b'compilation terminated.\n'}
+[1.573036] (tugas_opencv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1\n'}
+[1.573177] (tugas_opencv) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2\n'}
+[1.573232] (tugas_opencv) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.573973] (tugas_opencv) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.585671] (xbox) StdoutLine: {'line': b'[ 57%] Built target xbox__rosidl_typesupport_introspection_cpp\n'}
+[1.593484] (xbox) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libxbox__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.602354] (-) TimerEvent: {}
+[1.613521] (xbox) StdoutLine: {'line': b'[ 60%] Built target xbox__rosidl_typesupport_cpp\n'}
+[1.617001] (xbox) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libxbox__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.623001] (xbox) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[1.636426] (xbox) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libxbox__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.652861] (xbox) StdoutLine: {'line': b'[ 69%] Built target xbox__rosidl_typesupport_fastrtps_cpp\n'}
+[1.671879] (xbox) StdoutLine: {'line': b'[ 69%] Built target xbox__rosidl_typesupport_fastrtps_c\n'}
+[1.681475] (xbox) StdoutLine: {'line': b'[ 69%] Built target xbox\n'}
+[1.691284] (xbox) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.702548] (-) TimerEvent: {}
+[1.703355] (tugas_opencv) StdoutLine: {'line': b'[ 72%] Built target tugas_opencv__py\n'}
+[1.704092] (tugas_opencv) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.705927] (tugas_opencv) CommandEnded: {'returncode': 2}
+[1.753873] (tugas_opencv) JobEnded: {'identifier': 'tugas_opencv', 'rc': 2}
+[1.802735] (-) TimerEvent: {}
+[1.823811] (xbox) StdoutLine: {'line': b'[ 72%] Built target xbox__py\n'}
+[1.833146] (xbox) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/xbox__rosidl_generator_py.dir/rosidl_generator_py/xbox/msg/_command_s.c.o\x1b[0m\n'}
+[1.876454] (xbox) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xbox/libxbox__rosidl_generator_py.so\x1b[0m\n'}
+[1.896815] (xbox) StdoutLine: {'line': b'[ 78%] Built target xbox__rosidl_generator_py\n'}
+[1.902946] (-) TimerEvent: {}
+[1.906958] (xbox) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/xbox__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xbox/_xbox_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.907173] (xbox) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/xbox__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xbox/_xbox_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.907234] (xbox) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/xbox__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xbox/_xbox_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.947673] (xbox) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xbox/xbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.947842] (xbox) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xbox/xbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.948099] (xbox) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xbox/xbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.963645] (xbox) StdoutLine: {'line': b'[ 96%] Built target xbox__rosidl_typesupport_c__pyext\n'}
+[1.963821] (xbox) StdoutLine: {'line': b'[ 96%] Built target xbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.963879] (xbox) StdoutLine: {'line': b'[ 96%] Built target xbox__rosidl_typesupport_introspection_c__pyext\n'}
+[2.003150] (-) TimerEvent: {}
+[2.103566] (-) TimerEvent: {}
+[2.203924] (-) TimerEvent: {}
+[2.304291] (-) TimerEvent: {}
+[2.404666] (-) TimerEvent: {}
+[2.505043] (-) TimerEvent: {}
+[2.605412] (-) TimerEvent: {}
+[2.705780] (-) TimerEvent: {}
+[2.806143] (-) TimerEvent: {}
+[2.906506] (-) TimerEvent: {}
+[3.006869] (-) TimerEvent: {}
+[3.107261] (-) TimerEvent: {}
+[3.207508] (-) TimerEvent: {}
+[3.307737] (-) TimerEvent: {}
+[3.408019] (-) TimerEvent: {}
+[3.508331] (-) TimerEvent: {}
+[3.608633] (-) TimerEvent: {}
+[3.708994] (-) TimerEvent: {}
+[3.809330] (-) TimerEvent: {}
+[3.909643] (-) TimerEvent: {}
+[4.009913] (-) TimerEvent: {}
+[4.110173] (-) TimerEvent: {}
+[4.210432] (-) TimerEvent: {}
+[4.310750] (-) TimerEvent: {}
+[4.411044] (-) TimerEvent: {}
+[4.511242] (-) TimerEvent: {}
+[4.611418] (-) TimerEvent: {}
+[4.711660] (-) TimerEvent: {}
+[4.811901] (-) TimerEvent: {}
+[4.912183] (-) TimerEvent: {}
+[5.012536] (-) TimerEvent: {}
+[5.112878] (-) TimerEvent: {}
+[5.172684] (xbox) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[5.213055] (-) TimerEvent: {}
+[5.313392] (-) TimerEvent: {}
+[5.379079] (xbox) StdoutLine: {'line': b'[100%] Built target publisher\n'}
+[5.390670] (xbox) JobEnded: {'identifier': 'xbox', 'rc': 'SIGINT'}
+[5.401233] (-) EventReactorShutdown: {}

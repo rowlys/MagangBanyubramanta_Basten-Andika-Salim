@@ -1,0 +1,8 @@
+setup.py
+xbox/__init__.py
+xbox.egg-info/PKG-INFO
+xbox.egg-info/SOURCES.txt
+xbox.egg-info/dependency_links.txt
+xbox.egg-info/top_level.txt
+xbox/msg/__init__.py
+xbox/msg/_command.py

@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (tugas_opencv) JobQueued: {'identifier': 'tugas_opencv', 'dependencies': OrderedDict()}
+[0.000114] (tugas_opencv) JobStarted: {'identifier': 'tugas_opencv'}
+[0.017694] (tugas_opencv) JobProgress: {'identifier': 'tugas_opencv', 'progress': 'cmake'}
+[0.017722] (tugas_opencv) JobProgress: {'identifier': 'tugas_opencv', 'progress': 'build'}
+[0.017994] (tugas_opencv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv', '--', '-j32', '-l32'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1909'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1889,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1889'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82a6916e_3d06_4c6e_b6e5_28cb370d3414'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044876] (tugas_opencv) StdoutLine: {'line': b'[  3%] Built target tugas_opencv__cpp\n'}
+[0.045671] (tugas_opencv) StdoutLine: {'line': b'[ 12%] Built target tugas_opencv__rosidl_generator_c\n'}
+[0.050830] (tugas_opencv) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_tugas_opencv\n'}
+[0.057175] (tugas_opencv) StdoutLine: {'line': b'[ 21%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp\n'}
+[0.057303] (tugas_opencv) StdoutLine: {'line': b'[ 30%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp\n'}
+[0.057364] (tugas_opencv) StdoutLine: {'line': b'[ 39%] Built target tugas_opencv__rosidl_typesupport_cpp\n'}
+[0.060390] (tugas_opencv) StdoutLine: {'line': b'[ 48%] Built target tugas_opencv__rosidl_typesupport_introspection_c\n'}
+[0.060511] (tugas_opencv) StdoutLine: {'line': b'[ 57%] Built target tugas_opencv__rosidl_typesupport_c\n'}
+[0.060671] (tugas_opencv) StdoutLine: {'line': b'[ 66%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c\n'}
+[0.065796] (tugas_opencv) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o\x1b[0m\n'}
+[0.068730] (tugas_opencv) StdoutLine: {'line': b'[ 69%] Built target tugas_opencv\n'}
+[0.077475] (tugas_opencv) StdoutLine: {'line': b'[ 72%] Built target tugas_opencv__py\n'}
+[0.086124] (tugas_opencv) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_generator_py.dir/rosidl_generator_py/tugas_opencv/msg/_color_s.c.o\x1b[0m\n'}
+[0.099581] (-) TimerEvent: {}
+[0.130963] (tugas_opencv) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tugas_opencv/libtugas_opencv__rosidl_generator_py.so\x1b[0m\n'}
+[0.149301] (tugas_opencv) StdoutLine: {'line': b'[ 78%] Built target tugas_opencv__rosidl_generator_py\n'}
+[0.150965] (tugas_opencv) StdoutLine: {'line': b'running egg_info\n'}
+[0.151322] (tugas_opencv) StdoutLine: {'line': b'writing tugas_opencv.egg-info/PKG-INFO\n'}
+[0.151565] (tugas_opencv) StdoutLine: {'line': b'writing dependency_links to tugas_opencv.egg-info/dependency_links.txt\n'}
+[0.151632] (tugas_opencv) StdoutLine: {'line': b'writing top-level names to tugas_opencv.egg-info/top_level.txt\n'}
+[0.152402] (tugas_opencv) StdoutLine: {'line': b"reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'\n"}
+[0.152639] (tugas_opencv) StdoutLine: {'line': b"writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'\n"}
+[0.159067] (tugas_opencv) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[0.159242] (tugas_opencv) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[0.159321] (tugas_opencv) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[0.164850] (tugas_opencv) StdoutLine: {'line': b'[ 87%] Built target ament_cmake_python_build_tugas_opencv_egg\n'}
+[0.199077] (tugas_opencv) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tugas_opencv/tugas_opencv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[0.199248] (tugas_opencv) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tugas_opencv/tugas_opencv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[0.199311] (tugas_opencv) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tugas_opencv/tugas_opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[0.199640] (-) TimerEvent: {}
+[0.214358] (tugas_opencv) StdoutLine: {'line': b'[ 96%] Built target tugas_opencv__rosidl_typesupport_c__pyext\n'}
+[0.214585] (tugas_opencv) StdoutLine: {'line': b'[ 96%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext\n'}
+[0.214621] (tugas_opencv) StdoutLine: {'line': b'[ 96%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.299860] (-) TimerEvent: {}
+[0.400344] (-) TimerEvent: {}
+[0.500555] (-) TimerEvent: {}
+[0.600852] (-) TimerEvent: {}
+[0.701187] (-) TimerEvent: {}
+[0.801516] (-) TimerEvent: {}
+[0.901867] (-) TimerEvent: {}
+[1.002188] (-) TimerEvent: {}
+[1.058305] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:7:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv\x1b[m\x1b[K\xe2\x80\x99 is not a namespace-name\n'}
+[1.058440] (tugas_opencv) StderrLine: {'line': b'    7 | using namespace \x1b[01;31m\x1b[Kcv\x1b[m\x1b[K;\n'}
+[1.058474] (tugas_opencv) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.060671] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.060732] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:12:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KVideoCapture\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.060762] (tugas_opencv) StderrLine: {'line': b'   12 |      \x1b[01;31m\x1b[KVideoCapture\x1b[m\x1b[K camera(0);\n'}
+[1.060791] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.062004] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:14:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcamera\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.062075] (tugas_opencv) StderrLine: {'line': b'   14 |      if (!\x1b[01;31m\x1b[Kcamera\x1b[m\x1b[K.isOpened()){\n'}
+[1.062103] (tugas_opencv) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.064277] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:28:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWINDOW_NORMAL\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.064336] (tugas_opencv) StderrLine: {'line': b'   28 |      namedWindow("HSV Control", \x1b[01;31m\x1b[KWINDOW_NORMAL\x1b[m\x1b[K);\n'}
+[1.064364] (tugas_opencv) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.066052] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:28:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KnamedWindow\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.066119] (tugas_opencv) StderrLine: {'line': b'   28 |      \x1b[01;31m\x1b[KnamedWindow\x1b[m\x1b[K("HSV Control", WINDOW_NORMAL);\n'}
+[1.066146] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.068296] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:30:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcreateTrackbar\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.068355] (tugas_opencv) StderrLine: {'line': b'   30 |      \x1b[01;31m\x1b[KcreateTrackbar\x1b[m\x1b[K("H Floor", "HSV Control", &floorH, 179);\n'}
+[1.068383] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.069446] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:42:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.069504] (tugas_opencv) StderrLine: {'line': b'   42 |           \x1b[01;31m\x1b[KMat\x1b[m\x1b[K frame;\n'}
+[1.069531] (tugas_opencv) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.070725] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:44:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcamera\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.070823] (tugas_opencv) StderrLine: {'line': b'   44 |           if (!\x1b[01;31m\x1b[Kcamera\x1b[m\x1b[K.read(frame)){\n'}
+[1.070883] (tugas_opencv) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.072226] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:44:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kframe\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.072317] (tugas_opencv) StderrLine: {'line': b'   44 |           if (!camera.read(\x1b[01;31m\x1b[Kframe\x1b[m\x1b[K)){\n'}
+[1.072375] (tugas_opencv) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.072427] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:49:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KframeHSV\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.072480] (tugas_opencv) StderrLine: {'line': b'   49 |           Mat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KframeHSV\x1b[m\x1b[K;\n'}
+[1.072531] (tugas_opencv) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[1.072581] (tugas_opencv) StderrLine: {'line': b'      |              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.073624] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:50:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kframe\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.073715] (tugas_opencv) StderrLine: {'line': b'   50 |           cvtColor(\x1b[01;31m\x1b[Kframe\x1b[m\x1b[K, frameHSV, COLOR_BGR2HSV);\n'}
+[1.073773] (tugas_opencv) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.075128] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:50:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KframeHSV\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.075221] (tugas_opencv) StderrLine: {'line': b'   50 |           cvtColor(frame, \x1b[01;31m\x1b[KframeHSV\x1b[m\x1b[K, COLOR_BGR2HSV);\n'}
+[1.075288] (tugas_opencv) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.077376] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:50:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCOLOR_BGR2HSV\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.077483] (tugas_opencv) StderrLine: {'line': b'   50 |           cvtColor(frame, frameHSV, \x1b[01;31m\x1b[KCOLOR_BGR2HSV\x1b[m\x1b[K);\n'}
+[1.077540] (tugas_opencv) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.078918] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:50:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvtColor\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.079014] (tugas_opencv) StderrLine: {'line': b'   50 |           \x1b[01;31m\x1b[KcvtColor\x1b[m\x1b[K(frame, frameHSV, COLOR_BGR2HSV);\n'}
+[1.079080] (tugas_opencv) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.079135] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:51:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KframeBinary\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.079187] (tugas_opencv) StderrLine: {'line': b'   51 |           Mat\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KframeBinary\x1b[m\x1b[K;\n'}
+[1.079238] (tugas_opencv) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.079288] (tugas_opencv) StderrLine: {'line': b'      |              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.080239] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:52:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KScalar\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.080325] (tugas_opencv) StderrLine: {'line': b'   52 |           inRange(frameHSV, \x1b[01;31m\x1b[KScalar\x1b[m\x1b[K(floorH, floorS, floorV), Scalar(ceilingH, ceilingS, ceilingV), frameBinary);\n'}
+[1.080383] (tugas_opencv) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.082078] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:52:99:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KframeBinary\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.082165] (tugas_opencv) StderrLine: {'line': b'   52 | orH, floorS, floorV), Scalar(ceilingH, ceilingS, ceilingV), \x1b[01;31m\x1b[KframeBinary\x1b[m\x1b[K);\n'}
+[1.082224] (tugas_opencv) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.082278] (tugas_opencv) StderrLine: {'line': b'\n'}
+[1.083571] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:52:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KinRange\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.083631] (tugas_opencv) StderrLine: {'line': b'   52 |           \x1b[01;31m\x1b[KinRange\x1b[m\x1b[K(frameHSV, Scalar(floorH, floorS, floorV), Scalar(ceilingH, ceilingS, ceilingV), frameBinary);\n'}
+[1.083659] (tugas_opencv) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.085724] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:54:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMORPH_ELLIPSE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.085786] (tugas_opencv) StderrLine: {'line': b'   54 |       erode(frameBinary, frameBinary, getStructuringElement(\x1b[01;31m\x1b[KMORPH_ELLIPSE\x1b[m\x1b[K, Size(5, 5)) );\n'}
+[1.085814] (tugas_opencv) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.085837] (tugas_opencv) StderrLine: {'line': b'\n'}
+[1.086897] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:54:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSize\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.086956] (tugas_opencv) StderrLine: {'line': b'   54 | meBinary, frameBinary, getStructuringElement(MORPH_ELLIPSE, \x1b[01;31m\x1b[KSize\x1b[m\x1b[K(5, 5)) );\n'}
+[1.086984] (tugas_opencv) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.087007] (tugas_opencv) StderrLine: {'line': b'\n'}
+[1.090035] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:54:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KgetStructuringElement\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.090094] (tugas_opencv) StderrLine: {'line': b'   54 |           erode(frameBinary, frameBinary, \x1b[01;31m\x1b[KgetStructuringElement\x1b[m\x1b[K(MORPH_ELLIPSE, Size(5, 5)) );\n'}
+[1.090121] (tugas_opencv) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.091354] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:54:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kerode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.091415] (tugas_opencv) StderrLine: {'line': b'   54 |           \x1b[01;31m\x1b[Kerode\x1b[m\x1b[K(frameBinary, frameBinary, getStructuringElement(MORPH_ELLIPSE, Size(5, 5)) );\n'}
+[1.091442] (tugas_opencv) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.092802] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:55:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdilate\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.092866] (tugas_opencv) StderrLine: {'line': b'   55 |           \x1b[01;31m\x1b[Kdilate\x1b[m\x1b[K(frameBinary, frameBinary, getStructuringElement(MORPH_ELLIPSE, Size(5, 5)) );\n'}
+[1.092898] (tugas_opencv) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.094302] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:60:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMoments\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.094365] (tugas_opencv) StderrLine: {'line': b'   60 |           \x1b[01;31m\x1b[KMoments\x1b[m\x1b[K measure = moments(frameBinary);\n'}
+[1.094393] (tugas_opencv) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.095765] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:61:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmeasure\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.095842] (tugas_opencv) StderrLine: {'line': b'   61 |           double area = \x1b[01;31m\x1b[Kmeasure\x1b[m\x1b[K.m00;\n'}
+[1.095869] (tugas_opencv) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.097173] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:65:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimshow\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.097236] (tugas_opencv) StderrLine: {'line': b'   65 |           \x1b[01;31m\x1b[Kimshow\x1b[m\x1b[K("Original", frame);\n'}
+[1.097264] (tugas_opencv) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.098502] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:68:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KwaitKey\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.098561] (tugas_opencv) StderrLine: {'line': b'   68 |           if (\x1b[01;31m\x1b[KwaitKey\x1b[m\x1b[K(30) == 27){\n'}
+[1.098594] (tugas_opencv) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.098619] (tugas_opencv) StderrLine: {'line': b'      |               \x1b[32m\x1b[Kwrite\x1b[m\x1b[K\n'}
+[1.098735] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:61:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Karea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.098797] (tugas_opencv) StderrLine: {'line': b'   61 |           double \x1b[01;35m\x1b[Karea\x1b[m\x1b[K = measure.m00;\n'}
+[1.098825] (tugas_opencv) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.098848] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:62:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KlengthX\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.098875] (tugas_opencv) StderrLine: {'line': b'   62 |           double \x1b[01;35m\x1b[KlengthX\x1b[m\x1b[K = measure.m01;\n'}
+[1.098898] (tugas_opencv) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.098920] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:63:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KlengthY\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.098942] (tugas_opencv) StderrLine: {'line': b'   63 |           double \x1b[01;35m\x1b[KlengthY\x1b[m\x1b[K = measure.m10;\n'}
+[1.098964] (tugas_opencv) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.098985] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:11:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.099010] (tugas_opencv) StderrLine: {'line': b'   11 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char** argv){\n'}
+[1.099030] (tugas_opencv) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[1.099054] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:11:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.099075] (tugas_opencv) StderrLine: {'line': b'   11 | int main(int argc, \x1b[01;35m\x1b[Kchar** argv\x1b[m\x1b[K){\n'}
+[1.099097] (tugas_opencv) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.102347] (-) TimerEvent: {}
+[1.202609] (-) TimerEvent: {}
+[1.283571] (tugas_opencv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1\n'}
+[1.283708] (tugas_opencv) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2\n'}
+[1.283842] (tugas_opencv) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.286001] (tugas_opencv) CommandEnded: {'returncode': 2}
+[1.302669] (-) TimerEvent: {}
+[1.336821] (tugas_opencv) JobEnded: {'identifier': 'tugas_opencv', 'rc': 2}
+[1.347102] (-) EventReactorShutdown: {}

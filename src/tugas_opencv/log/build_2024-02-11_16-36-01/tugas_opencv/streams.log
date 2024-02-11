@@ -1,0 +1,139 @@
+[0.019s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv -- -j32 -l32
+[0.045s] [  3%] Built target tugas_opencv__cpp
+[0.046s] [ 12%] Built target tugas_opencv__rosidl_generator_c
+[0.051s] [ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[0.057s] [ 21%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[0.057s] [ 30%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[0.057s] [ 39%] Built target tugas_opencv__rosidl_typesupport_cpp
+[0.060s] [ 48%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[0.060s] [ 57%] Built target tugas_opencv__rosidl_typesupport_c
+[0.061s] [ 66%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[0.066s] [ 69%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[0.069s] [ 69%] Built target tugas_opencv
+[0.077s] [ 72%] Built target tugas_opencv__py
+[0.086s] [ 75%] [32mBuilding C object CMakeFiles/tugas_opencv__rosidl_generator_py.dir/rosidl_generator_py/tugas_opencv/msg/_color_s.c.o[0m
+[0.131s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/tugas_opencv/libtugas_opencv__rosidl_generator_py.so[0m
+[0.149s] [ 78%] Built target tugas_opencv__rosidl_generator_py
+[0.151s] running egg_info
+[0.151s] writing tugas_opencv.egg-info/PKG-INFO
+[0.151s] writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+[0.152s] writing top-level names to tugas_opencv.egg-info/top_level.txt
+[0.152s] reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.153s] writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.159s] [ 84%] [32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[0.159s] [ 84%] [32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[0.159s] [ 87%] [32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_c.c.o[0m
+[0.165s] [ 87%] Built target ament_cmake_python_build_tugas_opencv_egg
+[0.199s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/tugas_opencv/tugas_opencv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[0.199s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/tugas_opencv/tugas_opencv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[0.199s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/tugas_opencv/tugas_opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[0.214s] [ 96%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+[0.214s] [ 96%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+[0.215s] [ 96%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[1.058s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:7:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ is not a namespace-name
+[1.058s]     7 | using namespace [01;31m[Kcv[m[K;
+[1.058s]       |                 [01;31m[K^~[m[K
+[1.061s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.061s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:12:6:[m[K [01;31m[Kerror: [m[K‘[01m[KVideoCapture[m[K’ was not declared in this scope
+[1.061s]    12 |      [01;31m[KVideoCapture[m[K camera(0);
+[1.061s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[1.062s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:14:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera[m[K’ was not declared in this scope
+[1.062s]    14 |      if (![01;31m[Kcamera[m[K.isOpened()){
+[1.062s]       |           [01;31m[K^~~~~~[m[K
+[1.064s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:28:33:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW_NORMAL[m[K’ was not declared in this scope
+[1.064s]    28 |      namedWindow("HSV Control", [01;31m[KWINDOW_NORMAL[m[K);
+[1.064s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[1.066s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:28:6:[m[K [01;31m[Kerror: [m[K‘[01m[KnamedWindow[m[K’ was not declared in this scope
+[1.066s]    28 |      [01;31m[KnamedWindow[m[K("HSV Control", WINDOW_NORMAL);
+[1.066s]       |      [01;31m[K^~~~~~~~~~~[m[K
+[1.068s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:30:6:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateTrackbar[m[K’ was not declared in this scope
+[1.068s]    30 |      [01;31m[KcreateTrackbar[m[K("H Floor", "HSV Control", &floorH, 179);
+[1.068s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.069s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:42:11:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ was not declared in this scope
+[1.069s]    42 |           [01;31m[KMat[m[K frame;
+[1.069s]       |           [01;31m[K^~~[m[K
+[1.071s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:44:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera[m[K’ was not declared in this scope
+[1.071s]    44 |           if (![01;31m[Kcamera[m[K.read(frame)){
+[1.071s]       |                [01;31m[K^~~~~~[m[K
+[1.072s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:44:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+[1.072s]    44 |           if (!camera.read([01;31m[Kframe[m[K)){
+[1.072s]       |                            [01;31m[K^~~~~[m[K
+[1.072s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:49:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KframeHSV[m[K’
+[1.072s]    49 |           Mat[01;31m[K [m[K[32m[KframeHSV[m[K;
+[1.072s]       |              [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+[1.072s]       |              [32m[K;[m[K
+[1.074s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:50:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+[1.074s]    50 |           cvtColor([01;31m[Kframe[m[K, frameHSV, COLOR_BGR2HSV);
+[1.074s]       |                    [01;31m[K^~~~~[m[K
+[1.075s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:50:27:[m[K [01;31m[Kerror: [m[K‘[01m[KframeHSV[m[K’ was not declared in this scope
+[1.075s]    50 |           cvtColor(frame, [01;31m[KframeHSV[m[K, COLOR_BGR2HSV);
+[1.075s]       |                           [01;31m[K^~~~~~~~[m[K
+[1.077s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:50:37:[m[K [01;31m[Kerror: [m[K‘[01m[KCOLOR_BGR2HSV[m[K’ was not declared in this scope
+[1.077s]    50 |           cvtColor(frame, frameHSV, [01;31m[KCOLOR_BGR2HSV[m[K);
+[1.077s]       |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.079s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:50:11:[m[K [01;31m[Kerror: [m[K‘[01m[KcvtColor[m[K’ was not declared in this scope
+[1.079s]    50 |           [01;31m[KcvtColor[m[K(frame, frameHSV, COLOR_BGR2HSV);
+[1.079s]       |           [01;31m[K^~~~~~~~[m[K
+[1.079s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:51:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KframeBinary[m[K’
+[1.079s]    51 |           Mat[01;31m[K [m[K[32m[KframeBinary[m[K;
+[1.079s]       |              [01;31m[K^[m[K[32m[K~~~~~~~~~~~[m[K
+[1.079s]       |              [32m[K;[m[K
+[1.080s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:52:29:[m[K [01;31m[Kerror: [m[K‘[01m[KScalar[m[K’ was not declared in this scope
+[1.080s]    52 |           inRange(frameHSV, [01;31m[KScalar[m[K(floorH, floorS, floorV), Scalar(ceilingH, ceilingS, ceilingV), frameBinary);
+[1.080s]       |                             [01;31m[K^~~~~~[m[K
+[1.082s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:52:99:[m[K [01;31m[Kerror: [m[K‘[01m[KframeBinary[m[K’ was not declared in this scope
+[1.082s]    52 | orH, floorS, floorV), Scalar(ceilingH, ceilingS, ceilingV), [01;31m[KframeBinary[m[K);
+[1.082s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[1.082s] 
+[1.083s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:52:11:[m[K [01;31m[Kerror: [m[K‘[01m[KinRange[m[K’ was not declared in this scope
+[1.084s]    52 |           [01;31m[KinRange[m[K(frameHSV, Scalar(floorH, floorS, floorV), Scalar(ceilingH, ceilingS, ceilingV), frameBinary);
+[1.084s]       |           [01;31m[K^~~~~~~[m[K
+[1.086s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:54:65:[m[K [01;31m[Kerror: [m[K‘[01m[KMORPH_ELLIPSE[m[K’ was not declared in this scope
+[1.086s]    54 |       erode(frameBinary, frameBinary, getStructuringElement([01;31m[KMORPH_ELLIPSE[m[K, Size(5, 5)) );
+[1.086s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.086s] 
+[1.087s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:54:80:[m[K [01;31m[Kerror: [m[K‘[01m[KSize[m[K’ was not declared in this scope
+[1.087s]    54 | meBinary, frameBinary, getStructuringElement(MORPH_ELLIPSE, [01;31m[KSize[m[K(5, 5)) );
+[1.087s]       |                                                             [01;31m[K^~~~[m[K
+[1.087s] 
+[1.090s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:54:43:[m[K [01;31m[Kerror: [m[K‘[01m[KgetStructuringElement[m[K’ was not declared in this scope
+[1.090s]    54 |           erode(frameBinary, frameBinary, [01;31m[KgetStructuringElement[m[K(MORPH_ELLIPSE, Size(5, 5)) );
+[1.090s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.091s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:54:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kerode[m[K’ was not declared in this scope
+[1.091s]    54 |           [01;31m[Kerode[m[K(frameBinary, frameBinary, getStructuringElement(MORPH_ELLIPSE, Size(5, 5)) );
+[1.091s]       |           [01;31m[K^~~~~[m[K
+[1.093s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:55:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kdilate[m[K’ was not declared in this scope
+[1.093s]    55 |           [01;31m[Kdilate[m[K(frameBinary, frameBinary, getStructuringElement(MORPH_ELLIPSE, Size(5, 5)) );
+[1.093s]       |           [01;31m[K^~~~~~[m[K
+[1.094s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:60:11:[m[K [01;31m[Kerror: [m[K‘[01m[KMoments[m[K’ was not declared in this scope
+[1.094s]    60 |           [01;31m[KMoments[m[K measure = moments(frameBinary);
+[1.094s]       |           [01;31m[K^~~~~~~[m[K
+[1.096s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:61:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmeasure[m[K’ was not declared in this scope
+[1.096s]    61 |           double area = [01;31m[Kmeasure[m[K.m00;
+[1.096s]       |                         [01;31m[K^~~~~~~[m[K
+[1.097s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:65:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kimshow[m[K’ was not declared in this scope
+[1.097s]    65 |           [01;31m[Kimshow[m[K("Original", frame);
+[1.097s]       |           [01;31m[K^~~~~~[m[K
+[1.098s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:68:15:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitKey[m[K’ was not declared in this scope; did you mean ‘[01m[Kwrite[m[K’?
+[1.098s]    68 |           if ([01;31m[KwaitKey[m[K(30) == 27){
+[1.098s]       |               [01;31m[K^~~~~~~[m[K
+[1.099s]       |               [32m[Kwrite[m[K
+[1.099s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:61:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.099s]    61 |           double [01;35m[Karea[m[K = measure.m00;
+[1.099s]       |                  [01;35m[K^~~~[m[K
+[1.099s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:62:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KlengthX[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.099s]    62 |           double [01;35m[KlengthX[m[K = measure.m01;
+[1.099s]       |                  [01;35m[K^~~~~~~[m[K
+[1.099s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:63:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KlengthY[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.099s]    63 |           double [01;35m[KlengthY[m[K = measure.m10;
+[1.099s]       |                  [01;35m[K^~~~~~~[m[K
+[1.099s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:11:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.099s]    11 | int main([01;35m[Kint argc[m[K, char** argv){
+[1.099s]       |          [01;35m[K~~~~^~~~[m[K
+[1.099s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:11:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.099s]    11 | int main(int argc, [01;35m[Kchar** argv[m[K){
+[1.099s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[1.284s] gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+[1.284s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+[1.284s] gmake: *** [Makefile:146: all] Error 2
+[1.286s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv -- -j32 -l32

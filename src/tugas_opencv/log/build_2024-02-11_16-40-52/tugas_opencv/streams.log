@@ -1,0 +1,77 @@
+[0.019s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv -- -j32 -l32
+[0.034s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.115s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.136s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.137s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.141s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.147s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.189s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.189s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.255s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.354s] -- Found OpenCV: /usr/local (found version "4.9.0") 
+[0.354s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.493s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.766s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.777s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.792s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.792s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.792s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.801s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.816s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.817s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv/rosidl_generator_c>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv/rosidl_typesupport_introspection_cpp>;/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv/rosidl_generator_c;/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv/rosidl_generator_py
+[0.817s] -- Configured cppcheck exclude dirs and/or files: 
+[0.818s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.821s] -- Added test 'lint_cmake' to check CMake code style
+[0.822s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.833s] -- Added test 'uncrustify' to check C / C++ code style
+[0.833s] -- Configured uncrustify additional arguments: 
+[0.834s] -- Added test 'xmllint' to check XML markup files
+[0.835s] -- Configuring done
+[0.850s] -- Generating done
+[0.852s] -- Build files have been written to: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv
+[0.866s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_generator_c[0m
+[0.871s] [  3%] Built target tugas_opencv__cpp
+[0.872s] [ 12%] Built target tugas_opencv__rosidl_generator_c
+[0.875s] [ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[0.876s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_cpp[0m
+[0.876s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_cpp[0m
+[0.877s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_c[0m
+[0.877s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_cpp[0m
+[0.877s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_c[0m
+[0.878s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_c[0m
+[0.881s] [ 21%] Built target tugas_opencv__rosidl_typesupport_cpp
+[0.882s] [ 30%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[0.883s] [ 39%] Built target tugas_opencv__rosidl_typesupport_c
+[0.883s] [ 54%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[0.883s] [ 57%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[0.883s] [ 66%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[0.886s] [35m[1mConsolidate compiler generated dependencies of target colorcheck[0m
+[0.893s] [ 66%] Built target tugas_opencv
+[0.894s] [ 69%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[0.903s] [ 72%] Built target tugas_opencv__py
+[0.907s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_generator_py[0m
+[0.913s] [ 78%] Built target tugas_opencv__rosidl_generator_py
+[0.918s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.918s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_c__pyext[0m
+[0.919s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_c__pyext[0m
+[0.924s] [ 84%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+[0.924s] [ 90%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[0.925s] [ 96%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+[0.927s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/opencv.hpp: No such file or directory
+[0.927s]     2 | #include [01;31m[K"opencv2/opencv.hpp"[m[K
+[0.927s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.927s] compilation terminated.
+[0.928s] gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+[0.928s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+[0.928s] gmake[1]: *** Waiting for unfinished jobs....
+[0.993s] running egg_info
+[0.993s] writing tugas_opencv.egg-info/PKG-INFO
+[0.993s] writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+[0.993s] writing top-level names to tugas_opencv.egg-info/top_level.txt
+[0.994s] reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.995s] writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[1.008s] [ 96%] Built target ament_cmake_python_build_tugas_opencv_egg
+[1.008s] gmake: *** [Makefile:146: all] Error 2
+[1.010s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv -- -j32 -l32

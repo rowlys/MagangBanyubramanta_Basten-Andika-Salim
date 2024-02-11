@@ -1,0 +1,51 @@
+[0.023s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv -- -j32 -l32
+[0.052s] [  9%] Built target tugas_opencv__rosidl_generator_c
+[0.053s] [ 12%] Built target tugas_opencv__cpp
+[0.057s] [ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[0.063s] [ 21%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[0.063s] [ 30%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[0.063s] [ 39%] Built target tugas_opencv__rosidl_typesupport_c
+[0.064s] [ 48%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[0.068s] [ 57%] Built target tugas_opencv__rosidl_typesupport_cpp
+[0.068s] [ 66%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target colorcheck[0m
+[0.077s] [ 66%] Built target tugas_opencv
+[0.082s] [ 69%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[0.087s] [ 72%] Built target tugas_opencv__py
+[0.097s] [ 78%] Built target tugas_opencv__rosidl_generator_py
+[0.107s] [ 90%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+[0.107s] [ 90%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[0.107s] [ 96%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+[0.172s] running egg_info
+[0.172s] writing tugas_opencv.egg-info/PKG-INFO
+[0.172s] writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+[0.172s] writing top-level names to tugas_opencv.egg-info/top_level.txt
+[0.173s] reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.173s] writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.187s] [ 96%] Built target ament_cmake_python_build_tugas_opencv_egg
+[1.276s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:[m[K In member function ‘[01m[Kvoid Color_::publish_func(const SharedPtr&)[m[K’:
+[1.276s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:24:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpublish_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.276s]    24 | [01;35m[Konst rclcpp::Publisher<tugas_opencv::msg::Color>::SharedPtr & publish_[m[K)
+[1.276s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.277s] 
+[1.278s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.278s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:98:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KColor_::publish_func()[m[K’
+[1.278s]    98 |           [01;31m[Kcolor_node->publish_func()[m[K;
+[1.278s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.278s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:24:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Color_::publish_func(const SharedPtr&)[m[K’
+[1.278s]    24 |      void [01;36m[Kpublish_func[m[K(const rclcpp::Publisher<tugas_opencv::msg::Color>::SharedPtr & publish_)
+[1.278s]       |           [01;36m[K^~~~~~~~~~~~[m[K
+[1.288s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:24:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.288s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:91:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.288s]    91 |           double [01;35m[Karea[m[K = measure.m00;
+[1.288s]       |                  [01;35m[K^~~~[m[K
+[1.288s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:92:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KlengthX[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.288s]    92 |           double [01;35m[KlengthX[m[K = measure.m01;
+[1.288s]       |                  [01;35m[K^~~~~~~[m[K
+[1.288s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:93:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KlengthY[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.288s]    93 |           double [01;35m[KlengthY[m[K = measure.m10;
+[1.288s]       |                  [01;35m[K^~~~~~~[m[K
+[1.899s] gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+[1.899s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+[1.899s] gmake: *** [Makefile:146: all] Error 2
+[1.902s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv -- -j32 -l32

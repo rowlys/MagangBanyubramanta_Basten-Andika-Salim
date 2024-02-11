@@ -1,0 +1,32 @@
+[0.019s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv -- -j32 -l32
+[0.032s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.103s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.117s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.118s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.120s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.125s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.160s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.160s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.215s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.293s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.293s]   By not providing "Findopencv2.cmake" in CMAKE_MODULE_PATH this project has
+[0.293s]   asked CMake to find a package configuration file provided by "opencv2", but
+[0.293s]   CMake did not find one.
+[0.293s] 
+[0.293s]   Could not find a package configuration file provided by "opencv2" with any
+[0.293s]   of the following names:
+[0.293s] 
+[0.293s]     opencv2Config.cmake
+[0.293s]     opencv2-config.cmake
+[0.293s] 
+[0.293s]   Add the installation prefix of "opencv2" to CMAKE_PREFIX_PATH or set
+[0.293s]   "opencv2_DIR" to a directory containing one of the above files.  If
+[0.293s]   "opencv2" provides a separate development package or SDK, be sure it has
+[0.293s]   been installed.
+[0.293s] 
+[0.293s] [0m
+[0.293s] -- Configuring incomplete, errors occurred!
+[0.293s] See also "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv/CMakeFiles/CMakeOutput.log".
+[0.296s] gmake: *** [Makefile:788: cmake_check_build_system] Error 1
+[0.298s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/build/tugas_opencv -- -j32 -l32
