@@ -11,6 +11,7 @@ using std::placeholders::_1;
 using namespace cv;
 using namespace std;
 
+auto frameDetect = tugas_opencv::msg::Color();
 
 class Color_ : public rclcpp::Node
 {
@@ -22,8 +23,8 @@ class Color_ : public rclcpp::Node
 
      void publish_func()
           {
-        
-               RCLCPP_INFO(this->get_logger(), "A color is detected.");
+               publish_->publish(frameDetect);
+               RCLCPP_INFO(this->get_logger(), "Red: %d\nGreen: %d\n Blue: %d", frameDetect.red,frameDetect.green, frameDetect.blue);
           }
           
      private:
@@ -78,6 +79,9 @@ int main(int argc, char** argv){
      
 
      while (1){
+          frameDetect.red = 0;
+          frameDetect.blue = 0;
+          frameDetect.green = 0;
           Mat frame;
           
           if (!camera.read(frame)){
@@ -90,25 +94,38 @@ int main(int argc, char** argv){
           Mat frameBinary;
           inRange(frameHSV, Scalar(floorH, floorS, floorV), Scalar(ceilingH, ceilingS, ceilingV), frameBinary);
 
+          Mat frameRed;
+          inRange(frameHSV, Scalar(0,134,125), Scalar(30, ceilingS, ceilingV), frameRed);
+
           Mat frameGreen;
           inRange(frameHSV, Scalar(40,134,125), Scalar(83, ceilingS, ceilingV), frameGreen);
+
+          Mat frameBlue;
+          inRange(frameHSV, Scalar(80,134,125), Scalar(110, ceilingS, ceilingV), frameBlue);
 
           tidy(frameBinary);
           tidy(frameGreen);
 
+          Moments measureR = moments(frameRed);
+          double areaR = measureR.m00;
+
           Moments measureG = moments(frameGreen);
           double areaG = measureG.m00;
-          double lengthGX = measureG.m01;
-          double lengthGY = measureG.m10;
+
+          Moments measureB = moments(frameBlue);
+          double areaB = measureB.m00;
 
           imshow("Original", frame);
           imshow("Binary", frameBinary);
+          imshow("Red", frameRed);
           imshow("Green", frameGreen);
+          imshow("Blue", frameBlue);
 
-          if (areaG>10000){
-               color_node->publish_func();
-          }
+          if (areaR>10000) frameDetect.red = 1;
+          if (areaG>10000) frameDetect.green = 1;
+          if (areaB>10000) frameDetect.blue = 1;
 
+          color_node->publish_func();
 
           //rclcpp::spin(std::make_shared<Color_>());
           if (waitKey(30) == 27){
