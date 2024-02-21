@@ -805,8 +805,16 @@ CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o: /home/basten/ros2_ws/src/MagangB
   rosidl_generator_cpp/tugas_opencv/msg/color.hpp \
   rosidl_generator_cpp/tugas_opencv/msg/detail/color__struct.hpp \
   rosidl_generator_cpp/tugas_opencv/msg/detail/color__builder.hpp \
-  rosidl_generator_cpp/tugas_opencv/msg/detail/color__traits.hpp
+  rosidl_generator_cpp/tugas_opencv/msg/detail/color__traits.hpp \
+  rosidl_generator_cpp/tugas_opencv/msg/position.hpp \
+  rosidl_generator_cpp/tugas_opencv/msg/detail/position__struct.hpp \
+  rosidl_generator_cpp/tugas_opencv/msg/detail/position__builder.hpp \
+  rosidl_generator_cpp/tugas_opencv/msg/detail/position__traits.hpp
 
+
+rosidl_generator_cpp/tugas_opencv/msg/detail/position__builder.hpp:
+
+rosidl_generator_cpp/tugas_opencv/msg/position.hpp:
 
 rosidl_generator_cpp/tugas_opencv/msg/detail/color__traits.hpp:
 
@@ -1095,6 +1103,8 @@ rosidl_generator_cpp/tugas_opencv/msg/color.hpp:
 /opt/ros/humble/include/rcl/rcl/graph.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
+
+rosidl_generator_cpp/tugas_opencv/msg/detail/position__struct.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/logging_macros.h:
 
@@ -1913,6 +1923,8 @@ rosidl_generator_cpp/tugas_opencv/msg/detail/color__builder.hpp:
 /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
 
 /usr/include/c++/11/thread:
+
+rosidl_generator_cpp/tugas_opencv/msg/detail/position__traits.hpp:
 
 /usr/include/c++/11/ctime:
 

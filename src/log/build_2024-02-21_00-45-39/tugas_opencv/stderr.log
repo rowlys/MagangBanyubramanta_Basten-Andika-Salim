@@ -1,0 +1,13 @@
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:[m[K In constructor ‘[01m[KColor_::Color_()[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:26:11:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishColor_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublish_[m[K’?
+   26 |           [01;31m[KpublishColor_[m[K = this->create_publisher<tugas_opencv::msg::Position>("positiondetect", 10);
+      |           [01;31m[K^~~~~~~~~~~~~[m[K
+      |           [32m[Kpublish_[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:[m[K In member function ‘[01m[Kvoid Color_::publish_func()[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:32:16:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishColor_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublish_[m[K’?
+   32 |                [01;31m[KpublishColor_[m[K->publish(colorRed);
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+      |                [32m[Kpublish_[m[K
+gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

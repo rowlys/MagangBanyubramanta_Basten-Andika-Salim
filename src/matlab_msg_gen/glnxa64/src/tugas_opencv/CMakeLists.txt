@@ -36,6 +36,7 @@ set (CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib")
 set (CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 set(msg_files
   "msg/Color.msg"
+  "msg/Position.msg"
 )
 set(srv_files
 )
@@ -52,6 +53,7 @@ add_library(
     tugas_opencv_matlab 
     SHARED
     src/tugas_opencv_Color_message.cpp
+    src/tugas_opencv_Position_message.cpp
 )
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 target_compile_options(tugas_opencv_matlab PUBLIC 
@@ -112,4 +114,4 @@ add_custom_command(
 				   )				   
 endforeach(file_i)
 ament_package()
-# Generated on Mon Feb 19 13:07:01 2024
+# Generated on Wed Feb 21 10:19:24 2024

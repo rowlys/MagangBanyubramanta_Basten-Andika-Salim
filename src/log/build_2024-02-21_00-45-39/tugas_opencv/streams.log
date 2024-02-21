@@ -1,0 +1,39 @@
+[0.025s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv -- -j32 -l32
+[0.051s] [  2%] Built target tugas_opencv__cpp
+[0.052s] [ 12%] Built target tugas_opencv__rosidl_generator_c
+[0.056s] [ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[0.061s] [ 21%] Built target tugas_opencv__rosidl_typesupport_cpp
+[0.062s] [ 31%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[0.062s] [ 41%] Built target tugas_opencv__rosidl_typesupport_c
+[0.062s] [ 51%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[0.062s] [ 60%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[0.066s] [ 70%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target colorcheck[0m
+[0.075s] [ 70%] Built target tugas_opencv
+[0.075s] [ 73%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[0.084s] [ 75%] Built target tugas_opencv__py
+[0.094s] [ 82%] Built target tugas_opencv__rosidl_generator_py
+[0.104s] [ 87%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[0.105s] [ 92%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+[0.105s] [ 97%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+[0.141s] running egg_info
+[0.146s] writing tugas_opencv.egg-info/PKG-INFO
+[0.146s] writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+[0.146s] writing top-level names to tugas_opencv.egg-info/top_level.txt
+[0.163s] reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.163s] writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.175s] [ 97%] Built target ament_cmake_python_build_tugas_opencv_egg
+[1.315s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:[m[K In constructor ‘[01m[KColor_::Color_()[m[K’:
+[1.315s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:26:11:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishColor_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublish_[m[K’?
+[1.315s]    26 |           [01;31m[KpublishColor_[m[K = this->create_publisher<tugas_opencv::msg::Position>("positiondetect", 10);
+[1.315s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[1.315s]       |           [32m[Kpublish_[m[K
+[1.320s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:[m[K In member function ‘[01m[Kvoid Color_::publish_func()[m[K’:
+[1.321s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:32:16:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishColor_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublish_[m[K’?
+[1.321s]    32 |                [01;31m[KpublishColor_[m[K->publish(colorRed);
+[1.321s]       |                [01;31m[K^~~~~~~~~~~~~[m[K
+[1.321s]       |                [32m[Kpublish_[m[K
+[2.016s] gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+[2.016s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+[2.016s] gmake: *** [Makefile:146: all] Error 2
+[2.019s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv -- -j32 -l32

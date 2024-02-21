@@ -6,3 +6,4 @@ tugas_opencv.egg-info/dependency_links.txt
 tugas_opencv.egg-info/top_level.txt
 tugas_opencv/msg/__init__.py
 tugas_opencv/msg/_color.py
+tugas_opencv/msg/_position.py

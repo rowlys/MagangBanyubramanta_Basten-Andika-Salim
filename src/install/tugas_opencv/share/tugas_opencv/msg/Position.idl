@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tugas_opencv/msg/Position.msg
+// generated code does not contain a copyright notice
+
+
+module tugas_opencv {
+  module msg {
+    struct Position {
+      int32 x_pos;
+
+      int32 y_pos;
+    };
+  };
+};

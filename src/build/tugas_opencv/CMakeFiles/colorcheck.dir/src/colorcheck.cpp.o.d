@@ -737,4 +737,8 @@ CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o: \
  /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/color.hpp \
  /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/detail/color__struct.hpp \
  /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/detail/color__builder.hpp \
- /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/detail/color__traits.hpp
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/detail/color__traits.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/position.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/detail/position__struct.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/detail/position__builder.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/detail/position__traits.hpp

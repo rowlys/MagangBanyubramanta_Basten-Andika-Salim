@@ -67,6 +67,7 @@ include CMakeFiles/tugas_opencv.dir/compiler_depend.make
 include CMakeFiles/tugas_opencv.dir/progress.make
 
 CMakeFiles/tugas_opencv: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/msg/Color.msg
+CMakeFiles/tugas_opencv: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/msg/Position.msg
 
 tugas_opencv: CMakeFiles/tugas_opencv
 tugas_opencv: CMakeFiles/tugas_opencv.dir/build.make

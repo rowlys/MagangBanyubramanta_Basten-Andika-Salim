@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000144] (-) JobUnselected: {'identifier': 'xbox'}
+[0.000158] (tugas_opencv) JobQueued: {'identifier': 'tugas_opencv', 'dependencies': OrderedDict()}
+[0.000167] (tugas_opencv) JobStarted: {'identifier': 'tugas_opencv'}
+[0.024575] (tugas_opencv) JobProgress: {'identifier': 'tugas_opencv', 'progress': 'cmake'}
+[0.025175] (tugas_opencv) JobProgress: {'identifier': 'tugas_opencv', 'progress': 'build'}
+[0.025231] (tugas_opencv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv', '--', '-j32', '-l32'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/xbox/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '5126'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/basten/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1899,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1899'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f191d3f2_dd02_4230_8a8b_57f1fb4a680c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/xbox:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_opencv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/xbox/local/lib/python3.10/dist-packages:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_opencv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/xbox:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_opencv:/opt/ros/humble')]), 'shell': False}
+[0.038545] (tugas_opencv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099618] (-) TimerEvent: {}
+[0.113699] (tugas_opencv) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.128833] (tugas_opencv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.129975] (tugas_opencv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.132596] (tugas_opencv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.137689] (tugas_opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.144503] (tugas_opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.171235] (tugas_opencv) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.171910] (tugas_opencv) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199687] (-) TimerEvent: {}
+[0.226796] (tugas_opencv) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299757] (-) TimerEvent: {}
+[0.301193] (tugas_opencv) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.399915] (-) TimerEvent: {}
+[0.421650] (tugas_opencv) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.500087] (-) TimerEvent: {}
+[0.567888] (tugas_opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600252] (-) TimerEvent: {}
+[0.642256] (tugas_opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.661269] (tugas_opencv) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.673470] (tugas_opencv) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.673530] (tugas_opencv) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.673556] (tugas_opencv) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.679550] (tugas_opencv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700414] (-) TimerEvent: {}
+[0.708720] (tugas_opencv) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.708921] (tugas_opencv) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.708954] (tugas_opencv) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.710799] (tugas_opencv) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.713710] (tugas_opencv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.715275] (tugas_opencv) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.726344] (tugas_opencv) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.726410] (tugas_opencv) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.727908] (tugas_opencv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.729664] (tugas_opencv) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.744913] (tugas_opencv) StdoutLine: {'line': b'-- Generating done\n'}
+[0.746275] (tugas_opencv) StdoutLine: {'line': b'-- Build files have been written to: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv\n'}
+[0.760267] (tugas_opencv) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.764589] (tugas_opencv) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.768659] (tugas_opencv) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_tugas_opencv\n'}
+[0.800497] (-) TimerEvent: {}
+[0.851959] (tugas_opencv) StdoutLine: {'line': b'running egg_info\n'}
+[0.857905] (tugas_opencv) StdoutLine: {'line': b'writing tugas_opencv.egg-info/PKG-INFO\n'}
+[0.858104] (tugas_opencv) StdoutLine: {'line': b'writing dependency_links to tugas_opencv.egg-info/dependency_links.txt\n'}
+[0.858299] (tugas_opencv) StdoutLine: {'line': b'writing top-level names to tugas_opencv.egg-info/top_level.txt\n'}
+[0.874578] (tugas_opencv) StdoutLine: {'line': b"reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'\n"}
+[0.874765] (tugas_opencv) StdoutLine: {'line': b"writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'\n"}
+[0.886721] (tugas_opencv) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_tugas_opencv_egg\n'}
+[0.889476] (tugas_opencv) StdoutLine: {'line': b'[  4%] Built target tugas_opencv__cpp\n'}
+[0.893480] (tugas_opencv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_generator_c\x1b[0m\n'}
+[0.894223] (tugas_opencv) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.894541] (tugas_opencv) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.894626] (tugas_opencv) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.898894] (tugas_opencv) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_generator_c.dir/rosidl_generator_c/tugas_opencv/msg/detail/color__functions.c.o\x1b[0m\n'}
+[0.899030] (tugas_opencv) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_generator_c.dir/rosidl_generator_c/tugas_opencv/msg/detail/position__functions.c.o\x1b[0m\n'}
+[0.900568] (-) TimerEvent: {}
+[0.930715] (tugas_opencv) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libtugas_opencv__rosidl_generator_c.so\x1b[0m\n'}
+[0.951305] (tugas_opencv) StdoutLine: {'line': b'[ 19%] Built target tugas_opencv__rosidl_generator_c\n'}
+[0.956048] (tugas_opencv) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.956179] (tugas_opencv) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[0.956239] (tugas_opencv) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.000662] (-) TimerEvent: {}
+[1.001776] (tugas_opencv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.007615] (tugas_opencv) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tugas_opencv/msg/color__type_support.cpp.o\x1b[0m\n'}
+[1.007778] (tugas_opencv) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tugas_opencv/msg/position__type_support.cpp.o\x1b[0m\n'}
+[1.007880] (tugas_opencv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.013413] (tugas_opencv) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tugas_opencv/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[1.013557] (tugas_opencv) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tugas_opencv/msg/detail/position__type_support.cpp.o\x1b[0m\n'}
+[1.014615] (tugas_opencv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.020395] (tugas_opencv) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tugas_opencv/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[1.020468] (tugas_opencv) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tugas_opencv/msg/detail/dds_fastrtps/position__type_support.cpp.o\x1b[0m\n'}
+[1.063822] (tugas_opencv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_c\x1b[0m\n'}
+[1.069748] (tugas_opencv) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_c.dir/rosidl_typesupport_c/tugas_opencv/msg/color__type_support.cpp.o\x1b[0m\n'}
+[1.071760] (tugas_opencv) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_c.dir/rosidl_typesupport_c/tugas_opencv/msg/position__type_support.cpp.o\x1b[0m\n'}
+[1.079183] (tugas_opencv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.080976] (tugas_opencv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.084967] (tugas_opencv) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tugas_opencv/msg/detail/position__type_support.c.o\x1b[0m\n'}
+[1.085113] (tugas_opencv) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tugas_opencv/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[1.087663] (tugas_opencv) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[1.089787] (tugas_opencv) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.o\x1b[0m\n'}
+[1.089919] (tugas_opencv) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.100576] (tugas_opencv) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libtugas_opencv__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.100724] (-) TimerEvent: {}
+[1.113917] (tugas_opencv) StdoutLine: {'line': b'[ 60%] Built target tugas_opencv__rosidl_typesupport_c\n'}
+[1.114766] (tugas_opencv) StdoutLine: {'line': b'[ 60%] Built target tugas_opencv__rosidl_typesupport_introspection_c\n'}
+[1.169252] (tugas_opencv) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.180229] (tugas_opencv) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.189371] (tugas_opencv) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.189542] (tugas_opencv) StdoutLine: {'line': b'[ 68%] Built target tugas_opencv__rosidl_typesupport_cpp\n'}
+[1.194965] (tugas_opencv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target colorcheck\x1b[0m\n'}
+[1.200796] (-) TimerEvent: {}
+[1.200968] (tugas_opencv) StdoutLine: {'line': b'[ 68%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp\n'}
+[1.203447] (tugas_opencv) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o\x1b[0m\n'}
+[1.225508] (tugas_opencv) StdoutLine: {'line': b'[ 70%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp\n'}
+[1.239269] (tugas_opencv) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.273632] (tugas_opencv) StdoutLine: {'line': b'[ 73%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c\n'}
+[1.283557] (tugas_opencv) StdoutLine: {'line': b'[ 73%] Built target tugas_opencv\n'}
+[1.292542] (tugas_opencv) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.300912] (-) TimerEvent: {}
+[1.401144] (-) TimerEvent: {}
+[1.452469] (tugas_opencv) StdoutLine: {'line': b'[ 75%] Built target tugas_opencv__py\n'}
+[1.457362] (tugas_opencv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_generator_py\x1b[0m\n'}
+[1.463383] (tugas_opencv) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_generator_py.dir/rosidl_generator_py/tugas_opencv/msg/_color_s.c.o\x1b[0m\n'}
+[1.463535] (tugas_opencv) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_generator_py.dir/rosidl_generator_py/tugas_opencv/msg/_position_s.c.o\x1b[0m\n'}
+[1.501253] (-) TimerEvent: {}
+[1.517454] (tugas_opencv) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tugas_opencv/libtugas_opencv__rosidl_generator_py.so\x1b[0m\n'}
+[1.536649] (tugas_opencv) StdoutLine: {'line': b'[ 82%] Built target tugas_opencv__rosidl_generator_py\n'}
+[1.542027] (tugas_opencv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.542108] (tugas_opencv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.542167] (tugas_opencv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.548011] (tugas_opencv) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.548194] (tugas_opencv) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.548254] (tugas_opencv) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.590311] (tugas_opencv) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tugas_opencv/tugas_opencv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.590606] (tugas_opencv) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tugas_opencv/tugas_opencv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.590673] (tugas_opencv) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tugas_opencv/tugas_opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.601366] (-) TimerEvent: {}
+[1.606115] (tugas_opencv) StdoutLine: {'line': b'[ 97%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext\n'}
+[1.606299] (tugas_opencv) StdoutLine: {'line': b'[ 97%] Built target tugas_opencv__rosidl_typesupport_c__pyext\n'}
+[1.606358] (tugas_opencv) StdoutLine: {'line': b'[ 97%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.701561] (-) TimerEvent: {}
+[1.801903] (-) TimerEvent: {}
+[1.902260] (-) TimerEvent: {}
+[2.002672] (-) TimerEvent: {}
+[2.103045] (-) TimerEvent: {}
+[2.203395] (-) TimerEvent: {}
+[2.303746] (-) TimerEvent: {}
+[2.404101] (-) TimerEvent: {}
+[2.504470] (-) TimerEvent: {}
+[2.527123] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KColor_::Color_()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.527282] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:26:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublish_2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpublish_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.527343] (tugas_opencv) StderrLine: {'line': b'   26 |           \x1b[01;31m\x1b[Kpublish_2\x1b[m\x1b[K = this->create_publisher<tugas_opencv::msg::Position>("detection", 10);\n'}
+[2.527395] (tugas_opencv) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.527445] (tugas_opencv) StderrLine: {'line': b'      |           \x1b[32m\x1b[Kpublish_\x1b[m\x1b[K\n'}
+[2.604561] (-) TimerEvent: {}
+[2.704832] (-) TimerEvent: {}
+[2.805178] (-) TimerEvent: {}
+[2.905376] (-) TimerEvent: {}
+[3.005560] (-) TimerEvent: {}
+[3.105849] (-) TimerEvent: {}
+[3.206165] (-) TimerEvent: {}
+[3.242225] (tugas_opencv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1\n'}
+[3.242377] (tugas_opencv) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2\n'}
+[3.242677] (tugas_opencv) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.244174] (tugas_opencv) CommandEnded: {'returncode': 2}
+[3.306248] (-) TimerEvent: {}
+[3.335043] (tugas_opencv) JobEnded: {'identifier': 'tugas_opencv', 'rc': 2}
+[3.345467] (-) EventReactorShutdown: {}

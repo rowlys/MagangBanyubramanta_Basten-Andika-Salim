@@ -1,0 +1,211 @@
+[0.025s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv -- -j32 -l32
+[0.038s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.109s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.123s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.124s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.127s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.139s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.165s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.166s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.220s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.294s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.416s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.653s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.669s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.669s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.669s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.679s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.694s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.694s] -- Configured cppcheck include dirs: 
+[0.694s] -- Configured cppcheck exclude dirs and/or files: 
+[0.696s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.698s] -- Added test 'lint_cmake' to check CMake code style
+[0.700s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.711s] -- Added test 'uncrustify' to check C / C++ code style
+[0.711s] -- Configured uncrustify additional arguments: 
+[0.712s] -- Added test 'xmllint' to check XML markup files
+[0.713s] -- Configuring done
+[0.727s] -- Generating done
+[0.728s] -- Build files have been written to: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv
+[0.742s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.746s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.750s] [  4%] Built target ament_cmake_python_copy_tugas_opencv
+[0.833s] running egg_info
+[0.838s] writing tugas_opencv.egg-info/PKG-INFO
+[0.839s] writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+[0.839s] writing top-level names to tugas_opencv.egg-info/top_level.txt
+[0.856s] reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.856s] writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.869s] [  4%] Built target ament_cmake_python_build_tugas_opencv_egg
+[0.869s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_generator_c[0m
+[0.870s] [  4%] Built target tugas_opencv__cpp
+[0.874s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.874s] [  9%] [32mBuilding C object CMakeFiles/tugas_opencv__rosidl_generator_c.dir/rosidl_generator_c/tugas_opencv/msg/detail/color__functions.c.o[0m
+[0.875s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.875s] [ 14%] [32mBuilding C object CMakeFiles/tugas_opencv__rosidl_generator_c.dir/rosidl_generator_c/tugas_opencv/msg/detail/position__functions.c.o[0m
+[0.875s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.896s] [ 19%] [32m[1mLinking C shared library libtugas_opencv__rosidl_generator_c.so[0m
+[0.914s] [ 19%] Built target tugas_opencv__rosidl_generator_c
+[0.918s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.918s] [ 24%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.919s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.982s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_cpp[0m
+[0.988s] [ 29%] [32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tugas_opencv/msg/color__type_support.cpp.o[0m
+[0.988s] [ 31%] [32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tugas_opencv/msg/position__type_support.cpp.o[0m
+[0.988s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_cpp[0m
+[0.994s] [ 34%] [32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tugas_opencv/msg/detail/color__type_support.cpp.o[0m
+[0.994s] [ 36%] [32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tugas_opencv/msg/detail/position__type_support.cpp.o[0m
+[0.997s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_cpp[0m
+[1.003s] [ 39%] [32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tugas_opencv/msg/detail/dds_fastrtps/color__type_support.cpp.o[0m
+[1.005s] [ 41%] [32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tugas_opencv/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[1.025s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_c[0m
+[1.031s] [ 43%] [32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_c.dir/rosidl_typesupport_c/tugas_opencv/msg/color__type_support.cpp.o[0m
+[1.033s] [ 46%] [32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_c.dir/rosidl_typesupport_c/tugas_opencv/msg/position__type_support.cpp.o[0m
+[1.040s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_c[0m
+[1.042s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_c[0m
+[1.045s] [ 48%] [32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tugas_opencv/msg/detail/color__type_support.c.o[0m
+[1.046s] [ 51%] [32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tugas_opencv/msg/detail/position__type_support.c.o[0m
+[1.049s] [ 53%] [32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp.o[0m
+[1.050s] [ 56%] [32mBuilding CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.o[0m
+[1.051s] [ 58%] [32m[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_c.so[0m
+[1.070s] [ 60%] [32m[1mLinking C shared library libtugas_opencv__rosidl_typesupport_introspection_c.so[0m
+[1.074s] [ 60%] Built target tugas_opencv__rosidl_typesupport_c
+[1.087s] [ 60%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[1.120s] [ 63%] [32m[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_cpp.so[0m
+[1.141s] [ 63%] Built target tugas_opencv__rosidl_typesupport_cpp
+[1.147s] [35m[1mConsolidate compiler generated dependencies of target colorcheck[0m
+[1.154s] [ 65%] [32m[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_introspection_cpp.so[0m
+[1.156s] [ 68%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[1.174s] [ 68%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[1.191s] [ 70%] [32m[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_fastrtps_c.so[0m
+[1.201s] [ 73%] [32m[1mLinking CXX shared library libtugas_opencv__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.227s] [ 73%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[1.235s] [ 73%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[1.245s] [ 73%] Built target tugas_opencv
+[1.254s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.410s] [ 75%] Built target tugas_opencv__py
+[1.415s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_generator_py[0m
+[1.421s] [ 78%] [32mBuilding C object CMakeFiles/tugas_opencv__rosidl_generator_py.dir/rosidl_generator_py/tugas_opencv/msg/_color_s.c.o[0m
+[1.422s] [ 80%] [32mBuilding C object CMakeFiles/tugas_opencv__rosidl_generator_py.dir/rosidl_generator_py/tugas_opencv/msg/_position_s.c.o[0m
+[1.465s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/tugas_opencv/libtugas_opencv__rosidl_generator_py.so[0m
+[1.484s] [ 82%] Built target tugas_opencv__rosidl_generator_py
+[1.489s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_c__pyext[0m
+[1.489s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.489s] [35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_c__pyext[0m
+[1.495s] [ 85%] [32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_c.c.o[0m
+[1.495s] [ 87%] [32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.495s] [ 90%] [32mBuilding C object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.537s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/tugas_opencv/tugas_opencv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.537s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/tugas_opencv/tugas_opencv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.537s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tugas_opencv/tugas_opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.553s] [ 97%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+[1.553s] [ 97%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+[1.554s] [ 97%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[2.405s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:[m[K In member function ‘[01m[Kvoid Color_::publish_func()[m[K’:
+[2.405s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:30:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<tugas_opencv::msg::Position_<std::allocator<void> > >::publish(tugas_opencv::msg::Position_<std::allocator<void> >::_x_pos_type&)[m[K’
+[2.405s]    30 |                [01;31m[KpublishColor_->publish(colorPosition.x_pos)[m[K;
+[2.405s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.405s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.406s]                  from [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:6[m[K:
+[2.406s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with T = T; MessageT = tugas_opencv::msg::Position_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[2.406s]   251 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)
+[2.406s]       |   [01;36m[K^~~~~~~[m[K
+[2.406s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.406s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:30:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::unique_ptr<T, std::default_delete<tugas_opencv::msg::Position_<std::allocator<void> > > >[m[K’ and ‘[01m[Kint[m[K’
+[2.406s]    30 |                [01;36m[KpublishColor_->publish(colorPosition.x_pos)[m[K;
+[2.406s]       |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.406s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.406s]                  from [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:6[m[K:
+[2.406s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = tugas_opencv::msg::Position_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[2.406s]   292 |   [01;36m[Kpublish[m[K(const T & msg)
+[2.406s]       |   [01;36m[K^~~~~~~[m[K
+[2.406s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.406s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[2.406s]                  from [01m[K/usr/include/c++/11/bits/exception_ptr.h:43[m[K,
+[2.406s]                  from [01m[K/usr/include/c++/11/exception:153[m[K,
+[2.406s]                  from [01m[K/usr/include/c++/11/ios:39[m[K,
+[2.406s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[2.406s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[2.406s]                  from [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:1[m[K:
+[2.406s] /usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void][m[K’:
+[2.406s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:[m[K   required by substitution of ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, tugas_opencv::msg::Position_<std::allocator<void> > >::value), void> rclcpp::Publisher<tugas_opencv::msg::Position_<std::allocator<void> > >::publish<T>(const T&) [with T = int][m[K’
+[2.406s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:30:38:[m[K   required from here
+[2.406s] [01m[K/usr/include/c++/11/type_traits:2579:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[2.406s]  2579 |     using [01;31m[Kenable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+[2.406s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[2.406s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.407s]                  from [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:6[m[K:
+[2.407s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with T = T; MessageT = tugas_opencv::msg::Position_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[2.407s]   322 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, PublishedTypeDeleter> msg)
+[2.407s]       |   [01;36m[K^~~~~~~[m[K
+[2.407s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.407s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:30:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::unique_ptr<T, std::default_delete<tugas_opencv::msg::Position_<std::allocator<void> > > >[m[K’ and ‘[01m[Kint[m[K’
+[2.407s]    30 |                [01;36m[KpublishColor_->publish(colorPosition.x_pos)[m[K;
+[2.407s]       |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.407s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.407s]                  from [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:6[m[K:
+[2.407s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = tugas_opencv::msg::Position_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[2.407s]   364 |   [01;36m[Kpublish[m[K(const T & msg)
+[2.407s]       |   [01;36m[K^~~~~~~[m[K
+[2.407s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.407s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = tugas_opencv::msg::Position_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s][m[K’
+[2.407s]   383 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+[2.407s]       |   [01;36m[K^~~~~~~[m[K
+[2.407s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktugas_opencv::msg::Position_<std::allocator<void> >::_x_pos_type[m[K’ {aka ‘[01m[Kint[m[K’} to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_s&[m[K’}
+[2.407s]   383 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+[2.407s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.407s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = tugas_opencv::msg::Position_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[2.407s]   389 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+[2.407s]       |   [01;36m[K^~~~~~~[m[K
+[2.407s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktugas_opencv::msg::Position_<std::allocator<void> >::_x_pos_type[m[K’ {aka ‘[01m[Kint[m[K’} to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+[2.407s]   389 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+[2.407s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.407s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = tugas_opencv::msg::Position_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = tugas_opencv::msg::Position_<std::allocator<void> >][m[K’
+[2.407s]   403 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+[2.407s]       |   [01;36m[K^~~~~~~[m[K
+[2.407s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktugas_opencv::msg::Position_<std::allocator<void> >::_x_pos_type[m[K’ {aka ‘[01m[Kint[m[K’} to ‘[01m[Krclcpp::LoanedMessage<tugas_opencv::msg::Position_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+[2.407s]   403 |   publish([01;36m[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg[m[K)
+[2.407s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[3.095s] gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+[3.095s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+[3.095s] gmake: *** [Makefile:146: all] Error 2
+[3.097s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv -- -j32 -l32

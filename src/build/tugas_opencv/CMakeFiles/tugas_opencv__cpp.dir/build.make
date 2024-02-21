@@ -70,6 +70,10 @@ CMakeFiles/tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/color.hpp
 CMakeFiles/tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/detail/color__builder.hpp
 CMakeFiles/tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/detail/color__struct.hpp
 CMakeFiles/tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/detail/color__traits.hpp
+CMakeFiles/tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/position.hpp
+CMakeFiles/tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/detail/position__builder.hpp
+CMakeFiles/tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/detail/position__struct.hpp
+CMakeFiles/tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/detail/position__traits.hpp
 
 rosidl_generator_cpp/tugas_opencv/msg/color.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/tugas_opencv/msg/color.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +91,7 @@ rosidl_generator_cpp/tugas_opencv/msg/color.hpp: /opt/ros/humble/share/rosidl_ge
 rosidl_generator_cpp/tugas_opencv/msg/color.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/tugas_opencv/msg/color.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/tugas_opencv/msg/color.hpp: rosidl_adapter/tugas_opencv/msg/Color.idl
+rosidl_generator_cpp/tugas_opencv/msg/color.hpp: rosidl_adapter/tugas_opencv/msg/Position.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp__arguments.json
 
@@ -99,11 +104,27 @@ rosidl_generator_cpp/tugas_opencv/msg/detail/color__struct.hpp: rosidl_generator
 rosidl_generator_cpp/tugas_opencv/msg/detail/color__traits.hpp: rosidl_generator_cpp/tugas_opencv/msg/color.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/tugas_opencv/msg/detail/color__traits.hpp
 
+rosidl_generator_cpp/tugas_opencv/msg/position.hpp: rosidl_generator_cpp/tugas_opencv/msg/color.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/tugas_opencv/msg/position.hpp
+
+rosidl_generator_cpp/tugas_opencv/msg/detail/position__builder.hpp: rosidl_generator_cpp/tugas_opencv/msg/color.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/tugas_opencv/msg/detail/position__builder.hpp
+
+rosidl_generator_cpp/tugas_opencv/msg/detail/position__struct.hpp: rosidl_generator_cpp/tugas_opencv/msg/color.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/tugas_opencv/msg/detail/position__struct.hpp
+
+rosidl_generator_cpp/tugas_opencv/msg/detail/position__traits.hpp: rosidl_generator_cpp/tugas_opencv/msg/color.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/tugas_opencv/msg/detail/position__traits.hpp
+
 tugas_opencv__cpp: CMakeFiles/tugas_opencv__cpp
 tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/color.hpp
 tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/detail/color__builder.hpp
 tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/detail/color__struct.hpp
 tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/detail/color__traits.hpp
+tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/detail/position__builder.hpp
+tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/detail/position__struct.hpp
+tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/detail/position__traits.hpp
+tugas_opencv__cpp: rosidl_generator_cpp/tugas_opencv/msg/position.hpp
 tugas_opencv__cpp: CMakeFiles/tugas_opencv__cpp.dir/build.make
 .PHONY : tugas_opencv__cpp
 

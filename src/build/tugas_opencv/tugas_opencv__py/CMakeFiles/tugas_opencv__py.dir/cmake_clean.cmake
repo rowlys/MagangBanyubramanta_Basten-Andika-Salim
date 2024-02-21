@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/tugas_opencv/msg/__init__.py"
   "../rosidl_generator_py/tugas_opencv/msg/_color.py"
   "../rosidl_generator_py/tugas_opencv/msg/_color_s.c"
+  "../rosidl_generator_py/tugas_opencv/msg/_position.py"
+  "../rosidl_generator_py/tugas_opencv/msg/_position_s.c"
   "CMakeFiles/tugas_opencv__py"
 )
 

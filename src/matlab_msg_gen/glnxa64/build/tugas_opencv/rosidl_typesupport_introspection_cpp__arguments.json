@@ -3,7 +3,8 @@
   "output_dir": "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/matlab_msg_gen/glnxa64/build/tugas_opencv/rosidl_typesupport_introspection_cpp/tugas_opencv",
   "template_dir": "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/matlab_msg_gen/glnxa64/build/tugas_opencv/rosidl_adapter/tugas_opencv:msg/Color.idl"
+    "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/matlab_msg_gen/glnxa64/build/tugas_opencv/rosidl_adapter/tugas_opencv:msg/Color.idl",
+    "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/matlab_msg_gen/glnxa64/build/tugas_opencv/rosidl_adapter/tugas_opencv:msg/Position.idl"
   ],
   "target_dependencies": [
     "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -14,6 +15,7 @@
     "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/matlab_msg_gen/glnxa64/build/tugas_opencv/rosidl_adapter/tugas_opencv/msg/Color.idl"
+    "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/matlab_msg_gen/glnxa64/build/tugas_opencv/rosidl_adapter/tugas_opencv/msg/Color.idl",
+    "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/matlab_msg_gen/glnxa64/build/tugas_opencv/rosidl_adapter/tugas_opencv/msg/Position.idl"
   ]
 }

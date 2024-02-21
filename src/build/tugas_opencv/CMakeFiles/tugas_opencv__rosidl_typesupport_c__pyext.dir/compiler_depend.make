@@ -245,7 +245,10 @@ CMakeFiles/tugas_opencv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tug
   rosidl_generator_c/tugas_opencv/msg/detail/color__type_support.h \
   rosidl_generator_c/tugas_opencv/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/tugas_opencv/msg/detail/color__struct.h \
-  rosidl_generator_c/tugas_opencv/msg/detail/color__functions.h
+  rosidl_generator_c/tugas_opencv/msg/detail/color__functions.h \
+  rosidl_generator_c/tugas_opencv/msg/detail/position__type_support.h \
+  rosidl_generator_c/tugas_opencv/msg/detail/position__struct.h \
+  rosidl_generator_c/tugas_opencv/msg/detail/position__functions.h
 
 
 rosidl_generator_c/tugas_opencv/msg/detail/color__struct.h:
@@ -445,6 +448,8 @@ rosidl_generator_c/tugas_opencv/msg/detail/color__type_support.h:
 /usr/include/string.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+rosidl_generator_c/tugas_opencv/msg/detail/position__type_support.h:
 
 /usr/include/python3.10/longintrepr.h:
 
@@ -668,6 +673,8 @@ rosidl_generator_py/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_c.c:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
+rosidl_generator_c/tugas_opencv/msg/detail/position__struct.h:
+
 /usr/include/python3.10/cpython/dictobject.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
@@ -709,6 +716,8 @@ rosidl_generator_c/tugas_opencv/msg/detail/color__functions.h:
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+
+rosidl_generator_c/tugas_opencv/msg/detail/position__functions.h:
 
 /usr/include/linux/stat.h:
 

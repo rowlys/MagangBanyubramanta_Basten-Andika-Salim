@@ -5,6 +5,7 @@
 
 #include <rclcpp/rclcpp.hpp>
 #include "tugas_opencv/msg/color.hpp"
+#include "tugas_opencv/msg/position.hpp"
 
 using namespace std::chrono_literals;
 using std::placeholders::_1;
@@ -12,19 +13,23 @@ using namespace cv;
 using namespace std;
 
 auto frameDetect = tugas_opencv::msg::Color();
+auto colorPosition = tugas_opencv::msg::Position();
 
 class Color_ : public rclcpp::Node
 {
      public: Color_()
      : Node("check")
      {
-          publish_ = this->create_publisher<tugas_opencv::msg::Color>("detection", 10);
+          publish_ = this->create_publisher<tugas_opencv::msg::Color>("colordetect", 10);
+          publishColor_ = this->create_publisher<tugas_opencv::msg::Position>("positiondetect", 10);
      }
 
      void publish_func()
           {
                publish_->publish(frameDetect);
+               publishColor_->publish(colorPosition);
                RCLCPP_INFO(this->get_logger(), "Red: %d\nGreen: %d\n Blue: %d", frameDetect.red,frameDetect.green, frameDetect.blue);
+               RCLCPP_INFO(this->get_logger(), "%d %d", colorPosition.x_pos, colorPosition.y_pos);
           }
           
      private:
@@ -32,6 +37,7 @@ class Color_ : public rclcpp::Node
 
      rclcpp::TimerBase::SharedPtr timer_;
      rclcpp::Publisher<tugas_opencv::msg::Color>::SharedPtr publish_;
+     rclcpp::Publisher<tugas_opencv::msg::Position>::SharedPtr publishColor_;
 };
 
 void tidy(Mat chosen_frame){
@@ -82,6 +88,10 @@ int main(int argc, char** argv){
           frameDetect.red = 0;
           frameDetect.blue = 0;
           frameDetect.green = 0;
+
+          colorPosition.x_pos = 0;
+          colorPosition.y_pos = 0;
+
           Mat frame;
           
           if (!camera.read(frame)){
@@ -121,9 +131,25 @@ int main(int argc, char** argv){
           imshow("Green", frameGreen);
           imshow("Blue", frameBlue);
 
-          if (areaR>10000) frameDetect.red = 1;
-          if (areaG>10000) frameDetect.green = 1;
-          if (areaB>10000) frameDetect.blue = 1;
+          
+
+          if (areaR > areaG && areaR > areaB && areaR > 10000){
+               colorPosition.x_pos = int(measureR.m10/areaR);
+               colorPosition.y_pos = int(measureR.m01/areaR);
+               frameDetect.red = 1;
+          }
+          
+          else if (areaB > areaG && areaB > areaR && areaB > 10000){
+               colorPosition.x_pos = int(measureB.m10/areaB);
+               colorPosition.y_pos = int(measureB.m01/areaB);
+               frameDetect.blue = 1;
+          }
+
+          else if (areaG > areaR && areaG > areaB && areaG > 10000){
+               colorPosition.x_pos = int(measureG.m10/areaG);
+               colorPosition.y_pos = int(measureG.m01/areaG);
+               frameDetect.green = 1;
+          }
 
           color_node->publish_func();
 

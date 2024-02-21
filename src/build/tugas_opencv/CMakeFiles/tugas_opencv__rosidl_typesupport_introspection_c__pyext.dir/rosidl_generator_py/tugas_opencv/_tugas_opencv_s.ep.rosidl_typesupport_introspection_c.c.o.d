@@ -204,4 +204,7 @@ CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_ge
  /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_c/tugas_opencv/msg/detail/color__type_support.h \
  /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_c/tugas_opencv/msg/rosidl_generator_c__visibility_control.h \
  /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_c/tugas_opencv/msg/detail/color__struct.h \
- /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_c/tugas_opencv/msg/detail/color__functions.h
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_c/tugas_opencv/msg/detail/color__functions.h \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_c/tugas_opencv/msg/detail/position__type_support.h \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_c/tugas_opencv/msg/detail/position__struct.h \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_c/tugas_opencv/msg/detail/position__functions.h

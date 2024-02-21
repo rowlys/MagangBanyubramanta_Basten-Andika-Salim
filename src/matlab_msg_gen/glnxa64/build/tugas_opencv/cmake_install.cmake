@@ -174,7 +174,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tugas_opencv/msg" TYPE FILE FILES "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/matlab_msg_gen/glnxa64/build/tugas_opencv/rosidl_adapter/tugas_opencv/msg/Position.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tugas_opencv/msg" TYPE FILE FILES "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/matlab_msg_gen/glnxa64/src/tugas_opencv/msg/Color.msg")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tugas_opencv/msg" TYPE FILE FILES "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/matlab_msg_gen/glnxa64/src/tugas_opencv/msg/Position.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

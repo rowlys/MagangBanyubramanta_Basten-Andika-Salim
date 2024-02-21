@@ -78,11 +78,18 @@ rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__rosidl_typesupport_
 rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
 rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/tugas_opencv/msg/Color.idl
+rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/tugas_opencv/msg/Position.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
 	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_typesupport_fastrtps_c__arguments.json
 
 rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp: rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp: rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp
 
 CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp.o: CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp
@@ -98,14 +105,30 @@ CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fa
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp -o CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp.s
 
+CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.o: CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp
+CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.o: CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.o -MF CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.o.d -o CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.o -c /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp
+
+CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp > CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.i
+
+CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp -o CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.s
+
 # Object files for target tugas_opencv__rosidl_typesupport_fastrtps_c
 tugas_opencv__rosidl_typesupport_fastrtps_c_OBJECTS = \
-"CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp.o"
+"CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp.o" \
+"CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.o"
 
 # External object files for target tugas_opencv__rosidl_typesupport_fastrtps_c
 tugas_opencv__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libtugas_opencv__rosidl_typesupport_fastrtps_c.so: CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp.o
+libtugas_opencv__rosidl_typesupport_fastrtps_c.so: CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.o
 libtugas_opencv__rosidl_typesupport_fastrtps_c.so: CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/build.make
 libtugas_opencv__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 libtugas_opencv__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
@@ -115,7 +138,7 @@ libtugas_opencv__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librmw.so
 libtugas_opencv__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libtugas_opencv__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librcutils.so
 libtugas_opencv__rosidl_typesupport_fastrtps_c.so: CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libtugas_opencv__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libtugas_opencv__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +151,8 @@ CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/clean:
 
 CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp
+CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp
 	cd /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/depend
 
