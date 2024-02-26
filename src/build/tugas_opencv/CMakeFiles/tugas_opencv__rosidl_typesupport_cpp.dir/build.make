@@ -78,7 +78,7 @@ rosidl_typesupport_cpp/tugas_opencv/msg/color__type_support.cpp: /opt/ros/humble
 rosidl_typesupport_cpp/tugas_opencv/msg/color__type_support.cpp: rosidl_adapter/tugas_opencv/msg/Color.idl
 rosidl_typesupport_cpp/tugas_opencv/msg/color__type_support.cpp: rosidl_adapter/tugas_opencv/msg/Position.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 
 rosidl_typesupport_cpp/tugas_opencv/msg/position__type_support.cpp: rosidl_typesupport_cpp/tugas_opencv/msg/color__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/tugas_opencv/msg/position__type_support.cpp

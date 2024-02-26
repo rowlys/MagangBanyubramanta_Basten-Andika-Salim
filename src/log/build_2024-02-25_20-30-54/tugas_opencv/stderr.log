@@ -1,0 +1,5 @@
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:132:62:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  132 |          imshow("Blue", frameBlue);VideoCapture capture_(0);[01;35m[Kint(measureB.m10/areaB)[m[K;
+      |                                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+

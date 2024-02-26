@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_tugas_opencv_egg.dir/compiler_depend
 include CMakeFiles/ament_cmake_python_build_tugas_opencv_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_tugas_opencv_egg:
-	cd /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/ament_cmake_python/tugas_opencv && /usr/bin/python3.10 setup.py egg_info
+	cd /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/ament_cmake_python/tugas_opencv && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_tugas_opencv_egg: CMakeFiles/ament_cmake_python_build_tugas_opencv_egg
 ament_cmake_python_build_tugas_opencv_egg: CMakeFiles/ament_cmake_python_build_tugas_opencv_egg.dir/build.make

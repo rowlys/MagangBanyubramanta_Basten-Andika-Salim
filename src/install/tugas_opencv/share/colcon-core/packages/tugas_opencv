@@ -1,1 +1,1 @@
-OpenCV:rclpp:rosidl:rosidl_default_runtime
+OpenCV:cv_bridge:rclpp:rosidl:rosidl_default_runtime

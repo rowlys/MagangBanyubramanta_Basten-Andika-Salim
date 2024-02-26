@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (-) JobUnselected: {'identifier': 'tugas_opencv'}
+[0.000261] (-) JobUnselected: {'identifier': 'xbox'}
+[0.000272] (tugas_yolo) JobQueued: {'identifier': 'tugas_yolo', 'dependencies': OrderedDict()}
+[0.000281] (tugas_yolo) JobStarted: {'identifier': 'tugas_yolo'}
+[0.024756] (tugas_yolo) JobProgress: {'identifier': 'tugas_yolo', 'progress': 'cmake'}
+[0.024802] (tugas_yolo) Command: {'cmd': ['/usr/bin/cmake', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo', '-DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1798'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/basten/tugas_yolo/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/basten/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1774,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1774'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/79807ebd_03b5_4602_88b3_3db32b0a0ce0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/basten/tugas_yolo/install/tugas_yolo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basten/tugas_yolo/install/tugas_yolo:/opt/ros/humble')]), 'shell': False}
+[0.079864] (tugas_yolo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099666] (-) TimerEvent: {}
+[0.130103] (tugas_yolo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.135361] (tugas_yolo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.193680] (tugas_yolo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199442] (tugas_yolo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.199730] (-) TimerEvent: {}
+[0.199918] (tugas_yolo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.200473] (tugas_yolo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.203938] (tugas_yolo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.256382] (tugas_yolo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.260754] (tugas_yolo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.260923] (tugas_yolo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.261436] (tugas_yolo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.263271] (tugas_yolo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299900] (-) TimerEvent: {}
+[0.400047] (-) TimerEvent: {}
+[0.438773] (tugas_yolo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500232] (-) TimerEvent: {}
+[0.508903] (tugas_yolo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.535217] (tugas_yolo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.537825] (tugas_yolo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.542927] (tugas_yolo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.550890] (tugas_yolo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.561382] (tugas_yolo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.598294] (tugas_yolo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.599966] (tugas_yolo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600279] (-) TimerEvent: {}
+[0.649245] (tugas_yolo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.666634] (tugas_yolo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.687879] (tugas_yolo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.693169] (tugas_yolo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700352] (-) TimerEvent: {}
+[0.736823] (tugas_yolo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.737512] (tugas_yolo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800362] (tugas_yolo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.800467] (-) TimerEvent: {}
+[0.801058] (tugas_yolo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.891330] (tugas_yolo) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.9.0") \n'}
+[0.892031] (tugas_yolo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.900647] (-) TimerEvent: {}
+[0.954674] (tugas_yolo) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.958857] (tugas_yolo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.996299] (tugas_yolo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.996361] (tugas_yolo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.996387] (tugas_yolo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.996717] (tugas_yolo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.997236] (tugas_yolo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.997305] (tugas_yolo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.997419] (tugas_yolo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.998184] (tugas_yolo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.000807] (-) TimerEvent: {}
+[1.002526] (tugas_yolo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.003155] (tugas_yolo) StdoutLine: {'line': b'-- Build files have been written to: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo\n'}
+[1.007173] (tugas_yolo) CommandEnded: {'returncode': 0}
+[1.007464] (tugas_yolo) JobProgress: {'identifier': 'tugas_yolo', 'progress': 'build'}
+[1.007892] (tugas_yolo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo', '--', '-j32', '-l32'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1798'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/basten/tugas_yolo/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/basten/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1774,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1774'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/79807ebd_03b5_4602_88b3_3db32b0a0ce0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/basten/tugas_yolo/install/tugas_yolo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basten/tugas_yolo/install/tugas_yolo:/opt/ros/humble')]), 'shell': False}
+[1.040368] (tugas_yolo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/initCv.dir/src/initCv.cpp.o\x1b[0m\n'}
+[1.100970] (-) TimerEvent: {}
+[1.201240] (-) TimerEvent: {}
+[1.301578] (-) TimerEvent: {}
+[1.401933] (-) TimerEvent: {}
+[1.502249] (-) TimerEvent: {}
+[1.602595] (-) TimerEvent: {}
+[1.702980] (-) TimerEvent: {}
+[1.803309] (-) TimerEvent: {}
+[1.903620] (-) TimerEvent: {}
+[2.003928] (-) TimerEvent: {}
+[2.104212] (-) TimerEvent: {}
+[2.204512] (-) TimerEvent: {}
+[2.304829] (-) TimerEvent: {}
+[2.378751] (tugas_yolo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:17:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmaster\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.378885] (tugas_yolo) StderrLine: {'line': b'   17 | VideoCapture cam_(\x1b[01;31m\x1b[Kmaster\x1b[m\x1b[K["indexBottom"].as<int>());\n'}
+[2.378918] (tugas_yolo) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.378940] (tugas_yolo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:17:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.378963] (tugas_yolo) StderrLine: {'line': b'   17 | VideoCapture cam_(master["indexBottom"].as<\x1b[01;31m\x1b[Kint\x1b[m\x1b[K>());\n'}
+[2.378983] (tugas_yolo) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.387502] (tugas_yolo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CameraPublisher::publish_image()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.387566] (tugas_yolo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:42:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreference to \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[2.387592] (tugas_yolo) StderrLine: {'line': b'   42 |         resize(frame, image, \x1b[01;31m\x1b[Ksize\x1b[m\x1b[K);\n'}
+[2.387619] (tugas_yolo) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.387640] (tugas_yolo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[2.387662] (tugas_yolo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[2.387681] (tugas_yolo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[2.387700] (tugas_yolo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[2.387719] (tugas_yolo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[2.387743] (tugas_yolo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/base.hpp:55\x1b[m\x1b[K,\n'}
+[2.387761] (tugas_yolo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:53\x1b[m\x1b[K,\n'}
+[2.387780] (tugas_yolo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.387799] (tugas_yolo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:1\x1b[m\x1b[K:\n'}
+[2.387817] (tugas_yolo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:254:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> constexpr std::size_t std::size(const _Tp (&)[_Nm])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.387837] (tugas_yolo) StderrLine: {'line': b'  254 |     \x1b[01;36m\x1b[Ksize\x1b[m\x1b[K(const _Tp (&)[_Nm]) noexcept\n'}
+[2.387855] (tugas_yolo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.387873] (tugas_yolo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:245:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.size()) std::size(const _Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.387892] (tugas_yolo) StderrLine: {'line': b'  245 |     \x1b[01;36m\x1b[Ksize\x1b[m\x1b[K(const _Container& __cont) noexcept(noexcept(__cont.size()))\n'}
+[2.387911] (tugas_yolo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.387929] (tugas_yolo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:15:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Kcv::Size size\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.387951] (tugas_yolo) StderrLine: {'line': b'   15 | Size \x1b[01;36m\x1b[Ksize\x1b[m\x1b[K(640, 480);\n'}
+[2.387969] (tugas_yolo) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.404985] (-) TimerEvent: {}
+[2.505240] (-) TimerEvent: {}
+[2.605567] (-) TimerEvent: {}
+[2.705878] (-) TimerEvent: {}
+[2.806173] (-) TimerEvent: {}
+[2.906370] (tugas_yolo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/initCv.dir/build.make:76: CMakeFiles/initCv.dir/src/initCv.cpp.o] Error 1\n'}
+[2.906498] (-) TimerEvent: {}
+[2.906560] (tugas_yolo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/initCv.dir/all] Error 2\n'}
+[2.906624] (tugas_yolo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.908673] (tugas_yolo) CommandEnded: {'returncode': 2}
+[2.939101] (tugas_yolo) JobEnded: {'identifier': 'tugas_yolo', 'rc': 2}
+[2.949447] (-) EventReactorShutdown: {}

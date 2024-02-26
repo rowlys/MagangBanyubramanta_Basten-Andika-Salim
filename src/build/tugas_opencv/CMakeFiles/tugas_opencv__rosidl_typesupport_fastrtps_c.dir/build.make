@@ -80,7 +80,7 @@ rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__rosidl_typesupport_
 rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/tugas_opencv/msg/Color.idl
 rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/tugas_opencv/msg/Position.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
-	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_typesupport_fastrtps_c__arguments.json
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_typesupport_fastrtps_c__arguments.json
 
 rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp: rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp

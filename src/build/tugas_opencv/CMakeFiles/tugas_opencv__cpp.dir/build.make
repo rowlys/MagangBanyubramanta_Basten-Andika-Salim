@@ -93,7 +93,7 @@ rosidl_generator_cpp/tugas_opencv/msg/color.hpp: /opt/ros/humble/share/rosidl_ge
 rosidl_generator_cpp/tugas_opencv/msg/color.hpp: rosidl_adapter/tugas_opencv/msg/Color.idl
 rosidl_generator_cpp/tugas_opencv/msg/color.hpp: rosidl_adapter/tugas_opencv/msg/Position.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp__arguments.json
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/tugas_opencv/msg/detail/color__builder.hpp: rosidl_generator_cpp/tugas_opencv/msg/color.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/tugas_opencv/msg/detail/color__builder.hpp

@@ -258,7 +258,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
-        "/usr/bin/python3.10" "-m" "compileall"
+        "/usr/bin/python3" "-m" "compileall"
         "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv"
       )
 endif()

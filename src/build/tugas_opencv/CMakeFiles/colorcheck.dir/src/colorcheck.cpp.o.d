@@ -741,4 +741,21 @@ CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o: \
  /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/position.hpp \
  /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/detail/position__struct.hpp \
  /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/detail/position__builder.hpp \
- /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/detail/position__traits.hpp
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv/rosidl_generator_cpp/tugas_opencv/msg/detail/position__traits.hpp \
+ /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp \
+ /usr/local/include/opencv4/opencv2/core/core.hpp \
+ /usr/local/include/opencv4/opencv2/imgproc/types_c.h \
+ /usr/local/include/opencv4/opencv2/core/core_c.h \
+ /usr/local/include/opencv4/opencv2/core/types_c.h \
+ /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge_export.h

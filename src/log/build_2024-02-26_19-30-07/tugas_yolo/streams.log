@@ -1,0 +1,15 @@
+[0.020s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo -- -j32 -l32
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target initCv[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/initCv.dir/src/initCv.cpp.o[0m
+[1.273s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:[m[K In member function ‘[01m[Kvoid initCv_::timer_callback()[m[K’:
+[1.273s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:43:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Mat[m[K’ has no member named ‘[01m[KisEmpty[m[K’; did you mean ‘[01m[Kempty[m[K’?
+[1.273s]    43 |         if (!frame.[01;31m[KisEmpty[m[K())
+[1.273s]       |                    [01;31m[K^~~~~~~[m[K
+[1.273s]       |                    [32m[Kempty[m[K
+[1.274s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:53:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.274s]    53 |         [01;31m[K}[m[K
+[1.274s]       |         [01;31m[K^[m[K
+[1.962s] gmake[2]: *** [CMakeFiles/initCv.dir/build.make:76: CMakeFiles/initCv.dir/src/initCv.cpp.o] Error 1
+[1.962s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/initCv.dir/all] Error 2
+[1.962s] gmake: *** [Makefile:146: all] Error 2
+[1.964s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo -- -j32 -l32

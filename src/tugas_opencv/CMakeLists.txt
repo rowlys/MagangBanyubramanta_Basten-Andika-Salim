@@ -9,6 +9,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(cv_bridge REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Color.msg"
@@ -18,7 +19,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 ament_export_dependencies(rosidl_default_runtime)
 
 add_executable(colorcheck src/colorcheck.cpp)
-ament_target_dependencies(colorcheck rclcpp OpenCV)
+ament_target_dependencies(colorcheck rclcpp OpenCV cv_bridge)
 
 install(TARGETS
   colorcheck

@@ -1,0 +1,80 @@
+[0.025s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo
+[0.080s] -- The C compiler identification is GNU 11.4.0
+[0.130s] -- The CXX compiler identification is GNU 11.4.0
+[0.135s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.199s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.261s] -- Detecting CXX compile features
+[0.261s] -- Detecting CXX compile features - done
+[0.263s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.439s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.509s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.535s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.538s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.543s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.551s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.561s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.598s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.600s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.649s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.666s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.688s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.693s] -- Looking for pthread.h
+[0.737s] -- Looking for pthread.h - found
+[0.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.800s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.801s] -- Found Threads: TRUE  
+[0.891s] -- Found OpenCV: /usr/local (found version "4.9.0") 
+[0.892s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.954s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.959s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.996s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.996s] -- Configured cppcheck include dirs: 
+[0.996s] -- Configured cppcheck exclude dirs and/or files: 
+[0.996s] -- Added test 'lint_cmake' to check CMake code style
+[0.997s] -- Added test 'uncrustify' to check C / C++ code style
+[0.997s] -- Configured uncrustify additional arguments: 
+[0.997s] -- Added test 'xmllint' to check XML markup files
+[0.998s] -- Configuring done
+[1.002s] -- Generating done
+[1.003s] -- Build files have been written to: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo
+[1.007s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo
+[1.008s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo -- -j32 -l32
+[1.040s] [ 50%] [32mBuilding CXX object CMakeFiles/initCv.dir/src/initCv.cpp.o[0m
+[2.379s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:17:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kmaster[m[K’ was not declared in this scope
+[2.379s]    17 | VideoCapture cam_([01;31m[Kmaster[m[K["indexBottom"].as<int>());
+[2.379s]       |                   [01;31m[K^~~~~~[m[K
+[2.379s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:17:44:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[2.379s]    17 | VideoCapture cam_(master["indexBottom"].as<[01;31m[Kint[m[K>());
+[2.379s]       |                                            [01;31m[K^~~[m[K
+[2.387s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:[m[K In member function ‘[01m[Kvoid CameraPublisher::publish_image()[m[K’:
+[2.387s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:42:30:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Ksize[m[K’ is ambiguous
+[2.387s]    42 |         resize(frame, image, [01;31m[Ksize[m[K);
+[2.387s]       |                              [01;31m[K^~~~[m[K
+[2.387s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[2.387s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.387s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[2.387s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[2.387s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[2.387s]                  from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:55[m[K,
+[2.387s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+[2.388s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[2.388s]                  from [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:1[m[K:
+[2.388s] [01m[K/usr/include/c++/11/bits/range_access.h:254:5:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> constexpr std::size_t std::size(const _Tp (&)[_Nm])[m[K’
+[2.388s]   254 |     [01;36m[Ksize[m[K(const _Tp (&)[_Nm]) noexcept
+[2.388s]       |     [01;36m[K^~~~[m[K
+[2.388s] [01m[K/usr/include/c++/11/bits/range_access.h:245:5:[m[K [01;36m[Knote: [m[K                ‘[01m[Ktemplate<class _Container> constexpr decltype (__cont.size()) std::size(const _Container&)[m[K’
+[2.388s]   245 |     [01;36m[Ksize[m[K(const _Container& __cont) noexcept(noexcept(__cont.size()))
+[2.388s]       |     [01;36m[K^~~~[m[K
+[2.388s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:15:6:[m[K [01;36m[Knote: [m[K                ‘[01m[Kcv::Size size[m[K’
+[2.388s]    15 | Size [01;36m[Ksize[m[K(640, 480);
+[2.388s]       |      [01;36m[K^~~~[m[K
+[2.906s] gmake[2]: *** [CMakeFiles/initCv.dir/build.make:76: CMakeFiles/initCv.dir/src/initCv.cpp.o] Error 1
+[2.906s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/initCv.dir/all] Error 2
+[2.906s] gmake: *** [Makefile:146: all] Error 2
+[2.909s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo -- -j32 -l32

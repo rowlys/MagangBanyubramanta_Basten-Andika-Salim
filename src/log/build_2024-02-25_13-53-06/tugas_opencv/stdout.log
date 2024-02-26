@@ -1,0 +1,24 @@
+[  2%] Built target tugas_opencv__cpp
+[ 12%] Built target tugas_opencv__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[ 21%] Built target tugas_opencv__rosidl_typesupport_cpp
+[ 31%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[ 51%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[ 60%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[ 70%] Built target tugas_opencv__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target colorcheck[0m
+[ 70%] Built target tugas_opencv
+[ 73%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[ 75%] Built target tugas_opencv__py
+[ 82%] Built target tugas_opencv__rosidl_generator_py
+[ 87%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[ 92%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+[ 97%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing tugas_opencv.egg-info/PKG-INFO
+writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+writing top-level names to tugas_opencv.egg-info/top_level.txt
+reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_tugas_opencv_egg

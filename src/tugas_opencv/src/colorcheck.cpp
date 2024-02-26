@@ -6,6 +6,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include "tugas_opencv/msg/color.hpp"
 #include "tugas_opencv/msg/position.hpp"
+#include "cv_bridge/cv_bridge.h"
 
 using namespace std::chrono_literals;
 using std::placeholders::_1;
@@ -98,6 +99,7 @@ int main(int argc, char** argv){
                cout<<"Frame cannot be read."<< endl;
                break;
           }
+          imshow("test", frame);
 
           Mat frameHSV;
           cvtColor(frame, frameHSV, COLOR_BGR2HSV);
@@ -129,26 +131,22 @@ int main(int argc, char** argv){
           imshow("Binary", frameBinary);
           imshow("Red", frameRed);
           imshow("Green", frameGreen);
-          imshow("Blue", frameBlue);
+          imshow("Blue", frameBlue);VideoCapture capture_(0);
 
-          
-
-          if (areaR > areaG && areaR > areaB && areaR > 10000){
-               colorPosition.x_pos = int(measureR.m10/areaR);
-               colorPosition.y_pos = int(measureR.m01/areaR);
-               frameDetect.red = 1;
+          if (areaG > areaR && areaG > areaB && areaG > 10000){
+               colorPosition.x_pos = int(measureG.m10/areaG);
+               colorPosition.y_pos = int(measureG.m01/areaG);
+               frameDetect.green = 1;
           }
-          
-          else if (areaB > areaG && areaB > areaR && areaB > 10000){
+          else if (areaB > areaR && areaB > areaG && areaB > 10000){
                colorPosition.x_pos = int(measureB.m10/areaB);
                colorPosition.y_pos = int(measureB.m01/areaB);
                frameDetect.blue = 1;
           }
-
-          else if (areaG > areaR && areaG > areaB && areaG > 10000){
-               colorPosition.x_pos = int(measureG.m10/areaG);
-               colorPosition.y_pos = int(measureG.m01/areaG);
-               frameDetect.green = 1;
+          else if (areaR > areaG && areaR > areaB && areaR > 10000){
+               colorPosition.x_pos = int(measureR.m10/areaR);
+               colorPosition.y_pos = int(measureR.m01/areaR);
+               frameDetect.red = 1;
           }
 
           color_node->publish_func();

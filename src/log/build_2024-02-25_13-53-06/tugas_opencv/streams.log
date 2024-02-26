@@ -1,0 +1,65 @@
+[0.021s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv -- -j32 -l32
+[0.046s] [  2%] Built target tugas_opencv__cpp
+[0.046s] [ 12%] Built target tugas_opencv__rosidl_generator_c
+[0.050s] [ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[0.056s] [ 21%] Built target tugas_opencv__rosidl_typesupport_cpp
+[0.056s] [ 31%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[0.056s] [ 41%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[0.056s] [ 51%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[0.056s] [ 60%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[0.056s] [ 70%] Built target tugas_opencv__rosidl_typesupport_c
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target colorcheck[0m
+[0.065s] [ 70%] Built target tugas_opencv
+[0.070s] [ 73%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[0.074s] [ 75%] Built target tugas_opencv__py
+[0.084s] [ 82%] Built target tugas_opencv__rosidl_generator_py
+[0.093s] [ 87%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[0.094s] [ 92%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+[0.094s] [ 97%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+[0.134s] running egg_info
+[0.140s] writing tugas_opencv.egg-info/PKG-INFO
+[0.140s] writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+[0.140s] writing top-level names to tugas_opencv.egg-info/top_level.txt
+[0.157s] reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.157s] writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.169s] [ 97%] Built target ament_cmake_python_build_tugas_opencv_egg
+[1.283s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.283s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:132:62:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[1.283s]   132 |          imshow("Blue", frameBlue);VideoCapture capture_(0);[01;35m[Kint(measureB.m10/areaB)[m[K;
+[1.283s]       |                                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.283s] 
+[1.284s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:120:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KareaR[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.284s]   120 |           double [01;35m[KareaR[m[K = measureR.m00;
+[1.284s]       |                  [01;35m[K^~~~~[m[K
+[1.284s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:123:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KareaG[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.284s]   123 |           double [01;35m[KareaG[m[K = measureG.m00;
+[1.284s]       |                  [01;35m[K^~~~~[m[K
+[1.286s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:137:15:[m[K [01;31m[Kerror: [m[K‘[01m[KareaG[m[K’ was not declared in this scope
+[1.286s]   137 |           if ([01;31m[KareaG[m[K > areaR && areaG > areaB && areaG > 10000){
+[1.286s]       |               [01;31m[K^~~~~[m[K
+[1.288s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:137:23:[m[K [01;31m[Kerror: [m[K‘[01m[KareaR[m[K’ was not declared in this scope
+[1.288s]   137 |           if (areaG > [01;31m[KareaR[m[K && areaG > areaB && areaG > 10000){
+[1.288s]       |                       [01;31m[K^~~~~[m[K
+[1.289s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:137:40:[m[K [01;31m[Kerror: [m[K‘[01m[KareaB[m[K’ was not declared in this scope
+[1.289s]   137 |           if (areaG > areaR && areaG > [01;31m[KareaB[m[K && areaG > 10000){
+[1.289s]       |                                        [01;31m[K^~~~~[m[K
+[1.291s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:138:42:[m[K [01;31m[Kerror: [m[K‘[01m[KmeasureG[m[K’ was not declared in this scope
+[1.291s]   138 |                colorPosition.x_pos = int([01;31m[KmeasureG[m[K.m10/areaG);
+[1.291s]       |                                          [01;31m[K^~~~~~~~[m[K
+[1.291s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:147:16:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+[1.291s]   147 |                [01;31m[Kbreak[m[K;
+[1.292s]       |                [01;31m[K^~~~~[m[K
+[1.292s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:[m[K At global scope:
+[1.292s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:151:24:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[1.292s]   151 |      rclcpp::shutdown()[01;31m[K;[m[K
+[1.292s]       |                        [01;31m[K^[m[K
+[1.292s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:153:6:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+[1.292s]   153 |      [01;31m[Kreturn[m[K 0;
+[1.292s]       |      [01;31m[K^~~~~~[m[K
+[1.292s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_opencv/src/colorcheck.cpp:154:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.292s]   154 | [01;31m[K}[m[K
+[1.292s]       | [01;31m[K^[m[K
+[1.988s] gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+[1.988s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+[1.988s] gmake: *** [Makefile:146: all] Error 2
+[1.990s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_opencv -- -j32 -l32
