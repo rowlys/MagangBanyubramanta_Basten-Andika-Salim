@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000223] (-) JobUnselected: {'identifier': 'tugas_opencv'}
+[0.000274] (-) JobUnselected: {'identifier': 'tugas_yolo'}
+[0.000283] (-) JobUnselected: {'identifier': 'xbox'}
+[0.000291] (tugas_yolo-yolocpp) JobQueued: {'identifier': 'tugas_yolo-yolocpp', 'dependencies': OrderedDict()}
+[0.000300] (tugas_yolo-yolocpp) JobStarted: {'identifier': 'tugas_yolo-yolocpp'}
+[0.019388] (tugas_yolo-yolocpp) JobProgress: {'identifier': 'tugas_yolo-yolocpp', 'progress': 'cmake'}
+[0.019418] (tugas_yolo-yolocpp) JobProgress: {'identifier': 'tugas_yolo-yolocpp', 'progress': 'build'}
+[0.019748] (tugas_yolo-yolocpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp', '--', '-j32', '-l32'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/basten/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1793,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1793'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/928e9409_e03b_449b_9d70_abeed5d98a9b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1442'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.040274] (tugas_yolo-yolocpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target detect\x1b[0m\n'}
+[0.052008] (tugas_yolo-yolocpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/detect.dir/src/detect.cpp.o\x1b[0m\n'}
+[0.099885] (-) TimerEvent: {}
+[0.200185] (-) TimerEvent: {}
+[0.300421] (-) TimerEvent: {}
+[0.400685] (-) TimerEvent: {}
+[0.500963] (-) TimerEvent: {}
+[0.601263] (-) TimerEvent: {}
+[0.701560] (-) TimerEvent: {}
+[0.801881] (-) TimerEvent: {}
+[0.902199] (-) TimerEvent: {}
+[1.002506] (-) TimerEvent: {}
+[1.102824] (-) TimerEvent: {}
+[1.203131] (-) TimerEvent: {}
+[1.303383] (-) TimerEvent: {}
+[1.338709] (tugas_yolo-yolocpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat Detection::post_process(cv::Mat&, std::vector<cv::Mat>&, const std::vector<std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.338860] (tugas_yolo-yolocpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:134:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.338893] (tugas_yolo-yolocpp) StderrLine: {'line': b'  134 |             for (int i = 0; \x1b[01;35m\x1b[Ki < index.size()\x1b[m\x1b[K; i++){\n'}
+[1.338918] (tugas_yolo-yolocpp) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.339214] (tugas_yolo-yolocpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:90:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdimensions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.339243] (tugas_yolo-yolocpp) StderrLine: {'line': b'   90 |             const int \x1b[01;35m\x1b[Kdimensions\x1b[m\x1b[K = 85;\n'}
+[1.339269] (tugas_yolo-yolocpp) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.342498] (tugas_yolo-yolocpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, const char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.342537] (tugas_yolo-yolocpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:184:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreference to \xe2\x80\x98\x1b[01m\x1b[Kline\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[1.342576] (tugas_yolo-yolocpp) StderrLine: {'line': b'  184 |     while (getline(ifs, \x1b[01;31m\x1b[Kline\x1b[m\x1b[K)){\n'}
+[1.342602] (tugas_yolo-yolocpp) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.342717] (tugas_yolo-yolocpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[1.342741] (tugas_yolo-yolocpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:11\x1b[m\x1b[K:\n'}
+[1.342762] (tugas_yolo-yolocpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/imgproc.hpp:4511:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[Kvoid cv::line(cv::InputOutputArray, cv::Point, cv::Point, const Scalar&, int, int, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.342784] (tugas_yolo-yolocpp) StderrLine: {'line': b' 4511 | CV_EXPORTS_W void \x1b[01;36m\x1b[Kline\x1b[m\x1b[K(InputOutputArray img, Point pt1, Point pt2, const Scalar& color,\n'}
+[1.342805] (tugas_yolo-yolocpp) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.342825] (tugas_yolo-yolocpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:25:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Kstd::string line\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.342846] (tugas_yolo-yolocpp) StderrLine: {'line': b'   25 |     string \x1b[01;36m\x1b[Kline\x1b[m\x1b[K;\n'}
+[1.342867] (tugas_yolo-yolocpp) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.342887] (tugas_yolo-yolocpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:185:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreference to \xe2\x80\x98\x1b[01m\x1b[Kline\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[1.342908] (tugas_yolo-yolocpp) StderrLine: {'line': b'  185 |         class_list.push_back(\x1b[01;31m\x1b[Kline\x1b[m\x1b[K);\n'}
+[1.342927] (tugas_yolo-yolocpp) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.342947] (tugas_yolo-yolocpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:74\x1b[m\x1b[K,\n'}
+[1.342967] (tugas_yolo-yolocpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:11\x1b[m\x1b[K:\n'}
+[1.342986] (tugas_yolo-yolocpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/imgproc.hpp:4511:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[Kvoid cv::line(cv::InputOutputArray, cv::Point, cv::Point, const Scalar&, int, int, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.343010] (tugas_yolo-yolocpp) StderrLine: {'line': b' 4511 | CV_EXPORTS_W void \x1b[01;36m\x1b[Kline\x1b[m\x1b[K(InputOutputArray img, Point pt1, Point pt2, const Scalar& color,\n'}
+[1.343030] (tugas_yolo-yolocpp) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.343051] (tugas_yolo-yolocpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:25:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Kstd::string line\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.343070] (tugas_yolo-yolocpp) StderrLine: {'line': b'   25 |     string \x1b[01;36m\x1b[Kline\x1b[m\x1b[K;\n'}
+[1.343090] (tugas_yolo-yolocpp) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.403558] (-) TimerEvent: {}
+[1.503868] (-) TimerEvent: {}
+[1.604191] (-) TimerEvent: {}
+[1.704594] (-) TimerEvent: {}
+[1.805099] (-) TimerEvent: {}
+[1.905431] (-) TimerEvent: {}
+[2.005725] (-) TimerEvent: {}
+[2.106025] (-) TimerEvent: {}
+[2.206376] (-) TimerEvent: {}
+[2.306675] (-) TimerEvent: {}
+[2.406994] (-) TimerEvent: {}
+[2.507314] (-) TimerEvent: {}
+[2.525271] (tugas_yolo-yolocpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/detect.dir/build.make:76: CMakeFiles/detect.dir/src/detect.cpp.o] Error 1\n'}
+[2.525558] (tugas_yolo-yolocpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/detect.dir/all] Error 2\n'}
+[2.525619] (tugas_yolo-yolocpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.527670] (tugas_yolo-yolocpp) CommandEnded: {'returncode': 2}
+[2.566721] (tugas_yolo-yolocpp) JobEnded: {'identifier': 'tugas_yolo-yolocpp', 'rc': 2}
+[2.577139] (-) EventReactorShutdown: {}

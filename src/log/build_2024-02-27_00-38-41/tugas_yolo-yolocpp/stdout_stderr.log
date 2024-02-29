@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target detect[0m
+[ 50%] Built target detector
+[ 75%] [32m[1mLinking CXX executable detect[0m
+/usr/bin/ld: CMakeFiles/detect.dir/src/detect.cpp.o: in function `main':
+detect.cpp:(.text+0x132): undefined reference to `YOLOV5::YOLOV5(Config)'
+/usr/bin/ld: detect.cpp:(.text+0x19b): undefined reference to `YOLOV5::detect(cv::Mat&)'
+/usr/bin/ld: detect.cpp:(.text+0x302): undefined reference to `YOLOV5::~YOLOV5()'
+/usr/bin/ld: CMakeFiles/detect.dir/src/detect.cpp.o:(.data.rel.ro+0x0): undefined reference to `ov::node_validation_failure_loc_string[abi:cxx11](ov::Node const*)'
+/usr/bin/ld: CMakeFiles/detect.dir/src/detect.cpp.o:(.data.rel.ro+0x8): undefined reference to `ov::as_output_vector(std::vector<std::shared_ptr<ov::Node>, std::allocator<std::shared_ptr<ov::Node> > > const&)'
+/usr/bin/ld: CMakeFiles/detect.dir/src/detect.cpp.o:(.data.rel.ro+0x10): undefined reference to `ov::as_node_vector(std::vector<ov::Output<ov::Node>, std::allocator<ov::Output<ov::Node> > > const&)'
+/usr/bin/ld: CMakeFiles/detect.dir/src/detect.cpp.o:(.data.rel.ro+0x18): undefined reference to `ov::as_result_vector(std::vector<ov::Output<ov::Node>, std::allocator<ov::Output<ov::Node> > > const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/detect.dir/build.make:191: detect] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/detect.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

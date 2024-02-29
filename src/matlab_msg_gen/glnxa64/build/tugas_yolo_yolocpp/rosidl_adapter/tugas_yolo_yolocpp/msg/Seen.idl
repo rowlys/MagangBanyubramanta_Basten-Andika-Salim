@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tugas_yolo_yolocpp/msg/Seen.msg
+// generated code does not contain a copyright notice
+
+
+module tugas_yolo_yolocpp {
+  module msg {
+    struct Seen {
+      int32 gate;
+
+      int32 flare;
+    };
+  };
+};

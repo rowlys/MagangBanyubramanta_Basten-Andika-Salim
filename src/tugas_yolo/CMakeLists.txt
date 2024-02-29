@@ -15,12 +15,15 @@ find_package(cv_bridge REQUIRED)
 
 ament_export_dependencies(rosidl_default_runtime)
 
+
+
 add_executable(initCv src/initCv.cpp)
 ament_target_dependencies(initCv rclcpp OpenCV sensor_msgs cv_bridge)
 
 install(TARGETS
   initCv
   DESTINATION lib/${PROJECT_NAME})
+
 
 
 if(BUILD_TESTING)

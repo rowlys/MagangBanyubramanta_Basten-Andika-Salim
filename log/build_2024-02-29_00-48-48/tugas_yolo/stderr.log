@@ -1,0 +1,7 @@
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo/src/initCv.cpp:12:10:[m[K [01;31m[Kfatal error: [m[K../../tugas_yolo-yolocpp/yolov5.h: No such file or directory
+   12 | #include [01;31m[K"../../tugas_yolo-yolocpp/yolov5.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/initCv.dir/build.make:76: CMakeFiles/initCv.dir/src/initCv.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/initCv.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

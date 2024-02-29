@@ -1,0 +1,81 @@
+[0.039s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.160s] -- Detecting C compile features
+[0.160s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.220s] -- Detecting CXX compiler ABI info - done
+[0.225s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.225s] -- Detecting CXX compile features
+[0.225s] -- Detecting CXX compile features - done
+[0.227s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.414s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.456s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.475s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.476s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.480s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.528s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.529s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.580s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.594s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.616s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.620s] -- Looking for pthread.h
+[0.654s] -- Looking for pthread.h - found
+[0.654s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.694s] -- Found Threads: TRUE  
+[0.779s] -- Found OpenCV: /usr/local (found version "4.9.0") 
+[0.779s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.839s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.843s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.880s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.880s] -- Configured cppcheck include dirs: 
+[0.880s] -- Configured cppcheck exclude dirs and/or files: 
+[0.881s] -- Added test 'lint_cmake' to check CMake code style
+[0.883s] -- Added test 'uncrustify' to check C / C++ code style
+[0.883s] -- Configured uncrustify additional arguments: 
+[0.883s] -- Added test 'xmllint' to check XML markup files
+[0.884s] -- Configuring done
+[0.888s] -- Generating done
+[0.889s] -- Build files have been written to: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp
+[0.895s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp
+[0.895s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp -- -j32 -l32
+[0.922s] [ 50%] [32mBuilding CXX object CMakeFiles/detect.dir/src/detect.cpp.o[0m
+[2.228s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:[m[K In member function ‘[01m[Kcv::Mat Detection::post_process(cv::Mat&, std::vector<cv::Mat>&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[2.228s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:134:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.228s]   134 |             for (int i = 0; [01;35m[Ki < index.size()[m[K; i++){
+[2.228s]       |                             [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[2.228s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:90:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdimensions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.228s]    90 |             const int [01;35m[Kdimensions[m[K = 85;
+[2.228s]       |                       [01;35m[K^~~~~~~~~~[m[K
+[4.940s] [100%] [32m[1mLinking CXX executable detect[0m
+[5.031s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409
+[5.031s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+[5.239s] [100%] Built target detect
+[5.244s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp -- -j32 -l32
+[5.262s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp
+[5.266s] -- Install configuration: ""
+[5.266s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/lib/tugas_yolo-yolocpp/detect
+[5.268s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/lib/tugas_yolo-yolocpp/detect" to ""
+[5.268s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/ament_index/resource_index/package_run_dependencies/tugas_yolo-yolocpp
+[5.268s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/ament_index/resource_index/parent_prefix_path/tugas_yolo-yolocpp
+[5.268s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/environment/ament_prefix_path.sh
+[5.268s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/environment/ament_prefix_path.dsv
+[5.268s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/environment/path.sh
+[5.268s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/environment/path.dsv
+[5.268s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/local_setup.bash
+[5.268s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/local_setup.sh
+[5.268s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/local_setup.zsh
+[5.268s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/local_setup.dsv
+[5.268s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.dsv
+[5.269s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/ament_index/resource_index/packages/tugas_yolo-yolocpp
+[5.269s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.269s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/cmake/tugas_yolo-yolocppConfig.cmake
+[5.269s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/cmake/tugas_yolo-yolocppConfig-version.cmake
+[5.269s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.xml
+[5.273s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp

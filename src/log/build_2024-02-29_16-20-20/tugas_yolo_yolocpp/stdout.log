@@ -1,0 +1,11 @@
+[ 12%] Built target tugas_yolo_yolocpp__rosidl_generator_c
+[ 16%] Built target tugas_yolo_yolocpp__cpp
+[ 29%] Built target tugas_yolo_yolocpp__rosidl_typesupport_c
+[ 41%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c
+[ 54%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_c
+[ 66%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_cpp
+[ 79%] Built target tugas_yolo_yolocpp__rosidl_typesupport_cpp
+[ 91%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target detect[0m
+[ 91%] Built target tugas_yolo_yolocpp
+[ 95%] [32mBuilding CXX object CMakeFiles/detect.dir/src/detect.cpp.o[0m

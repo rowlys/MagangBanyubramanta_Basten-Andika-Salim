@@ -1,0 +1,11 @@
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/build/CMakeFiles/uninstall.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/build/CMakeFiles/tugas_yolo-yolocpp_uninstall.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/build/CMakeFiles/detector.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/build/CMakeFiles/detect.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/build/CMakeFiles/test.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/build/CMakeFiles/edit_cache.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/build/CMakeFiles/rebuild_cache.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/build/CMakeFiles/list_install_components.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/build/CMakeFiles/install.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/build/CMakeFiles/install/local.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,50 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp
+[35m[1mConsolidate compiler generated dependencies of target detector[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/detector.dir/yolov5.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libdetector.so[0m
+[ 50%] Built target detector
+[35m[1mConsolidate compiler generated dependencies of target detect[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/detect.dir/src/detect.cpp.o[0m
+[100%] [32m[1mLinking CXX executable detect[0m
+[100%] Built target detect
+-- Install configuration: ""
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/lib/tugas_yolo-yolocpp/detect
+-- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/lib/tugas_yolo-yolocpp/detect" to ""
+-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/ament_index/resource_index/package_run_dependencies/tugas_yolo-yolocpp
+-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/ament_index/resource_index/parent_prefix_path/tugas_yolo-yolocpp
+-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/environment/ament_prefix_path.sh
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/environment/path.sh
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/environment/path.dsv
+-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/local_setup.bash
+-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/local_setup.sh
+-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/local_setup.zsh
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/local_setup.dsv
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.dsv
+-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/ament_index/resource_index/packages/tugas_yolo-yolocpp
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/cmake/tugas_yolo-yolocppConfig.cmake
+-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/cmake/tugas_yolo-yolocppConfig-version.cmake
+-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.xml

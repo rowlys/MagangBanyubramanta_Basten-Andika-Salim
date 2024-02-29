@@ -1,0 +1,264 @@
+[0.020s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo_yolocpp -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.082s] -- Detecting C compiler ABI info
+[0.141s] -- Detecting C compiler ABI info - done
+[0.146s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.146s] -- Detecting C compile features
+[0.146s] -- Detecting C compile features - done
+[0.148s] -- Detecting CXX compiler ABI info
+[0.215s] -- Detecting CXX compiler ABI info - done
+[0.221s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.222s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.382s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.423s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.441s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.443s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.447s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.453s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.461s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.491s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.492s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.536s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.548s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.569s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.573s] -- Looking for pthread.h
+[0.618s] -- Looking for pthread.h - found
+[0.618s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.680s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.680s] -- Found Threads: TRUE  
+[0.754s] -- Found OpenCV: /usr/local (found version "4.9.0") 
+[0.755s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.813s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.816s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.942s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.120s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.194s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.194s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.207s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.207s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.207s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.207s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.220s] -- Found PythonExtra: .so  
+[1.237s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.246s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.246s] -- Configured cppcheck include dirs: 
+[1.246s] -- Configured cppcheck exclude dirs and/or files: 
+[1.247s] -- Added test 'lint_cmake' to check CMake code style
+[1.249s] -- Added test 'uncrustify' to check C / C++ code style
+[1.249s] -- Configured uncrustify additional arguments: 
+[1.250s] -- Added test 'xmllint' to check XML markup files
+[1.251s] -- Configuring done
+[1.264s] -- Generating done
+[1.265s] -- Build files have been written to: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp
+[1.272s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo_yolocpp -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp
+[1.272s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp -- -j32 -l32
+[1.293s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.301s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.306s] [  6%] Built target ament_cmake_python_copy_tugas_yolo_yolocpp
+[1.390s] running egg_info
+[1.390s] creating tugas_yolo_yolocpp.egg-info
+[1.396s] writing tugas_yolo_yolocpp.egg-info/PKG-INFO
+[1.396s] writing dependency_links to tugas_yolo_yolocpp.egg-info/dependency_links.txt
+[1.397s] writing top-level names to tugas_yolo_yolocpp.egg-info/top_level.txt
+[1.397s] writing manifest file 'tugas_yolo_yolocpp.egg-info/SOURCES.txt'
+[1.407s] [  6%] Built target tugas_yolo_yolocpp__cpp
+[1.409s] [  9%] [32mBuilding C object CMakeFiles/tugas_yolo_yolocpp__rosidl_generator_c.dir/rosidl_generator_c/tugas_yolo_yolocpp/msg/detail/seen__functions.c.o[0m
+[1.411s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.412s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.412s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.415s] reading manifest file 'tugas_yolo_yolocpp.egg-info/SOURCES.txt'
+[1.416s] writing manifest file 'tugas_yolo_yolocpp.egg-info/SOURCES.txt'
+[1.429s] [ 18%] Built target ament_cmake_python_build_tugas_yolo_yolocpp_egg
+[1.431s] [ 21%] [32m[1mLinking C shared library libtugas_yolo_yolocpp__rosidl_generator_c.so[0m
+[1.452s] [ 21%] Built target tugas_yolo_yolocpp__rosidl_generator_c
+[1.457s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.457s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.457s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.522s] [ 33%] [32mBuilding CXX object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tugas_yolo_yolocpp/msg/detail/seen__type_support.cpp.o[0m
+[1.525s] [ 36%] [32mBuilding CXX object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tugas_yolo_yolocpp/msg/detail/dds_fastrtps/seen__type_support.cpp.o[0m
+[1.527s] [ 39%] [32mBuilding CXX object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tugas_yolo_yolocpp/msg/seen__type_support.cpp.o[0m
+[1.558s] [ 42%] [32mBuilding CXX object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/tugas_yolo_yolocpp/msg/seen__type_support.cpp.o[0m
+[1.567s] [ 45%] [32mBuilding C object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tugas_yolo_yolocpp/msg/detail/seen__type_support.c.o[0m
+[1.567s] [ 48%] [32mBuilding CXX object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_yolo_yolocpp/msg/detail/seen__type_support_c.cpp.o[0m
+[1.580s] [ 51%] [32m[1mLinking CXX shared library libtugas_yolo_yolocpp__rosidl_typesupport_c.so[0m
+[1.582s] [ 54%] [32m[1mLinking C shared library libtugas_yolo_yolocpp__rosidl_typesupport_introspection_c.so[0m
+[1.596s] [ 54%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_c
+[1.599s] [ 54%] Built target tugas_yolo_yolocpp__rosidl_typesupport_c
+[1.636s] [ 57%] [32m[1mLinking CXX shared library libtugas_yolo_yolocpp__rosidl_typesupport_cpp.so[0m
+[1.656s] [ 57%] Built target tugas_yolo_yolocpp__rosidl_typesupport_cpp
+[1.665s] [ 60%] [32mBuilding CXX object CMakeFiles/detect.dir/src/detect.cpp.o[0m
+[1.677s] [ 63%] [32m[1mLinking CXX shared library libtugas_yolo_yolocpp__rosidl_typesupport_introspection_cpp.so[0m
+[1.685s] [ 66%] [32m[1mLinking CXX shared library libtugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.696s] [ 66%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_cpp
+[1.704s] [ 69%] [32m[1mLinking CXX shared library libtugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c.so[0m
+[1.721s] [ 69%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cpp
+[1.740s] [ 69%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c
+[1.749s] [ 69%] Built target tugas_yolo_yolocpp
+[1.759s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.882s] [ 72%] Built target tugas_yolo_yolocpp__py
+[1.890s] [ 75%] [32mBuilding C object CMakeFiles/tugas_yolo_yolocpp__rosidl_generator_py.dir/rosidl_generator_py/tugas_yolo_yolocpp/msg/_seen_s.c.o[0m
+[1.934s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/tugas_yolo_yolocpp/libtugas_yolo_yolocpp__rosidl_generator_py.so[0m
+[1.953s] [ 78%] Built target tugas_yolo_yolocpp__rosidl_generator_py
+[1.962s] [ 81%] [32mBuilding C object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tugas_yolo_yolocpp/_tugas_yolo_yolocpp_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.962s] [ 84%] [32mBuilding C object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tugas_yolo_yolocpp/_tugas_yolo_yolocpp_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.962s] [ 87%] [32mBuilding C object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tugas_yolo_yolocpp/_tugas_yolo_yolocpp_s.ep.rosidl_typesupport_c.c.o[0m
+[2.003s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.003s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.003s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.018s] [ 96%] Built target tugas_yolo_yolocpp__rosidl_typesupport_c__pyext
+[2.018s] [ 96%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_c__pyext
+[2.018s] [ 96%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c__pyext
+[2.937s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo_yolocpp/src/detect.cpp:[m[K In member function ‘[01m[Kcv::Mat Detection::post_process(cv::Mat&, std::vector<cv::Mat>&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[2.937s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo_yolocpp/src/detect.cpp:137:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.937s]   137 |             for (int i = 0; [01;35m[Ki < index.size()[m[K; i++){
+[2.937s]       |                             [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[2.938s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo_yolocpp/src/detect.cpp:93:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdimensions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.938s]    93 |             const int [01;35m[Kdimensions[m[K = 85;
+[2.938s]       |                       [01;35m[K^~~~~~~~~~[m[K
+[4.041s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo_yolocpp/src/detect.cpp:[m[K In member function ‘[01m[Kstd::vector<cv::Mat> Detection::pre_process(cv::Mat&, cv::dnn::dnn4_v20231225::Net&)[m[K’:
+[4.041s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo_yolocpp/src/detect.cpp:82:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[4.041s]    82 |         [01;35m[K}[m[K
+[4.041s]       |         [01;35m[K^[m[K
+[5.679s] [100%] [32m[1mLinking CXX executable detect[0m
+[5.770s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409
+[5.770s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+[5.969s] [100%] Built target detect
+[5.980s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp -- -j32 -l32
+[6.046s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp
+[6.053s] -- Install configuration: ""
+[6.054s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/ament_index/resource_index/rosidl_interfaces/tugas_yolo_yolocpp
+[6.054s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp
+[6.054s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg
+[6.054s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/rosidl_generator_c__visibility_control.h
+[6.054s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/seen.h
+[6.054s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail
+[6.054s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__functions.c
+[6.054s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__functions.h
+[6.054s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__struct.h
+[6.054s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__type_support.h
+[6.055s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/environment/library_path.sh
+[6.055s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/environment/library_path.dsv
+[6.055s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_generator_c.so
+[6.055s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_generator_c.so" to ""
+[6.055s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp
+[6.055s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg
+[6.055s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.055s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail
+[6.055s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__rosidl_typesupport_fastrtps_c.h
+[6.055s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c.so
+[6.055s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c.so" to ""
+[6.055s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp
+[6.055s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg
+[6.055s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/seen.hpp
+[6.055s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail
+[6.055s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__builder.hpp
+[6.056s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__traits.hpp
+[6.056s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__struct.hpp
+[6.056s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp
+[6.056s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg
+[6.056s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.056s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail
+[6.056s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/dds_fastrtps
+[6.056s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__rosidl_typesupport_fastrtps_cpp.hpp
+[6.056s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cpp.so
+[6.056s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.056s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp
+[6.056s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg
+[6.056s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.056s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail
+[6.057s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__type_support.c
+[6.057s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__rosidl_typesupport_introspection_c.h
+[6.057s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_typesupport_introspection_c.so
+[6.057s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_typesupport_introspection_c.so" to ""
+[6.057s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_typesupport_c.so
+[6.057s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_typesupport_c.so" to ""
+[6.057s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp
+[6.057s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg
+[6.057s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail
+[6.057s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__rosidl_typesupport_introspection_cpp.hpp
+[6.057s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__type_support.cpp
+[6.057s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_typesupport_introspection_cpp.so
+[6.058s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_typesupport_introspection_cpp.so" to ""
+[6.058s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_typesupport_cpp.so
+[6.058s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_typesupport_cpp.so" to ""
+[6.058s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/environment/pythonpath.sh
+[6.058s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/environment/pythonpath.dsv
+[6.058s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp-0.0.0-py3.10.egg-info
+[6.058s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp-0.0.0-py3.10.egg-info/top_level.txt
+[6.058s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp-0.0.0-py3.10.egg-info/PKG-INFO
+[6.058s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.058s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.058s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp
+[6.058s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/_tugas_yolo_yolocpp_s.ep.rosidl_typesupport_introspection_c.c
+[6.059s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.059s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.059s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/_tugas_yolo_yolocpp_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.059s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/__init__.py
+[6.059s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/_tugas_yolo_yolocpp_s.ep.rosidl_typesupport_c.c
+[6.059s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.059s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/msg
+[6.059s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/msg/_seen_s.c
+[6.059s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/msg/_seen.py
+[6.059s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/msg/__init__.py
+[6.059s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/libtugas_yolo_yolocpp__rosidl_generator_py.so
+[6.081s] Listing '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp'...
+[6.081s] Compiling '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/__init__.py'...
+[6.081s] Listing '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/msg'...
+[6.081s] Compiling '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/msg/__init__.py'...
+[6.081s] Compiling '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/msg/_seen.py'...
+[6.083s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.083s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.083s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.083s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.083s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.083s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.083s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_generator_py.so
+[6.083s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/libtugas_yolo_yolocpp__rosidl_generator_py.so" to ""
+[6.083s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/msg/Seen.idl
+[6.083s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/msg/Seen.msg
+[6.083s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/tugas_yolo_yolocpp/detect
+[6.085s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/lib/tugas_yolo_yolocpp/detect" to ""
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/ament_index/resource_index/package_run_dependencies/tugas_yolo_yolocpp
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/ament_index/resource_index/parent_prefix_path/tugas_yolo_yolocpp
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/environment/ament_prefix_path.sh
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/environment/ament_prefix_path.dsv
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/environment/path.sh
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/environment/path.dsv
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/local_setup.bash
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/local_setup.sh
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/local_setup.zsh
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/local_setup.dsv
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/package.dsv
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/ament_index/resource_index/packages/tugas_yolo_yolocpp
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/export_tugas_yolo_yolocpp__rosidl_generator_cExport.cmake
+[6.085s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/export_tugas_yolo_yolocpp__rosidl_generator_cExport-noconfig.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/export_tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cExport.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/export_tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/export_tugas_yolo_yolocpp__rosidl_generator_cppExport.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/export_tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/export_tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/tugas_yolo_yolocpp__rosidl_typesupport_introspection_cExport.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/tugas_yolo_yolocpp__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/tugas_yolo_yolocpp__rosidl_typesupport_cExport.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/tugas_yolo_yolocpp__rosidl_typesupport_cExport-noconfig.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/tugas_yolo_yolocpp__rosidl_typesupport_introspection_cppExport.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/tugas_yolo_yolocpp__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/tugas_yolo_yolocpp__rosidl_typesupport_cppExport.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/tugas_yolo_yolocpp__rosidl_typesupport_cppExport-noconfig.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/export_tugas_yolo_yolocpp__rosidl_generator_pyExport.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/export_tugas_yolo_yolocpp__rosidl_generator_pyExport-noconfig.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/rosidl_cmake-extras.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/ament_cmake_export_libraries-extras.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/ament_cmake_export_targets-extras.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/tugas_yolo_yolocppConfig.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/cmake/tugas_yolo_yolocppConfig-version.cmake
+[6.086s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo_yolocpp/share/tugas_yolo_yolocpp/package.xml
+[6.088s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp

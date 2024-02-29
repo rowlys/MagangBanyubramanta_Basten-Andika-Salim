@@ -10,6 +10,8 @@
 #include "cv_bridge/cv_bridge.h"
 #include "std_msgs/msg/header.hpp"
 
+
+
 using namespace std::chrono_literals;
 using std::placeholders::_1;
 using namespace std; 
@@ -41,8 +43,8 @@ class initCv_ : public rclcpp::Node
         if (!frame.empty())
         {
             resize(frame, image, size_);
-            imshow("image", image);
-            imshow("frame", frame);
+            // imshow("image", image);
+            // imshow("frame", frame);
 
             auto message = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", image).toImageMsg();
             publish_->publish(*message);

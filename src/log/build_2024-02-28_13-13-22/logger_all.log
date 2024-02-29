@@ -1,0 +1,885 @@
+[0.371s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'tugas_yolo-yolocpp'][0m
+[0.371s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['tugas_yolo-yolocpp'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7ddcfe9d50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7ddd120760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7ddd120760>>)[0m
+[0.394s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.394s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.394s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.394s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.394s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.394s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.394s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extension 'ignore'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extension 'ignore_ament_install'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extensions ['colcon_pkg']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extension 'colcon_pkg'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extensions ['colcon_meta']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extension 'colcon_meta'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extensions ['ros']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extension 'ros'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extensions ['cmake', 'python']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extension 'cmake'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extension 'python'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extensions ['python_setup_py']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns) by extension 'python_setup_py'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extension 'ignore'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extension 'ignore_ament_install'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extensions ['colcon_pkg']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extension 'colcon_pkg'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extensions ['colcon_meta']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extension 'colcon_meta'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extensions ['ros']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extension 'ros'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extensions ['cmake', 'python']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extension 'cmake'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extension 'python'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extensions ['python_setup_py']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2) by extension 'python_setup_py'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extension 'ignore'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extension 'ignore_ament_install'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extensions ['colcon_pkg']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extension 'colcon_pkg'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extensions ['colcon_meta']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extension 'colcon_meta'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extensions ['ros']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extension 'ros'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extensions ['cmake', 'python']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extension 'cmake'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extension 'python'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extensions ['python_setup_py']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus) by extension 'python_setup_py'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'ignore'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'ignore_ament_install'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extensions ['colcon_pkg']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'colcon_pkg'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extensions ['colcon_meta']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'colcon_meta'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extensions ['ros']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'ros'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extensions ['cmake', 'python']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'cmake'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'python'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extensions ['python_setup_py']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'python_setup_py'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(matlab_msg_gen) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(matlab_msg_gen) by extension 'ignore'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(matlab_msg_gen) ignored
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extension 'ignore'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extension 'ignore_ament_install'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extensions ['colcon_pkg']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extension 'colcon_pkg'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extensions ['colcon_meta']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extension 'colcon_meta'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extensions ['ros']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extension 'ros'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extensions ['cmake', 'python']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extension 'cmake'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extension 'python'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extensions ['python_setup_py']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj) by extension 'python_setup_py'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extension 'ignore'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extension 'ignore_ament_install'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extensions ['colcon_pkg']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extension 'colcon_pkg'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extensions ['colcon_meta']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extension 'colcon_meta'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extensions ['ros']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extension 'ros'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extensions ['cmake', 'python']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extension 'cmake'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extension 'python'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extensions ['python_setup_py']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_jitprj) by extension 'python_setup_py'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extension 'ignore'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extension 'ignore_ament_install'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extensions ['colcon_pkg']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extension 'colcon_pkg'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extensions ['colcon_meta']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extension 'colcon_meta'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extensions ['ros']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extension 'ros'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extensions ['cmake', 'python']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extension 'cmake'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extension 'python'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extensions ['python_setup_py']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj) by extension 'python_setup_py'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extension 'ignore'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extension 'ignore_ament_install'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extensions ['colcon_pkg']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extension 'colcon_pkg'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extensions ['colcon_meta']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extension 'colcon_meta'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extensions ['ros']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extension 'ros'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extensions ['cmake', 'python']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extension 'cmake'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extension 'python'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extensions ['python_setup_py']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport) by extension 'python_setup_py'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extension 'ignore'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extension 'ignore_ament_install'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extensions ['colcon_pkg']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extension 'colcon_pkg'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extensions ['colcon_meta']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extension 'colcon_meta'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extensions ['ros']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extension 'ros'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extensions ['cmake', 'python']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extension 'cmake'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extension 'python'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extensions ['python_setup_py']
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sCVqi9SAxZ1XbHbtriiouGC) by extension 'python_setup_py'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extension 'ignore'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extension 'ignore_ament_install'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extensions ['colcon_pkg']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extension 'colcon_pkg'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extensions ['colcon_meta']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extension 'colcon_meta'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extensions ['ros']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extension 'ros'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extensions ['cmake', 'python']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extension 'cmake'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extension 'python'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extensions ['python_setup_py']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sH1veTV1yajNWxnGF1iBvEB) by extension 'python_setup_py'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extension 'ignore'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extension 'ignore_ament_install'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extensions ['colcon_pkg']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extension 'colcon_pkg'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extensions ['colcon_meta']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extension 'colcon_meta'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extensions ['ros']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extension 'ros'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extensions ['cmake', 'python']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extension 'cmake'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extension 'python'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extensions ['python_setup_py']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sIPvN1AwZfvAbNaiIA72DzG) by extension 'python_setup_py'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extension 'ignore'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extension 'ignore_ament_install'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extensions ['colcon_pkg']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extension 'colcon_pkg'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extensions ['colcon_meta']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extension 'colcon_meta'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extensions ['ros']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extension 'ros'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extensions ['cmake', 'python']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extension 'cmake'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extension 'python'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extensions ['python_setup_py']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sJEzVjyWZIDXqcnmFcPQh0C) by extension 'python_setup_py'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'ignore'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'ignore_ament_install'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extensions ['colcon_pkg']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'colcon_pkg'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extensions ['colcon_meta']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'colcon_meta'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extensions ['ros']
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'ros'
+[0.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extensions ['cmake', 'python']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'cmake'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'python'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extensions ['python_setup_py']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'python_setup_py'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extension 'ignore'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extension 'ignore_ament_install'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extensions ['colcon_pkg']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extension 'colcon_pkg'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extensions ['colcon_meta']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extension 'colcon_meta'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extensions ['ros']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extension 'ros'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extensions ['cmake', 'python']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extension 'cmake'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extension 'python'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extensions ['python_setup_py']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/sUos81SU7eT3YKhz1WEhwfG) by extension 'python_setup_py'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extension 'ignore'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extension 'ignore_ament_install'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extensions ['colcon_pkg']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extension 'colcon_pkg'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extensions ['colcon_meta']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extension 'colcon_meta'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extensions ['ros']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extension 'ros'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extensions ['cmake', 'python']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extension 'cmake'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extension 'python'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extensions ['python_setup_py']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/EMLReport/snjkuZIACLv65nwXtQrcBSC) by extension 'python_setup_py'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extension 'ignore'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extension 'ignore_ament_install'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extensions ['colcon_pkg']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extension 'colcon_pkg'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extensions ['colcon_meta']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extension 'colcon_meta'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extensions ['ros']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extension 'ros'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extensions ['cmake', 'python']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extension 'cmake'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extension 'python'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extensions ['python_setup_py']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/precompile) by extension 'python_setup_py'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extension 'ignore'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extension 'ignore_ament_install'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extensions ['colcon_pkg']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extension 'colcon_pkg'
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extensions ['colcon_meta']
+[0.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extension 'colcon_meta'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extensions ['ros']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extension 'ros'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extensions ['cmake', 'python']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extension 'cmake'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extension 'python'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extensions ['python_setup_py']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1) by extension 'python_setup_py'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extension 'ignore'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extension 'ignore_ament_install'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extensions ['colcon_pkg']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extension 'colcon_pkg'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extensions ['colcon_meta']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extension 'colcon_meta'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extensions ['ros']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extension 'ros'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extensions ['cmake', 'python']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extension 'cmake'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extension 'python'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extensions ['python_setup_py']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self) by extension 'python_setup_py'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extension 'ignore'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extension 'ignore_ament_install'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extensions ['colcon_pkg']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extension 'colcon_pkg'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extensions ['colcon_meta']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extension 'colcon_meta'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extensions ['ros']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extension 'ros'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extensions ['cmake', 'python']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extension 'cmake'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extension 'python'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extensions ['python_setup_py']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun) by extension 'python_setup_py'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extension 'ignore'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extension 'ignore_ament_install'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extensions ['colcon_pkg']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extension 'colcon_pkg'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extensions ['colcon_meta']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extension 'colcon_meta'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extensions ['ros']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extension 'ros'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extensions ['cmake', 'python']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extension 'cmake'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extension 'python'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extensions ['python_setup_py']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/_sfprj/untitled1/_self/sfun/info) by extension 'python_setup_py'
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extension 'ignore'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extension 'ignore_ament_install'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extensions ['colcon_pkg']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extension 'colcon_pkg'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extensions ['colcon_meta']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extension 'colcon_meta'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extensions ['ros']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extension 'ros'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extensions ['cmake', 'python']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extension 'cmake'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extension 'python'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extensions ['python_setup_py']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim) by extension 'python_setup_py'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extension 'ignore'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extension 'ignore_ament_install'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extensions ['colcon_pkg']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extension 'colcon_pkg'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extensions ['colcon_meta']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extension 'colcon_meta'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extensions ['ros']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extension 'ros'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extensions ['cmake', 'python']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extension 'cmake'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extension 'python'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extensions ['python_setup_py']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache) by extension 'python_setup_py'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extension 'ignore'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extension 'ignore_ament_install'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extensions ['colcon_pkg']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extension 'colcon_pkg'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extensions ['colcon_meta']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extension 'colcon_meta'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extensions ['ros']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extension 'ros'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extensions ['cmake', 'python']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extension 'cmake'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extension 'python'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extensions ['python_setup_py']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1) by extension 'python_setup_py'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extension 'ignore'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extension 'ignore_ament_install'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extensions ['colcon_pkg']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extension 'colcon_pkg'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extensions ['colcon_meta']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extension 'colcon_meta'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extensions ['ros']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extension 'ros'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extensions ['cmake', 'python']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extension 'cmake'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extension 'python'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extensions ['python_setup_py']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slprj/sim/varcache/untitled1/tmwinternal) by extension 'python_setup_py'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extension 'ignore'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extension 'ignore_ament_install'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extensions ['colcon_pkg']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extension 'colcon_pkg'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extensions ['colcon_meta']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extension 'colcon_meta'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extensions ['ros']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extension 'ros'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extensions ['cmake', 'python']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extension 'cmake'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extension 'python'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extensions ['python_setup_py']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy) by extension 'python_setup_py'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy/xbox) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy/xbox) by extension 'ignore'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy/xbox) by extension 'ignore_ament_install'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy/xbox) by extensions ['colcon_pkg']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy/xbox) by extension 'colcon_pkg'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy/xbox) by extensions ['colcon_meta']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy/xbox) by extension 'colcon_meta'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy/xbox) by extensions ['ros']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_joy/xbox) by extension 'ros'
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'tugas_joy/xbox' with type 'ros.ament_cmake' and name 'xbox'[0m
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extension 'ignore'
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extension 'ignore_ament_install'
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extensions ['colcon_pkg']
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extension 'colcon_pkg'
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extensions ['colcon_meta']
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extension 'colcon_meta'
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extensions ['ros']
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extension 'ros'
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extensions ['cmake', 'python']
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extension 'cmake'
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extension 'python'
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extensions ['python_setup_py']
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab) by extension 'python_setup_py'
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extension 'ignore'
+[0.410s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extension 'ignore_ament_install'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extensions ['colcon_pkg']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extension 'colcon_pkg'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extensions ['colcon_meta']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extension 'colcon_meta'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extensions ['ros']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extension 'ros'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extensions ['cmake', 'python']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extension 'cmake'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extension 'python'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extensions ['python_setup_py']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns) by extension 'python_setup_py'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extension 'ignore'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extension 'ignore_ament_install'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extensions ['colcon_pkg']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extension 'colcon_pkg'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extensions ['colcon_meta']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extension 'colcon_meta'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extensions ['ros']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extension 'ros'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extensions ['cmake', 'python']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extension 'cmake'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extension 'python'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extensions ['python_setup_py']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2) by extension 'python_setup_py'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extension 'ignore'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extension 'ignore_ament_install'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extensions ['colcon_pkg']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extension 'colcon_pkg'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extensions ['colcon_meta']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extension 'colcon_meta'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extensions ['ros']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extension 'ros'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extensions ['cmake', 'python']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extension 'cmake'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extension 'python'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extensions ['python_setup_py']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus) by extension 'python_setup_py'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'ignore'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'ignore_ament_install'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extensions ['colcon_pkg']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'colcon_pkg'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extensions ['colcon_meta']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'colcon_meta'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extensions ['ros']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'ros'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extensions ['cmake', 'python']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'cmake'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'python'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extensions ['python_setup_py']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/+bus_conv_fcns/+ros2/+msgToBus/+tugas_opencv) by extension 'python_setup_py'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/build) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/build) by extension 'ignore'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/build) ignored
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/install) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/install) by extension 'ignore'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/install) ignored
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/log) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/log) by extension 'ignore'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/log) ignored
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extension 'ignore'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extension 'ignore_ament_install'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extensions ['colcon_pkg']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extension 'colcon_pkg'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extensions ['colcon_meta']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extension 'colcon_meta'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extensions ['ros']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extension 'ros'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extensions ['cmake', 'python']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extension 'cmake'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extension 'python'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extensions ['python_setup_py']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/matlab) by extension 'python_setup_py'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extension 'ignore'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extension 'ignore_ament_install'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extensions ['colcon_pkg']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extension 'colcon_pkg'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extensions ['colcon_meta']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extension 'colcon_meta'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extensions ['ros']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extension 'ros'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extensions ['cmake', 'python']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extension 'cmake'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extension 'python'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extensions ['python_setup_py']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj) by extension 'python_setup_py'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extension 'ignore'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extension 'ignore_ament_install'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extensions ['colcon_pkg']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extension 'colcon_pkg'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extensions ['colcon_meta']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extension 'colcon_meta'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extensions ['ros']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extension 'ros'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extensions ['cmake', 'python']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extension 'cmake'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extension 'python'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extensions ['python_setup_py']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_jitprj) by extension 'python_setup_py'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extension 'ignore'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extension 'ignore_ament_install'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extensions ['colcon_pkg']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extension 'colcon_pkg'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extensions ['colcon_meta']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extension 'colcon_meta'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extensions ['ros']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extension 'ros'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extensions ['cmake', 'python']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extension 'cmake'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extension 'python'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extensions ['python_setup_py']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj) by extension 'python_setup_py'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extension 'ignore'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extension 'ignore_ament_install'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extensions ['colcon_pkg']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extension 'colcon_pkg'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extensions ['colcon_meta']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extension 'colcon_meta'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extensions ['ros']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extension 'ros'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extensions ['cmake', 'python']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extension 'cmake'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extension 'python'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extensions ['python_setup_py']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport) by extension 'python_setup_py'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extension 'ignore'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extension 'ignore_ament_install'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extensions ['colcon_pkg']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extension 'colcon_pkg'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extensions ['colcon_meta']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extension 'colcon_meta'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extensions ['ros']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extension 'ros'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extensions ['cmake', 'python']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extension 'cmake'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extension 'python'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extensions ['python_setup_py']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s3kmiHGXXKNAPUgYiuHI26) by extension 'python_setup_py'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extension 'ignore'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extension 'ignore_ament_install'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extensions ['colcon_pkg']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extension 'colcon_pkg'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extensions ['colcon_meta']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extension 'colcon_meta'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extensions ['ros']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extension 'ros'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extensions ['cmake', 'python']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extension 'cmake'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extension 'python'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extensions ['python_setup_py']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/s5GfQns0HAsT5egMtR5ebHB) by extension 'python_setup_py'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'ignore'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'ignore_ament_install'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extensions ['colcon_pkg']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'colcon_pkg'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extensions ['colcon_meta']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'colcon_meta'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extensions ['ros']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'ros'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extensions ['cmake', 'python']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'cmake'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'python'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extensions ['python_setup_py']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sUmGXGKygZC3WTFiqyLltsG) by extension 'python_setup_py'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extension 'ignore'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extension 'ignore_ament_install'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extensions ['colcon_pkg']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extension 'colcon_pkg'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extensions ['colcon_meta']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extension 'colcon_meta'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extensions ['ros']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extension 'ros'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extensions ['cmake', 'python']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extension 'cmake'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extension 'python'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extensions ['python_setup_py']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/saGfUpdfwaMywDqnLQ5FfPH) by extension 'python_setup_py'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extension 'ignore'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extension 'ignore_ament_install'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extensions ['colcon_pkg']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extension 'colcon_pkg'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extensions ['colcon_meta']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extension 'colcon_meta'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extensions ['ros']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extension 'ros'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extensions ['cmake', 'python']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extension 'cmake'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extension 'python'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extensions ['python_setup_py']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/shQtIkhaFugPvmb9fquWITH) by extension 'python_setup_py'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extension 'ignore'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extension 'ignore_ament_install'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extensions ['colcon_pkg']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extension 'colcon_pkg'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extensions ['colcon_meta']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extension 'colcon_meta'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extensions ['ros']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extension 'ros'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extensions ['cmake', 'python']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extension 'cmake'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extension 'python'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extensions ['python_setup_py']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sk71YkZO31jUw8t0Cz3JVvG) by extension 'python_setup_py'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extension 'ignore'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extension 'ignore_ament_install'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extensions ['colcon_pkg']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extension 'colcon_pkg'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extensions ['colcon_meta']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extension 'colcon_meta'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extensions ['ros']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extension 'ros'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extensions ['cmake', 'python']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extension 'cmake'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extension 'python'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extensions ['python_setup_py']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/EMLReport/sz3e6qemeFUFAldtnppOfGG) by extension 'python_setup_py'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extension 'ignore'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extension 'ignore_ament_install'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extensions ['colcon_pkg']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extension 'colcon_pkg'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extensions ['colcon_meta']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extension 'colcon_meta'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extensions ['ros']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extension 'ros'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extensions ['cmake', 'python']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extension 'cmake'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extension 'python'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extensions ['python_setup_py']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/precompile) by extension 'python_setup_py'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extension 'ignore'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extension 'ignore_ament_install'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extensions ['colcon_pkg']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extension 'colcon_pkg'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extensions ['colcon_meta']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extension 'colcon_meta'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extensions ['ros']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extension 'ros'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extensions ['cmake', 'python']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extension 'cmake'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extension 'python'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extensions ['python_setup_py']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1) by extension 'python_setup_py'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extension 'ignore'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extension 'ignore_ament_install'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extensions ['colcon_pkg']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extension 'colcon_pkg'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extensions ['colcon_meta']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extension 'colcon_meta'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extensions ['ros']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extension 'ros'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extensions ['cmake', 'python']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extension 'cmake'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extension 'python'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extensions ['python_setup_py']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self) by extension 'python_setup_py'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extension 'ignore'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extension 'ignore_ament_install'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extensions ['colcon_pkg']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extension 'colcon_pkg'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extensions ['colcon_meta']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extension 'colcon_meta'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extensions ['ros']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extension 'ros'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extensions ['cmake', 'python']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extension 'cmake'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extension 'python'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extensions ['python_setup_py']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun) by extension 'python_setup_py'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extension 'ignore'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extension 'ignore_ament_install'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extensions ['colcon_pkg']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extension 'colcon_pkg'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extensions ['colcon_meta']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extension 'colcon_meta'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extensions ['ros']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extension 'ros'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extensions ['cmake', 'python']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extension 'cmake'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extension 'python'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extensions ['python_setup_py']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/_sfprj/untitled1/_self/sfun/info) by extension 'python_setup_py'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extension 'ignore'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extension 'ignore_ament_install'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extensions ['colcon_pkg']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extension 'colcon_pkg'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extensions ['colcon_meta']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extension 'colcon_meta'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extensions ['ros']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extension 'ros'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extensions ['cmake', 'python']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extension 'cmake'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extension 'python'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extensions ['python_setup_py']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim) by extension 'python_setup_py'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extension 'ignore'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extension 'ignore_ament_install'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extensions ['colcon_pkg']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extension 'colcon_pkg'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extensions ['colcon_meta']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extension 'colcon_meta'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extensions ['ros']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extension 'ros'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extensions ['cmake', 'python']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extension 'cmake'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extension 'python'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extensions ['python_setup_py']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache) by extension 'python_setup_py'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extension 'ignore'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extension 'ignore_ament_install'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extensions ['colcon_pkg']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extension 'colcon_pkg'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extensions ['colcon_meta']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extension 'colcon_meta'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extensions ['ros']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extension 'ros'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extensions ['cmake', 'python']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extension 'cmake'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extension 'python'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extensions ['python_setup_py']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1) by extension 'python_setup_py'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extension 'ignore'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extension 'ignore_ament_install'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extensions ['colcon_pkg']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extension 'colcon_pkg'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extensions ['colcon_meta']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extension 'colcon_meta'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extensions ['ros']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extension 'ros'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extensions ['cmake', 'python']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extension 'cmake'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extension 'python'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extensions ['python_setup_py']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_matlab/slprj/sim/varcache/untitled1/tmwinternal) by extension 'python_setup_py'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_opencv) by extension 'ignore'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_opencv) by extension 'ignore_ament_install'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_opencv) by extensions ['colcon_pkg']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_opencv) by extension 'colcon_pkg'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_opencv) by extensions ['colcon_meta']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_opencv) by extension 'colcon_meta'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_opencv) by extensions ['ros']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_opencv) by extension 'ros'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'tugas_opencv' with type 'ros.ament_cmake' and name 'tugas_opencv'[0m
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo) by extension 'ignore'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo) by extension 'ignore_ament_install'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo) by extensions ['colcon_pkg']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo) by extension 'colcon_pkg'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo) by extensions ['colcon_meta']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo) by extension 'colcon_meta'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo) by extensions ['ros']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo) by extension 'ros'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'tugas_yolo' with type 'ros.ament_cmake' and name 'tugas_yolo'[0m
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo-yolocpp) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo-yolocpp) by extension 'ignore'
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo-yolocpp) by extension 'ignore_ament_install'
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo-yolocpp) by extensions ['colcon_pkg']
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo-yolocpp) by extension 'colcon_pkg'
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo-yolocpp) by extensions ['colcon_meta']
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo-yolocpp) by extension 'colcon_meta'
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo-yolocpp) by extensions ['ros']
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tugas_yolo-yolocpp) by extension 'ros'
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'tugas_yolo-yolocpp' with type 'ros.ament_cmake' and name 'tugas_yolo-yolocpp'[0m
+[0.419s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.419s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.419s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.419s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.419s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.443s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'tugas_opencv' in 'tugas_opencv'
+[0.443s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'tugas_yolo' in 'tugas_yolo'
+[0.443s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'xbox' in 'tugas_joy/xbox'
+[0.454s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.454s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.466s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 284 installed packages in /opt/ros/humble[0m
+[0.466s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.497s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tugas_yolo-yolocpp' build argument 'cmake_args' from command line to 'None'
+[0.497s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tugas_yolo-yolocpp' build argument 'cmake_target' from command line to 'None'
+[0.497s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tugas_yolo-yolocpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.497s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tugas_yolo-yolocpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.497s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tugas_yolo-yolocpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.497s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tugas_yolo-yolocpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.498s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tugas_yolo-yolocpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.498s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tugas_yolo-yolocpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.498s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tugas_yolo-yolocpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.498s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'tugas_yolo-yolocpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp', 'merge_install': False, 'path': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp', 'symlink_install': False, 'test_result_base': None}[0m
+[0.503s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.509s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.509s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp' with build type 'ament_cmake'
+[0.509s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp'
+[0.515s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.515s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.515s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.531s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp -- -j32 -l32[0m
+[3.072s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp -- -j32 -l32[0m
+[3.091s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp[0m
+[3.101s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(tugas_yolo-yolocpp)
+[3.101s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp[0m
+[3.108s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp' for CMake module files
+[3.109s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp' for CMake config files
+[3.109s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tugas_yolo-yolocpp', 'cmake_prefix_path')
+[3.114s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/hook/cmake_prefix_path.ps1'
+[3.114s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/hook/cmake_prefix_path.dsv'
+[3.115s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/hook/cmake_prefix_path.sh'
+[3.115s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/lib'
+[3.115s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/bin'
+[3.115s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/lib/pkgconfig/tugas_yolo-yolocpp.pc'
+[3.115s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/lib/python3.10/site-packages'
+[3.115s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/bin'
+[3.121s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.ps1'
+[3.121s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.dsv'
+[3.121s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.sh'
+[3.122s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.bash'
+[3.122s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.zsh'
+[3.122s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/colcon-core/packages/tugas_yolo-yolocpp)
+[3.147s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(tugas_yolo-yolocpp)
+[3.153s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp' for CMake module files
+[3.153s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp' for CMake config files
+[3.153s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tugas_yolo-yolocpp', 'cmake_prefix_path')
+[3.159s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/hook/cmake_prefix_path.ps1'
+[3.159s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/hook/cmake_prefix_path.dsv'
+[3.159s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/hook/cmake_prefix_path.sh'
+[3.159s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/lib'
+[3.159s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/bin'
+[3.159s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/lib/pkgconfig/tugas_yolo-yolocpp.pc'
+[3.159s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/lib/python3.10/site-packages'
+[3.159s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/bin'
+[3.165s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.ps1'
+[3.165s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.dsv'
+[3.165s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.sh'
+[3.165s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.bash'
+[3.166s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/tugas_yolo-yolocpp/package.zsh'
+[3.166s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/tugas_yolo-yolocpp/share/colcon-core/packages/tugas_yolo-yolocpp)
+[3.166s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[3.166s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[3.166s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[3.166s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[3.175s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.175s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.175s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[3.184s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[3.192s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/local_setup.ps1'
+[3.193s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/_local_setup_util_ps1.py'
+[3.193s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/setup.ps1'
+[3.199s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/local_setup.sh'
+[3.199s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/_local_setup_util_sh.py'
+[3.199s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/setup.sh'
+[3.205s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/local_setup.bash'
+[3.206s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/setup.bash'
+[3.211s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/local_setup.zsh'
+[3.211s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/install/setup.zsh'

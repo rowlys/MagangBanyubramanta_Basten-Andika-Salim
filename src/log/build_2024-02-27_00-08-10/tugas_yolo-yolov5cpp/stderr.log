@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:51 (add_executable):
+  add_executable cannot create target "detect" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory
+  "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolov5cpp".
+  See documentation for policy CMP0002 for more details.
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+  ament_package_xml() package name 'tugas_yolo-yolov5cpp' in '/package.xml'
+  does not match current PROJECT_NAME 'detect'.  You must call project() with
+  the same package name before.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+  CMakeLists.txt:71 (ament_lint_auto_find_test_dependencies)
+
+[0m

@@ -1,0 +1,68 @@
+[0.037s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp -- -j32 -l32
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target tugas_yolo_yolocpp__rosidl_generator_c[0m
+[0.059s] [  4%] Built target tugas_yolo_yolocpp__cpp
+[0.060s] [ 16%] Built target tugas_yolo_yolocpp__rosidl_generator_c
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target tugas_yolo_yolocpp__rosidl_typesupport_introspection_cpp[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target tugas_yolo_yolocpp__rosidl_typesupport_cpp[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cpp[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target tugas_yolo_yolocpp__rosidl_typesupport_c[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target tugas_yolo_yolocpp__rosidl_typesupport_introspection_c[0m
+[0.071s] [ 41%] Built target tugas_yolo_yolocpp__rosidl_typesupport_c
+[0.071s] [ 37%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_cpp
+[0.071s] [ 66%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cpp
+[0.071s] [ 66%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_c
+[0.071s] [ 79%] Built target tugas_yolo_yolocpp__rosidl_typesupport_cpp
+[0.071s] [ 91%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c
+[0.079s] [ 91%] Built target tugas_yolo_yolocpp
+[0.079s] [ 95%] [32mBuilding CXX object CMakeFiles/detect.dir/src/detect.cpp.o[0m
+[1.348s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[1.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[1.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[1.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.348s]                  from [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:8[m[K:
+[1.348s] /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp: In instantiation of ‘[01m[Kclass rclcpp::Publisher<tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> >()>[m[K’:
+[1.348s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:184:55:[m[K   required from here
+[1.348s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:81:47:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: given message type is not compatible with ROS and cannot be used with a Publisher
+[1.348s]    81 |     rclcpp::is_ros_compatible_type<MessageT>::[01;31m[Kvalue[m[K,
+[1.348s]       |                                               [01;31m[K^~~~~[m[K
+[1.348s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:81:47:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::is_ros_compatible_type<tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> >()>::value[m[K’ evaluates to false
+[1.348s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[1.348s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[1.348s]                  from [01m[K/usr/include/c++/11/unordered_map:40[m[K,
+[1.348s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[1.348s]                  from [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:2[m[K:
+[1.348s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kclass __gnu_cxx::new_allocator<tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> >()>[m[K’:
+[1.348s] [01m[K/usr/include/c++/11/bits/allocator.h:124:11:[m[K   required from ‘[01m[Kclass std::allocator<tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> >()>[m[K’
+[1.348s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:595:26:[m[K   required from ‘[01m[Kclass rclcpp::Publisher<tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> >()>[m[K’
+[1.348s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:184:55:[m[K   required from here
+[1.348s] [01m[K/usr/include/c++/11/ext/new_allocator.h:96:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _Tp* __gnu_cxx::new_allocator<_Tp>::address(__gnu_cxx::new_allocator<_Tp>::const_reference) const [with _Tp = tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> >(); __gnu_cxx::new_allocator<_Tp>::const_pointer = tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> > (*)(); __gnu_cxx::new_allocator<_Tp>::const_reference = tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> > (&)()][m[K’ cannot be overloaded with ‘[01m[K_Tp* __gnu_cxx::new_allocator<_Tp>::address(__gnu_cxx::new_allocator<_Tp>::reference) const [with _Tp = tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> >(); __gnu_cxx::new_allocator<_Tp>::pointer = tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> > (*)(); __gnu_cxx::new_allocator<_Tp>::reference = tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> > (&)()][m[K’
+[1.348s]    96 |       [01;31m[Kaddress[m[K(const_reference __x) const _GLIBCXX_NOEXCEPT
+[1.348s]       |       [01;31m[K^~~~~~~[m[K
+[1.348s] [01m[K/usr/include/c++/11/ext/new_allocator.h:92:7:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[K_Tp* __gnu_cxx::new_allocator<_Tp>::address(__gnu_cxx::new_allocator<_Tp>::reference) const [with _Tp = tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> >(); __gnu_cxx::new_allocator<_Tp>::pointer = tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> > (*)(); __gnu_cxx::new_allocator<_Tp>::reference = tugas_yolo_yolocpp::msg::Seen_<std::allocator<void> > (&)()][m[K’
+[1.348s]    92 |       [01;36m[Kaddress[m[K(reference __x) const _GLIBCXX_NOEXCEPT
+[1.348s]       |       [01;36m[K^~~~~~~[m[K
+[1.357s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:[m[K In member function ‘[01m[Kcv::Mat Detection::post_process(cv::Mat&, std::vector<cv::Mat>&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[1.357s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:137:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.357s]   137 |             for (int i = 0; [01;35m[Ki < index.size()[m[K; i++){
+[1.357s]       |                             [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[1.362s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:148:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[1.362s]   148 |                 [01;31m[Kmessage[m[K.data = list_name[class_ids[idx]].c_str();
+[1.362s]       |                 [01;31m[K^~~~~~~[m[K
+[1.363s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:93:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdimensions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.363s]    93 |             const int [01;35m[Kdimensions[m[K = 85;
+[1.363s]       |                       [01;35m[K^~~~~~~~~~[m[K
+[2.458s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:[m[K In member function ‘[01m[Kstd::vector<cv::Mat> Detection::pre_process(cv::Mat&, cv::dnn::dnn4_v20231225::Net&)[m[K’:
+[2.458s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp/src/detect.cpp:82:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.458s]    82 |         [01;35m[K}[m[K
+[2.458s]       |         [01;35m[K^[m[K
+[2.556s] gmake[2]: *** [CMakeFiles/detect.dir/build.make:76: CMakeFiles/detect.dir/src/detect.cpp.o] Error 1
+[2.556s] gmake[1]: *** [CMakeFiles/Makefile2:396: CMakeFiles/detect.dir/all] Error 2
+[2.556s] gmake: *** [Makefile:146: all] Error 2
+[2.559s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo_yolocpp -- -j32 -l32

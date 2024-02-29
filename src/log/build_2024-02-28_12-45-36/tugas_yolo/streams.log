@@ -1,0 +1,51 @@
+[0.021s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo -- -j32 -l32
+[0.032s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.097s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.110s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.111s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.114s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.119s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.126s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.152s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.153s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.206s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.279s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.336s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.338s] [33mCMake Warning at /usr/lib/cmake/ngraph2023.3.0/ngraphConfig.cmake:79 (message):
+[0.338s]   find_package(ngraph) is deprecated and will be removed in 2024.0 release.
+[0.338s]   Please, use find_package(OpenVINO)
+[0.338s] Call Stack (most recent call first):
+[0.338s]   CMakeLists.txt:15 (find_package)
+[0.338s] 
+[0.338s] [0m
+[0.340s] [33mCMake Warning at /usr/lib/cmake/inferenceengine2023.3.0/InferenceEngineConfig.cmake:62 (message):
+[0.340s]   find_package(InferenceEngine) is deprecated and will be removed in 2024.0
+[0.340s]   release.  Please, use find_package(OpenVINO)
+[0.340s] Call Stack (most recent call first):
+[0.340s]   CMakeLists.txt:16 (find_package)
+[0.340s] 
+[0.340s] [0m
+[0.342s] [31mCMake Error at CMakeLists.txt:23 (target_link_libraries):
+[0.342s]   The plain signature for target_link_libraries has already been used with
+[0.342s]   the target "initCv".  All uses of target_link_libraries with a target must
+[0.342s]   be either all-keyword or all-plain.
+[0.342s] 
+[0.342s]   The uses of the plain signature are here:
+[0.342s] 
+[0.342s]    * /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries)
+[0.342s]    * /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:151 (target_link_libraries)
+[0.343s] 
+[0.343s] 
+[0.343s] [0m
+[0.343s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.375s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.375s] -- Configured cppcheck include dirs: 
+[0.375s] -- Configured cppcheck exclude dirs and/or files: 
+[0.375s] -- Added test 'lint_cmake' to check CMake code style
+[0.375s] -- Added test 'uncrustify' to check C / C++ code style
+[0.375s] -- Configured uncrustify additional arguments: 
+[0.375s] -- Added test 'xmllint' to check XML markup files
+[0.376s] -- Configuring incomplete, errors occurred!
+[0.376s] See also "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo/CMakeFiles/CMakeOutput.log".
+[0.379s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.381s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo -- -j32 -l32
