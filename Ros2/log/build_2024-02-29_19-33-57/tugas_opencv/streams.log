@@ -1,0 +1,39 @@
+[0.027s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv -- -j32 -l32
+[0.050s] [  2%] Built target tugas_opencv__cpp
+[0.050s] [ 12%] Built target tugas_opencv__rosidl_generator_c
+[0.055s] [ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[0.060s] [ 21%] Built target tugas_opencv__rosidl_typesupport_cpp
+[0.060s] [ 31%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[0.060s] [ 41%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[0.061s] [ 51%] Built target tugas_opencv__rosidl_typesupport_c
+[0.061s] [ 60%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[0.061s] [ 70%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[0.070s] [ 70%] Built target tugas_opencv
+[0.072s] [ 73%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[0.079s] [ 75%] Built target tugas_opencv__py
+[0.090s] [ 82%] Built target tugas_opencv__rosidl_generator_py
+[0.100s] [ 87%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[0.101s] [ 92%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+[0.101s] [ 97%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+[0.145s] running egg_info
+[0.152s] writing tugas_opencv.egg-info/PKG-INFO
+[0.152s] writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+[0.152s] writing top-level names to tugas_opencv.egg-info/top_level.txt
+[0.170s] reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.170s] writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.183s] [ 97%] Built target ament_cmake_python_build_tugas_opencv_egg
+[1.501s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.501s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:44:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kcv::Mat[m[K’ and ‘[01m[Ktugas_opencv::msg::Position_<std::allocator<void> >::_x_pos_type[m[K’ {aka ‘[01m[Kint[m[K’})
+[1.501s]   151 |                rowR = countNonZero(frameRed[01;31m[K[[m[KcolorPosition.x_pos][:]);
+[1.501s]       |                                            [01;31m[K^[m[K
+[1.502s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+[1.502s]   151 |                rowR = countNonZero(frameRed[colorPosition.x_pos][[01;31m[K:[m[K]);
+[1.502s]       |                                                                  [01;31m[K^[m[K
+[1.502s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K:[m[K’ token
+[1.502s]   151 |                rowR = countNonZero(frameRed[colorPosition.x_pos][[01;31m[K:[m[K]);
+[1.502s]       |                                                                  [01;31m[K^[m[K
+[1.502s]       |                                                                  [32m[K][m[K
+[2.074s] gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+[2.074s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+[2.074s] gmake: *** [Makefile:146: all] Error 2
+[2.077s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv -- -j32 -l32

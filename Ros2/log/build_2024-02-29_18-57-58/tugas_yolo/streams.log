@@ -1,0 +1,23 @@
+[0.074s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_yolo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_yolo -- -j32 -l32
+[0.103s] [100%] Built target initCv
+[0.113s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_yolo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_yolo -- -j32 -l32
+[0.133s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_yolo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_yolo
+[0.138s] -- Install configuration: ""
+[0.138s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/lib/tugas_yolo/initCv
+[0.138s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/ament_index/resource_index/package_run_dependencies/tugas_yolo
+[0.138s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/ament_index/resource_index/parent_prefix_path/tugas_yolo
+[0.139s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/environment/ament_prefix_path.sh
+[0.139s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/environment/ament_prefix_path.dsv
+[0.139s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/environment/path.sh
+[0.139s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/environment/path.dsv
+[0.139s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/local_setup.bash
+[0.139s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/local_setup.sh
+[0.139s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/local_setup.zsh
+[0.139s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/local_setup.dsv
+[0.139s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/package.dsv
+[0.140s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/ament_index/resource_index/packages/tugas_yolo
+[0.140s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.140s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/cmake/tugas_yoloConfig.cmake
+[0.140s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/cmake/tugas_yoloConfig-version.cmake
+[0.140s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/package.xml
+[0.141s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_yolo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_yolo

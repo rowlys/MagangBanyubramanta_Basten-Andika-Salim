@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000103] (-) JobUnselected: {'identifier': 'tugas_opencv'}
-[0.000117] (-) JobUnselected: {'identifier': 'tugas_yolo'}
-[0.000125] (-) JobUnselected: {'identifier': 'tugas_yolo-yolocpp'}
-[0.000132] (-) JobUnselected: {'identifier': 'xbox'}
-[0.000138] (-) EventReactorShutdown: {}

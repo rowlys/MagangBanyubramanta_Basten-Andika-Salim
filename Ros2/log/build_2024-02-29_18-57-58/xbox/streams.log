@@ -1,0 +1,36 @@
+[0.033s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/xbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/xbox -- -j32 -l32
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_generator_c[0m
+[0.055s] [  3%] Built target xbox__cpp
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_cpp[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_introspection_cpp[0m
+[0.062s] [ 12%] Built target xbox__rosidl_generator_c
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_fastrtps_cpp[0m
+[0.068s] [ 21%] Built target xbox__rosidl_typesupport_introspection_cpp
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_c[0m
+[0.069s] [ 21%] Built target ament_cmake_python_copy_xbox
+[0.070s] [ 30%] Built target xbox__rosidl_typesupport_cpp
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_introspection_c[0m
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_fastrtps_c[0m
+[0.073s] [ 39%] Built target xbox__rosidl_typesupport_fastrtps_cpp
+[0.074s] [ 48%] Built target xbox__rosidl_typesupport_c
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.077s] [ 57%] Built target xbox__rosidl_typesupport_introspection_c
+[0.078s] [ 66%] Built target xbox__rosidl_typesupport_fastrtps_c
+[0.085s] [ 72%] Built target publisher
+[0.090s] [ 72%] Built target xbox
+[0.105s] [ 75%] Built target xbox__py
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_generator_py[0m
+[0.118s] [ 81%] Built target xbox__rosidl_generator_py
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_introspection_c__pyext[0m
+[0.125s] [35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_c__pyext[0m
+[0.132s] [ 87%] Built target xbox__rosidl_typesupport_fastrtps_c__pyext
+[0.132s] [ 93%] Built target xbox__rosidl_typesupport_introspection_c__pyext
+[0.133s] [100%] Built target xbox__rosidl_typesupport_c__pyext
+[0.193s] running egg_info
+[0.199s] writing xbox.egg-info/PKG-INFO
+[0.200s] writing dependency_links to xbox.egg-info/dependency_links.txt
+[0.200s] writing top-level names to xbox.egg-info/top_level.txt
+[0.222s] reading manifest file 'xbox.egg-info/SOURCES.txt'
+[0.222s] writing manifest file 'xbox.egg-info/SOURCES.txt'
+[0.236s] [100%] Built target ament_cmake_python_build_xbox_egg

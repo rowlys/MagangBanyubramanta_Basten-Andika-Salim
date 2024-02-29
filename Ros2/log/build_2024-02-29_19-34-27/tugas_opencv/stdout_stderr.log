@@ -1,0 +1,51 @@
+[  9%] Built target tugas_opencv__rosidl_generator_c
+[ 12%] Built target tugas_opencv__cpp
+[ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[ 31%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[ 31%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[ 41%] Built target tugas_opencv__rosidl_typesupport_c
+[ 51%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[ 60%] Built target tugas_opencv__rosidl_typesupport_cpp
+[ 70%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target colorcheck[0m
+[ 70%] Built target tugas_opencv
+[ 73%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[ 75%] Built target tugas_opencv__py
+[ 82%] Built target tugas_opencv__rosidl_generator_py
+[ 87%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[ 92%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+running egg_info
+writing tugas_opencv.egg-info/PKG-INFO
+writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+writing top-level names to tugas_opencv.egg-info/top_level.txt
+reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_tugas_opencv_egg
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:46:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[KcolorPosition[m[K’ with non-automatic storage duration
+  151 |                rowR = countNonZero(frameRed([[01;35m[KcolorPosition[m[K.x_pos][:]));
+      |                                              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:17:6:[m[K [01;36m[Knote: [m[K‘[01m[Ktugas_opencv::msg::Position_<std::allocator<void> > colorPosition[m[K’ declared here
+   17 | auto [01;36m[KcolorPosition[m[K = tugas_opencv::msg::Position();
+      |      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ before ‘[01m[K.[m[K’ token
+  151 |                rowR = countNonZero(frameRed([colorPosition[01;31m[K.[m[Kx_pos][:]));
+      |                                                           [01;31m[K^[m[K
+      |                                                           [32m[K,[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:59:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K.[m[K’ token
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In lambda function:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K[[m[K’ token
+  151 |                rowR = countNonZero(frameRed([colorPosition.x_pos][01;31m[K[[m[K:]));
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+  151 |                rowR = countNonZero(frameRed([colorPosition.x_pos][[01;31m[K:[m[K]));
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K:[m[K’ token
+  151 |                rowR = countNonZero(frameRed([colorPosition.x_pos][[01;31m[K:[m[K]));
+      |                                                                   [01;31m[K^[m[K
+      |                                                                   [32m[K][m[K
+gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

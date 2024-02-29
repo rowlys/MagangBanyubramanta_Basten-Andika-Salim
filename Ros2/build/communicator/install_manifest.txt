@@ -1,0 +1,16 @@
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/lib/communicator/communicator
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/ament_index/resource_index/package_run_dependencies/communicator
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/ament_index/resource_index/parent_prefix_path/communicator
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/environment/ament_prefix_path.sh
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/environment/ament_prefix_path.dsv
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/environment/path.sh
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/environment/path.dsv
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/local_setup.bash
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/local_setup.sh
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/local_setup.zsh
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/local_setup.dsv
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/package.dsv
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/ament_index/resource_index/packages/communicator
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/cmake/communicatorConfig.cmake
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/cmake/communicatorConfig-version.cmake
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/package.xml

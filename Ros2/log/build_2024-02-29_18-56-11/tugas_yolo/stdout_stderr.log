@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target initCv[0m
+[100%] Built target initCv
+-- Install configuration: ""
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/lib/tugas_yolo/initCv
+-- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/lib/tugas_yolo/initCv" to ""
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/ament_index/resource_index/package_run_dependencies/tugas_yolo
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/ament_index/resource_index/parent_prefix_path/tugas_yolo
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/environment/ament_prefix_path.sh
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/environment/ament_prefix_path.dsv
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/environment/path.sh
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/environment/path.dsv
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/local_setup.bash
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/local_setup.sh
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/local_setup.zsh
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/local_setup.dsv
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/package.dsv
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/ament_index/resource_index/packages/tugas_yolo
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/cmake/tugas_yoloConfig.cmake
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/cmake/tugas_yoloConfig-version.cmake
+-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo/share/tugas_yolo/package.xml

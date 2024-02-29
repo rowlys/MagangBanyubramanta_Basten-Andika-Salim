@@ -1,0 +1,72 @@
+[0.040s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_yolo_yolocpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_yolo_yolocpp -- -j32 -l32
+[0.057s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.061s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.069s] [  6%] Built target ament_cmake_python_copy_tugas_yolo_yolocpp
+[0.200s] running egg_info
+[0.200s] creating tugas_yolo_yolocpp.egg-info
+[0.208s] writing tugas_yolo_yolocpp.egg-info/PKG-INFO
+[0.209s] writing dependency_links to tugas_yolo_yolocpp.egg-info/dependency_links.txt
+[0.209s] writing top-level names to tugas_yolo_yolocpp.egg-info/top_level.txt
+[0.209s] writing manifest file 'tugas_yolo_yolocpp.egg-info/SOURCES.txt'
+[0.218s] [  6%] Built target tugas_yolo_yolocpp__cpp
+[0.224s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.228s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.229s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.236s] [ 18%] [32mBuilding C object CMakeFiles/tugas_yolo_yolocpp__rosidl_generator_c.dir/rosidl_generator_c/tugas_yolo_yolocpp/msg/detail/seen__functions.c.o[0m
+[0.236s] reading manifest file 'tugas_yolo_yolocpp.egg-info/SOURCES.txt'
+[0.237s] writing manifest file 'tugas_yolo_yolocpp.egg-info/SOURCES.txt'
+[0.255s] [ 18%] Built target ament_cmake_python_build_tugas_yolo_yolocpp_egg
+[0.267s] [ 21%] [32m[1mLinking C shared library libtugas_yolo_yolocpp__rosidl_generator_c.so[0m
+[0.291s] [ 21%] Built target tugas_yolo_yolocpp__rosidl_generator_c
+[0.298s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.299s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.301s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.378s] [ 33%] [32mBuilding CXX object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tugas_yolo_yolocpp/msg/seen__type_support.cpp.o[0m
+[0.390s] [ 36%] [32mBuilding CXX object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tugas_yolo_yolocpp/msg/detail/seen__type_support.cpp.o[0m
+[0.397s] [ 39%] [32mBuilding CXX object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tugas_yolo_yolocpp/msg/detail/dds_fastrtps/seen__type_support.cpp.o[0m
+[0.480s] [ 42%] [32mBuilding C object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tugas_yolo_yolocpp/msg/detail/seen__type_support.c.o[0m
+[0.491s] [ 45%] [32mBuilding CXX object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/tugas_yolo_yolocpp/msg/seen__type_support.cpp.o[0m
+[0.504s] [ 48%] [32mBuilding CXX object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_yolo_yolocpp/msg/detail/seen__type_support_c.cpp.o[0m
+[0.515s] [ 51%] [32m[1mLinking CXX shared library libtugas_yolo_yolocpp__rosidl_typesupport_c.so[0m
+[0.515s] [ 54%] [32m[1mLinking C shared library libtugas_yolo_yolocpp__rosidl_typesupport_introspection_c.so[0m
+[0.545s] [ 54%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_c
+[0.548s] [ 57%] [32m[1mLinking CXX shared library libtugas_yolo_yolocpp__rosidl_typesupport_cpp.so[0m
+[0.548s] [ 54%] Built target tugas_yolo_yolocpp__rosidl_typesupport_c
+[0.575s] [ 57%] Built target tugas_yolo_yolocpp__rosidl_typesupport_cpp
+[0.588s] [ 60%] [32mBuilding CXX object CMakeFiles/detect.dir/src/detect.cpp.o[0m
+[0.627s] [ 63%] [32m[1mLinking CXX shared library libtugas_yolo_yolocpp__rosidl_typesupport_introspection_cpp.so[0m
+[0.643s] [ 66%] [32m[1mLinking CXX shared library libtugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.653s] [ 66%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_cpp
+[0.690s] [ 66%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cpp
+[0.706s] [ 69%] [32m[1mLinking CXX shared library libtugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c.so[0m
+[0.750s] [ 69%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c
+[0.762s] [ 69%] Built target tugas_yolo_yolocpp
+[0.773s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.929s] [ 72%] Built target tugas_yolo_yolocpp__py
+[0.940s] [ 75%] [32mBuilding C object CMakeFiles/tugas_yolo_yolocpp__rosidl_generator_py.dir/rosidl_generator_py/tugas_yolo_yolocpp/msg/_seen_s.c.o[0m
+[0.991s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/tugas_yolo_yolocpp/libtugas_yolo_yolocpp__rosidl_generator_py.so[0m
+[1.012s] [ 78%] Built target tugas_yolo_yolocpp__rosidl_generator_py
+[1.023s] [ 81%] [32mBuilding C object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tugas_yolo_yolocpp/_tugas_yolo_yolocpp_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.024s] [ 84%] [32mBuilding C object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tugas_yolo_yolocpp/_tugas_yolo_yolocpp_s.ep.rosidl_typesupport_c.c.o[0m
+[1.024s] [ 87%] [32mBuilding C object CMakeFiles/tugas_yolo_yolocpp__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tugas_yolo_yolocpp/_tugas_yolo_yolocpp_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.075s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.076s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.078s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/tugas_yolo_yolocpp/tugas_yolo_yolocpp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.096s] [ 96%] Built target tugas_yolo_yolocpp__rosidl_typesupport_c__pyext
+[1.096s] [ 96%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_c__pyext
+[1.097s] [ 96%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c__pyext
+[2.101s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_yolo_yolocpp/src/detect.cpp:[m[K In member function ‘[01m[Kcv::Mat Detection::post_process(cv::Mat&, std::vector<cv::Mat>&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[2.101s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_yolo_yolocpp/src/detect.cpp:137:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.101s]   137 |             for (int i = 0; [01;35m[Ki < index.size()[m[K; i++){
+[2.101s]       |                             [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[2.102s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_yolo_yolocpp/src/detect.cpp:93:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdimensions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.102s]    93 |             const int [01;35m[Kdimensions[m[K = 85;
+[2.102s]       |                       [01;35m[K^~~~~~~~~~[m[K
+[3.272s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_yolo_yolocpp/src/detect.cpp:[m[K In member function ‘[01m[Kstd::vector<cv::Mat> Detection::pre_process(cv::Mat&, cv::dnn::dnn4_v20231225::Net&)[m[K’:
+[3.273s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_yolo_yolocpp/src/detect.cpp:82:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[3.273s]    82 |         [01;35m[K}[m[K
+[3.273s]       |         [01;35m[K^[m[K
+[5.004s] [100%] [32m[1mLinking CXX executable detect[0m
+[5.103s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409
+[5.103s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+[5.312s] [100%] Built target detect

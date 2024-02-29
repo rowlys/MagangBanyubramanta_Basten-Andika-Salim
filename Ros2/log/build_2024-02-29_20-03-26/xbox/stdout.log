@@ -1,0 +1,24 @@
+[  3%] Built target xbox__cpp
+[ 12%] Built target xbox__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_xbox
+[ 21%] Built target xbox__rosidl_typesupport_cpp
+[ 30%] Built target xbox__rosidl_typesupport_introspection_cpp
+[ 39%] Built target xbox__rosidl_typesupport_fastrtps_cpp
+[ 57%] Built target xbox__rosidl_typesupport_introspection_c
+[ 57%] Built target xbox__rosidl_typesupport_c
+[ 66%] Built target xbox__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[ 66%] Built target xbox
+[ 69%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[ 72%] Built target xbox__py
+[ 78%] Built target xbox__rosidl_generator_py
+[ 84%] Built target xbox__rosidl_typesupport_fastrtps_c__pyext
+[ 90%] Built target xbox__rosidl_typesupport_c__pyext
+[ 96%] Built target xbox__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing xbox.egg-info/PKG-INFO
+writing dependency_links to xbox.egg-info/dependency_links.txt
+writing top-level names to xbox.egg-info/top_level.txt
+reading manifest file 'xbox.egg-info/SOURCES.txt'
+writing manifest file 'xbox.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_xbox_egg

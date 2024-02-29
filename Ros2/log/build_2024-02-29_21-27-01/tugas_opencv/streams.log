@@ -1,0 +1,185 @@
+[0.027s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv -- -j32 -l32
+[0.051s] [  2%] Built target tugas_opencv__cpp
+[0.051s] [ 12%] Built target tugas_opencv__rosidl_generator_c
+[0.055s] [ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[0.061s] [ 21%] Built target tugas_opencv__rosidl_typesupport_cpp
+[0.061s] [ 31%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[0.061s] [ 41%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[0.061s] [ 51%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[0.061s] [ 60%] Built target tugas_opencv__rosidl_typesupport_c
+[0.062s] [ 70%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target colorcheck[0m
+[0.071s] [ 70%] Built target tugas_opencv
+[0.075s] [ 73%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[0.080s] [ 75%] Built target tugas_opencv__py
+[0.091s] [ 82%] Built target tugas_opencv__rosidl_generator_py
+[0.102s] [ 87%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[0.102s] [ 92%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+[0.102s] [ 97%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+[0.148s] running egg_info
+[0.154s] writing tugas_opencv.egg-info/PKG-INFO
+[0.155s] writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+[0.155s] writing top-level names to tugas_opencv.egg-info/top_level.txt
+[0.173s] reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.173s] writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.186s] [ 97%] Built target ament_cmake_python_build_tugas_opencv_egg
+[1.520s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kcv::Mat boundBox(cv::Mat&, cv::Mat&, cv::Point*, cv::Point*)[m[K’:
+[1.520s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:52:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtopLeft[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.520s]    52 | Mat boundBox(Mat &hsvFrame, Mat &originalFrame, [01;35m[KPoint *topLeft[m[K, Point *botRight){
+[1.520s]       |                                                 [01;35m[K~~~~~~~^~~~~~~[m[K
+[1.520s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:52:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KbotRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.520s]    52 | ox(Mat &hsvFrame, Mat &originalFrame, Point *topLeft, [01;35m[KPoint *botRight[m[K){
+[1.520s]       |                                                       [01;35m[K~~~~~~~^~~~~~~~[m[K
+[1.520s] 
+[1.522s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.522s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:156:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KareaR[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.522s]   156 |           double [01;35m[KareaR[m[K = measureR.m00;
+[1.522s]       |                  [01;35m[K^~~~~[m[K
+[1.522s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:159:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KareaG[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.522s]   159 |           double [01;35m[KareaG[m[K = measureG.m00;
+[1.522s]       |                  [01;35m[K^~~~~[m[K
+[1.522s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:162:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KareaB[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.522s]   162 |           double [01;35m[KareaB[m[K = measureB.m00;
+[1.522s]       |                  [01;35m[K^~~~~[m[K
+[2.673s] [100%] [32m[1mLinking CXX executable colorcheck[0m
+[2.834s] [100%] Built target colorcheck
+[2.845s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv -- -j32 -l32
+[2.902s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv
+[2.910s] -- Install configuration: ""
+[2.910s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/ament_index/resource_index/rosidl_interfaces/tugas_opencv
+[2.910s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv
+[2.910s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg
+[2.910s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/rosidl_generator_c__visibility_control.h
+[2.910s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/color.h
+[2.910s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/position.h
+[2.911s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail
+[2.911s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__functions.c
+[2.911s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__struct.h
+[2.911s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__functions.h
+[2.911s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__struct.h
+[2.911s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__type_support.h
+[2.911s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__functions.c
+[2.911s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__type_support.h
+[2.911s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__functions.h
+[2.911s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/environment/library_path.sh
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/environment/library_path.dsv
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib/libtugas_opencv__rosidl_generator_c.so
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib/libtugas_opencv__rosidl_typesupport_fastrtps_c.so
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/color.hpp
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/position.hpp
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__traits.hpp
+[2.912s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__traits.hpp
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__struct.hpp
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__builder.hpp
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__struct.hpp
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__builder.hpp
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/dds_fastrtps
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib/libtugas_opencv__rosidl_typesupport_fastrtps_cpp.so
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.913s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__type_support.c
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__rosidl_typesupport_introspection_c.h
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__rosidl_typesupport_introspection_c.h
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__type_support.c
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib/libtugas_opencv__rosidl_typesupport_introspection_c.so
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib/libtugas_opencv__rosidl_typesupport_c.so
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__type_support.cpp
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__type_support.cpp
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib/libtugas_opencv__rosidl_typesupport_introspection_cpp.so
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib/libtugas_opencv__rosidl_typesupport_cpp.so
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/environment/pythonpath.sh
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/environment/pythonpath.dsv
+[2.914s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv-0.0.0-py3.10.egg-info
+[2.914s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv-0.0.0-py3.10.egg-info/top_level.txt
+[2.914s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv-0.0.0-py3.10.egg-info/PKG-INFO
+[2.914s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.914s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_introspection_c.c
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/tugas_opencv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/libtugas_opencv__rosidl_generator_py.so
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/tugas_opencv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/tugas_opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/_tugas_opencv_s.ep.rosidl_typesupport_c.c
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/__init__.py
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/msg
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/msg/_position.py
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/msg/_color.py
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/msg/_position_s.c
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/msg/_color_s.c
+[2.915s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/msg/__init__.py
+[2.937s] Listing '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv'...
+[2.937s] Listing '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/msg'...
+[2.940s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/tugas_opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.940s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/tugas_opencv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.940s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages/tugas_opencv/tugas_opencv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.940s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib/libtugas_opencv__rosidl_generator_py.so
+[2.940s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/msg/Color.idl
+[2.940s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/msg/Position.idl
+[2.940s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/msg/Color.msg
+[2.940s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/msg/Position.msg
+[2.940s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib/tugas_opencv/colorcheck
+[2.941s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib/tugas_opencv/colorcheck" to ""
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/ament_index/resource_index/package_run_dependencies/tugas_opencv
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/ament_index/resource_index/parent_prefix_path/tugas_opencv
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/environment/ament_prefix_path.sh
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/environment/ament_prefix_path.dsv
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/environment/path.sh
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/environment/path.dsv
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/local_setup.bash
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/local_setup.sh
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/local_setup.zsh
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/local_setup.dsv
+[2.941s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/package.dsv
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/ament_index/resource_index/packages/tugas_opencv
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_generator_cExport.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_generator_cExport-noconfig.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_typesupport_fastrtps_cExport.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_generator_cppExport.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_introspection_cExport.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_cExport.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_cExport-noconfig.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_introspection_cppExport.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_cppExport.cmake
+[2.941s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_cppExport-noconfig.cmake
+[2.942s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_generator_pyExport.cmake
+[2.942s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_generator_pyExport-noconfig.cmake
+[2.942s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/rosidl_cmake-extras.cmake
+[2.942s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.942s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/ament_cmake_export_libraries-extras.cmake
+[2.942s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/ament_cmake_export_targets-extras.cmake
+[2.942s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.942s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.942s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.942s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/tugas_opencvConfig.cmake
+[2.942s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/cmake/tugas_opencvConfig-version.cmake
+[2.942s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/share/tugas_opencv/package.xml
+[2.943s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv

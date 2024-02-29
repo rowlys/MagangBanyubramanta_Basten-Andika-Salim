@@ -1,0 +1,31 @@
+[  3%] Built target xbox__cpp
+[ 12%] Built target xbox__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_xbox
+[ 21%] Built target xbox__rosidl_typesupport_cpp
+[ 30%] Built target xbox__rosidl_typesupport_introspection_cpp
+[ 39%] Built target xbox__rosidl_typesupport_fastrtps_cpp
+[ 57%] Built target xbox__rosidl_typesupport_introspection_c
+[ 57%] Built target xbox__rosidl_typesupport_c
+[ 66%] Built target xbox__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[ 66%] Built target xbox
+[ 69%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[ 72%] Built target xbox__py
+[ 78%] Built target xbox__rosidl_generator_py
+[ 84%] Built target xbox__rosidl_typesupport_fastrtps_c__pyext
+[ 90%] Built target xbox__rosidl_typesupport_c__pyext
+[ 96%] Built target xbox__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing xbox.egg-info/PKG-INFO
+writing dependency_links to xbox.egg-info/dependency_links.txt
+writing top-level names to xbox.egg-info/top_level.txt
+reading manifest file 'xbox.egg-info/SOURCES.txt'
+writing manifest file 'xbox.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_xbox_egg
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/xbox/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Commands::topic_callback(const Joy&) const[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/xbox/src/publisher.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+   38 |         [01;31m[Kelse[m[K if(temp_yaw > 180) {
+      |         [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

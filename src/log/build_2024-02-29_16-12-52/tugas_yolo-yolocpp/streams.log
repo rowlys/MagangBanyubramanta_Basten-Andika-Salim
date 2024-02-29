@@ -1,5 +1,0 @@
-[0.036s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp -- -j32 -l32
-[0.046s] [0mCMake Error: The source directory "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/tugas_yolo-yolocpp" does not exist.
-[0.046s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.046s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
-[0.048s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/src/build/tugas_yolo-yolocpp -- -j32 -l32

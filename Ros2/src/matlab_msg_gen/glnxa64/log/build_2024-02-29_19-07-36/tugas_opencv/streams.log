@@ -1,0 +1,194 @@
+[0.034s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_opencv': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/src/tugas_opencv -DCMAKE_BUILD_TYPE=Release -DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed -DBUILD_TESTING=OFF -DALIAS_ROS2_TF2=1 -DCMAKE_CXX_FLAGS_RELEASE=-O0 -G Ninja -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.140s] -- Detecting C compiler ABI info - done
+[0.145s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.146s] -- Detecting C compile features
+[0.146s] -- Detecting C compile features - done
+[0.148s] -- Detecting CXX compiler ABI info
+[0.179s] -- Detecting CXX compiler ABI info - done
+[0.183s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.189s] -- Found ament_cmake: 1.3.3 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)
+[0.622s] -- Found Python3: /home/basten/.matlab/R2023b/ros2/glnxa64/venv/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.665s] -- Found ament_cmake_ros: 0.10.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)
+[0.668s] -- Found rosidl_typesupport_c: 2.0.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)
+[0.668s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.672s] -- Found rosidl_adapter: 3.1.4 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)
+[0.697s] -- Found rosidl_typesupport_cpp: 2.0.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)
+[0.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.721s] -- Found rosidl_default_generators: 1.2.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)
+[0.723s] -- Found class_loader: 2.2.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/class_loader/cmake)
+[0.727s] -- Found rclcpp: 16.0.3 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)
+[0.784s] -- Found rmw_implementation_cmake: 6.1.1 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)
+[0.786s] -- Found rmw_fastrtps_cpp: 6.2.2 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rmw_fastrtps_cpp/cmake)
+[0.830s] -- Found FastRTPS: /usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/include  
+[0.848s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.854s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.883s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.884s] -- Found Threads: TRUE  
+[1.084s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.134s] -- Configuring done
+[1.144s] -- Generating done
+[1.148s] -- Build files have been written to: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_opencv
+[1.154s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_opencv' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/src/tugas_opencv -DCMAKE_BUILD_TYPE=Release -DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed -DBUILD_TESTING=OFF -DALIAS_ROS2_TF2=1 -DCMAKE_CXX_FLAGS_RELEASE=-O0 -G Ninja -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install
+[1.155s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_opencv': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_opencv -- -j32 -l32
+[1.290s] [1/32] Generating C++ code for ROS interfaces
+[1.294s] [2/32] Generating C code for ROS interfaces
+[1.345s] [3/32] Building C object CMakeFiles/tugas_opencv__rosidl_generator_c.dir/rosidl_generator_c/tugas_opencv/msg/detail/position__functions.c.o
+[1.346s] [4/32] Building C object CMakeFiles/tugas_opencv__rosidl_generator_c.dir/rosidl_generator_c/tugas_opencv/msg/detail/color__functions.c.o
+[1.359s] [5/32] Linking C shared library libtugas_opencv__rosidl_generator_c.so
+[1.433s] [6/32] Generating C++ type support dispatch for ROS interfaces
+[1.444s] [7/32] Generating C++ introspection for ROS interfaces
+[1.455s] [8/32] Generating C++ type support for eProsima Fast-RTPS
+[1.568s] [9/32] Generating C type support dispatch for ROS interfaces
+[1.580s] [10/32] Generating C type support for eProsima Fast-RTPS
+[1.586s] [11/32] Building CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_c.dir/rosidl_typesupport_c/tugas_opencv/msg/color__type_support.cpp.o
+[1.595s] [12/32] Building CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_c.dir/rosidl_typesupport_c/tugas_opencv/msg/position__type_support.cpp.o
+[1.618s] [13/32] Building CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tugas_opencv/msg/color__type_support.cpp.o
+[1.647s] [14/32] Generating C introspection for ROS interfaces
+[1.661s] [15/32] Linking CXX shared library libtugas_opencv__rosidl_typesupport_c.so
+[1.681s] [16/32] Building C object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tugas_opencv/msg/detail/position__type_support.c.o
+[1.682s] [17/32] Building C object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tugas_opencv/msg/detail/color__type_support.c.o
+[1.698s] [18/32] Linking C shared library libtugas_opencv__rosidl_typesupport_introspection_c.so
+[1.708s] [19/32] Building CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tugas_opencv/msg/detail/color__type_support.cpp.o
+[1.729s] [20/32] Building CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tugas_opencv/msg/detail/dds_fastrtps/color__type_support.cpp.o
+[1.742s] [21/32] Building CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tugas_opencv/msg/position__type_support.cpp.o
+[1.797s] [22/32] Linking CXX shared library libtugas_opencv__rosidl_typesupport_cpp.so
+[1.808s] [23/32] Building CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tugas_opencv/msg/detail/position__type_support.cpp.o
+[1.817s] [24/32] Building CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/color__type_support_c.cpp.o
+[1.824s] [25/32] Building CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tugas_opencv/msg/detail/dds_fastrtps/position__type_support.cpp.o
+[1.844s] [26/32] Building CXX object CMakeFiles/tugas_opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_opencv/msg/detail/position__type_support_c.cpp.o
+[1.852s] [27/32] Linking CXX shared library libtugas_opencv__rosidl_typesupport_introspection_cpp.so
+[1.863s] [28/32] Linking CXX shared library libtugas_opencv__rosidl_typesupport_fastrtps_cpp.so
+[1.879s] [29/32] Linking CXX shared library libtugas_opencv__rosidl_typesupport_fastrtps_c.so
+[6.072s] [30/32] Building CXX object CMakeFiles/tugas_opencv_matlab.dir/src/tugas_opencv_Color_message.cpp.o
+[6.094s] [31/32] Building CXX object CMakeFiles/tugas_opencv_matlab.dir/src/tugas_opencv_Position_message.cpp.o
+[6.392s] [32/32] Linking CXX shared library libtugas_opencv_matlab.so
+[6.394s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_opencv' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_opencv -- -j32 -l32
+[6.402s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_opencv': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_opencv
+[6.403s] -- Install configuration: "Release"
+[6.403s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/tugas_opencv
+[6.403s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv
+[6.403s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg
+[6.403s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/rosidl_generator_c__visibility_control.h
+[6.403s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/color.h
+[6.403s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/position.h
+[6.403s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail
+[6.403s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/position__functions.c
+[6.403s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/color__struct.h
+[6.403s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/color__functions.h
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/position__struct.h
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/color__type_support.h
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/color__functions.c
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/position__type_support.h
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/position__functions.h
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/environment/library_path.sh
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/environment/library_path.dsv
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_opencv__rosidl_generator_c.so
+[6.404s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv
+[6.404s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.404s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_opencv__rosidl_typesupport_fastrtps_c.so
+[6.404s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv
+[6.404s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.404s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/position__type_support.c
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/position__rosidl_typesupport_introspection_c.h
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/color__rosidl_typesupport_introspection_c.h
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/color__type_support.c
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_opencv__rosidl_typesupport_introspection_c.so
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_opencv__rosidl_typesupport_c.so
+[6.404s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv
+[6.404s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/color.hpp
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/position.hpp
+[6.404s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/color__traits.hpp
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/position__traits.hpp
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/position__struct.hpp
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/position__builder.hpp
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/color__struct.hpp
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/color__builder.hpp
+[6.404s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv
+[6.404s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg
+[6.404s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.405s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/dds_fastrtps
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_opencv__rosidl_typesupport_fastrtps_cpp.so
+[6.405s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv
+[6.405s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg
+[6.405s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/color__type_support.cpp
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/position__type_support.cpp
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/tugas_opencv/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_opencv__rosidl_typesupport_introspection_cpp.so
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_opencv__rosidl_typesupport_cpp.so
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/msg/Color.idl
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/msg/Position.idl
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/msg/Color.msg
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/msg/Position.msg
+[6.405s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include
+[6.405s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_opencv/visibility_control.h
+[6.405s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_opencv_matlab.so
+[6.409s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m/
+[6.409s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros
+[6.409s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal
+[6.409s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2
+[6.409s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+tugas_opencv
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+tugas_opencv/tugas_opencv_msg_Position_2To1_Converter.m
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+tugas_opencv/tugas_opencv_msg_Position_1To2_Converter.m
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+tugas_opencv/tugas_opencv_msg_Color_2To1_Converter.m
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+tugas_opencv/position.m
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+tugas_opencv/tugas_opencv_msg_Color_1To2_Converter.m
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+tugas_opencv/color.m
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/tugas_opencv
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/tugas_opencv
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/environment/ament_prefix_path.sh
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/environment/ament_prefix_path.dsv
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/environment/path.sh
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/environment/path.dsv
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/local_setup.bash
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/local_setup.sh
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/local_setup.zsh
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/local_setup.dsv
+[6.409s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/package.dsv
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/tugas_opencv
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_generator_cExport.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_generator_cExport-release.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_typesupport_fastrtps_cExport.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_typesupport_fastrtps_cExport-release.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_introspection_cExport.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_introspection_cExport-release.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_cExport.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_cExport-release.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_generator_cppExport.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/export_tugas_opencv__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_introspection_cppExport.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_introspection_cppExport-release.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_cppExport.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/tugas_opencv__rosidl_typesupport_cppExport-release.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/rosidl_cmake-extras.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/ament_cmake_export_libraries-extras.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/ament_cmake_export_targets-extras.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/tugas_opencvConfig.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/cmake/tugas_opencvConfig-version.cmake
+[6.410s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_opencv/package.xml
+[6.411s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_opencv' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_opencv

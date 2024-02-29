@@ -1,0 +1,62 @@
+[0.026s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv -- -j32 -l32
+[0.054s] [  2%] Built target tugas_opencv__cpp
+[0.055s] [ 12%] Built target tugas_opencv__rosidl_generator_c
+[0.059s] [ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[0.065s] [ 21%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[0.065s] [ 31%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[0.066s] [ 41%] Built target tugas_opencv__rosidl_typesupport_cpp
+[0.066s] [ 51%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[0.066s] [ 60%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[0.066s] [ 70%] Built target tugas_opencv__rosidl_typesupport_c
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target colorcheck[0m
+[0.075s] [ 70%] Built target tugas_opencv
+[0.080s] [ 73%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[0.084s] [ 75%] Built target tugas_opencv__py
+[0.094s] [ 82%] Built target tugas_opencv__rosidl_generator_py
+[0.105s] [ 87%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[0.105s] [ 92%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+[0.105s] [ 97%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+[0.153s] running egg_info
+[0.159s] writing tugas_opencv.egg-info/PKG-INFO
+[0.159s] writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+[0.159s] writing top-level names to tugas_opencv.egg-info/top_level.txt
+[0.178s] reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.178s] writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.191s] [ 97%] Built target ament_cmake_python_build_tugas_opencv_egg
+[1.524s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kcv::Mat boundBox(cv::Mat&, cv::Mat&, cv::Point*, cv::Point*)[m[K’:
+[1.524s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:56:12:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.524s]    56 |      Point [01;31m[Kcenter_point[m[K;
+[1.524s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[1.524s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:56:12:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.527s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:68:68:[m[K [01;31m[Kerror: [m[K‘[01m[KBLACK[m[K’ was not declared in this scope
+[1.527s]    68 |     rectangle(originalFrame, boundRect.tl(), boundRect.br(), [01;31m[KBLACK[m[K, 2);
+[1.527s]       |                                                              [01;31m[K^~~~~[m[K
+[1.527s] 
+[1.530s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:70:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kcenter_point[m[K’ was not declared in this scope
+[1.530s]    70 |           [01;31m[Kcenter_point[m[K.x = boundRect.x + boundRect.width/2;
+[1.530s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[1.533s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:74:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koriginal_frame[m[K’ was not declared in this scope; did you mean ‘[01m[KoriginalFrame[m[K’?
+[1.533s]    74 |      return [01;31m[Koriginal_frame[m[K;
+[1.533s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.533s]       |             [32m[KoriginalFrame[m[K
+[1.533s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:52:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtopLeft[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.533s]    52 | Mat boundBox(Mat &hsvFrame, Mat &originalFrame, [01;35m[KPoint *topLeft[m[K, Point *botRight){
+[1.533s]       |                                                 [01;35m[K~~~~~~~^~~~~~~[m[K
+[1.533s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:52:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KbotRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.533s]    52 | ox(Mat &hsvFrame, Mat &originalFrame, Point *topLeft, [01;35m[KPoint *botRight[m[K){
+[1.533s]       |                                                       [01;35m[K~~~~~~~^~~~~~~~[m[K
+[1.533s] 
+[1.535s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.535s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KareaR[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.535s]   157 |           double [01;35m[KareaR[m[K = measureR.m00;
+[1.535s]       |                  [01;35m[K^~~~~[m[K
+[1.535s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:160:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KareaG[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.536s]   160 |           double [01;35m[KareaG[m[K = measureG.m00;
+[1.536s]       |                  [01;35m[K^~~~~[m[K
+[1.536s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:163:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KareaB[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.536s]   163 |           double [01;35m[KareaB[m[K = measureB.m00;
+[1.536s]       |                  [01;35m[K^~~~~[m[K
+[2.110s] gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+[2.110s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+[2.110s] gmake: *** [Makefile:146: all] Error 2
+[2.112s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv -- -j32 -l32

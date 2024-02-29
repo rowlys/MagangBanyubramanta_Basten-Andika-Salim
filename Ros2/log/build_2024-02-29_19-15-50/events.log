@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.000084] (-) JobUnselected: {'identifier': 'communicator'}
+[0.000098] (-) JobUnselected: {'identifier': 'tugas_opencv'}
+[0.000106] (-) JobUnselected: {'identifier': 'tugas_yolo'}
+[0.000112] (-) JobUnselected: {'identifier': 'tugas_yolo_yolocpp'}
+[0.000121] (xbox) JobQueued: {'identifier': 'xbox', 'dependencies': OrderedDict()}
+[0.000505] (xbox) JobStarted: {'identifier': 'xbox'}
+[0.025173] (xbox) JobProgress: {'identifier': 'xbox', 'progress': 'cmake'}
+[0.026433] (xbox) JobProgress: {'identifier': 'xbox', 'progress': 'build'}
+[0.026480] (xbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/xbox', '--', '-j32', '-l32'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/xbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/basten/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1785,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f037250_30f0_4aaf_815e_315e90b80cb7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/xbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv:/opt/ros/humble')]), 'shell': False}
+[0.051499] (xbox) StdoutLine: {'line': b'[  3%] Built target xbox__cpp\n'}
+[0.052351] (xbox) StdoutLine: {'line': b'[ 12%] Built target xbox__rosidl_generator_c\n'}
+[0.057510] (xbox) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_xbox\n'}
+[0.064188] (xbox) StdoutLine: {'line': b'[ 21%] Built target xbox__rosidl_typesupport_cpp\n'}
+[0.064853] (xbox) StdoutLine: {'line': b'[ 30%] Built target xbox__rosidl_typesupport_fastrtps_cpp\n'}
+[0.065081] (xbox) StdoutLine: {'line': b'[ 39%] Built target xbox__rosidl_typesupport_introspection_cpp\n'}
+[0.068011] (xbox) StdoutLine: {'line': b'[ 48%] Built target xbox__rosidl_typesupport_introspection_c\n'}
+[0.068138] (xbox) StdoutLine: {'line': b'[ 57%] Built target xbox__rosidl_typesupport_c\n'}
+[0.068351] (xbox) StdoutLine: {'line': b'[ 66%] Built target xbox__rosidl_typesupport_fastrtps_c\n'}
+[0.069878] (xbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher\x1b[0m\n'}
+[0.077099] (xbox) StdoutLine: {'line': b'[ 66%] Built target xbox\n'}
+[0.077727] (xbox) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.085858] (xbox) StdoutLine: {'line': b'[ 72%] Built target xbox__py\n'}
+[0.095850] (xbox) StdoutLine: {'line': b'[ 78%] Built target xbox__rosidl_generator_py\n'}
+[0.099846] (-) TimerEvent: {}
+[0.105866] (xbox) StdoutLine: {'line': b'[ 84%] Built target xbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.106027] (xbox) StdoutLine: {'line': b'[ 90%] Built target xbox__rosidl_typesupport_introspection_c__pyext\n'}
+[0.106566] (xbox) StdoutLine: {'line': b'[ 96%] Built target xbox__rosidl_typesupport_c__pyext\n'}
+[0.149836] (xbox) StdoutLine: {'line': b'running egg_info\n'}
+[0.156334] (xbox) StdoutLine: {'line': b'writing xbox.egg-info/PKG-INFO\n'}
+[0.156488] (xbox) StdoutLine: {'line': b'writing dependency_links to xbox.egg-info/dependency_links.txt\n'}
+[0.156651] (xbox) StdoutLine: {'line': b'writing top-level names to xbox.egg-info/top_level.txt\n'}
+[0.174899] (xbox) StdoutLine: {'line': b"reading manifest file 'xbox.egg-info/SOURCES.txt'\n"}
+[0.175137] (xbox) StdoutLine: {'line': b"writing manifest file 'xbox.egg-info/SOURCES.txt'\n"}
+[0.187614] (xbox) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_xbox_egg\n'}
+[0.199915] (-) TimerEvent: {}
+[0.300228] (-) TimerEvent: {}
+[0.400502] (-) TimerEvent: {}
+[0.500746] (-) TimerEvent: {}
+[0.601072] (-) TimerEvent: {}
+[0.701329] (-) TimerEvent: {}
+[0.801549] (-) TimerEvent: {}
+[0.901874] (-) TimerEvent: {}
+[1.002083] (-) TimerEvent: {}
+[1.102273] (-) TimerEvent: {}
+[1.202532] (-) TimerEvent: {}
+[1.302776] (-) TimerEvent: {}
+[1.403012] (-) TimerEvent: {}
+[1.503230] (-) TimerEvent: {}
+[1.603463] (-) TimerEvent: {}
+[1.703699] (-) TimerEvent: {}
+[1.803979] (-) TimerEvent: {}
+[1.904335] (-) TimerEvent: {}
+[2.004689] (-) TimerEvent: {}
+[2.105040] (-) TimerEvent: {}
+[2.205345] (-) TimerEvent: {}
+[2.305591] (-) TimerEvent: {}
+[2.405911] (-) TimerEvent: {}
+[2.506258] (-) TimerEvent: {}
+[2.606604] (-) TimerEvent: {}
+[2.706965] (-) TimerEvent: {}
+[2.807311] (-) TimerEvent: {}
+[2.907668] (-) TimerEvent: {}
+[3.008004] (-) TimerEvent: {}
+[3.108363] (-) TimerEvent: {}
+[3.208709] (-) TimerEvent: {}
+[3.309047] (-) TimerEvent: {}
+[3.409382] (-) TimerEvent: {}
+[3.509757] (-) TimerEvent: {}
+[3.610104] (-) TimerEvent: {}
+[3.676919] (xbox) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[3.710253] (-) TimerEvent: {}
+[3.810574] (-) TimerEvent: {}
+[3.859115] (xbox) StdoutLine: {'line': b'[100%] Built target publisher\n'}
+[3.870493] (xbox) CommandEnded: {'returncode': 0}
+[3.910699] (-) TimerEvent: {}
+[3.915078] (xbox) JobProgress: {'identifier': 'xbox', 'progress': 'install'}
+[3.924225] (xbox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/xbox'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/xbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/basten/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1785,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f037250_30f0_4aaf_815e_315e90b80cb7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/xbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv:/opt/ros/humble')]), 'shell': False}
+[3.931952] (xbox) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.932194] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/ament_index/resource_index/rosidl_interfaces/xbox\n'}
+[3.932424] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox\n'}
+[3.932639] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg\n'}
+[3.932808] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.932969] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/command.h\n'}
+[3.933078] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail\n'}
+[3.933188] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/command__struct.h\n'}
+[3.933319] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/command__functions.c\n'}
+[3.933419] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/command__type_support.h\n'}
+[3.933519] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/command__functions.h\n'}
+[3.933649] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/environment/library_path.sh\n'}
+[3.933733] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/environment/library_path.dsv\n'}
+[3.933826] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib/libxbox__rosidl_generator_c.so\n'}
+[3.933931] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox\n'}
+[3.934097] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg\n'}
+[3.934321] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.934400] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail\n'}
+[3.934477] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/command__rosidl_typesupport_fastrtps_c.h\n'}
+[3.934551] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib/libxbox__rosidl_typesupport_fastrtps_c.so\n'}
+[3.934624] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox\n'}
+[3.934713] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg\n'}
+[3.934787] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/command.hpp\n'}
+[3.934861] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail\n'}
+[3.934941] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/command__traits.hpp\n'}
+[3.935016] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/command__builder.hpp\n'}
+[3.935091] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/command__struct.hpp\n'}
+[3.935165] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox\n'}
+[3.935238] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg\n'}
+[3.935311] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.935384] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail\n'}
+[3.935455] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.935513] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/dds_fastrtps\n'}
+[3.935615] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib/libxbox__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.935661] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox\n'}
+[3.935690] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg\n'}
+[3.935716] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.935741] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail\n'}
+[3.935767] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/command__type_support.c\n'}
+[3.935792] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/command__rosidl_typesupport_introspection_c.h\n'}
+[3.935822] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib/libxbox__rosidl_typesupport_introspection_c.so\n'}
+[3.935847] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib/libxbox__rosidl_typesupport_c.so\n'}
+[3.935870] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox\n'}
+[3.935895] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg\n'}
+[3.935919] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail\n'}
+[3.935942] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.935968] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/include/xbox/xbox/msg/detail/command__type_support.cpp\n'}
+[3.935992] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib/libxbox__rosidl_typesupport_introspection_cpp.so\n'}
+[3.936015] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib/libxbox__rosidl_typesupport_cpp.so\n'}
+[3.936039] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/environment/pythonpath.sh\n'}
+[3.936062] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/environment/pythonpath.dsv\n'}
+[3.936088] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info\n'}
+[3.936112] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.936138] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.936163] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.936188] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.936216] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox\n'}
+[3.936241] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.936266] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/_xbox_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.936291] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.936317] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.936344] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/_xbox_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.936370] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/_xbox_s.ep.rosidl_typesupport_c.c\n'}
+[3.936395] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/__init__.py\n'}
+[3.936423] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/libxbox__rosidl_generator_py.so\n'}
+[3.936448] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/msg\n'}
+[3.936475] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/msg/_command.py\n'}
+[3.936500] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/msg/__init__.py\n'}
+[3.936526] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/msg/_command_s.c\n'}
+[3.955425] (xbox) StdoutLine: {'line': b"Listing '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox'...\n"}
+[3.955524] (xbox) StdoutLine: {'line': b"Listing '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/msg'...\n"}
+[3.958425] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.958720] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.958771] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/local/lib/python3.10/dist-packages/xbox/xbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.958810] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib/libxbox__rosidl_generator_py.so\n'}
+[3.958836] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/msg/Command.idl\n'}
+[3.958862] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/msg/Command.msg\n'}
+[3.958888] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib/xbox/publisher\n'}
+[3.961444] (xbox) StdoutLine: {'line': b'-- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib/xbox/publisher" to ""\n'}
+[3.961530] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/ament_index/resource_index/package_run_dependencies/xbox\n'}
+[3.961574] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/ament_index/resource_index/parent_prefix_path/xbox\n'}
+[3.961609] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/environment/ament_prefix_path.sh\n'}
+[3.961642] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/environment/ament_prefix_path.dsv\n'}
+[3.961674] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/environment/path.sh\n'}
+[3.961832] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/environment/path.dsv\n'}
+[3.961909] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/local_setup.bash\n'}
+[3.961948] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/local_setup.sh\n'}
+[3.962000] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/local_setup.zsh\n'}
+[3.962033] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/local_setup.dsv\n'}
+[3.962067] (xbox) StdoutLine: {'line': b'-- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/package.dsv\n'}
+[3.962101] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/ament_index/resource_index/packages/xbox\n'}
+[3.962144] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_cExport.cmake\n'}
+[3.962176] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.962208] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/export_xbox__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.962257] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/export_xbox__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.962288] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_cppExport.cmake\n'}
+[3.962317] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/export_xbox__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.962346] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/export_xbox__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.962374] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.962402] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.962430] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_cExport.cmake\n'}
+[3.962459] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.962492] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.962521] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.962551] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_cppExport.cmake\n'}
+[3.962581] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/xbox__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.962610] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_pyExport.cmake\n'}
+[3.962641] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/export_xbox__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.962671] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/rosidl_cmake-extras.cmake\n'}
+[3.962699] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.962727] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.962757] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.962791] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.962824] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.962856] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.962892] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/xboxConfig.cmake\n'}
+[3.962923] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/cmake/xboxConfig-version.cmake\n'}
+[3.962959] (xbox) StdoutLine: {'line': b'-- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/share/xbox/package.xml\n'}
+[3.963715] (xbox) CommandEnded: {'returncode': 0}
+[4.010839] (-) TimerEvent: {}
+[4.085003] (xbox) JobEnded: {'identifier': 'xbox', 'rc': 0}
+[4.085384] (-) EventReactorShutdown: {}

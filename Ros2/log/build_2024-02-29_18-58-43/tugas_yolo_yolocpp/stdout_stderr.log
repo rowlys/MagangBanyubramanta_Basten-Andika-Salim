@@ -1,0 +1,23 @@
+[  3%] Built target tugas_yolo_yolocpp__cpp
+[ 12%] Built target tugas_yolo_yolocpp__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_tugas_yolo_yolocpp
+[ 21%] Built target tugas_yolo_yolocpp__rosidl_typesupport_cpp
+[ 30%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cpp
+[ 39%] Built target tugas_yolo_yolocpp__rosidl_typesupport_c
+[ 48%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_cpp
+[ 57%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_c
+[ 66%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c
+[ 72%] Built target detect
+[ 72%] Built target tugas_yolo_yolocpp
+[ 75%] Built target tugas_yolo_yolocpp__py
+[ 81%] Built target tugas_yolo_yolocpp__rosidl_generator_py
+[ 87%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_c__pyext
+[100%] Built target tugas_yolo_yolocpp__rosidl_typesupport_c__pyext
+running egg_info
+writing tugas_yolo_yolocpp.egg-info/PKG-INFO
+writing dependency_links to tugas_yolo_yolocpp.egg-info/dependency_links.txt
+writing top-level names to tugas_yolo_yolocpp.egg-info/top_level.txt
+reading manifest file 'tugas_yolo_yolocpp.egg-info/SOURCES.txt'
+writing manifest file 'tugas_yolo_yolocpp.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_tugas_yolo_yolocpp_egg

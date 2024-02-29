@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_generator_c[0m
+[  3%] Built target xbox__cpp
+[35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_introspection_cpp[0m
+[ 12%] Built target xbox__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_fastrtps_cpp[0m
+[ 21%] Built target xbox__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_c[0m
+[ 21%] Built target ament_cmake_python_copy_xbox
+[ 30%] Built target xbox__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_fastrtps_c[0m
+[ 39%] Built target xbox__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target xbox__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[ 57%] Built target xbox__rosidl_typesupport_introspection_c
+[ 66%] Built target xbox__rosidl_typesupport_fastrtps_c
+[ 72%] Built target publisher
+[ 72%] Built target xbox
+[ 75%] Built target xbox__py
+[35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_generator_py[0m
+[ 81%] Built target xbox__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target xbox__rosidl_typesupport_c__pyext[0m
+[ 87%] Built target xbox__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] Built target xbox__rosidl_typesupport_introspection_c__pyext
+[100%] Built target xbox__rosidl_typesupport_c__pyext
+running egg_info
+writing xbox.egg-info/PKG-INFO
+writing dependency_links to xbox.egg-info/dependency_links.txt
+writing top-level names to xbox.egg-info/top_level.txt
+reading manifest file 'xbox.egg-info/SOURCES.txt'
+writing manifest file 'xbox.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_xbox_egg

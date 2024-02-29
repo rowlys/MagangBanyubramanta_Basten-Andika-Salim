@@ -1,0 +1,29 @@
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kcv::Point boundBox(cv::Mat&, cv::Mat&, cv::Point*, cv::Point*)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:61:11:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   61 |           [01;31m[K*topLeft->x[m[K = boundRect.x;
+      |           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:62:11:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   62 |           [01;31m[K*topLeft->y[m[K = boundRect.y;
+      |           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:64:11:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   64 |           [01;31m[K*botRight->x[m[K = boundRect.x + boundRect.width;
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:65:11:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   65 |           [01;31m[K*botRight->y[m[K = boundRect.y + boundRect.height;
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:52:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KoriginalFrame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   52 | Point boundBox(Mat &hsvFrame, [01;35m[KMat &originalFrame[m[K, Point *topLeft, Point *botRight){
+      |                               [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:150:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KareaR[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  150 |           double [01;35m[KareaR[m[K = measureR.m00;
+      |                  [01;35m[K^~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:153:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KareaG[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  153 |           double [01;35m[KareaG[m[K = measureG.m00;
+      |                  [01;35m[K^~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:156:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KareaB[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  156 |           double [01;35m[KareaB[m[K = measureB.m00;
+      |                  [01;35m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,27 @@
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:46:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[KcolorPosition[m[K’ with non-automatic storage duration
+  151 |                rowR = countNonZero(frameRed([[01;35m[KcolorPosition[m[K.x_pos][:]));
+      |                                              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:17:6:[m[K [01;36m[Knote: [m[K‘[01m[Ktugas_opencv::msg::Position_<std::allocator<void> > colorPosition[m[K’ declared here
+   17 | auto [01;36m[KcolorPosition[m[K = tugas_opencv::msg::Position();
+      |      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ before ‘[01m[K.[m[K’ token
+  151 |                rowR = countNonZero(frameRed([colorPosition[01;31m[K.[m[Kx_pos][:]));
+      |                                                           [01;31m[K^[m[K
+      |                                                           [32m[K,[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:59:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K.[m[K’ token
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In lambda function:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K[[m[K’ token
+  151 |                rowR = countNonZero(frameRed([colorPosition.x_pos][01;31m[K[[m[K:]));
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+  151 |                rowR = countNonZero(frameRed([colorPosition.x_pos][[01;31m[K:[m[K]));
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:151:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K:[m[K’ token
+  151 |                rowR = countNonZero(frameRed([colorPosition.x_pos][[01;31m[K:[m[K]));
+      |                                                                   [01;31m[K^[m[K
+      |                                                                   [32m[K][m[K
+gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

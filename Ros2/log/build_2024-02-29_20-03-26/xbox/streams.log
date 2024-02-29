@@ -1,0 +1,33 @@
+[0.026s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/xbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/xbox -- -j32 -l32
+[0.051s] [  3%] Built target xbox__cpp
+[0.052s] [ 12%] Built target xbox__rosidl_generator_c
+[0.057s] [ 12%] Built target ament_cmake_python_copy_xbox
+[0.062s] [ 21%] Built target xbox__rosidl_typesupport_cpp
+[0.062s] [ 30%] Built target xbox__rosidl_typesupport_introspection_cpp
+[0.063s] [ 39%] Built target xbox__rosidl_typesupport_fastrtps_cpp
+[0.066s] [ 57%] Built target xbox__rosidl_typesupport_introspection_c
+[0.066s] [ 57%] Built target xbox__rosidl_typesupport_c
+[0.067s] [ 66%] Built target xbox__rosidl_typesupport_fastrtps_c
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.075s] [ 66%] Built target xbox
+[0.076s] [ 69%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.084s] [ 72%] Built target xbox__py
+[0.094s] [ 78%] Built target xbox__rosidl_generator_py
+[0.105s] [ 84%] Built target xbox__rosidl_typesupport_fastrtps_c__pyext
+[0.105s] [ 90%] Built target xbox__rosidl_typesupport_c__pyext
+[0.106s] [ 96%] Built target xbox__rosidl_typesupport_introspection_c__pyext
+[0.148s] running egg_info
+[0.155s] writing xbox.egg-info/PKG-INFO
+[0.155s] writing dependency_links to xbox.egg-info/dependency_links.txt
+[0.155s] writing top-level names to xbox.egg-info/top_level.txt
+[0.173s] reading manifest file 'xbox.egg-info/SOURCES.txt'
+[0.173s] writing manifest file 'xbox.egg-info/SOURCES.txt'
+[0.186s] [ 96%] Built target ament_cmake_python_build_xbox_egg
+[1.066s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/xbox/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Commands::topic_callback(const Joy&) const[m[K’:
+[1.066s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/xbox/src/publisher.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+[1.066s]    38 |         [01;31m[Kelse[m[K if(temp_yaw > 180) {
+[1.066s]       |         [01;31m[K^~~~[m[K
+[2.142s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+[2.143s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publisher.dir/all] Error 2
+[2.143s] gmake: *** [Makefile:146: all] Error 2
+[2.145s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/xbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/xbox -- -j32 -l32

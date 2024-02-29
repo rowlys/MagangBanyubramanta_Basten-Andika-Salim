@@ -1,0 +1,24 @@
+[0.094s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_opencv -- -j32 -l32
+[0.120s] [  2%] Built target tugas_opencv__cpp
+[0.120s] [ 12%] Built target tugas_opencv__rosidl_generator_c
+[0.125s] [ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[0.132s] [ 21%] Built target tugas_opencv__rosidl_typesupport_cpp
+[0.135s] [ 31%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[0.137s] [ 48%] Built target tugas_opencv__rosidl_typesupport_c
+[0.137s] [ 51%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[0.138s] [ 60%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[0.140s] [ 70%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[0.151s] [ 75%] Built target colorcheck
+[0.154s] [ 75%] Built target tugas_opencv
+[0.168s] [ 78%] Built target tugas_opencv__py
+[0.182s] [ 85%] Built target tugas_opencv__rosidl_generator_py
+[0.196s] [ 90%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[0.197s] [ 95%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+[0.201s] [100%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+[0.272s] running egg_info
+[0.281s] writing tugas_opencv.egg-info/PKG-INFO
+[0.281s] writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+[0.281s] writing top-level names to tugas_opencv.egg-info/top_level.txt
+[0.304s] reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.304s] writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.317s] [100%] Built target ament_cmake_python_build_tugas_opencv_egg

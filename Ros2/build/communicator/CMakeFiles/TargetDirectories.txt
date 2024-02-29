@@ -1,0 +1,10 @@
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator/CMakeFiles/uninstall.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator/CMakeFiles/communicator_uninstall.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator/CMakeFiles/communicator.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator/CMakeFiles/test.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator/CMakeFiles/edit_cache.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator/CMakeFiles/rebuild_cache.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator/CMakeFiles/list_install_components.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator/CMakeFiles/install.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator/CMakeFiles/install/local.dir
+/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator/CMakeFiles/install/strip.dir
