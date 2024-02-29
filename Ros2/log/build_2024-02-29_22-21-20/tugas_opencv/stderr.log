@@ -1,0 +1,7 @@
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:124:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tugas_opencv::msg::Color_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kgreen[m[K’
+  124 |           frameDetect.[01;31m[Kgreen[m[K = 0;
+      |                       [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

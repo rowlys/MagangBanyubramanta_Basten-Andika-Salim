@@ -73,14 +73,14 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Color_message
     nullptr  // resize(index) function pointer
   },
   {
-    "green",  // name
+    "yellow",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(tugas_opencv::msg::Color, green),  // bytes offset in struct
+    offsetof(tugas_opencv::msg::Color, yellow),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer

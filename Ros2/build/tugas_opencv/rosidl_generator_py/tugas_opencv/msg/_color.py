@@ -57,13 +57,13 @@ class Color(metaclass=Metaclass_Color):
     __slots__ = [
         '_red',
         '_blue',
-        '_green',
+        '_yellow',
     ]
 
     _fields_and_field_types = {
         'red': 'int32',
         'blue': 'int32',
-        'green': 'int32',
+        'yellow': 'int32',
     }
 
     SLOT_TYPES = (
@@ -78,7 +78,7 @@ class Color(metaclass=Metaclass_Color):
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.red = kwargs.get('red', int())
         self.blue = kwargs.get('blue', int())
-        self.green = kwargs.get('green', int())
+        self.yellow = kwargs.get('yellow', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -113,7 +113,7 @@ class Color(metaclass=Metaclass_Color):
             return False
         if self.blue != other.blue:
             return False
-        if self.green != other.green:
+        if self.yellow != other.yellow:
             return False
         return True
 
@@ -153,16 +153,16 @@ class Color(metaclass=Metaclass_Color):
         self._blue = value
 
     @builtins.property
-    def green(self):
-        """Message field 'green'."""
-        return self._green
+    def yellow(self):
+        """Message field 'yellow'."""
+        return self._yellow
 
-    @green.setter
-    def green(self, value):
+    @yellow.setter
+    def yellow(self, value):
         if __debug__:
             assert \
                 isinstance(value, int), \
-                "The 'green' field must be of type 'int'"
+                "The 'yellow' field must be of type 'int'"
             assert value >= -2147483648 and value < 2147483648, \
-                "The 'green' field must be an integer in [-2147483648, 2147483647]"
-        self._green = value
+                "The 'yellow' field must be an integer in [-2147483648, 2147483647]"
+        self._yellow = value

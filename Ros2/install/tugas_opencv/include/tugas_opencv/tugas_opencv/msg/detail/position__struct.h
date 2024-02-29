@@ -20,8 +20,12 @@ extern "C"
 /// Struct defined in msg/Position in the package tugas_opencv.
 typedef struct tugas_opencv__msg__Position
 {
-  int32_t x_pos;
-  int32_t y_pos;
+  int32_t red_x_pos;
+  int32_t red_y_pos;
+  int32_t blue_x_pos;
+  int32_t blue_y_pos;
+  int32_t yellow_x_pos;
+  int32_t yellow_y_pos;
 } tugas_opencv__msg__Position;
 
 // Struct for a sequence of tugas_opencv__msg__Position.

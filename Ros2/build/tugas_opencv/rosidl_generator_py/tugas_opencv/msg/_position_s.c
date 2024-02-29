@@ -50,22 +50,58 @@ bool tugas_opencv__msg__position__convert_from_py(PyObject * _pymsg, void * _ros
     assert(strncmp("tugas_opencv.msg._position.Position", full_classname_dest, 35) == 0);
   }
   tugas_opencv__msg__Position * ros_message = _ros_message;
-  {  // x_pos
-    PyObject * field = PyObject_GetAttrString(_pymsg, "x_pos");
+  {  // red_x_pos
+    PyObject * field = PyObject_GetAttrString(_pymsg, "red_x_pos");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->x_pos = (int32_t)PyLong_AsLong(field);
+    ros_message->red_x_pos = (int32_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
-  {  // y_pos
-    PyObject * field = PyObject_GetAttrString(_pymsg, "y_pos");
+  {  // red_y_pos
+    PyObject * field = PyObject_GetAttrString(_pymsg, "red_y_pos");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->y_pos = (int32_t)PyLong_AsLong(field);
+    ros_message->red_y_pos = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+  {  // blue_x_pos
+    PyObject * field = PyObject_GetAttrString(_pymsg, "blue_x_pos");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->blue_x_pos = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+  {  // blue_y_pos
+    PyObject * field = PyObject_GetAttrString(_pymsg, "blue_y_pos");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->blue_y_pos = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+  {  // yellow_x_pos
+    PyObject * field = PyObject_GetAttrString(_pymsg, "yellow_x_pos");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->yellow_x_pos = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+  {  // yellow_y_pos
+    PyObject * field = PyObject_GetAttrString(_pymsg, "yellow_y_pos");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->yellow_y_pos = (int32_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
 
@@ -90,22 +126,66 @@ PyObject * tugas_opencv__msg__position__convert_to_py(void * raw_ros_message)
     }
   }
   tugas_opencv__msg__Position * ros_message = (tugas_opencv__msg__Position *)raw_ros_message;
-  {  // x_pos
+  {  // red_x_pos
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->x_pos);
+    field = PyLong_FromLong(ros_message->red_x_pos);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "x_pos", field);
+      int rc = PyObject_SetAttrString(_pymessage, "red_x_pos", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // y_pos
+  {  // red_y_pos
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->y_pos);
+    field = PyLong_FromLong(ros_message->red_y_pos);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "y_pos", field);
+      int rc = PyObject_SetAttrString(_pymessage, "red_y_pos", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // blue_x_pos
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->blue_x_pos);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "blue_x_pos", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // blue_y_pos
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->blue_y_pos);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "blue_y_pos", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // yellow_x_pos
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->yellow_x_pos);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "yellow_x_pos", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // yellow_y_pos
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->yellow_y_pos);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "yellow_y_pos", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

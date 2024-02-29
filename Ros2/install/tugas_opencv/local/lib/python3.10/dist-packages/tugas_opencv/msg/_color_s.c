@@ -68,13 +68,13 @@ bool tugas_opencv__msg__color__convert_from_py(PyObject * _pymsg, void * _ros_me
     ros_message->blue = (int32_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
-  {  // green
-    PyObject * field = PyObject_GetAttrString(_pymsg, "green");
+  {  // yellow
+    PyObject * field = PyObject_GetAttrString(_pymsg, "yellow");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->green = (int32_t)PyLong_AsLong(field);
+    ros_message->yellow = (int32_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
 
@@ -121,11 +121,11 @@ PyObject * tugas_opencv__msg__color__convert_to_py(void * raw_ros_message)
       }
     }
   }
-  {  // green
+  {  // yellow
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->green);
+    field = PyLong_FromLong(ros_message->yellow);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "green", field);
+      int rc = PyObject_SetAttrString(_pymessage, "yellow", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

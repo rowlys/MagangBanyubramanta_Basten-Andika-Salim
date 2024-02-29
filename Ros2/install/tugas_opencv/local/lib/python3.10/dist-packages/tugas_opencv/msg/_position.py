@@ -55,16 +55,28 @@ class Position(metaclass=Metaclass_Position):
     """Message class 'Position'."""
 
     __slots__ = [
-        '_x_pos',
-        '_y_pos',
+        '_red_x_pos',
+        '_red_y_pos',
+        '_blue_x_pos',
+        '_blue_y_pos',
+        '_yellow_x_pos',
+        '_yellow_y_pos',
     ]
 
     _fields_and_field_types = {
-        'x_pos': 'int32',
-        'y_pos': 'int32',
+        'red_x_pos': 'int32',
+        'red_y_pos': 'int32',
+        'blue_x_pos': 'int32',
+        'blue_y_pos': 'int32',
+        'yellow_x_pos': 'int32',
+        'yellow_y_pos': 'int32',
     }
 
     SLOT_TYPES = (
+        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
     )
@@ -73,8 +85,12 @@ class Position(metaclass=Metaclass_Position):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.x_pos = kwargs.get('x_pos', int())
-        self.y_pos = kwargs.get('y_pos', int())
+        self.red_x_pos = kwargs.get('red_x_pos', int())
+        self.red_y_pos = kwargs.get('red_y_pos', int())
+        self.blue_x_pos = kwargs.get('blue_x_pos', int())
+        self.blue_y_pos = kwargs.get('blue_y_pos', int())
+        self.yellow_x_pos = kwargs.get('yellow_x_pos', int())
+        self.yellow_y_pos = kwargs.get('yellow_y_pos', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -105,9 +121,17 @@ class Position(metaclass=Metaclass_Position):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.x_pos != other.x_pos:
+        if self.red_x_pos != other.red_x_pos:
             return False
-        if self.y_pos != other.y_pos:
+        if self.red_y_pos != other.red_y_pos:
+            return False
+        if self.blue_x_pos != other.blue_x_pos:
+            return False
+        if self.blue_y_pos != other.blue_y_pos:
+            return False
+        if self.yellow_x_pos != other.yellow_x_pos:
+            return False
+        if self.yellow_y_pos != other.yellow_y_pos:
             return False
         return True
 
@@ -117,31 +141,91 @@ class Position(metaclass=Metaclass_Position):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def x_pos(self):
-        """Message field 'x_pos'."""
-        return self._x_pos
+    def red_x_pos(self):
+        """Message field 'red_x_pos'."""
+        return self._red_x_pos
 
-    @x_pos.setter
-    def x_pos(self, value):
+    @red_x_pos.setter
+    def red_x_pos(self, value):
         if __debug__:
             assert \
                 isinstance(value, int), \
-                "The 'x_pos' field must be of type 'int'"
+                "The 'red_x_pos' field must be of type 'int'"
             assert value >= -2147483648 and value < 2147483648, \
-                "The 'x_pos' field must be an integer in [-2147483648, 2147483647]"
-        self._x_pos = value
+                "The 'red_x_pos' field must be an integer in [-2147483648, 2147483647]"
+        self._red_x_pos = value
 
     @builtins.property
-    def y_pos(self):
-        """Message field 'y_pos'."""
-        return self._y_pos
+    def red_y_pos(self):
+        """Message field 'red_y_pos'."""
+        return self._red_y_pos
 
-    @y_pos.setter
-    def y_pos(self, value):
+    @red_y_pos.setter
+    def red_y_pos(self, value):
         if __debug__:
             assert \
                 isinstance(value, int), \
-                "The 'y_pos' field must be of type 'int'"
+                "The 'red_y_pos' field must be of type 'int'"
             assert value >= -2147483648 and value < 2147483648, \
-                "The 'y_pos' field must be an integer in [-2147483648, 2147483647]"
-        self._y_pos = value
+                "The 'red_y_pos' field must be an integer in [-2147483648, 2147483647]"
+        self._red_y_pos = value
+
+    @builtins.property
+    def blue_x_pos(self):
+        """Message field 'blue_x_pos'."""
+        return self._blue_x_pos
+
+    @blue_x_pos.setter
+    def blue_x_pos(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'blue_x_pos' field must be of type 'int'"
+            assert value >= -2147483648 and value < 2147483648, \
+                "The 'blue_x_pos' field must be an integer in [-2147483648, 2147483647]"
+        self._blue_x_pos = value
+
+    @builtins.property
+    def blue_y_pos(self):
+        """Message field 'blue_y_pos'."""
+        return self._blue_y_pos
+
+    @blue_y_pos.setter
+    def blue_y_pos(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'blue_y_pos' field must be of type 'int'"
+            assert value >= -2147483648 and value < 2147483648, \
+                "The 'blue_y_pos' field must be an integer in [-2147483648, 2147483647]"
+        self._blue_y_pos = value
+
+    @builtins.property
+    def yellow_x_pos(self):
+        """Message field 'yellow_x_pos'."""
+        return self._yellow_x_pos
+
+    @yellow_x_pos.setter
+    def yellow_x_pos(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'yellow_x_pos' field must be of type 'int'"
+            assert value >= -2147483648 and value < 2147483648, \
+                "The 'yellow_x_pos' field must be an integer in [-2147483648, 2147483647]"
+        self._yellow_x_pos = value
+
+    @builtins.property
+    def yellow_y_pos(self):
+        """Message field 'yellow_y_pos'."""
+        return self._yellow_y_pos
+
+    @yellow_y_pos.setter
+    def yellow_y_pos(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'yellow_y_pos' field must be of type 'int'"
+            assert value >= -2147483648 and value < 2147483648, \
+                "The 'yellow_y_pos' field must be an integer in [-2147483648, 2147483647]"
+        self._yellow_y_pos = value

@@ -32,10 +32,18 @@ cdr_serialize(
   const tugas_opencv::msg::Position & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: x_pos
-  cdr << ros_message.x_pos;
-  // Member: y_pos
-  cdr << ros_message.y_pos;
+  // Member: red_x_pos
+  cdr << ros_message.red_x_pos;
+  // Member: red_y_pos
+  cdr << ros_message.red_y_pos;
+  // Member: blue_x_pos
+  cdr << ros_message.blue_x_pos;
+  // Member: blue_y_pos
+  cdr << ros_message.blue_y_pos;
+  // Member: yellow_x_pos
+  cdr << ros_message.yellow_x_pos;
+  // Member: yellow_y_pos
+  cdr << ros_message.yellow_y_pos;
   return true;
 }
 
@@ -45,11 +53,23 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   tugas_opencv::msg::Position & ros_message)
 {
-  // Member: x_pos
-  cdr >> ros_message.x_pos;
+  // Member: red_x_pos
+  cdr >> ros_message.red_x_pos;
 
-  // Member: y_pos
-  cdr >> ros_message.y_pos;
+  // Member: red_y_pos
+  cdr >> ros_message.red_y_pos;
+
+  // Member: blue_x_pos
+  cdr >> ros_message.blue_x_pos;
+
+  // Member: blue_y_pos
+  cdr >> ros_message.blue_y_pos;
+
+  // Member: yellow_x_pos
+  cdr >> ros_message.yellow_x_pos;
+
+  // Member: yellow_y_pos
+  cdr >> ros_message.yellow_y_pos;
 
   return true;
 }
@@ -67,15 +87,39 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: x_pos
+  // Member: red_x_pos
   {
-    size_t item_size = sizeof(ros_message.x_pos);
+    size_t item_size = sizeof(ros_message.red_x_pos);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: y_pos
+  // Member: red_y_pos
   {
-    size_t item_size = sizeof(ros_message.y_pos);
+    size_t item_size = sizeof(ros_message.red_y_pos);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: blue_x_pos
+  {
+    size_t item_size = sizeof(ros_message.blue_x_pos);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: blue_y_pos
+  {
+    size_t item_size = sizeof(ros_message.blue_y_pos);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: yellow_x_pos
+  {
+    size_t item_size = sizeof(ros_message.yellow_x_pos);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: yellow_y_pos
+  {
+    size_t item_size = sizeof(ros_message.yellow_y_pos);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -103,7 +147,7 @@ max_serialized_size_Position(
   is_plain = true;
 
 
-  // Member: x_pos
+  // Member: red_x_pos
   {
     size_t array_size = 1;
 
@@ -112,7 +156,43 @@ max_serialized_size_Position(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
-  // Member: y_pos
+  // Member: red_y_pos
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: blue_x_pos
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: blue_y_pos
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: yellow_x_pos
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: yellow_y_pos
   {
     size_t array_size = 1;
 
@@ -129,7 +209,7 @@ max_serialized_size_Position(
     using DataType = tugas_opencv::msg::Position;
     is_plain =
       (
-      offsetof(DataType, y_pos) +
+      offsetof(DataType, yellow_y_pos) +
       last_member_size
       ) == ret_val;
   }

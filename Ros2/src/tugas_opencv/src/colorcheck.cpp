@@ -37,10 +37,10 @@ class Color_ : public rclcpp::Node
           {
                publish_->publish(frameDetect);
                publishColor_->publish(colorPosition);
-               RCLCPP_INFO(this->get_logger(), "Red: %d\nGreen: %d\n Blue: %d", frameDetect.red,frameDetect.green, frameDetect.blue);
-               RCLCPP_INFO(this->get_logger(), "%d %d", redPos.x, redPos.y);
-               RCLCPP_INFO(this->get_logger(), "%d %d", bluePos.x, bluePos.y);
-               RCLCPP_INFO(this->get_logger(), "%d %d", yellowPos.x, yellowPos.y);
+               RCLCPP_INFO(this->get_logger(), "Red: %d\nGreen: %d\n Blue: %d", frameDetect.red,frameDetect.yellow, frameDetect.blue);
+               RCLCPP_INFO(this->get_logger(), "%d %d", colorPosition.red_x_pos, colorPosition.red_y_pos);
+               RCLCPP_INFO(this->get_logger(), "%d %d", colorPosition.yellow_x_pos, colorPosition.yellow_y_pos);
+               RCLCPP_INFO(this->get_logger(), "%d %d", colorPosition.blue_x_pos, colorPosition.blue_y_pos);
           }
           
      private:
@@ -121,10 +121,10 @@ int main(int argc, char** argv){
      while (1){
           frameDetect.red = 0;
           frameDetect.blue = 0;
-          frameDetect.green = 0;
+          frameDetect.yellow = 0;
 
-          colorPosition.x_pos = 0;
-          colorPosition.y_pos = 0;
+          // colorPosition.x_pos = 0;
+          // colorPosition.y_pos = 0;
 
           
           
@@ -157,6 +157,17 @@ int main(int argc, char** argv){
           redPos = boundBox(frameRed, RED);
           bluePos = boundBox(frameBlue, BLUE);
           yellowPos = boundBox(frameYellow, YELLOW);
+
+          colorPosition.red_x_pos = redPos.x;
+          colorPosition.red_y_pos = redPos.y;
+          colorPosition.blue_x_pos = bluePos.x;
+          colorPosition.blue_y_pos = bluePos.y;
+          colorPosition.yellow_x_pos = yellowPos.x;
+          colorPosition.yellow_y_pos = yellowPos.y;
+
+          if (colorPosition.red_x_pos != 0 && colorPosition.red_y_pos != 0) frameDetect.red = 1;
+          if (colorPosition.blue_x_pos != 0 && colorPosition.blue_y_pos != 0) frameDetect.blue = 1;
+          if (colorPosition.yellow_x_pos != 0 && colorPosition.yellow_y_pos != 0) frameDetect.yellow = 1;
           
 
           imshow("Final", frame);

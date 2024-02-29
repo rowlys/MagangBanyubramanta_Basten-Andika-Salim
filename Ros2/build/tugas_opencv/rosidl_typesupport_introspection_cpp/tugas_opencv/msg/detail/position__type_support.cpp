@@ -37,16 +37,16 @@ void Position_fini_function(void * message_memory)
   typed_message->~Position();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember Position_message_member_array[2] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember Position_message_member_array[6] = {
   {
-    "x_pos",  // name
+    "red_x_pos",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(tugas_opencv::msg::Position, x_pos),  // bytes offset in struct
+    offsetof(tugas_opencv::msg::Position, red_x_pos),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -56,14 +56,82 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Position_mess
     nullptr  // resize(index) function pointer
   },
   {
-    "y_pos",  // name
+    "red_y_pos",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(tugas_opencv::msg::Position, y_pos),  // bytes offset in struct
+    offsetof(tugas_opencv::msg::Position, red_y_pos),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "blue_x_pos",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tugas_opencv::msg::Position, blue_x_pos),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "blue_y_pos",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tugas_opencv::msg::Position, blue_y_pos),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "yellow_x_pos",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tugas_opencv::msg::Position, yellow_x_pos),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "yellow_y_pos",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tugas_opencv::msg::Position, yellow_y_pos),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -77,7 +145,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Position_mess
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers Position_message_members = {
   "tugas_opencv::msg",  // message namespace
   "Position",  // message name
-  2,  // number of fields
+  6,  // number of fields
   sizeof(tugas_opencv::msg::Position),
   Position_message_member_array,  // message members
   Position_init_function,  // function to initialize message memory (memory has to be allocated)

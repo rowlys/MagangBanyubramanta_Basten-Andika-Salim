@@ -36,8 +36,8 @@ cdr_serialize(
   cdr << ros_message.red;
   // Member: blue
   cdr << ros_message.blue;
-  // Member: green
-  cdr << ros_message.green;
+  // Member: yellow
+  cdr << ros_message.yellow;
   return true;
 }
 
@@ -53,8 +53,8 @@ cdr_deserialize(
   // Member: blue
   cdr >> ros_message.blue;
 
-  // Member: green
-  cdr >> ros_message.green;
+  // Member: yellow
+  cdr >> ros_message.yellow;
 
   return true;
 }
@@ -84,9 +84,9 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: green
+  // Member: yellow
   {
-    size_t item_size = sizeof(ros_message.green);
+    size_t item_size = sizeof(ros_message.yellow);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -132,7 +132,7 @@ max_serialized_size_Color(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
-  // Member: green
+  // Member: yellow
   {
     size_t array_size = 1;
 
@@ -149,7 +149,7 @@ max_serialized_size_Color(
     using DataType = tugas_opencv::msg::Color;
     is_plain =
       (
-      offsetof(DataType, green) +
+      offsetof(DataType, yellow) +
       last_member_size
       ) == ret_val;
   }
