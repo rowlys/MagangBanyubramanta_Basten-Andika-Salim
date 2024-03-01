@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000084] (-) JobUnselected: {'identifier': 'communicator'}
+[0.000098] (-) JobUnselected: {'identifier': 'tugas_yolo'}
+[0.000107] (-) JobUnselected: {'identifier': 'tugas_yolo_yolocpp'}
+[0.000113] (-) JobUnselected: {'identifier': 'xbox'}
+[0.000122] (tugas_opencv) JobQueued: {'identifier': 'tugas_opencv', 'dependencies': OrderedDict()}
+[0.000131] (tugas_opencv) JobStarted: {'identifier': 'tugas_opencv'}
+[0.025398] (tugas_opencv) JobProgress: {'identifier': 'tugas_opencv', 'progress': 'cmake'}
+[0.025976] (tugas_opencv) JobProgress: {'identifier': 'tugas_opencv', 'progress': 'build'}
+[0.026043] (tugas_opencv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_opencv', '--', '-j32', '-l32'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_opencv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '3332'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/basten/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1774,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1774'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/475cc910_dbd9_4219_8815_48b1c0308840'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_opencv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_opencv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_opencv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_opencv:/opt/ros/humble')]), 'shell': False}
+[0.051607] (tugas_opencv) StdoutLine: {'line': b'[  2%] Built target tugas_opencv__cpp\n'}
+[0.052764] (tugas_opencv) StdoutLine: {'line': b'[ 12%] Built target tugas_opencv__rosidl_generator_c\n'}
+[0.057740] (tugas_opencv) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_tugas_opencv\n'}
+[0.063907] (tugas_opencv) StdoutLine: {'line': b'[ 21%] Built target tugas_opencv__rosidl_typesupport_cpp\n'}
+[0.064135] (tugas_opencv) StdoutLine: {'line': b'[ 41%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp\n'}
+[0.064222] (tugas_opencv) StdoutLine: {'line': b'[ 41%] Built target tugas_opencv__rosidl_typesupport_introspection_c\n'}
+[0.064392] (tugas_opencv) StdoutLine: {'line': b'[ 51%] Built target tugas_opencv__rosidl_typesupport_c\n'}
+[0.064577] (tugas_opencv) StdoutLine: {'line': b'[ 60%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp\n'}
+[0.064752] (tugas_opencv) StdoutLine: {'line': b'[ 70%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c\n'}
+[0.069821] (tugas_opencv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target colorcheck\x1b[0m\n'}
+[0.073137] (tugas_opencv) StdoutLine: {'line': b'[ 70%] Built target tugas_opencv\n'}
+[0.078567] (tugas_opencv) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o\x1b[0m\n'}
+[0.081765] (tugas_opencv) StdoutLine: {'line': b'[ 75%] Built target tugas_opencv__py\n'}
+[0.091648] (tugas_opencv) StdoutLine: {'line': b'[ 82%] Built target tugas_opencv__rosidl_generator_py\n'}
+[0.099445] (-) TimerEvent: {}
+[0.101923] (tugas_opencv) StdoutLine: {'line': b'[ 87%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.102108] (tugas_opencv) StdoutLine: {'line': b'[ 92%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext\n'}
+[0.102235] (tugas_opencv) StdoutLine: {'line': b'[ 97%] Built target tugas_opencv__rosidl_typesupport_c__pyext\n'}
+[0.143162] (tugas_opencv) StdoutLine: {'line': b'running egg_info\n'}
+[0.149034] (tugas_opencv) StdoutLine: {'line': b'writing tugas_opencv.egg-info/PKG-INFO\n'}
+[0.149118] (tugas_opencv) StdoutLine: {'line': b'writing dependency_links to tugas_opencv.egg-info/dependency_links.txt\n'}
+[0.149273] (tugas_opencv) StdoutLine: {'line': b'writing top-level names to tugas_opencv.egg-info/top_level.txt\n'}
+[0.166337] (tugas_opencv) StdoutLine: {'line': b"reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'\n"}
+[0.166992] (tugas_opencv) StdoutLine: {'line': b"writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'\n"}
+[0.178984] (tugas_opencv) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_tugas_opencv_egg\n'}
+[0.199615] (-) TimerEvent: {}
+[0.299905] (-) TimerEvent: {}
+[0.400192] (-) TimerEvent: {}
+[0.500476] (-) TimerEvent: {}
+[0.600712] (-) TimerEvent: {}
+[0.701022] (-) TimerEvent: {}
+[0.801258] (-) TimerEvent: {}
+[0.901549] (-) TimerEvent: {}
+[1.001743] (-) TimerEvent: {}
+[1.101966] (-) TimerEvent: {}
+[1.202224] (-) TimerEvent: {}
+[1.302513] (-) TimerEvent: {}
+[1.375809] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:155:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before string constant\n'}
+[1.375934] (tugas_opencv) StderrLine: {'line': b'  155 |      namedWindow(\x1b[01;31m\x1b[K"HSV Control"\x1b[m\x1b[K, WINDOW_NORMAL);\n'}
+[1.375967] (tugas_opencv) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.375990] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:155:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[1.385391] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:155:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KnamedWindow\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.385451] (tugas_opencv) StderrLine: {'line': b'  155 |      \x1b[01;31m\x1b[KnamedWindow\x1b[m\x1b[K("HSV Control", WINDOW_NORMAL);\n'}
+[1.385478] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.385506] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before string constant\n'}
+[1.385529] (tugas_opencv) StderrLine: {'line': b'  157 |      createTrackbar(\x1b[01;31m\x1b[K"H Floor"\x1b[m\x1b[K, "HSV Control", &floorH, 179);\n'}
+[1.385551] (tugas_opencv) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.385573] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[1.385596] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KcreateTrackbar\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.385619] (tugas_opencv) StderrLine: {'line': b'  157 |      \x1b[01;31m\x1b[KcreateTrackbar\x1b[m\x1b[K("H Floor", "HSV Control", &floorH, 179);\n'}
+[1.385639] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.385666] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:158:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before string constant\n'}
+[1.385689] (tugas_opencv) StderrLine: {'line': b'  158 |      createTrackbar(\x1b[01;31m\x1b[K"H Ceiling"\x1b[m\x1b[K, "HSV Control", &ceilingH, 179);\n'}
+[1.385710] (tugas_opencv) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.385731] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:158:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[1.385752] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:158:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KcreateTrackbar\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.385776] (tugas_opencv) StderrLine: {'line': b'  158 |      \x1b[01;31m\x1b[KcreateTrackbar\x1b[m\x1b[K("H Ceiling", "HSV Control", &ceilingH, 179);\n'}
+[1.385796] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.385816] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:158:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.385836] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.385856] (tugas_opencv) StderrLine: {'line': b'  157 |      \x1b[01;36m\x1b[KcreateTrackbar\x1b[m\x1b[K("H Floor", "HSV Control", &floorH, 179);\n'}
+[1.385875] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.385894] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:160:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before string constant\n'}
+[1.385914] (tugas_opencv) StderrLine: {'line': b'  160 |      createTrackbar(\x1b[01;31m\x1b[K"S Floor"\x1b[m\x1b[K, "HSV Control", &floorS, 255);\n'}
+[1.385938] (tugas_opencv) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.385957] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:160:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[1.385979] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:160:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KcreateTrackbar\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.386000] (tugas_opencv) StderrLine: {'line': b'  160 |      \x1b[01;31m\x1b[KcreateTrackbar\x1b[m\x1b[K("S Floor", "HSV Control", &floorS, 255);\n'}
+[1.386019] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.386041] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:160:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.386066] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.386086] (tugas_opencv) StderrLine: {'line': b'  157 |      \x1b[01;36m\x1b[KcreateTrackbar\x1b[m\x1b[K("H Floor", "HSV Control", &floorH, 179);\n'}
+[1.386105] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.386124] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:161:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before string constant\n'}
+[1.386143] (tugas_opencv) StderrLine: {'line': b'  161 |      createTrackbar(\x1b[01;31m\x1b[K"S Ceiling"\x1b[m\x1b[K, "HSV Control", &ceilingS, 255);\n'}
+[1.386163] (tugas_opencv) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.386182] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:161:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[1.386204] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:161:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KcreateTrackbar\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.386225] (tugas_opencv) StderrLine: {'line': b'  161 |      \x1b[01;31m\x1b[KcreateTrackbar\x1b[m\x1b[K("S Ceiling", "HSV Control", &ceilingS, 255);\n'}
+[1.386245] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.386264] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:161:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.386284] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.386306] (tugas_opencv) StderrLine: {'line': b'  157 |      \x1b[01;36m\x1b[KcreateTrackbar\x1b[m\x1b[K("H Floor", "HSV Control", &floorH, 179);\n'}
+[1.386326] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.386346] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:163:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before string constant\n'}
+[1.386375] (tugas_opencv) StderrLine: {'line': b'  163 |      createTrackbar(\x1b[01;31m\x1b[K"V Floor"\x1b[m\x1b[K, "HSV Control", &floorV, 255);\n'}
+[1.386408] (tugas_opencv) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.386428] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:163:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[1.386449] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:163:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KcreateTrackbar\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.386469] (tugas_opencv) StderrLine: {'line': b'  163 |      \x1b[01;31m\x1b[KcreateTrackbar\x1b[m\x1b[K("V Floor", "HSV Control", &floorV, 255);\n'}
+[1.386491] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.386511] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:163:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.386534] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.386553] (tugas_opencv) StderrLine: {'line': b'  157 |      \x1b[01;36m\x1b[KcreateTrackbar\x1b[m\x1b[K("H Floor", "HSV Control", &floorH, 179);\n'}
+[1.386573] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.386593] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:164:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before string constant\n'}
+[1.386613] (tugas_opencv) StderrLine: {'line': b'  164 |      createTrackbar(\x1b[01;31m\x1b[K"V Ceiling"\x1b[m\x1b[K, "HSV Control", &ceilingV, 255);\n'}
+[1.386632] (tugas_opencv) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.386651] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:164:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[1.386671] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:164:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KcreateTrackbar\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.386691] (tugas_opencv) StderrLine: {'line': b'  164 |      \x1b[01;31m\x1b[KcreateTrackbar\x1b[m\x1b[K("V Ceiling", "HSV Control", &ceilingV, 255);\n'}
+[1.386715] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.386735] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:164:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.386757] (tugas_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint Color_::createTrackbar(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.386777] (tugas_opencv) StderrLine: {'line': b'  157 |      \x1b[01;36m\x1b[KcreateTrackbar\x1b[m\x1b[K("H Floor", "HSV Control", &floorH, 179);\n'}
+[1.386797] (tugas_opencv) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.402681] (-) TimerEvent: {}
+[1.502969] (-) TimerEvent: {}
+[1.603265] (-) TimerEvent: {}
+[1.703544] (-) TimerEvent: {}
+[1.803766] (-) TimerEvent: {}
+[1.904049] (-) TimerEvent: {}
+[2.004329] (-) TimerEvent: {}
+[2.104559] (-) TimerEvent: {}
+[2.204874] (-) TimerEvent: {}
+[2.305101] (-) TimerEvent: {}
+[2.405331] (-) TimerEvent: {}
+[2.505619] (-) TimerEvent: {}
+[2.605846] (-) TimerEvent: {}
+[2.659949] (tugas_opencv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1\n'}
+[2.660227] (tugas_opencv) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2\n'}
+[2.660401] (tugas_opencv) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.662122] (tugas_opencv) CommandEnded: {'returncode': 2}
+[2.706025] (-) TimerEvent: {}
+[2.753920] (tugas_opencv) JobEnded: {'identifier': 'tugas_opencv', 'rc': 2}
+[2.764251] (-) EventReactorShutdown: {}

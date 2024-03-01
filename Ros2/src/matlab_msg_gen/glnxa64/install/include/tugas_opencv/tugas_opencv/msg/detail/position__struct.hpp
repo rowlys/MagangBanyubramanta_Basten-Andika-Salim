@@ -38,8 +38,12 @@ struct Position_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->x_pos = 0l;
-      this->y_pos = 0l;
+      this->red_x_pos = 0l;
+      this->red_y_pos = 0l;
+      this->blue_x_pos = 0l;
+      this->blue_y_pos = 0l;
+      this->yellow_x_pos = 0l;
+      this->yellow_y_pos = 0l;
     }
   }
 
@@ -49,30 +53,70 @@ struct Position_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->x_pos = 0l;
-      this->y_pos = 0l;
+      this->red_x_pos = 0l;
+      this->red_y_pos = 0l;
+      this->blue_x_pos = 0l;
+      this->blue_y_pos = 0l;
+      this->yellow_x_pos = 0l;
+      this->yellow_y_pos = 0l;
     }
   }
 
   // field types and members
-  using _x_pos_type =
+  using _red_x_pos_type =
     int32_t;
-  _x_pos_type x_pos;
-  using _y_pos_type =
+  _red_x_pos_type red_x_pos;
+  using _red_y_pos_type =
     int32_t;
-  _y_pos_type y_pos;
+  _red_y_pos_type red_y_pos;
+  using _blue_x_pos_type =
+    int32_t;
+  _blue_x_pos_type blue_x_pos;
+  using _blue_y_pos_type =
+    int32_t;
+  _blue_y_pos_type blue_y_pos;
+  using _yellow_x_pos_type =
+    int32_t;
+  _yellow_x_pos_type yellow_x_pos;
+  using _yellow_y_pos_type =
+    int32_t;
+  _yellow_y_pos_type yellow_y_pos;
 
   // setters for named parameter idiom
-  Type & set__x_pos(
+  Type & set__red_x_pos(
     const int32_t & _arg)
   {
-    this->x_pos = _arg;
+    this->red_x_pos = _arg;
     return *this;
   }
-  Type & set__y_pos(
+  Type & set__red_y_pos(
     const int32_t & _arg)
   {
-    this->y_pos = _arg;
+    this->red_y_pos = _arg;
+    return *this;
+  }
+  Type & set__blue_x_pos(
+    const int32_t & _arg)
+  {
+    this->blue_x_pos = _arg;
+    return *this;
+  }
+  Type & set__blue_y_pos(
+    const int32_t & _arg)
+  {
+    this->blue_y_pos = _arg;
+    return *this;
+  }
+  Type & set__yellow_x_pos(
+    const int32_t & _arg)
+  {
+    this->yellow_x_pos = _arg;
+    return *this;
+  }
+  Type & set__yellow_y_pos(
+    const int32_t & _arg)
+  {
+    this->yellow_y_pos = _arg;
     return *this;
   }
 
@@ -118,10 +162,22 @@ struct Position_
   // comparison operators
   bool operator==(const Position_ & other) const
   {
-    if (this->x_pos != other.x_pos) {
+    if (this->red_x_pos != other.red_x_pos) {
       return false;
     }
-    if (this->y_pos != other.y_pos) {
+    if (this->red_y_pos != other.red_y_pos) {
+      return false;
+    }
+    if (this->blue_x_pos != other.blue_x_pos) {
+      return false;
+    }
+    if (this->blue_y_pos != other.blue_y_pos) {
+      return false;
+    }
+    if (this->yellow_x_pos != other.yellow_x_pos) {
+      return false;
+    }
+    if (this->yellow_y_pos != other.yellow_y_pos) {
       return false;
     }
     return true;

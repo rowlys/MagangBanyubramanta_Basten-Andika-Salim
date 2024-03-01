@@ -21,15 +21,15 @@ namespace msg
 namespace builder
 {
 
-class Init_Color_green
+class Init_Color_yellow
 {
 public:
-  explicit Init_Color_green(::tugas_opencv::msg::Color & msg)
+  explicit Init_Color_yellow(::tugas_opencv::msg::Color & msg)
   : msg_(msg)
   {}
-  ::tugas_opencv::msg::Color green(::tugas_opencv::msg::Color::_green_type arg)
+  ::tugas_opencv::msg::Color yellow(::tugas_opencv::msg::Color::_yellow_type arg)
   {
-    msg_.green = std::move(arg);
+    msg_.yellow = std::move(arg);
     return std::move(msg_);
   }
 
@@ -43,10 +43,10 @@ public:
   explicit Init_Color_blue(::tugas_opencv::msg::Color & msg)
   : msg_(msg)
   {}
-  Init_Color_green blue(::tugas_opencv::msg::Color::_blue_type arg)
+  Init_Color_yellow blue(::tugas_opencv::msg::Color::_blue_type arg)
   {
     msg_.blue = std::move(arg);
-    return Init_Color_green(msg_);
+    return Init_Color_yellow(msg_);
   }
 
 private:

@@ -1,0 +1,44 @@
+[0.035s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy -- -j32 -l32
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target tugas_joy__rosidl_generator_c[0m
+[0.068s] [  3%] Built target tugas_joy__cpp
+[0.069s] [ 12%] Built target tugas_joy__rosidl_generator_c
+[0.072s] [ 12%] Built target ament_cmake_python_copy_tugas_joy
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target tugas_joy__rosidl_typesupport_cpp[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target tugas_joy__rosidl_typesupport_fastrtps_cpp[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target tugas_joy__rosidl_typesupport_introspection_cpp[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target tugas_joy__rosidl_typesupport_fastrtps_c[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target tugas_joy__rosidl_typesupport_introspection_c[0m
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target tugas_joy__rosidl_typesupport_c[0m
+[0.078s] [ 21%] Built target tugas_joy__rosidl_typesupport_cpp
+[0.079s] [ 30%] Built target tugas_joy__rosidl_typesupport_introspection_c
+[0.079s] [ 42%] Built target tugas_joy__rosidl_typesupport_fastrtps_cpp
+[0.079s] [ 48%] Built target tugas_joy__rosidl_typesupport_c
+[0.079s] [ 57%] Built target tugas_joy__rosidl_typesupport_introspection_cpp
+[0.079s] [ 66%] Built target tugas_joy__rosidl_typesupport_fastrtps_c
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.088s] [ 66%] Built target tugas_joy
+[0.092s] [ 69%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.098s] [ 72%] Built target tugas_joy__py
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target tugas_joy__rosidl_generator_py[0m
+[0.109s] [ 78%] Built target tugas_joy__rosidl_generator_py
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target tugas_joy__rosidl_typesupport_introspection_c__pyext[0m
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target tugas_joy__rosidl_typesupport_c__pyext[0m
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target tugas_joy__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.122s] [ 84%] Built target tugas_joy__rosidl_typesupport_introspection_c__pyext
+[0.122s] [ 90%] Built target tugas_joy__rosidl_typesupport_c__pyext
+[0.122s] [ 96%] Built target tugas_joy__rosidl_typesupport_fastrtps_c__pyext
+[0.162s] running egg_info
+[0.168s] writing tugas_joy.egg-info/PKG-INFO
+[0.168s] writing dependency_links to tugas_joy.egg-info/dependency_links.txt
+[0.168s] writing top-level names to tugas_joy.egg-info/top_level.txt
+[0.186s] reading manifest file 'tugas_joy.egg-info/SOURCES.txt'
+[0.186s] writing manifest file 'tugas_joy.egg-info/SOURCES.txt'
+[0.199s] [ 96%] Built target ament_cmake_python_build_tugas_joy_egg
+[1.113s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Commands::topic_callback(const Joy&) const[m[K’:
+[1.114s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:30:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kxbox[m[K’ has not been declared
+[1.114s]    30 |         auto input = [01;31m[Kxbox[m[K::msg::Command();
+[1.114s]       |                      [01;31m[K^~~~[m[K
+[2.220s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+[2.220s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publisher.dir/all] Error 2
+[2.220s] gmake: *** [Makefile:146: all] Error 2
+[2.222s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy -- -j32 -l32

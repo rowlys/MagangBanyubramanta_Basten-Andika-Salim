@@ -67,14 +67,14 @@ static rosidl_typesupport_introspection_c__MessageMember tugas_opencv__msg__Colo
     NULL  // resize(index) function pointer
   },
   {
-    "green",  // name
+    "yellow",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(tugas_opencv__msg__Color, green),  // bytes offset in struct
+    offsetof(tugas_opencv__msg__Color, yellow),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

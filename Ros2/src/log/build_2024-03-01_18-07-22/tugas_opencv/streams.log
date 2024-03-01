@@ -1,0 +1,36 @@
+[0.027s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_opencv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_opencv -- -j32 -l32
+[0.052s] [  2%] Built target tugas_opencv__cpp
+[0.053s] [ 12%] Built target tugas_opencv__rosidl_generator_c
+[0.057s] [ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[0.062s] [ 21%] Built target tugas_opencv__rosidl_typesupport_cpp
+[0.062s] [ 31%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[0.063s] [ 41%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[0.063s] [ 51%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[0.063s] [ 60%] Built target tugas_opencv__rosidl_typesupport_c
+[0.063s] [ 70%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target colorcheck[0m
+[0.072s] [ 70%] Built target tugas_opencv
+[0.077s] [ 73%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[0.080s] [ 75%] Built target tugas_opencv__py
+[0.091s] [ 82%] Built target tugas_opencv__rosidl_generator_py
+[0.101s] [ 87%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[0.101s] [ 92%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+[0.101s] [ 97%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+[0.142s] running egg_info
+[0.148s] writing tugas_opencv.egg-info/PKG-INFO
+[0.149s] writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+[0.149s] writing top-level names to tugas_opencv.egg-info/top_level.txt
+[0.166s] reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.166s] writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[0.178s] [ 97%] Built target ament_cmake_python_build_tugas_opencv_egg
+[1.537s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In member function ‘[01m[Kvoid Color_::topic_callback(const Image&)[m[K’:
+[1.537s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:131:16:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[K<unresolved overloaded function type>[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator<<[m[K’
+[1.538s]   131 |           [01;31m[Kcount<<half_width[m[K<<"here"<<wndl;
+[1.538s]       |           [01;31m[K~~~~~^~~~~~~~~~~~[m[K
+[1.541s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:131:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kwndl[m[K’ was not declared in this scope
+[1.541s]   131 |           count<<half_width<<"here"<<[01;31m[Kwndl[m[K;
+[1.541s]       |                                      [01;31m[K^~~~[m[K
+[2.658s] gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+[2.658s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+[2.658s] gmake: *** [Makefile:146: all] Error 2
+[2.660s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_opencv' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_opencv -- -j32 -l32

@@ -3,5 +3,5 @@ function ros1msg = tugas_opencv_msg_Color_2To1_Converter(message,ros1msg)
 % Copyright 2019 The MathWorks, Inc.    
 ros1msg.Red = message.red;
 ros1msg.Blue = message.blue;
-ros1msg.Green = message.green;
+ros1msg.Yellow = message.yellow;
 end

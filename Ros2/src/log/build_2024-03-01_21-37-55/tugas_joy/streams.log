@@ -1,0 +1,148 @@
+[0.032s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy -- -j32 -l32
+[0.059s] [  3%] Built target tugas_joy__cpp
+[0.059s] [ 12%] Built target tugas_joy__rosidl_generator_c
+[0.063s] [ 12%] Built target ament_cmake_python_copy_tugas_joy
+[0.070s] [ 27%] Built target tugas_joy__rosidl_typesupport_fastrtps_cpp
+[0.070s] [ 30%] Built target tugas_joy__rosidl_typesupport_introspection_cpp
+[0.071s] [ 39%] Built target tugas_joy__rosidl_typesupport_cpp
+[0.073s] [ 48%] Built target tugas_joy__rosidl_typesupport_introspection_c
+[0.073s] [ 57%] Built target tugas_joy__rosidl_typesupport_c
+[0.073s] [ 66%] Built target tugas_joy__rosidl_typesupport_fastrtps_c
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.082s] [ 66%] Built target tugas_joy
+[0.085s] [ 69%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.092s] [ 72%] Built target tugas_joy__py
+[0.103s] [ 78%] Built target tugas_joy__rosidl_generator_py
+[0.114s] [ 84%] Built target tugas_joy__rosidl_typesupport_fastrtps_c__pyext
+[0.114s] [ 90%] Built target tugas_joy__rosidl_typesupport_c__pyext
+[0.114s] [ 96%] Built target tugas_joy__rosidl_typesupport_introspection_c__pyext
+[0.154s] running egg_info
+[0.160s] writing tugas_joy.egg-info/PKG-INFO
+[0.160s] writing dependency_links to tugas_joy.egg-info/dependency_links.txt
+[0.160s] writing top-level names to tugas_joy.egg-info/top_level.txt
+[0.177s] reading manifest file 'tugas_joy.egg-info/SOURCES.txt'
+[0.177s] writing manifest file 'tugas_joy.egg-info/SOURCES.txt'
+[0.191s] [ 96%] Built target ament_cmake_python_build_tugas_joy_egg
+[3.774s] [100%] [32m[1mLinking CXX executable publisher[0m
+[3.957s] [100%] Built target publisher
+[3.969s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy -- -j32 -l32
+[4.036s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy
+[4.045s] -- Install configuration: ""
+[4.045s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/ament_index/resource_index/rosidl_interfaces/tugas_joy
+[4.045s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy
+[4.045s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg
+[4.045s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/rosidl_generator_c__visibility_control.h
+[4.046s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/command.h
+[4.046s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail
+[4.046s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__struct.h
+[4.046s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__functions.c
+[4.047s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__type_support.h
+[4.047s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__functions.h
+[4.047s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/environment/library_path.sh
+[4.047s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/environment/library_path.dsv
+[4.047s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/lib/libtugas_joy__rosidl_generator_c.so
+[4.047s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy
+[4.047s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__rosidl_typesupport_fastrtps_c.h
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/lib/libtugas_joy__rosidl_typesupport_fastrtps_c.so
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/command.hpp
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__traits.hpp
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__builder.hpp
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__struct.hpp
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.048s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/dds_fastrtps
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/lib/libtugas_joy__rosidl_typesupport_fastrtps_cpp.so
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__type_support.c
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__rosidl_typesupport_introspection_c.h
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/lib/libtugas_joy__rosidl_typesupport_introspection_c.so
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/lib/libtugas_joy__rosidl_typesupport_c.so
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__type_support.cpp
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/lib/libtugas_joy__rosidl_typesupport_introspection_cpp.so
+[4.049s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/lib/libtugas_joy__rosidl_typesupport_cpp.so
+[4.050s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/environment/pythonpath.sh
+[4.050s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/environment/pythonpath.dsv
+[4.050s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy-0.0.0-py3.10.egg-info
+[4.050s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy-0.0.0-py3.10.egg-info/top_level.txt
+[4.050s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy-0.0.0-py3.10.egg-info/PKG-INFO
+[4.050s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.050s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.050s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy
+[4.050s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/tugas_joy_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.050s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/tugas_joy_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.050s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/_tugas_joy_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.050s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/_tugas_joy_s.ep.rosidl_typesupport_c.c
+[4.050s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/tugas_joy_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.050s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/__init__.py
+[4.050s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/msg
+[4.050s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/msg/_command.py
+[4.050s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/msg/__init__.py
+[4.051s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/msg/_command_s.c
+[4.051s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/libtugas_joy__rosidl_generator_py.so
+[4.051s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/_tugas_joy_s.ep.rosidl_typesupport_introspection_c.c
+[4.069s] Listing '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy'...
+[4.070s] Listing '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/msg'...
+[4.072s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/tugas_joy_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.072s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/tugas_joy_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.072s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/local/lib/python3.10/dist-packages/tugas_joy/tugas_joy_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.072s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/lib/libtugas_joy__rosidl_generator_py.so
+[4.072s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/msg/Command.idl
+[4.072s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/msg/Command.msg
+[4.072s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/lib/tugas_joy/publisher
+[4.074s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/lib/tugas_joy/publisher" to ""
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/ament_index/resource_index/package_run_dependencies/tugas_joy
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/ament_index/resource_index/parent_prefix_path/tugas_joy
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/environment/ament_prefix_path.sh
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/environment/ament_prefix_path.dsv
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/environment/path.sh
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/environment/path.dsv
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/local_setup.bash
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/local_setup.sh
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/local_setup.zsh
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/local_setup.dsv
+[4.075s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/package.dsv
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/ament_index/resource_index/packages/tugas_joy
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/export_tugas_joy__rosidl_generator_cExport.cmake
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/export_tugas_joy__rosidl_generator_cExport-noconfig.cmake
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/export_tugas_joy__rosidl_typesupport_fastrtps_cExport.cmake
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/export_tugas_joy__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/export_tugas_joy__rosidl_generator_cppExport.cmake
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/export_tugas_joy__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/export_tugas_joy__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_introspection_cExport.cmake
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_cExport.cmake
+[4.075s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_cExport-noconfig.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_introspection_cppExport.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_cppExport.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_cppExport-noconfig.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/export_tugas_joy__rosidl_generator_pyExport.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/export_tugas_joy__rosidl_generator_pyExport-noconfig.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/rosidl_cmake-extras.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/ament_cmake_export_targets-extras.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/tugas_joyConfig.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/cmake/tugas_joyConfig-version.cmake
+[4.076s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy/share/tugas_joy/package.xml
+[4.077s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy

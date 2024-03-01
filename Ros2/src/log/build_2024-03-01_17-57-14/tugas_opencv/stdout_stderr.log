@@ -1,0 +1,62 @@
+[35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_generator_c[0m
+[  9%] Built target tugas_opencv__rosidl_generator_c
+[ 12%] Built target tugas_opencv__cpp
+[ 12%] Built target ament_cmake_python_copy_tugas_opencv
+[35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_cpp[0m
+[ 21%] Built target tugas_opencv__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_cpp[0m
+[ 31%] Built target tugas_opencv__rosidl_typesupport_introspection_c
+[ 41%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c
+[ 51%] Built target tugas_opencv__rosidl_typesupport_introspection_cpp
+[ 60%] Built target tugas_opencv__rosidl_typesupport_cpp
+[ 70%] Built target tugas_opencv__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target colorcheck[0m
+[ 70%] Built target tugas_opencv
+[ 73%] [32mBuilding CXX object CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o[0m
+[ 75%] Built target tugas_opencv__py
+[35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_generator_py[0m
+[ 82%] Built target tugas_opencv__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target tugas_opencv__rosidl_typesupport_c__pyext[0m
+[ 87%] Built target tugas_opencv__rosidl_typesupport_introspection_c__pyext
+[ 92%] Built target tugas_opencv__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target tugas_opencv__rosidl_typesupport_c__pyext
+running egg_info
+writing tugas_opencv.egg-info/PKG-INFO
+writing dependency_links to tugas_opencv.egg-info/dependency_links.txt
+writing top-level names to tugas_opencv.egg-info/top_level.txt
+reading manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+writing manifest file 'tugas_opencv.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_tugas_opencv_egg
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:153:14:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+  153 |      rclcpp::[01;31m[KSubscriber[m[K<sensor_msgs::msg::Image>::SharedPtr subscriber_;
+      |              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In constructor ‘[01m[KColor_::Color_()[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:46:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ was not declared in this scope
+   46 |           [01;31m[Ksubscriber_[m[K = this->create_subscription<sensor_msgs::msg::Image>("openCamera", 10, std::bind(&Color_::topic_callback, this, _1));
+      |           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In member function ‘[01m[Kcv::Point Color_::boundBox(cv::Mat&, cv::Scalar)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:83:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+   83 |                rectangle([01;31m[Kframe[m[K, boundRect.tl(), boundRect.br(), color, 2);
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In member function ‘[01m[Kvoid Color_::topic_callback(const Image&)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:105:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera[m[K’ was not declared in this scope
+  105 |           if (![01;31m[Kcamera[m[K.read(frame)){
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:107:16:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  107 |                [01;31m[Kbreak[m[K;
+      |                [01;31m[K^~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:117:29:[m[K [01;31m[Kerror: [m[K‘[01m[KScalacolor_node[m[K’ was not declared in this scope
+  117 |           inRange(frameHSV, [01;31m[KScalacolor_node[m[K->r(20,70,110), Scalar(50, ceilingS, ceilingV), frameYellow);
+      |                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:117:92:[m[K [01;31m[Kerror: [m[K‘[01m[KframeYellow[m[K’ was not declared in this scope
+  117 |           inRange(frameHSV, Scalacolor_node->r(20,70,110), Scalar(50, ceilingS, ceilingV), [01;31m[KframeYellow[m[K);
+      |                                                                                            [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

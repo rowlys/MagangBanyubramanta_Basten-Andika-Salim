@@ -35,36 +35,84 @@ class TUGAS_OPENCV_EXPORT ros2_tugas_opencv_msg_Position_common : public MATLABR
   void ros2_tugas_opencv_msg_Position_common::copy_from_struct(tugas_opencv::msg::Position* msg, const matlab::data::Struct& arr,
                MultiLibLoader loader) {
     try {
-        //x_pos
-        const matlab::data::TypedArray<int32_t> x_pos_arr = arr["x_pos"];
-        msg->x_pos = x_pos_arr[0];
+        //red_x_pos
+        const matlab::data::TypedArray<int32_t> red_x_pos_arr = arr["red_x_pos"];
+        msg->red_x_pos = red_x_pos_arr[0];
     } catch (matlab::data::InvalidFieldNameException&) {
-        throw std::invalid_argument("Field 'x_pos' is missing.");
+        throw std::invalid_argument("Field 'red_x_pos' is missing.");
     } catch (matlab::Exception&) {
-        throw std::invalid_argument("Field 'x_pos' is wrong type; expected a int32.");
+        throw std::invalid_argument("Field 'red_x_pos' is wrong type; expected a int32.");
     }
     try {
-        //y_pos
-        const matlab::data::TypedArray<int32_t> y_pos_arr = arr["y_pos"];
-        msg->y_pos = y_pos_arr[0];
+        //red_y_pos
+        const matlab::data::TypedArray<int32_t> red_y_pos_arr = arr["red_y_pos"];
+        msg->red_y_pos = red_y_pos_arr[0];
     } catch (matlab::data::InvalidFieldNameException&) {
-        throw std::invalid_argument("Field 'y_pos' is missing.");
+        throw std::invalid_argument("Field 'red_y_pos' is missing.");
     } catch (matlab::Exception&) {
-        throw std::invalid_argument("Field 'y_pos' is wrong type; expected a int32.");
+        throw std::invalid_argument("Field 'red_y_pos' is wrong type; expected a int32.");
+    }
+    try {
+        //blue_x_pos
+        const matlab::data::TypedArray<int32_t> blue_x_pos_arr = arr["blue_x_pos"];
+        msg->blue_x_pos = blue_x_pos_arr[0];
+    } catch (matlab::data::InvalidFieldNameException&) {
+        throw std::invalid_argument("Field 'blue_x_pos' is missing.");
+    } catch (matlab::Exception&) {
+        throw std::invalid_argument("Field 'blue_x_pos' is wrong type; expected a int32.");
+    }
+    try {
+        //blue_y_pos
+        const matlab::data::TypedArray<int32_t> blue_y_pos_arr = arr["blue_y_pos"];
+        msg->blue_y_pos = blue_y_pos_arr[0];
+    } catch (matlab::data::InvalidFieldNameException&) {
+        throw std::invalid_argument("Field 'blue_y_pos' is missing.");
+    } catch (matlab::Exception&) {
+        throw std::invalid_argument("Field 'blue_y_pos' is wrong type; expected a int32.");
+    }
+    try {
+        //yellow_x_pos
+        const matlab::data::TypedArray<int32_t> yellow_x_pos_arr = arr["yellow_x_pos"];
+        msg->yellow_x_pos = yellow_x_pos_arr[0];
+    } catch (matlab::data::InvalidFieldNameException&) {
+        throw std::invalid_argument("Field 'yellow_x_pos' is missing.");
+    } catch (matlab::Exception&) {
+        throw std::invalid_argument("Field 'yellow_x_pos' is wrong type; expected a int32.");
+    }
+    try {
+        //yellow_y_pos
+        const matlab::data::TypedArray<int32_t> yellow_y_pos_arr = arr["yellow_y_pos"];
+        msg->yellow_y_pos = yellow_y_pos_arr[0];
+    } catch (matlab::data::InvalidFieldNameException&) {
+        throw std::invalid_argument("Field 'yellow_y_pos' is missing.");
+    } catch (matlab::Exception&) {
+        throw std::invalid_argument("Field 'yellow_y_pos' is wrong type; expected a int32.");
     }
   }
   //----------------------------------------------------------------------------
   MDArray_T ros2_tugas_opencv_msg_Position_common::get_arr(MDFactory_T& factory, const tugas_opencv::msg::Position* msg,
        MultiLibLoader loader, size_t size) {
-    auto outArray = factory.createStructArray({size,1},{"MessageType","x_pos","y_pos"});
+    auto outArray = factory.createStructArray({size,1},{"MessageType","red_x_pos","red_y_pos","blue_x_pos","blue_y_pos","yellow_x_pos","yellow_y_pos"});
     for(size_t ctr = 0; ctr < size; ctr++){
     outArray[ctr]["MessageType"] = factory.createCharArray("tugas_opencv/Position");
-    // x_pos
-    auto currentElement_x_pos = (msg + ctr)->x_pos;
-    outArray[ctr]["x_pos"] = factory.createScalar(currentElement_x_pos);
-    // y_pos
-    auto currentElement_y_pos = (msg + ctr)->y_pos;
-    outArray[ctr]["y_pos"] = factory.createScalar(currentElement_y_pos);
+    // red_x_pos
+    auto currentElement_red_x_pos = (msg + ctr)->red_x_pos;
+    outArray[ctr]["red_x_pos"] = factory.createScalar(currentElement_red_x_pos);
+    // red_y_pos
+    auto currentElement_red_y_pos = (msg + ctr)->red_y_pos;
+    outArray[ctr]["red_y_pos"] = factory.createScalar(currentElement_red_y_pos);
+    // blue_x_pos
+    auto currentElement_blue_x_pos = (msg + ctr)->blue_x_pos;
+    outArray[ctr]["blue_x_pos"] = factory.createScalar(currentElement_blue_x_pos);
+    // blue_y_pos
+    auto currentElement_blue_y_pos = (msg + ctr)->blue_y_pos;
+    outArray[ctr]["blue_y_pos"] = factory.createScalar(currentElement_blue_y_pos);
+    // yellow_x_pos
+    auto currentElement_yellow_x_pos = (msg + ctr)->yellow_x_pos;
+    outArray[ctr]["yellow_x_pos"] = factory.createScalar(currentElement_yellow_x_pos);
+    // yellow_y_pos
+    auto currentElement_yellow_y_pos = (msg + ctr)->yellow_y_pos;
+    outArray[ctr]["yellow_y_pos"] = factory.createScalar(currentElement_yellow_y_pos);
     }
     return std::move(outArray);
   } 

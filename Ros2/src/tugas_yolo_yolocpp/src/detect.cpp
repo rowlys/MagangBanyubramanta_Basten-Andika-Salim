@@ -22,7 +22,7 @@ using std::placeholders::_1;
 
 // ifstream filePath(const string& tugas_yolo_yolocpp/coco.names);
     vector<string> class_list;
-    ifstream ifs("src/tugas_yolo_yolocpp/coco.names");
+    ifstream ifs("tugas_yolo_yolocpp/coco.names");
     string line_;
     
 
@@ -183,7 +183,7 @@ class Detection : public rclcpp::Node{
 
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscriber_;
     rclcpp::Publisher<tugas_yolo_yolocpp::msg::Seen>::SharedPtr publisher_;
-    Net net= readNet("src/tugas_yolo_yolocpp/model/yolov5n.onnx");
+    Net net= readNet("tugas_yolo_yolocpp/model/yolov5n.onnx");
     vector<Mat> detections;
 
     

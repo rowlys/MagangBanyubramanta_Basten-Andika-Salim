@@ -53,19 +53,19 @@ class TUGAS_OPENCV_EXPORT ros2_tugas_opencv_msg_Color_common : public MATLABROS2
         throw std::invalid_argument("Field 'blue' is wrong type; expected a int32.");
     }
     try {
-        //green
-        const matlab::data::TypedArray<int32_t> green_arr = arr["green"];
-        msg->green = green_arr[0];
+        //yellow
+        const matlab::data::TypedArray<int32_t> yellow_arr = arr["yellow"];
+        msg->yellow = yellow_arr[0];
     } catch (matlab::data::InvalidFieldNameException&) {
-        throw std::invalid_argument("Field 'green' is missing.");
+        throw std::invalid_argument("Field 'yellow' is missing.");
     } catch (matlab::Exception&) {
-        throw std::invalid_argument("Field 'green' is wrong type; expected a int32.");
+        throw std::invalid_argument("Field 'yellow' is wrong type; expected a int32.");
     }
   }
   //----------------------------------------------------------------------------
   MDArray_T ros2_tugas_opencv_msg_Color_common::get_arr(MDFactory_T& factory, const tugas_opencv::msg::Color* msg,
        MultiLibLoader loader, size_t size) {
-    auto outArray = factory.createStructArray({size,1},{"MessageType","red","blue","green"});
+    auto outArray = factory.createStructArray({size,1},{"MessageType","red","blue","yellow"});
     for(size_t ctr = 0; ctr < size; ctr++){
     outArray[ctr]["MessageType"] = factory.createCharArray("tugas_opencv/Color");
     // red
@@ -74,9 +74,9 @@ class TUGAS_OPENCV_EXPORT ros2_tugas_opencv_msg_Color_common : public MATLABROS2
     // blue
     auto currentElement_blue = (msg + ctr)->blue;
     outArray[ctr]["blue"] = factory.createScalar(currentElement_blue);
-    // green
-    auto currentElement_green = (msg + ctr)->green;
-    outArray[ctr]["green"] = factory.createScalar(currentElement_green);
+    // yellow
+    auto currentElement_yellow = (msg + ctr)->yellow;
+    outArray[ctr]["yellow"] = factory.createScalar(currentElement_yellow);
     }
     return std::move(outArray);
   } 

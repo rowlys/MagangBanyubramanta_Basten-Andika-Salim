@@ -1,0 +1,8 @@
+source;share/tugas_yolo/hook/cmake_prefix_path.ps1
+source;share/tugas_yolo/hook/cmake_prefix_path.dsv
+source;share/tugas_yolo/hook/cmake_prefix_path.sh
+source;share/tugas_yolo/local_setup.bash
+source;share/tugas_yolo/local_setup.dsv
+source;share/tugas_yolo/local_setup.ps1
+source;share/tugas_yolo/local_setup.sh
+source;share/tugas_yolo/local_setup.zsh

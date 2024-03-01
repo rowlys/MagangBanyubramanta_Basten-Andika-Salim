@@ -17,8 +17,12 @@ tugas_opencv__msg__Position__init(tugas_opencv__msg__Position * msg)
   if (!msg) {
     return false;
   }
-  // x_pos
-  // y_pos
+  // red_x_pos
+  // red_y_pos
+  // blue_x_pos
+  // blue_y_pos
+  // yellow_x_pos
+  // yellow_y_pos
   return true;
 }
 
@@ -28,8 +32,12 @@ tugas_opencv__msg__Position__fini(tugas_opencv__msg__Position * msg)
   if (!msg) {
     return;
   }
-  // x_pos
-  // y_pos
+  // red_x_pos
+  // red_y_pos
+  // blue_x_pos
+  // blue_y_pos
+  // yellow_x_pos
+  // yellow_y_pos
 }
 
 bool
@@ -38,12 +46,28 @@ tugas_opencv__msg__Position__are_equal(const tugas_opencv__msg__Position * lhs, 
   if (!lhs || !rhs) {
     return false;
   }
-  // x_pos
-  if (lhs->x_pos != rhs->x_pos) {
+  // red_x_pos
+  if (lhs->red_x_pos != rhs->red_x_pos) {
     return false;
   }
-  // y_pos
-  if (lhs->y_pos != rhs->y_pos) {
+  // red_y_pos
+  if (lhs->red_y_pos != rhs->red_y_pos) {
+    return false;
+  }
+  // blue_x_pos
+  if (lhs->blue_x_pos != rhs->blue_x_pos) {
+    return false;
+  }
+  // blue_y_pos
+  if (lhs->blue_y_pos != rhs->blue_y_pos) {
+    return false;
+  }
+  // yellow_x_pos
+  if (lhs->yellow_x_pos != rhs->yellow_x_pos) {
+    return false;
+  }
+  // yellow_y_pos
+  if (lhs->yellow_y_pos != rhs->yellow_y_pos) {
     return false;
   }
   return true;
@@ -57,10 +81,18 @@ tugas_opencv__msg__Position__copy(
   if (!input || !output) {
     return false;
   }
-  // x_pos
-  output->x_pos = input->x_pos;
-  // y_pos
-  output->y_pos = input->y_pos;
+  // red_x_pos
+  output->red_x_pos = input->red_x_pos;
+  // red_y_pos
+  output->red_y_pos = input->red_y_pos;
+  // blue_x_pos
+  output->blue_x_pos = input->blue_x_pos;
+  // blue_y_pos
+  output->blue_y_pos = input->blue_y_pos;
+  // yellow_x_pos
+  output->yellow_x_pos = input->yellow_x_pos;
+  // yellow_y_pos
+  output->yellow_y_pos = input->yellow_y_pos;
   return true;
 }
 

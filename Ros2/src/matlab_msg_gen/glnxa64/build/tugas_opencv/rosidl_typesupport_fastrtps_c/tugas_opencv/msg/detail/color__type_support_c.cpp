@@ -59,9 +59,9 @@ static bool _Color__cdr_serialize(
     cdr << ros_message->blue;
   }
 
-  // Field name: green
+  // Field name: yellow
   {
-    cdr << ros_message->green;
+    cdr << ros_message->yellow;
   }
 
   return true;
@@ -86,9 +86,9 @@ static bool _Color__cdr_deserialize(
     cdr >> ros_message->blue;
   }
 
-  // Field name: green
+  // Field name: yellow
   {
-    cdr >> ros_message->green;
+    cdr >> ros_message->yellow;
   }
 
   return true;
@@ -120,9 +120,9 @@ size_t get_serialized_size_tugas_opencv__msg__Color(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name green
+  // field.name yellow
   {
-    size_t item_size = sizeof(ros_message->green);
+    size_t item_size = sizeof(ros_message->yellow);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -167,7 +167,7 @@ size_t max_serialized_size_tugas_opencv__msg__Color(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: green
+  // member: yellow
   {
     size_t array_size = 1;
 

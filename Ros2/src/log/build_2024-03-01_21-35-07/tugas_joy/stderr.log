@@ -1,0 +1,7 @@
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Commands::topic_callback(const Joy&) const[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:30:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kxbox[m[K’ has not been declared
+   30 |         auto input = [01;31m[Kxbox[m[K::msg::Command();
+      |                      [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

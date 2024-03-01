@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000090] (-) JobUnselected: {'identifier': 'communicator'}
+[0.000105] (-) JobUnselected: {'identifier': 'tugas_opencv'}
+[0.000113] (-) JobUnselected: {'identifier': 'tugas_yolo'}
+[0.000119] (-) JobUnselected: {'identifier': 'tugas_yolo_yolocpp'}
+[0.000125] (-) JobUnselected: {'identifier': 'xbox'}
+[0.000133] (tugas_joy) JobQueued: {'identifier': 'tugas_joy', 'dependencies': OrderedDict()}
+[0.000141] (tugas_joy) JobStarted: {'identifier': 'tugas_joy'}
+[0.025485] (tugas_joy) JobProgress: {'identifier': 'tugas_joy', 'progress': 'cmake'}
+[0.025547] (tugas_joy) Command: {'cmd': ['/usr/bin/cmake', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy', '-DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_joy'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/xbox/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo_yolocpp/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/basten/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1774,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1774'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/06f932be_4669_43bd_88a3_164392c07f70'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/xbox:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo_yolocpp:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_opencv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/xbox/local/lib/python3.10/dist-packages:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_opencv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/xbox:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo_yolocpp:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_opencv:/opt/ros/humble')]), 'shell': False}
+[0.055725] (tugas_joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.091443] (tugas_joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.095085] (tugas_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099594] (-) TimerEvent: {}
+[0.158790] (tugas_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.164370] (tugas_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.164867] (tugas_joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.165163] (tugas_joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.168456] (tugas_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199688] (-) TimerEvent: {}
+[0.223378] (tugas_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.226621] (tugas_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.226701] (tugas_joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.227053] (tugas_joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.228350] (tugas_joy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299766] (-) TimerEvent: {}
+[0.399952] (-) TimerEvent: {}
+[0.400486] (tugas_joy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.443018] (tugas_joy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.459659] (tugas_joy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.461953] (tugas_joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.465895] (tugas_joy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.476058] (tugas_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.491203] (tugas_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500116] (-) TimerEvent: {}
+[0.591004] (tugas_joy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600272] (-) TimerEvent: {}
+[0.618602] (tugas_joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.619803] (tugas_joy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.666656] (tugas_joy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.680222] (tugas_joy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.700440] (-) TimerEvent: {}
+[0.703063] (tugas_joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.707314] (tugas_joy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.764253] (tugas_joy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.764777] (tugas_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800649] (-) TimerEvent: {}
+[0.829881] (tugas_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.830723] (tugas_joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.895522] (tugas_joy) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.900809] (-) TimerEvent: {}
+[1.001071] (-) TimerEvent: {}
+[1.021396] (tugas_joy) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.101244] (-) TimerEvent: {}
+[1.190117] (tugas_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201308] (-) TimerEvent: {}
+[1.252177] (tugas_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.268322] (tugas_joy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.269007] (tugas_joy) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.284889] (tugas_joy) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.284977] (tugas_joy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.285016] (tugas_joy) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.285047] (tugas_joy) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.297467] (tugas_joy) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.301467] (-) TimerEvent: {}
+[1.317493] (tugas_joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.336003] (tugas_joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.336204] (tugas_joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.336266] (tugas_joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.337837] (tugas_joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.340627] (tugas_joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.342039] (tugas_joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.352192] (tugas_joy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.352264] (tugas_joy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.353686] (tugas_joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.354685] (tugas_joy) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.368922] (tugas_joy) StdoutLine: {'line': b'-- Generating done\n'}
+[1.370352] (tugas_joy) StdoutLine: {'line': b'-- Build files have been written to: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy\n'}
+[1.376937] (tugas_joy) CommandEnded: {'returncode': 0}
+[1.377132] (tugas_joy) JobProgress: {'identifier': 'tugas_joy', 'progress': 'build'}
+[1.377145] (tugas_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy', '--', '-j32', '-l32'], 'cwd': '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'basten'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/xbox/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo_yolocpp/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/basten'), ('OLDPWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basten'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'basten'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/basten/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basten-Legion-Pro-5-16IRX8:@/tmp/.ICE-unix/1774,unix/basten-Legion-Pro-5-16IRX8:/tmp/.ICE-unix/1774'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/06f932be_4669_43bd_88a3_164392c07f70'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/xbox:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo_yolocpp:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_opencv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/build/tugas_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/xbox/local/lib/python3.10/dist-packages:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo_yolocpp/local/lib/python3.10/dist-packages:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_opencv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/xbox:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo_yolocpp:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_yolo:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/install/tugas_opencv:/opt/ros/humble')]), 'shell': False}
+[1.397910] (tugas_joy) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.401656] (-) TimerEvent: {}
+[1.405852] (tugas_joy) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.411389] (tugas_joy) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_tugas_joy\n'}
+[1.498042] (tugas_joy) StdoutLine: {'line': b'running egg_info\n'}
+[1.498567] (tugas_joy) StdoutLine: {'line': b'creating tugas_joy.egg-info\n'}
+[1.501840] (-) TimerEvent: {}
+[1.504688] (tugas_joy) StdoutLine: {'line': b'writing tugas_joy.egg-info/PKG-INFO\n'}
+[1.504922] (tugas_joy) StdoutLine: {'line': b'writing dependency_links to tugas_joy.egg-info/dependency_links.txt\n'}
+[1.505001] (tugas_joy) StdoutLine: {'line': b'writing top-level names to tugas_joy.egg-info/top_level.txt\n'}
+[1.505071] (tugas_joy) StdoutLine: {'line': b"writing manifest file 'tugas_joy.egg-info/SOURCES.txt'\n"}
+[1.518894] (tugas_joy) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/tugas_joy__rosidl_generator_c.dir/rosidl_generator_c/tugas_joy/msg/detail/command__functions.c.o\x1b[0m\n'}
+[1.520380] (tugas_joy) StdoutLine: {'line': b'[  9%] Built target tugas_joy__cpp\n'}
+[1.524227] (tugas_joy) StdoutLine: {'line': b"reading manifest file 'tugas_joy.egg-info/SOURCES.txt'\n"}
+[1.524405] (tugas_joy) StdoutLine: {'line': b"writing manifest file 'tugas_joy.egg-info/SOURCES.txt'\n"}
+[1.525123] (tugas_joy) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.525284] (tugas_joy) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.525368] (tugas_joy) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.537514] (tugas_joy) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_build_tugas_joy_egg\n'}
+[1.541146] (tugas_joy) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libtugas_joy__rosidl_generator_c.so\x1b[0m\n'}
+[1.560259] (tugas_joy) StdoutLine: {'line': b'[ 21%] Built target tugas_joy__rosidl_generator_c\n'}
+[1.565831] (tugas_joy) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.566007] (tugas_joy) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.567048] (tugas_joy) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.602014] (-) TimerEvent: {}
+[1.630465] (tugas_joy) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tugas_joy__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tugas_joy/msg/command__type_support.cpp.o\x1b[0m\n'}
+[1.637871] (tugas_joy) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/tugas_joy__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tugas_joy/msg/detail/command__type_support.cpp.o\x1b[0m\n'}
+[1.641706] (tugas_joy) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/tugas_joy__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tugas_joy/msg/detail/dds_fastrtps/command__type_support.cpp.o\x1b[0m\n'}
+[1.672533] (tugas_joy) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/tugas_joy__rosidl_typesupport_c.dir/rosidl_typesupport_c/tugas_joy/msg/command__type_support.cpp.o\x1b[0m\n'}
+[1.681675] (tugas_joy) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/tugas_joy__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tugas_joy/msg/detail/command__type_support.c.o\x1b[0m\n'}
+[1.682033] (tugas_joy) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tugas_joy__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_joy/msg/detail/command__type_support_c.cpp.o\x1b[0m\n'}
+[1.694652] (tugas_joy) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_joy__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.696739] (tugas_joy) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libtugas_joy__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.702179] (-) TimerEvent: {}
+[1.711753] (tugas_joy) StdoutLine: {'line': b'[ 54%] Built target tugas_joy__rosidl_typesupport_introspection_c\n'}
+[1.714669] (tugas_joy) StdoutLine: {'line': b'[ 54%] Built target tugas_joy__rosidl_typesupport_c\n'}
+[1.743296] (tugas_joy) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_joy__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.764175] (tugas_joy) StdoutLine: {'line': b'[ 57%] Built target tugas_joy__rosidl_typesupport_cpp\n'}
+[1.775287] (tugas_joy) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[1.796116] (tugas_joy) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_joy__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.802352] (-) TimerEvent: {}
+[1.805441] (tugas_joy) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_joy__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.816110] (tugas_joy) StdoutLine: {'line': b'[ 66%] Built target tugas_joy__rosidl_typesupport_introspection_cpp\n'}
+[1.823057] (tugas_joy) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libtugas_joy__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.841446] (tugas_joy) StdoutLine: {'line': b'[ 69%] Built target tugas_joy__rosidl_typesupport_fastrtps_cpp\n'}
+[1.858583] (tugas_joy) StdoutLine: {'line': b'[ 69%] Built target tugas_joy__rosidl_typesupport_fastrtps_c\n'}
+[1.869200] (tugas_joy) StdoutLine: {'line': b'[ 69%] Built target tugas_joy\n'}
+[1.879091] (tugas_joy) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.902515] (-) TimerEvent: {}
+[2.002704] (-) TimerEvent: {}
+[2.013104] (tugas_joy) StdoutLine: {'line': b'[ 72%] Built target tugas_joy__py\n'}
+[2.023148] (tugas_joy) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/tugas_joy__rosidl_generator_py.dir/rosidl_generator_py/tugas_joy/msg/_command_s.c.o\x1b[0m\n'}
+[2.069646] (tugas_joy) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tugas_joy/libtugas_joy__rosidl_generator_py.so\x1b[0m\n'}
+[2.089817] (tugas_joy) StdoutLine: {'line': b'[ 78%] Built target tugas_joy__rosidl_generator_py\n'}
+[2.100717] (tugas_joy) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/tugas_joy__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tugas_joy/_tugas_joy_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.100859] (tugas_joy) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/tugas_joy__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tugas_joy/_tugas_joy_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.100913] (tugas_joy) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tugas_joy__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tugas_joy/_tugas_joy_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.102894] (-) TimerEvent: {}
+[2.142753] (tugas_joy) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tugas_joy/tugas_joy_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.143808] (tugas_joy) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tugas_joy/tugas_joy_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.143911] (tugas_joy) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tugas_joy/tugas_joy_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.159888] (tugas_joy) StdoutLine: {'line': b'[ 96%] Built target tugas_joy__rosidl_typesupport_c__pyext\n'}
+[2.160734] (tugas_joy) StdoutLine: {'line': b'[ 96%] Built target tugas_joy__rosidl_typesupport_introspection_c__pyext\n'}
+[2.160964] (tugas_joy) StdoutLine: {'line': b'[ 96%] Built target tugas_joy__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.202984] (-) TimerEvent: {}
+[2.303308] (-) TimerEvent: {}
+[2.403547] (-) TimerEvent: {}
+[2.503867] (-) TimerEvent: {}
+[2.604180] (-) TimerEvent: {}
+[2.704475] (-) TimerEvent: {}
+[2.775608] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:69:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kxbox\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.775753] (tugas_joy) StderrLine: {'line': b'   69 |     rclcpp::Publisher<\x1b[01;31m\x1b[Kxbox\x1b[m\x1b[K::msg::Command>::SharedPtr publish_;\n'}
+[2.775783] (tugas_joy) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.775807] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:69:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.775836] (tugas_joy) StderrLine: {'line': b'   69 |     rclcpp::Publisher<xbox::msg::Command\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publish_;\n'}
+[2.775859] (tugas_joy) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.775883] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:69:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.775906] (tugas_joy) StderrLine: {'line': b'   69 |     rclcpp::Publisher<xbox::msg::Command>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publish_;\n'}
+[2.775927] (tugas_joy) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.775948] (tugas_joy) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.776395] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:69:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublish_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.776453] (tugas_joy) StderrLine: {'line': b'   69 |     rclcpp::Publisher<xbox::msg::Command>::SharedPtr \x1b[01;31m\x1b[Kpublish_\x1b[m\x1b[K;\n'}
+[2.776481] (tugas_joy) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.796391] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCommands::Commands()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.796482] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:21:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublish_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.796512] (tugas_joy) StderrLine: {'line': b'   21 |         \x1b[01;31m\x1b[Kpublish_\x1b[m\x1b[K = this->create_publisher<xbox::msg::Command>("command", 10);\n'}
+[2.796535] (tugas_joy) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.798642] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:21:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kxbox\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.798716] (tugas_joy) StderrLine: {'line': b'   21 |         publish_ = this->create_publisher<\x1b[01;31m\x1b[Kxbox\x1b[m\x1b[K::msg::Command>("command", 10);\n'}
+[2.798746] (tugas_joy) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.798781] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:21:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.798806] (tugas_joy) StderrLine: {'line': b'   21 |         publish_ = this->\x1b[01;31m\x1b[Kcreate_publisher<xbox::msg::Command>\x1b[m\x1b[K("command", 10);\n'}
+[2.798851] (tugas_joy) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.798873] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:21:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KCommands::create_publisher<<expression error> >(const char [8], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.798902] (tugas_joy) StderrLine: {'line': b'   21 |        publish_ = \x1b[01;31m\x1b[Kthis->create_publisher<xbox::msg::Command>("command", 10)\x1b[m\x1b[K;\n'}
+[2.798923] (tugas_joy) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.798945] (tugas_joy) StderrLine: {'line': b'\n'}
+[2.798966] (tugas_joy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.798988] (tugas_joy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.799015] (tugas_joy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.799036] (tugas_joy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:6\x1b[m\x1b[K:\n'}
+[2.799056] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.799081] (tugas_joy) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[2.799102] (tugas_joy) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.799126] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.799146] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:21:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.799168] (tugas_joy) StderrLine: {'line': b'   21 |        publish_ = \x1b[01;31m\x1b[Kthis->create_publisher<xbox::msg::Command>("command", 10)\x1b[m\x1b[K;\n'}
+[2.799191] (tugas_joy) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.799212] (tugas_joy) StderrLine: {'line': b'\n'}
+[2.802708] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Commands::topic_callback(const Joy&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.802791] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:30:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kxbox\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.802820] (tugas_joy) StderrLine: {'line': b'   30 |         auto input = \x1b[01;31m\x1b[Kxbox\x1b[m\x1b[K::msg::Command();\n'}
+[2.802850] (tugas_joy) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.804584] (-) TimerEvent: {}
+[2.805999] (tugas_joy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_joy/src/publisher.cpp:59:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublish_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.806055] (tugas_joy) StderrLine: {'line': b'   59 |         \x1b[01;31m\x1b[Kpublish_\x1b[m\x1b[K->publish(input);\n'}
+[2.806273] (tugas_joy) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.904754] (-) TimerEvent: {}
+[3.005052] (-) TimerEvent: {}
+[3.105339] (-) TimerEvent: {}
+[3.205618] (-) TimerEvent: {}
+[3.305927] (-) TimerEvent: {}
+[3.406251] (-) TimerEvent: {}
+[3.506571] (-) TimerEvent: {}
+[3.606862] (-) TimerEvent: {}
+[3.707199] (-) TimerEvent: {}
+[3.807510] (-) TimerEvent: {}
+[3.863486] (tugas_joy) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1\n'}
+[3.863830] (tugas_joy) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publisher.dir/all] Error 2\n'}
+[3.863922] (tugas_joy) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.865314] (tugas_joy) CommandEnded: {'returncode': 2}
+[3.907635] (-) TimerEvent: {}
+[3.931068] (tugas_joy) JobEnded: {'identifier': 'tugas_joy', 'rc': 2}
+[3.941585] (-) EventReactorShutdown: {}

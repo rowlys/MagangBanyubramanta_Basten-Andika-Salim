@@ -1,0 +1,10 @@
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In member function ‘[01m[Kvoid Color_::topic_callback(const Image&)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:131:16:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[K<unresolved overloaded function type>[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator<<[m[K’
+  131 |           [01;31m[Kcount<<half_width[m[K<<"here"<<wndl;
+      |           [01;31m[K~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:131:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kwndl[m[K’ was not declared in this scope
+  131 |           count<<half_width<<"here"<<[01;31m[Kwndl[m[K;
+      |                                      [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

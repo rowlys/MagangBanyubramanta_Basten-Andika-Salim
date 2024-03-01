@@ -1,0 +1,166 @@
+[0.050s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/src/tugas_joy -DCMAKE_BUILD_TYPE=Release -DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed -DBUILD_TESTING=OFF -DALIAS_ROS2_TF2=1 -DCMAKE_CXX_FLAGS_RELEASE=-O0 -G Ninja -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.111s] -- The CXX compiler identification is GNU 11.4.0
+[0.116s] -- Detecting C compiler ABI info
+[0.142s] -- Detecting C compiler ABI info - done
+[0.147s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.147s] -- Detecting C compile features
+[0.147s] -- Detecting C compile features - done
+[0.149s] -- Detecting CXX compiler ABI info
+[0.179s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.190s] -- Found ament_cmake: 1.3.3 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)
+[0.593s] -- Found Python3: /home/basten/.matlab/R2023b/ros2/glnxa64/venv/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.635s] -- Found ament_cmake_ros: 0.10.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)
+[0.639s] -- Found rosidl_typesupport_c: 2.0.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)
+[0.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.642s] -- Found rosidl_adapter: 3.1.4 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)
+[0.667s] -- Found rosidl_typesupport_cpp: 2.0.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)
+[0.667s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.686s] -- Found rosidl_default_generators: 1.2.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)
+[0.688s] -- Found class_loader: 2.2.0 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/class_loader/cmake)
+[0.691s] -- Found rclcpp: 16.0.3 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)
+[0.738s] -- Found rmw_implementation_cmake: 6.1.1 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)
+[0.740s] -- Found rmw_fastrtps_cpp: 6.2.2 (/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rmw_fastrtps_cpp/cmake)
+[0.778s] -- Found FastRTPS: /usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/include  
+[0.796s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.800s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.832s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.833s] -- Found Threads: TRUE  
+[1.048s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.100s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.104s] -- Configuring done
+[1.114s] -- Generating done
+[1.119s] -- Build files have been written to: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy
+[1.125s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/src/tugas_joy -DCMAKE_BUILD_TYPE=Release -DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed -DBUILD_TESTING=OFF -DALIAS_ROS2_TF2=1 -DCMAKE_CXX_FLAGS_RELEASE=-O0 -G Ninja -DCMAKE_INSTALL_PREFIX=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install
+[1.125s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy -- -j32 -l32
+[1.226s] [1/24] Generating C++ code for ROS interfaces
+[1.229s] [2/24] Generating C code for ROS interfaces
+[1.274s] [3/24] Building C object CMakeFiles/tugas_joy__rosidl_generator_c.dir/rosidl_generator_c/tugas_joy/msg/detail/command__functions.c.o
+[1.284s] [4/24] Linking C shared library libtugas_joy__rosidl_generator_c.so
+[1.320s] [5/24] Generating C++ type support dispatch for ROS interfaces
+[1.321s] [6/24] Generating C++ introspection for ROS interfaces
+[1.324s] [7/24] Generating C++ type support for eProsima Fast-RTPS
+[1.376s] [8/24] Generating C type support dispatch for ROS interfaces
+[1.383s] [9/24] Generating C type support for eProsima Fast-RTPS
+[1.384s] [10/24] Generating C introspection for ROS interfaces
+[1.388s] [11/24] Building CXX object CMakeFiles/tugas_joy__rosidl_typesupport_c.dir/rosidl_typesupport_c/tugas_joy/msg/command__type_support.cpp.o
+[1.399s] [12/24] Building C object CMakeFiles/tugas_joy__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tugas_joy/msg/detail/command__type_support.c.o
+[1.410s] [13/24] Linking C shared library libtugas_joy__rosidl_typesupport_introspection_c.so
+[1.416s] [14/24] Linking CXX shared library libtugas_joy__rosidl_typesupport_c.so
+[1.432s] [15/24] Building CXX object CMakeFiles/tugas_joy__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tugas_joy/msg/command__type_support.cpp.o
+[1.459s] [16/24] Linking CXX shared library libtugas_joy__rosidl_typesupport_cpp.so
+[1.479s] [17/24] Building CXX object CMakeFiles/tugas_joy__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tugas_joy/msg/detail/command__type_support.cpp.o
+[1.492s] [18/24] Building CXX object CMakeFiles/tugas_joy__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tugas_joy/msg/detail/dds_fastrtps/command__type_support.cpp.o
+[1.506s] [19/24] Linking CXX shared library libtugas_joy__rosidl_typesupport_introspection_cpp.so
+[1.519s] [20/24] Linking CXX shared library libtugas_joy__rosidl_typesupport_fastrtps_cpp.so
+[1.525s] [21/24] Building CXX object CMakeFiles/tugas_joy__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tugas_joy/msg/detail/command__type_support_c.cpp.o
+[1.557s] [22/24] Linking CXX shared library libtugas_joy__rosidl_typesupport_fastrtps_c.so
+[5.348s] [23/24] Building CXX object CMakeFiles/tugas_joy_matlab.dir/src/tugas_joy_Command_message.cpp.o
+[5.550s] [24/24] Linking CXX shared library libtugas_joy_matlab.so
+[5.552s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy -- -j32 -l32
+[5.559s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy
+[5.560s] -- Install configuration: "Release"
+[5.560s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/tugas_joy
+[5.560s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy
+[5.560s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg
+[5.560s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/rosidl_generator_c__visibility_control.h
+[5.560s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/command.h
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/command__struct.h
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/command__functions.c
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/command__type_support.h
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/command__functions.h
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/environment/library_path.sh
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/environment/library_path.dsv
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_joy__rosidl_generator_c.so
+[5.561s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy
+[5.561s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.561s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/command__rosidl_typesupport_fastrtps_c.h
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_joy__rosidl_typesupport_fastrtps_c.so
+[5.561s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy
+[5.561s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.561s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/command__type_support.c
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/command__rosidl_typesupport_introspection_c.h
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_joy__rosidl_typesupport_introspection_c.so
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_joy__rosidl_typesupport_c.so
+[5.561s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy
+[5.561s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/command.hpp
+[5.561s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/command__traits.hpp
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/command__builder.hpp
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/command__struct.hpp
+[5.561s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy
+[5.561s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg
+[5.561s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.561s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail
+[5.562s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.562s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/dds_fastrtps
+[5.562s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_joy__rosidl_typesupport_fastrtps_cpp.so
+[5.562s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy
+[5.562s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg
+[5.562s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail
+[5.562s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp
+[5.562s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/tugas_joy/msg/detail/command__type_support.cpp
+[5.562s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_joy__rosidl_typesupport_introspection_cpp.so
+[5.562s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_joy__rosidl_typesupport_cpp.so
+[5.562s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/msg/Command.idl
+[5.562s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/msg/Command.msg
+[5.562s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include
+[5.562s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy
+[5.562s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/include/tugas_joy/visibility_control.h
+[5.562s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/lib/libtugas_joy_matlab.so
+[5.565s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m/
+[5.565s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros
+[5.565s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal
+[5.565s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2
+[5.565s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages
+[5.565s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+tugas_joy
+[5.565s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+tugas_joy/tugas_joy_msg_Command_2To1_Converter.m
+[5.565s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+tugas_joy/tugas_joy_msg_Command_1To2_Converter.m
+[5.565s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+tugas_joy/command.m
+[5.565s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/tugas_joy
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/tugas_joy
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/environment/ament_prefix_path.sh
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/environment/ament_prefix_path.dsv
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/environment/path.sh
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/environment/path.dsv
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/local_setup.bash
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/local_setup.sh
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/local_setup.zsh
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/local_setup.dsv
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/package.dsv
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/tugas_joy
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/export_tugas_joy__rosidl_generator_cExport.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/export_tugas_joy__rosidl_generator_cExport-release.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/export_tugas_joy__rosidl_typesupport_fastrtps_cExport.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/export_tugas_joy__rosidl_typesupport_fastrtps_cExport-release.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_introspection_cExport.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_introspection_cExport-release.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_cExport.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_cExport-release.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/export_tugas_joy__rosidl_generator_cppExport.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/export_tugas_joy__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/export_tugas_joy__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_introspection_cppExport.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_introspection_cppExport-release.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_cppExport.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/tugas_joy__rosidl_typesupport_cppExport-release.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/rosidl_cmake-extras.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/ament_cmake_export_targets-extras.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.566s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/tugas_joyConfig.cmake
+[5.567s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/cmake/tugas_joyConfig-version.cmake
+[5.567s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/install/share/tugas_joy/package.xml
+[5.571s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /usr/local/MATLAB/R2023b/bin/glnxa64/cmake/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy

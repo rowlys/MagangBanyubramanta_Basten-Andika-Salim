@@ -40,7 +40,7 @@ struct Color_
     {
       this->red = 0l;
       this->blue = 0l;
-      this->green = 0l;
+      this->yellow = 0l;
     }
   }
 
@@ -52,7 +52,7 @@ struct Color_
     {
       this->red = 0l;
       this->blue = 0l;
-      this->green = 0l;
+      this->yellow = 0l;
     }
   }
 
@@ -63,9 +63,9 @@ struct Color_
   using _blue_type =
     int32_t;
   _blue_type blue;
-  using _green_type =
+  using _yellow_type =
     int32_t;
-  _green_type green;
+  _yellow_type yellow;
 
   // setters for named parameter idiom
   Type & set__red(
@@ -80,10 +80,10 @@ struct Color_
     this->blue = _arg;
     return *this;
   }
-  Type & set__green(
+  Type & set__yellow(
     const int32_t & _arg)
   {
-    this->green = _arg;
+    this->yellow = _arg;
     return *this;
   }
 
@@ -135,7 +135,7 @@ struct Color_
     if (this->blue != other.blue) {
       return false;
     }
-    if (this->green != other.green) {
+    if (this->yellow != other.yellow) {
       return false;
     }
     return true;

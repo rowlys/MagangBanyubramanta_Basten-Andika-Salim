@@ -22,7 +22,7 @@ typedef struct tugas_opencv__msg__Color
 {
   int32_t red;
   int32_t blue;
-  int32_t green;
+  int32_t yellow;
 } tugas_opencv__msg__Color;
 
 // Struct for a sequence of tugas_opencv__msg__Color.

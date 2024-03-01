@@ -1,0 +1,17 @@
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In member function ‘[01m[Kvoid Color_::topic_callback(const Image&)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:107:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera[m[K’ was not declared in this scope
+  107 |           if (![01;31m[Kcamera[m[K.read(frame)){
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:109:16:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  109 |                [01;31m[Kbreak[m[K;
+      |                [01;31m[K^~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:119:29:[m[K [01;31m[Kerror: [m[K‘[01m[KScalacolor_node[m[K’ was not declared in this scope
+  119 |           inRange(frameHSV, [01;31m[KScalacolor_node[m[K->r(20,70,110), Scalar(50, ceilingS, ceilingV), frameYellow);
+      |                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:119:92:[m[K [01;31m[Kerror: [m[K‘[01m[KframeYellow[m[K’ was not declared in this scope
+  119 | lacolor_node->r(20,70,110), Scalar(50, ceilingS, ceilingV), [01;31m[KframeYellow[m[K);
+      |                                                             [01;31m[K^~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

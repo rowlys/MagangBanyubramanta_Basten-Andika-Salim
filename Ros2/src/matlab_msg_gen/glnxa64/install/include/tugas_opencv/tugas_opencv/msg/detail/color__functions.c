@@ -19,7 +19,7 @@ tugas_opencv__msg__Color__init(tugas_opencv__msg__Color * msg)
   }
   // red
   // blue
-  // green
+  // yellow
   return true;
 }
 
@@ -31,7 +31,7 @@ tugas_opencv__msg__Color__fini(tugas_opencv__msg__Color * msg)
   }
   // red
   // blue
-  // green
+  // yellow
 }
 
 bool
@@ -48,8 +48,8 @@ tugas_opencv__msg__Color__are_equal(const tugas_opencv__msg__Color * lhs, const 
   if (lhs->blue != rhs->blue) {
     return false;
   }
-  // green
-  if (lhs->green != rhs->green) {
+  // yellow
+  if (lhs->yellow != rhs->yellow) {
     return false;
   }
   return true;
@@ -67,8 +67,8 @@ tugas_opencv__msg__Color__copy(
   output->red = input->red;
   // blue
   output->blue = input->blue;
-  // green
-  output->green = input->green;
+  // yellow
+  output->yellow = input->yellow;
   return true;
 }
 

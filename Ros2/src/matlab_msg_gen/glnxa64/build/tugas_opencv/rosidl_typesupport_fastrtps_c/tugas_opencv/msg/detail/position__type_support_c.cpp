@@ -49,14 +49,34 @@ static bool _Position__cdr_serialize(
     return false;
   }
   const _Position__ros_msg_type * ros_message = static_cast<const _Position__ros_msg_type *>(untyped_ros_message);
-  // Field name: x_pos
+  // Field name: red_x_pos
   {
-    cdr << ros_message->x_pos;
+    cdr << ros_message->red_x_pos;
   }
 
-  // Field name: y_pos
+  // Field name: red_y_pos
   {
-    cdr << ros_message->y_pos;
+    cdr << ros_message->red_y_pos;
+  }
+
+  // Field name: blue_x_pos
+  {
+    cdr << ros_message->blue_x_pos;
+  }
+
+  // Field name: blue_y_pos
+  {
+    cdr << ros_message->blue_y_pos;
+  }
+
+  // Field name: yellow_x_pos
+  {
+    cdr << ros_message->yellow_x_pos;
+  }
+
+  // Field name: yellow_y_pos
+  {
+    cdr << ros_message->yellow_y_pos;
   }
 
   return true;
@@ -71,14 +91,34 @@ static bool _Position__cdr_deserialize(
     return false;
   }
   _Position__ros_msg_type * ros_message = static_cast<_Position__ros_msg_type *>(untyped_ros_message);
-  // Field name: x_pos
+  // Field name: red_x_pos
   {
-    cdr >> ros_message->x_pos;
+    cdr >> ros_message->red_x_pos;
   }
 
-  // Field name: y_pos
+  // Field name: red_y_pos
   {
-    cdr >> ros_message->y_pos;
+    cdr >> ros_message->red_y_pos;
+  }
+
+  // Field name: blue_x_pos
+  {
+    cdr >> ros_message->blue_x_pos;
+  }
+
+  // Field name: blue_y_pos
+  {
+    cdr >> ros_message->blue_y_pos;
+  }
+
+  // Field name: yellow_x_pos
+  {
+    cdr >> ros_message->yellow_x_pos;
+  }
+
+  // Field name: yellow_y_pos
+  {
+    cdr >> ros_message->yellow_y_pos;
   }
 
   return true;
@@ -98,15 +138,39 @@ size_t get_serialized_size_tugas_opencv__msg__Position(
   (void)padding;
   (void)wchar_size;
 
-  // field.name x_pos
+  // field.name red_x_pos
   {
-    size_t item_size = sizeof(ros_message->x_pos);
+    size_t item_size = sizeof(ros_message->red_x_pos);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name y_pos
+  // field.name red_y_pos
   {
-    size_t item_size = sizeof(ros_message->y_pos);
+    size_t item_size = sizeof(ros_message->red_y_pos);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name blue_x_pos
+  {
+    size_t item_size = sizeof(ros_message->blue_x_pos);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name blue_y_pos
+  {
+    size_t item_size = sizeof(ros_message->blue_y_pos);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name yellow_x_pos
+  {
+    size_t item_size = sizeof(ros_message->yellow_x_pos);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name yellow_y_pos
+  {
+    size_t item_size = sizeof(ros_message->yellow_y_pos);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -137,14 +201,42 @@ size_t max_serialized_size_tugas_opencv__msg__Position(
   full_bounded = true;
   is_plain = true;
 
-  // member: x_pos
+  // member: red_x_pos
   {
     size_t array_size = 1;
 
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: y_pos
+  // member: red_y_pos
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: blue_x_pos
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: blue_y_pos
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: yellow_x_pos
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: yellow_y_pos
   {
     size_t array_size = 1;
 

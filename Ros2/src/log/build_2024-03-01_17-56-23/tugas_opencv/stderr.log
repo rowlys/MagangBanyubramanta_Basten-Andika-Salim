@@ -1,0 +1,45 @@
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:36:17:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   36 |      namedWindow[01;31m[K([m[K"HSV Control", WINDOW_NORMAL);
+      |                 [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:38:20:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   38 |      createTrackbar[01;31m[K([m[K"H Floor", "HSV Control", &floorH, 179);
+      |                    [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:39:20:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   39 |      createTrackbar[01;31m[K([m[K"H Ceiling", "HSV Control", &ceilingH, 179);
+      |                    [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:41:20:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   41 |      createTrackbar[01;31m[K([m[K"S Floor", "HSV Control", &floorS, 255);
+      |                    [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:42:20:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   42 |      createTrackbar[01;31m[K([m[K"S Ceiling", "HSV Control", &ceilingS, 255);
+      |                    [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:44:20:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   44 |      createTrackbar[01;31m[K([m[K"V Floor", "HSV Control", &floorV, 255);
+      |                    [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:45:20:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   45 |      createTrackbar[01;31m[K([m[K"V Ceiling", "HSV Control", &ceilingV, 255);
+      |                    [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:165:14:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+  165 |      rclcpp::[01;31m[KSubscriber[m[K<sensor_msgs::msg::Image>::SharedPtr subscriber_;
+      |              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In constructor ‘[01m[KColor_::Color_()[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:55:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ was not declared in this scope
+   55 |           [01;31m[Ksubscriber_[m[K = this->create_subscription<sensor_msgs::msg::Image>("openCamera", 10, std::bind(&Color_::topic_callback, this, _1));
+      |           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In member function ‘[01m[Kcv::Point Color_::boundBox(cv::Mat&, cv::Scalar)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:92:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+   92 |                rectangle([01;31m[Kframe[m[K, boundRect.tl(), boundRect.br(), color, 2);
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:[m[K In member function ‘[01m[Kvoid Color_::topic_callback(const Image&)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:114:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera[m[K’ was not declared in this scope
+  114 |           if (![01;31m[Kcamera[m[K.read(frame)){
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:116:16:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  116 |                [01;31m[Kbreak[m[K;
+      |                [01;31m[K^~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:158:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kcolor_node[m[K’ was not declared in this scope
+  158 |           [01;31m[Kcolor_node[m[K->publish_func();
+      |           [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

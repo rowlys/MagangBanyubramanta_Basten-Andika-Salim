@@ -1,0 +1,26 @@
+{
+  "package_name": "tugas_joy",
+  "output_dir": "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy/rosidl_generator_cpp/tugas_joy",
+  "template_dir": "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy/rosidl_adapter/tugas_joy:msg/Command.idl"
+  ],
+  "target_dependencies": [
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../../../lib/python3.9/site-packages/rosidl_generator_cpp/__init__.py",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "/usr/local/MATLAB/R2023b/sys/ros2/glnxa64/ros2/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/matlab_msg_gen/glnxa64/build/tugas_joy/rosidl_adapter/tugas_joy/msg/Command.idl"
+  ]
+}

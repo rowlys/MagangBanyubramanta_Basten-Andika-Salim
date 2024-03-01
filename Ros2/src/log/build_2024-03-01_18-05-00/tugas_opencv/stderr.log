@@ -1,0 +1,72 @@
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:155:18:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+  155 |      namedWindow([01;31m[K"HSV Control"[m[K, WINDOW_NORMAL);
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:155:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:155:6:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KnamedWindow[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  155 |      [01;31m[KnamedWindow[m[K("HSV Control", WINDOW_NORMAL);
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:21:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+  157 |      createTrackbar([01;31m[K"H Floor"[m[K, "HSV Control", &floorH, 179);
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:6:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KcreateTrackbar[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  157 |      [01;31m[KcreateTrackbar[m[K("H Floor", "HSV Control", &floorH, 179);
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:158:21:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+  158 |      createTrackbar([01;31m[K"H Ceiling"[m[K, "HSV Control", &ceilingH, 179);
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:158:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:158:6:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KcreateTrackbar[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  158 |      [01;31m[KcreateTrackbar[m[K("H Ceiling", "HSV Control", &ceilingH, 179);
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:158:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kint Color_::createTrackbar(int)[m[K’ cannot be overloaded with ‘[01m[Kint Color_::createTrackbar(int)[m[K’
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:6:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Color_::createTrackbar(int)[m[K’
+  157 |      [01;36m[KcreateTrackbar[m[K("H Floor", "HSV Control", &floorH, 179);
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:160:21:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+  160 |      createTrackbar([01;31m[K"S Floor"[m[K, "HSV Control", &floorS, 255);
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:160:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:160:6:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KcreateTrackbar[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  160 |      [01;31m[KcreateTrackbar[m[K("S Floor", "HSV Control", &floorS, 255);
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:160:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kint Color_::createTrackbar(int)[m[K’ cannot be overloaded with ‘[01m[Kint Color_::createTrackbar(int)[m[K’
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:6:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Color_::createTrackbar(int)[m[K’
+  157 |      [01;36m[KcreateTrackbar[m[K("H Floor", "HSV Control", &floorH, 179);
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:161:21:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+  161 |      createTrackbar([01;31m[K"S Ceiling"[m[K, "HSV Control", &ceilingS, 255);
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:161:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:161:6:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KcreateTrackbar[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  161 |      [01;31m[KcreateTrackbar[m[K("S Ceiling", "HSV Control", &ceilingS, 255);
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:161:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kint Color_::createTrackbar(int)[m[K’ cannot be overloaded with ‘[01m[Kint Color_::createTrackbar(int)[m[K’
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:6:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Color_::createTrackbar(int)[m[K’
+  157 |      [01;36m[KcreateTrackbar[m[K("H Floor", "HSV Control", &floorH, 179);
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:163:21:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+  163 |      createTrackbar([01;31m[K"V Floor"[m[K, "HSV Control", &floorV, 255);
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:163:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:163:6:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KcreateTrackbar[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  163 |      [01;31m[KcreateTrackbar[m[K("V Floor", "HSV Control", &floorV, 255);
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:163:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kint Color_::createTrackbar(int)[m[K’ cannot be overloaded with ‘[01m[Kint Color_::createTrackbar(int)[m[K’
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:6:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Color_::createTrackbar(int)[m[K’
+  157 |      [01;36m[KcreateTrackbar[m[K("H Floor", "HSV Control", &floorH, 179);
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:164:21:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+  164 |      createTrackbar([01;31m[K"V Ceiling"[m[K, "HSV Control", &ceilingV, 255);
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:164:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:164:6:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KcreateTrackbar[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  164 |      [01;31m[KcreateTrackbar[m[K("V Ceiling", "HSV Control", &ceilingV, 255);
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:164:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kint Color_::createTrackbar(int)[m[K’ cannot be overloaded with ‘[01m[Kint Color_::createTrackbar(int)[m[K’
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_opencv/src/colorcheck.cpp:157:6:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Color_::createTrackbar(int)[m[K’
+  157 |      [01;36m[KcreateTrackbar[m[K("H Floor", "HSV Control", &floorH, 179);
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/colorcheck.dir/build.make:76: CMakeFiles/colorcheck.dir/src/colorcheck.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/colorcheck.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
