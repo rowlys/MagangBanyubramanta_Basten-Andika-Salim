@@ -1,0 +1,80 @@
+[35m[1mConsolidate compiler generated dependencies of target communicator[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/communicator.dir/src/communicator.cpp.o[0m
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:27:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+   27 |     void topic_callback(const [01;31m[Ksensor_msgs[m[K::msg::Joy & msg) const
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:27:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   27 |     void topic_callback(const sensor_msgs::msg[01;31m[K::[m[KJoy & msg) const
+      |                                               [01;31m[K^~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:27:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   27 |     void topic_callback[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KJoy & msg) const
+      |                        [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+      |                                               [32m[K)[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:27:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   27 |     void topic_callback(const sensor_msgs::[01;31m[Kmsg[m[K::Joy & msg) const
+      |                                            [01;31m[K^~~[m[K
+      |                                               [32m[K;[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:27:49:[m[K [01;31m[Kerror: [m[K‘[01m[KJoy[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   27 |     void topic_callback(const sensor_msgs::msg::[01;31m[KJoy[m[K & msg) const
+      |                                                 [01;31m[K^~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:66:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kxbox[m[K’ was not declared in this scope
+   66 |     rclcpp::Publisher<[01;31m[Kxbox[m[K::msg::Command>::SharedPtr publish_;
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:66:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   66 |     rclcpp::Publisher<xbox::msg::Command[01;31m[K>[m[K::SharedPtr publish_;
+      |                                         [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:66:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   66 |     rclcpp::Publisher<xbox::msg::Command>::[01;31m[KSharedPtr[m[K publish_;
+      |                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                     [32m[K;[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:66:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_[m[K’ does not name a type
+   66 |     rclcpp::Publisher<xbox::msg::Command>::SharedPtr [01;31m[Kpublish_[m[K;
+      |                                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:67:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   67 |     rclcpp::Subscription<[01;31m[Ksensor_msgs[m[K::msg::Joy>::SharedPtr subscribe_;
+      |                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:67:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   67 |     rclcpp::Subscription<sensor_msgs::msg::Joy[01;31m[K>[m[K::SharedPtr subscribe_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:67:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:67:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:67:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:67:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   67 |     rclcpp::Subscription<sensor_msgs::msg::Joy>::[01;31m[KSharedPtr[m[K subscribe_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:67:50:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Communicator::SharedPtr[m[K’
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:66:44:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Communicator::SharedPtr[m[K’
+   66 |     rclcpp::Publisher<xbox::msg::Command>::[01;36m[KSharedPtr[m[K publish_;
+      |                                            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:67:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscribe_[m[K’ does not name a type
+   67 |     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr [01;31m[Ksubscribe_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:[m[K In constructor ‘[01m[KCommunicator::Communicator()[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscribe_[m[K’ was not declared in this scope
+   21 |         [01;31m[Ksubscribe_[m[K = this->create_subscription<sensor_msgs::msg::Joy>("joy", 10, std::bind(&Communicator::topic_callback, this, _1));
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:21:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   21 |         subscribe_ = this->create_subscription<[01;31m[Ksensor_msgs[m[K::msg::Joy>("joy", 10, std::bind(&Communicator::topic_callback, this, _1));
+      |                                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:21:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   21 |         subscribe_ = this->[01;31m[Kcreate_subscription<sensor_msgs::msg::Joy>[m[K("joy", 10, std::bind(&Communicator::topic_callback, this, _1));
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:21:129:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   21 | g::Joy>("joy", 10, std::bind(&Communicator::topic_callback, this, [01;31m[K_1[m[K));
+      |                                                                   [01;31m[K^~[m[K
+      |                                                                   [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:2[m[K:
+[01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:70:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   70 | int main([01;35m[Kint argc[m[K, char *argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:70:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   70 | int main(int argc, [01;35m[Kchar *argv[][m[K)
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/communicator.dir/build.make:76: CMakeFiles/communicator.dir/src/communicator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/communicator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

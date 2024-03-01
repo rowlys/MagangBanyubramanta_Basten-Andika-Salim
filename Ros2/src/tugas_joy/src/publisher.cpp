@@ -30,7 +30,8 @@ class Commands : public rclcpp::Node
         auto input = tugas_joy::msg::Command();
         input.x_cmd = msg.axes[0] * -500;
         input.y_cmd = msg.axes[1] * 500;
-        input.x_button = msg.buttons[0];
+        input.x_button = msg.buttons[2];
+        input.y_button = msg.buttons[3];
         
         temp_yaw += msg.axes[3]*3;
         

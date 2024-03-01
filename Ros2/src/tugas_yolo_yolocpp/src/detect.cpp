@@ -78,7 +78,7 @@ class Detection : public rclcpp::Node{
 
             vector<Mat> outputs;
             net.forward(outputs, net.getUnconnectedOutLayersNames());
-            return outputs;cout<<"its a person"<<endl;
+            return outputs;
         }
 
         Mat post_process(Mat &input_image, vector<Mat> &outputs, const vector<string> &list_name){
@@ -105,8 +105,6 @@ class Detection : public rclcpp::Node{
                     Point class_id;
                     double max_class_score;
                     minMaxLoc(scores, 0, &max_class_score, 0, &class_id);
-
-                    cout<<max_class_score<< " "<<class_id<<endl;
 
                     if (max_class_score > SCORE_THRESHOLD){
                         confidences.push_back(confidence);
@@ -136,7 +134,6 @@ class Detection : public rclcpp::Node{
 
             for (int i = 0; i < index.size(); i++){
                 int idx = index[i];
-                cout<<"Index: "<<idx<<endl;
                 Rect box = boxes[idx];
                 int left = box.x;
                 int top = box.y;

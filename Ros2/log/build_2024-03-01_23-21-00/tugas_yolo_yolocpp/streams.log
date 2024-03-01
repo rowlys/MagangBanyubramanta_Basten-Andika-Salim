@@ -1,0 +1,39 @@
+[0.028s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_yolo_yolocpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/tugas_yolo_yolocpp -- -j32 -l32
+[0.054s] [  3%] Built target tugas_yolo_yolocpp__cpp
+[0.055s] [ 12%] Built target tugas_yolo_yolocpp__rosidl_generator_c
+[0.059s] [ 12%] Built target ament_cmake_python_copy_tugas_yolo_yolocpp
+[0.066s] [ 21%] Built target tugas_yolo_yolocpp__rosidl_typesupport_cpp
+[0.067s] [ 30%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_cpp
+[0.068s] [ 39%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_c
+[0.069s] [ 48%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_cpp
+[0.070s] [ 57%] Built target tugas_yolo_yolocpp__rosidl_typesupport_c
+[0.071s] [ 66%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c
+[0.080s] [ 66%] Built target tugas_yolo_yolocpp
+[0.082s] [ 69%] [32mBuilding CXX object CMakeFiles/detect.dir/src/detect.cpp.o[0m
+[0.091s] [ 72%] Built target tugas_yolo_yolocpp__py
+[0.102s] [ 78%] Built target tugas_yolo_yolocpp__rosidl_generator_py
+[0.113s] [ 84%] Built target tugas_yolo_yolocpp__rosidl_typesupport_fastrtps_c__pyext
+[0.115s] [ 90%] Built target tugas_yolo_yolocpp__rosidl_typesupport_introspection_c__pyext
+[0.117s] [ 96%] Built target tugas_yolo_yolocpp__rosidl_typesupport_c__pyext
+[0.157s] running egg_info
+[0.163s] writing tugas_yolo_yolocpp.egg-info/PKG-INFO
+[0.164s] writing dependency_links to tugas_yolo_yolocpp.egg-info/dependency_links.txt
+[0.164s] writing top-level names to tugas_yolo_yolocpp.egg-info/top_level.txt
+[0.182s] reading manifest file 'tugas_yolo_yolocpp.egg-info/SOURCES.txt'
+[0.183s] writing manifest file 'tugas_yolo_yolocpp.egg-info/SOURCES.txt'
+[0.196s] [ 96%] Built target ament_cmake_python_build_tugas_yolo_yolocpp_egg
+[1.579s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_yolo_yolocpp/src/detect.cpp:[m[K In member function ‘[01m[Kcv::Mat Detection::post_process(cv::Mat&, std::vector<cv::Mat>&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[1.579s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_yolo_yolocpp/src/detect.cpp:137:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.579s]   137 |             for (int i = 0; [01;35m[Ki < index.size()[m[K; i++){
+[1.579s]       |                             [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[1.580s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_yolo_yolocpp/src/detect.cpp:93:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdimensions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.580s]    93 |             const int [01;35m[Kdimensions[m[K = 85;
+[1.580s]       |                       [01;35m[K^~~~~~~~~~[m[K
+[2.855s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_yolo_yolocpp/src/detect.cpp:[m[K In member function ‘[01m[Kstd::vector<cv::Mat> Detection::pre_process(cv::Mat&, cv::dnn::dnn4_v20231225::Net&)[m[K’:
+[2.855s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/tugas_yolo_yolocpp/src/detect.cpp:82:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.855s]    82 |         [01;35m[K}[m[K
+[2.855s]       |         [01;35m[K^[m[K
+[4.618s] [100%] [32m[1mLinking CXX executable detect[0m
+[4.750s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409
+[4.751s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+[5.016s] [100%] Built target detect
