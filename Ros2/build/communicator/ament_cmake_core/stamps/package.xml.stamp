@@ -9,6 +9,9 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <depend>rclcpp</depend>
+  <depend>tugas_joy</depend>
+  <depend>tugas_opencv</depend>
+  <depend>tugas_yolo_yolocpp</depend>
   <!-- <depend>asio</depend> -->
 
   <test_depend>ament_lint_auto</test_depend>

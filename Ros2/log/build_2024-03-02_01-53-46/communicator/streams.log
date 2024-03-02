@@ -1,0 +1,33 @@
+[0.028s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator -- -j32 -l32
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target communicator[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/communicator.dir/src/communicator.cpp.o[0m
+[1.227s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.228s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:52:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.228s]    52 | int main([01;35m[Kint argc[m[K, char *argv[])
+[1.228s]       |          [01;35m[K~~~~^~~~[m[K
+[1.228s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:52:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.228s]    52 | int main(int argc, [01;35m[Kchar *argv[][m[K)
+[1.228s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[1.445s] [100%] [32m[1mLinking CXX executable communicator[0m
+[1.489s] [100%] Built target communicator
+[1.495s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator -- -j32 -l32
+[1.524s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator
+[1.531s] -- Install configuration: ""
+[1.531s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/lib/communicator/communicator
+[1.531s] -- Set runtime path of "/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/lib/communicator/communicator" to ""
+[1.531s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/ament_index/resource_index/package_run_dependencies/communicator
+[1.531s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/ament_index/resource_index/parent_prefix_path/communicator
+[1.531s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/environment/ament_prefix_path.sh
+[1.532s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/environment/ament_prefix_path.dsv
+[1.532s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/environment/path.sh
+[1.532s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/environment/path.dsv
+[1.532s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/local_setup.bash
+[1.532s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/local_setup.sh
+[1.532s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/local_setup.zsh
+[1.532s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/local_setup.dsv
+[1.532s] -- Installing: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/package.dsv
+[1.532s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/ament_index/resource_index/packages/communicator
+[1.532s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/cmake/communicatorConfig.cmake
+[1.532s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/cmake/communicatorConfig-version.cmake
+[1.532s] -- Up-to-date: /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator/share/communicator/package.xml
+[1.533s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator

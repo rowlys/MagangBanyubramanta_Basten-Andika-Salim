@@ -1122,4 +1122,20 @@ CMakeFiles/communicator.dir/src/communicator.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
- /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
+ /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_joy/include/tugas_joy/tugas_joy/msg/command.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__struct.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__builder.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_joy/include/tugas_joy/tugas_joy/msg/detail/command__traits.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/color.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__struct.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__builder.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/color__traits.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/position.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__struct.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__builder.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/include/tugas_opencv/tugas_opencv/msg/detail/position__traits.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/seen.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__struct.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__builder.hpp \
+ /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp/include/tugas_yolo_yolocpp/tugas_yolo_yolocpp/msg/detail/seen__traits.hpp

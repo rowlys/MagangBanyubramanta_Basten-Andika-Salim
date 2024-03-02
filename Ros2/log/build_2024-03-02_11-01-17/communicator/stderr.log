@@ -1,0 +1,43 @@
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:[m[K In constructor ‘[01m[KCommunicator::Communicator()[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:28:97:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kbind(<unresolved overloaded function type>, Communicator*, const std::_Placeholder<1>&)[m[K’
+   28 | bscription<tugas_joy::msg::Command>("command", 10, [01;31m[Kstd::bind(&Communicator::topic_callback, this, _1)[m[K);
+      |                                                    [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:2[m[K:
+[01m[K/usr/include/c++/11/functional:789:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...)[m[K’
+  789 |     [01;36m[Kbind[m[K(_Func&& __f, _BoundArgs&&... __args)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/functional:789:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:28:97:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Func[m[K’
+   28 | bscription<tugas_joy::msg::Command>("command", 10, [01;36m[Kstd::bind(&Communicator::topic_callback, this, _1)[m[K);
+      |                                                    [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:2[m[K:
+[01m[K/usr/include/c++/11/functional:813:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Result, class _Func, class ... _BoundArgs> typename std::_Bindres_helper<_Result, _Func, _BoundArgs>::type std::bind(_Func&&, _BoundArgs&& ...)[m[K’
+  813 |     [01;36m[Kbind[m[K(_Func&& __f, _BoundArgs&&... __args)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/functional:813:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:28:97:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Result[m[K’
+   28 | bscription<tugas_joy::msg::Command>("command", 10, [01;36m[Kstd::bind(&Communicator::topic_callback, this, _1)[m[K);
+      |                                                    [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:29:123:[m[K [01;31m[Kerror: [m[K‘[01m[Kcolor_callback[m[K’ is not a member of ‘[01m[KCommunicator[m[K’
+   29 | cv::msg::Color>("colordetect", 10, std::bind(&Communicator::[01;31m[Kcolor_callback[m[K, this, _1));
+      |                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:30:132:[m[K [01;31m[Kerror: [m[K‘[01m[Kcolorpos_callback[m[K’ is not a member of ‘[01m[KCommunicator[m[K’
+   30 | g::Position>("positiondetect", 10, std::bind(&Communicator::[01;31m[Kcolorpos_callback[m[K, this, _1));
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:31:128:[m[K [01;31m[Kerror: [m[K‘[01m[Kobject_callback[m[K’ is not a member of ‘[01m[KCommunicator[m[K’
+   31 | ocpp::msg::Seen>("yoloOutput", 10, std::bind(&Communicator::[01;31m[Kobject_callback[m[K, this, _1));
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:[m[K In member function ‘[01m[Kvoid Communicator::topic_callback(const Seen&) const[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:50:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 |    void topic_callback([01;35m[Kconst tugas_yolo_yolocpp::msg::Seen & msg[m[K) const
+      |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+gmake[2]: *** [CMakeFiles/communicator.dir/build.make:76: CMakeFiles/communicator.dir/src/communicator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/communicator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

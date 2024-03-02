@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target communicator[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/communicator.dir/src/communicator.cpp.o[0m
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kxbox[m[K’ was not declared in this scope
+   54 |     rclcpp::Publisher<[01;31m[Kxbox[m[K::msg::Command>::SharedPtr publish_;
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:54:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   54 |     rclcpp::Publisher<xbox::msg::Command[01;31m[K>[m[K::SharedPtr publish_;
+      |                                         [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:54:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   54 |     rclcpp::Publisher<xbox::msg::Command>::[01;31m[KSharedPtr[m[K publish_;
+      |                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                     [32m[K;[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:54:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_[m[K’ does not name a type
+   54 |     rclcpp::Publisher<xbox::msg::Command>::SharedPtr [01;31m[Kpublish_[m[K;
+      |                                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   55 |     rclcpp::Subscription<tugas_joy::msg::[01;31m[K>[m[K::SharedPtr subscribe_;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   55 |     rclcpp::Subscription<tugas_joy::msg::>::[01;31m[KSharedPtr[m[K subscribe_;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:45:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Communicator::SharedPtr[m[K’
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:54:44:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Communicator::SharedPtr[m[K’
+   54 |     rclcpp::Publisher<xbox::msg::Command>::[01;36m[KSharedPtr[m[K publish_;
+      |                                            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscribe_[m[K’ does not name a type
+   55 |     rclcpp::Subscription<tugas_joy::msg::>::SharedPtr [01;31m[Ksubscribe_[m[K;
+      |                                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:[m[K In constructor ‘[01m[KCommunicator::Communicator()[m[K’:
+[01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscribe_[m[K’ was not declared in this scope
+   25 |         [01;31m[Ksubscribe_[m[K = this->create_subscription<tugas_joy::msg::Command>("command", 10, std::bind(&Communicator::topic_callback, this, _1));
+      |         [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/communicator.dir/build.make:76: CMakeFiles/communicator.dir/src/communicator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/communicator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

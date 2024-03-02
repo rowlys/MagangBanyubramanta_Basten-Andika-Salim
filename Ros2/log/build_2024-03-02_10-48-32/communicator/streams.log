@@ -1,0 +1,83 @@
+[0.030s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator': CMAKE_PREFIX_PATH=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_joy:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator:/opt/ros/humble LD_LIBRARY_PATH=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_joy/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator -- -j32 -l32
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target communicator[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/communicator.dir/src/communicator.cpp.o[0m
+[1.279s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kxbox[m[K’ was not declared in this scope
+[1.279s]    54 |     rclcpp::Publisher<[01;31m[Kxbox[m[K::msg::Command>::SharedPtr publish_;
+[1.279s]       |                       [01;31m[K^~~~[m[K
+[1.279s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:54:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.279s]    54 |     rclcpp::Publisher<xbox::msg::Command[01;31m[K>[m[K::SharedPtr publish_;
+[1.279s]       |                                         [01;31m[K^[m[K
+[1.279s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:54:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.279s]    54 |     rclcpp::Publisher<xbox::msg::Command>::[01;31m[KSharedPtr[m[K publish_;
+[1.279s]       |                                            [01;31m[K^~~~~~~~~[m[K
+[1.279s]       |                                                     [32m[K;[m[K
+[1.280s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:54:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_[m[K’ does not name a type
+[1.280s]    54 |     rclcpp::Publisher<xbox::msg::Command>::SharedPtr [01;31m[Kpublish_[m[K;
+[1.280s]       |                                                      [01;31m[K^~~~~~~~[m[K
+[1.280s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.280s]    55 |     rclcpp::Subscription<tugas_joy::msg::[01;31m[K>[m[K::SharedPtr subscribe_;
+[1.280s]       |                                          [01;31m[K^[m[K
+[1.280s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.280s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[1.280s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[1.280s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.280s]    55 |     rclcpp::Subscription<tugas_joy::msg::>::[01;31m[KSharedPtr[m[K subscribe_;
+[1.281s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[1.281s]       |                                                      [32m[K;[m[K
+[1.281s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:45:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Communicator::SharedPtr[m[K’
+[1.281s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:54:44:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Communicator::SharedPtr[m[K’
+[1.281s]    54 |     rclcpp::Publisher<xbox::msg::Command>::[01;36m[KSharedPtr[m[K publish_;
+[1.281s]       |                                            [01;36m[K^~~~~~~~~[m[K
+[1.282s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:55:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscribe_[m[K’ does not name a type
+[1.282s]    55 |     rclcpp::Subscription<tugas_joy::msg::>::SharedPtr [01;31m[Ksubscribe_[m[K;
+[1.282s]       |                                                       [01;31m[K^~~~~~~~~~[m[K
+[1.286s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:[m[K In constructor ‘[01m[KCommunicator::Communicator()[m[K’:
+[1.286s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscribe_[m[K’ was not declared in this scope
+[1.286s]    25 |         [01;31m[Ksubscribe_[m[K = this->create_subscription<tugas_joy::msg::Command>("command", 10, std::bind(&Communicator::topic_callback, this, _1));
+[1.286s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.307s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:[m[K In member function ‘[01m[Kvoid Communicator::topic_callback(const Command&) const[m[K’:
+[1.307s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:34:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K[[m[K’ token
+[1.307s]    34 |         input.[01;31m[K[[m[K0] = msg.x_cmd;
+[1.308s]       |               [01;31m[K^[m[K
+[1.308s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:35:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K[[m[K’ token
+[1.308s]    35 |         input.[01;31m[K[[m[K1] = msg.y_cmd;
+[1.308s]       |               [01;31m[K^[m[K
+[1.308s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:36:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K[[m[K’ token
+[1.308s]    36 |         input.[01;31m[K[[m[K2] = msg.yaw;
+[1.308s]       |               [01;31m[K^[m[K
+[1.308s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:37:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K[[m[K’ token
+[1.308s]    37 |         input.[01;31m[K[[m[K3] = msg.depth;
+[1.308s]       |               [01;31m[K^[m[K
+[1.308s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:38:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K[[m[K’ token
+[1.308s]    38 |         input.[01;31m[K[[m[K4] = msg.x_button;
+[1.308s]       |               [01;31m[K^[m[K
+[1.308s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:39:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K[[m[K’ token
+[1.308s]    39 |         input.[01;31m[K[[m[K5] = msg.y_button;
+[1.308s]       |               [01;31m[K^[m[K
+[1.311s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:45:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kunsignedvalue[m[K’ was not declared in this scope; did you mean ‘[01m[Ksignedvalue[m[K’?
+[1.311s]    45 |         cout<<[01;31m[Kunsignedvalue[m[K<<endl;
+[1.311s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[1.311s]       |               [32m[Ksignedvalue[m[K
+[1.311s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:42:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksignedvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.312s]    42 |         int16_t [01;35m[Ksignedvalue[m[K = value - 65536;
+[1.312s]       |                 [01;35m[K^~~~~~~~~~~[m[K
+[1.314s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.314s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:85:35:[m[K [01;31m[Kerror: [m[K‘[01m[KCommands[m[K’ was not declared in this scope
+[1.314s]    85 |     rclcpp::spin(std::make_shared<[01;31m[KCommands[m[K>());
+[1.314s]       |                                   [01;31m[K^~~~~~~~[m[K
+[1.314s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:85:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.314s]    85 |     rclcpp::spin([01;31m[Kstd::make_shared<Commands>()[m[K);
+[1.314s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.314s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.314s]                  from [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:3[m[K:
+[1.314s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.314s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.314s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.314s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.314s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:85:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.314s]    85 |     rclcpp::spin([01;31m[Kstd::make_shared<Commands>()[m[K);
+[1.314s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.270s] gmake[2]: *** [CMakeFiles/communicator.dir/build.make:76: CMakeFiles/communicator.dir/src/communicator.cpp.o] Error 1
+[2.270s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/communicator.dir/all] Error 2
+[2.270s] gmake: *** [Makefile:146: all] Error 2
+[2.273s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator' returned '2': CMAKE_PREFIX_PATH=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_joy:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/communicator:/opt/ros/humble LD_LIBRARY_PATH=/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_joy/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/xbox/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_yolo_yolocpp/lib:/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/install/tugas_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator -- -j32 -l32

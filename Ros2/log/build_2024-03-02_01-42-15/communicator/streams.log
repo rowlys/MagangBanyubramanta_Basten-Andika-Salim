@@ -1,0 +1,11 @@
+[0.022s] Invoking command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator -- -j32 -l32
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target communicator[0m
+[0.095s] [ 50%] [32mBuilding CXX object CMakeFiles/communicator.dir/src/communicator.cpp.o[0m
+[0.328s] [01m[K/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/src/communicator/src/communicator.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Ktugas_joy/msg/command.hpp: No such file or directory
+[0.328s]     8 | #include [01;31m[K"tugas_joy/msg/command.hpp"[m[K
+[0.328s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.328s] compilation terminated.
+[0.329s] gmake[2]: *** [CMakeFiles/communicator.dir/build.make:76: CMakeFiles/communicator.dir/src/communicator.cpp.o] Error 1
+[0.330s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/communicator.dir/all] Error 2
+[0.330s] gmake: *** [Makefile:146: all] Error 2
+[0.332s] Invoked command in '/home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/basten/ros2_ws/src/MagangBanyubramanta_Basten-Andika-Salim/Ros2/build/communicator -- -j32 -l32

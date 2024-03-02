@@ -42,6 +42,8 @@ cdr_serialize(
   cdr << ros_message.depth;
   // Member: x_button
   cdr << ros_message.x_button;
+  // Member: y_button
+  cdr << ros_message.y_button;
   return true;
 }
 
@@ -65,6 +67,9 @@ cdr_deserialize(
 
   // Member: x_button
   cdr >> ros_message.x_button;
+
+  // Member: y_button
+  cdr >> ros_message.y_button;
 
   return true;
 }
@@ -109,6 +114,12 @@ get_serialized_size(
   // Member: x_button
   {
     size_t item_size = sizeof(ros_message.x_button);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: y_button
+  {
+    size_t item_size = sizeof(ros_message.y_button);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -181,6 +192,15 @@ max_serialized_size_Command(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
+  // Member: y_button
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -189,7 +209,7 @@ max_serialized_size_Command(
     using DataType = tugas_joy::msg::Command;
     is_plain =
       (
-      offsetof(DataType, x_button) +
+      offsetof(DataType, y_button) +
       last_member_size
       ) == ret_val;
   }

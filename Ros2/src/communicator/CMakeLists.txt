@@ -8,10 +8,13 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(tugas_joy REQUIRED)
+find_package(tugas_opencv REQUIRED)
+find_package(tugas_yolo_yolocpp REQUIRED)
 # find_package(asio REQUIRED)
 
 add_executable(communicator src/communicator.cpp)
-ament_target_dependencies(communicator rclcpp)
+ament_target_dependencies(communicator rclcpp tugas_joy tugas_opencv tugas_yolo_yolocpp)
 
 install(TARGETS
   communicator
